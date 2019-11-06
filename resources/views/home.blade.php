@@ -77,11 +77,11 @@
                 <div class="row">
                   <div class="col-md-10 mb-3 mb-md-0 col-lg-10">
                     <div class="row">
-                      <div class="col-md-6 col-lg-6 mb-3 mb-md-0">
+                      <div class="col-md-6 col-lg-6 mb-3 mb-md-0 pl-0">
                         <div class="field-icon-wrap">
                           <div class="icon"><span class="ion-ios-arrow-down"></span></div>
                           <div class = "picker-wrapper">
-                            <i class="far fa-calendar-alt"></i>
+                            <i class="far fa-calendar-alt form-item"></i>
                             <select name="" id="adults" class="form-control pl-5">
                               <option placeholder="" value="">Event Type</option>
                               <option value="">Party</option>
@@ -95,7 +95,7 @@
                         <div class="field-icon-wrap">
                           <div class="icon"><span class="ion-ios-arrow-down"></span></div>
                           <div class = "picker-wrapper">
-                            <i class="fas fa-map-marker-alt"></i>
+                            <i class="fas fa-map-marker-alt form-item"></i>
                             <select name="" id="adults" class="form-control pl-5">
                               <option placeholder="" value="">Location</option>
                               <option value="">Califonia</option>
@@ -134,112 +134,107 @@
       <section class="section testimonial-section">
         <div class="container mb-4">
           <div class="row">
-            <div class="col-4">
+            <div class="col-lg-4 divider-d-none">
               <hr>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-sm-12">
               <h3 class = "color-orange text-center">Other Fashion Itineraries</h3>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 divider-d-none">
               <hr>
             </div>
           </div>
         </div>
-        <div class="">
-          <div class="row">
-            <div class="js-carousel-2 owl-carousel mb-5" data-aos="fade-up" data-aos-delay="200">
-              
-              <div class="testimonial text-center slider-item">
-                  <div class="author-image mb-3">
-                    <div class="img-container">
-                      <img src="images/person_1.jpg" alt="Image placeholder" class="mx-auto">
-                      <p> Appalachian Trek</p>
-                    </div>
-                  </div>
+        <div class="js-carousel-2 owl-carousel mb-5" data-aos="fade-up" data-aos-delay="200">
+          <div class="testimonial text-center slider-item">
+              <div class="author-image mb-3">
+                <div class="img-container">
+                  <img src="images/person_1.jpg" alt="Image placeholder" class="mx-auto">
+                  <p> Appalachian Trek</p>
+                </div>
               </div>
-              <div class="testimonial text-center slider-item">
-                  <div class="author-image mb-3">
-                    <div class="img-container">
-                      <img src="images/person_3.jpg" alt="Image placeholder" class="mx-auto">
-                      <p> Botswana Safari</p>
-                    </div>
-                  </div>
-              </div>
-              <div class="testimonial text-center slider-item">
-                  <div class="author-image mb-3">
-                    <div class="img-container">
-                      <img src="images/person_2.jpg" alt="Image placeholder" class="mx-auto">
-                      <p>Destination Wedding</p>
-                    </div>
-                  </div>
-              </div>
-              <div class="testimonial text-center slider-item">
-                  <div class="author-image mb-3">
-                    <div class="img-container">
-                      <img src="images/person_1.jpg" alt="Image placeholder" class="mx-auto">
-                      <p> Europe</p>
-                    </div>
-                  </div>
-              </div>
-              <div class="testimonial text-center slider-item">
-                  <div class="author-image mb-3">
-                    <div class="img-container">
-                      <img src="images/person_3.jpg" alt="Image placeholder" class="mx-auto">
-                      <p> Glastonberry</p>
-                    </div>
-                  </div>
-              </div>
-              <div class="testimonial text-center slider-item">
-                  <div class="author-image mb-3">
-                    <div class="img-container">
-                      <img src="images/person_2.jpg" alt="Image placeholder" class="mx-auto">
-                      <p> Japan</p>
-                    </div>
-                  </div>
-              </div>
-              <div class="testimonial text-center slider-item">
-                  <div class="author-image mb-3">
-                    <div class="img-container">
-                      <img src="images/person_1.jpg" alt="Image placeholder" class="mx-auto">
-                      <p> Appalachian Trek</p>
-                    </div>
-                  </div>
-              </div>
-              <div class="testimonial text-center slider-item">
-                  <div class="author-image mb-3">
-                    <div class="img-container">
-                      <img src="images/person_3.jpg" alt="Image placeholder" class="mx-auto">
-                      <p> Appalachian Trek</p>
-                    </div>
-                  </div>
-              </div>
-              <div class="testimonial text-center slider-item">
-                  <div class="author-image mb-3">
-                    <div class="img-container">
-                      <img src="images/person_2.jpg" alt="Image placeholder" class="mx-auto">
-                      <p> Appalachian Trek</p>
-                    </div>
-                  </div>
-              </div>
-              <div class="testimonial text-center slider-item">
-                  <div class="author-image mb-3">
-                    <div class="img-container">
-                      <img src="images/person_1.jpg" alt="Image placeholder" class="mx-auto">
-                      <p> Appalachian Trek</p>
-                    </div>
-                  </div>
-              </div>
-              <!-- END slider -->
           </div>
-
+          <div class="testimonial text-center slider-item">
+              <div class="author-image mb-3">
+                <div class="img-container">
+                  <img src="images/person_3.jpg" alt="Image placeholder" class="mx-auto">
+                  <p> Botswana Safari</p>
+                </div>
+              </div>
+          </div>
+          <div class="testimonial text-center slider-item">
+              <div class="author-image mb-3">
+                <div class="img-container">
+                  <img src="images/person_2.jpg" alt="Image placeholder" class="mx-auto">
+                  <p>Destination Wedding</p>
+                </div>
+              </div>
+          </div>
+          <div class="testimonial text-center slider-item">
+              <div class="author-image mb-3">
+                <div class="img-container">
+                  <img src="images/person_1.jpg" alt="Image placeholder" class="mx-auto">
+                  <p> Europe</p>
+                </div>
+              </div>
+          </div>
+          <div class="testimonial text-center slider-item">
+              <div class="author-image mb-3">
+                <div class="img-container">
+                  <img src="images/person_3.jpg" alt="Image placeholder" class="mx-auto">
+                  <p> Glastonberry</p>
+                </div>
+              </div>
+          </div>
+          <div class="testimonial text-center slider-item">
+              <div class="author-image mb-3">
+                <div class="img-container">
+                  <img src="images/person_2.jpg" alt="Image placeholder" class="mx-auto">
+                  <p> Japan</p>
+                </div>
+              </div>
+          </div>
+          <div class="testimonial text-center slider-item">
+              <div class="author-image mb-3">
+                <div class="img-container">
+                  <img src="images/person_1.jpg" alt="Image placeholder" class="mx-auto">
+                  <p> Appalachian Trek</p>
+                </div>
+              </div>
+          </div>
+          <div class="testimonial text-center slider-item">
+              <div class="author-image mb-3">
+                <div class="img-container">
+                  <img src="images/person_3.jpg" alt="Image placeholder" class="mx-auto">
+                  <p> Appalachian Trek</p>
+                </div>
+              </div>
+          </div>
+          <div class="testimonial text-center slider-item">
+              <div class="author-image mb-3">
+                <div class="img-container">
+                  <img src="images/person_2.jpg" alt="Image placeholder" class="mx-auto">
+                  <p> Appalachian Trek</p>
+                </div>
+              </div>
+          </div>
+          <div class="testimonial text-center slider-item">
+              <div class="author-image mb-3">
+                <div class="img-container">
+                  <img src="images/person_1.jpg" alt="Image placeholder" class="mx-auto">
+                  <p> Appalachian Trek</p>
+                </div>
+              </div>
+          </div>
+          <!-- END slider -->
         </div>
       </section>
       <section class="py-5" id="section-about">
         <div class="container">
           
           <div class="row">
-            <div class="col-md-12 col-lg-7 ml-auto order-lg-2 position-relative text-right" data-aos="fade-up">
-              <img src="images/hero_4.jpg" alt="Image" class="img-fluid rounded h-100">
+            <div class="col-md-12 col-lg-7 ml-auto order-lg-2 position-relative text-right d-flex" data-aos="fade-up">
+              <img src="images/hero_4.jpg" alt="Image" class="img-fluid  w-100">
             </div>
             <div class="col-md-12 col-lg-5 order-lg-1 mt-md-4" data-aos="fade-up">
               <h1 class="color-orange">We'll dress you locally for business, fun or events</h1>
@@ -258,688 +253,228 @@
       </section>
       <section class="section slider-section bg-grey">
         <div class="row">
-          <div class="col-4">
-            <hr>
-            <h1 class = "font-weight-bold color-orange">1</h1>
-            <img src="images/work1.jpg" alt="Image placeholder" class="mx-auto">
-            <p class = "font-weight-bold">Enter details about your trips or event.</p> 
-            <p>where are you going and how soon do you need it? </p>
-          </div>
-          <div class="col-4">
-            <h1 class = "color-orange text-center">How it works</h1>
-          </div>
-          <div class="col-4">
-            <hr>
-          </div>
-        </div>
-      </section>
-      <div class="container section" id="section-team">
-        
-
-      <div class="row justify-content-center text-center mb-5">
-        <div class="col-md-7 mb-5">
-          <h2 class="heading" data-aos="fade-up">Leadership</h2>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-          <div class="block-2">
-            <div class="flipper">
-              <div class="front" style="background-image: url(images/person_3.jpg);">
-                <div class="box">
-                  <h2>Will Smith</h2>
-                  <p>President</p>
-                </div>
-              </div>
-              <div class="back">
-                <!-- back content -->
-                <blockquote>
-                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
-                </blockquote>
-                <div class="author d-flex">
-                  <div class="image mr-3 align-self-center">
-                    <img src="images/person_3.jpg" alt="">
-                  </div>
-                  <div class="name align-self-center">Will Smith <span class="position">President</span></div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- .flip-container -->
-        </div>
-
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-          <div class="block-2"> <!-- .hover -->
-            <div class="flipper">
-              <div class="front" style="background-image: url(images/person_1.jpg);">
-                <div class="box">
-                  <h2>Claire Williams</h2>
-                  <p>Business Manager</p>
-                </div>
-              </div>
-              <div class="back">
-                <!-- back content -->
-                <blockquote>
-                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
-                </blockquote>
-                <div class="author d-flex">
-                  <div class="image mr-3 align-self-center">
-                    <img src="images/person_1.jpg" alt="">
-                  </div>
-                  <div class="name align-self-center">Claire Williams <span class="position">Business Manager</span></div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- .flip-container -->
-        </div>
-
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-          <div class="block-2">
-            <div class="flipper">
-              <div class="front" style="background-image: url(images/person_2.jpg);">
-                <div class="box">
-                  <h2>Jane Johnson</h2>
-                  <p>Marketing Director</p>
-                </div>
-              </div>
-              <div class="back">
-                <!-- back content -->
-                <blockquote>
-                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
-                </blockquote>
-                <div class="author d-flex">
-                  <div class="image mr-3 align-self-center">
-                    <img src="images/person_2.jpg" alt="">
-                  </div>
-                  <div class="name align-self-center">Jane Johnson <span class="position">Marketing Director</span></div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- .flip-container -->
-        </div>
-
-
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-          <div class="block-2">
-            <div class="flipper">
-              <div class="front" style="background-image: url(images/person_3.jpg);">
-                <div class="box">
-                  <h2>Will Smith</h2>
-                  <p>President</p>
-                </div>
-              </div>
-              <div class="back">
-                <!-- back content -->
-                <blockquote>
-                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
-                </blockquote>
-                <div class="author d-flex">
-                  <div class="image mr-3 align-self-center">
-                    <img src="images/person_3.jpg" alt="">
-                  </div>
-                  <div class="name align-self-center">Will Smith <span class="position">President</span></div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- .flip-container -->
-        </div>
-
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-          <div class="block-2"> <!-- .hover -->
-            <div class="flipper">
-              <div class="front" style="background-image: url(images/person_1.jpg);">
-                <div class="box">
-                  <h2>Claire Williams</h2>
-                  <p>Business Manager</p>
-                </div>
-              </div>
-              <div class="back">
-                <!-- back content -->
-                <blockquote>
-                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
-                </blockquote>
-                <div class="author d-flex">
-                  <div class="image mr-3 align-self-center">
-                    <img src="images/person_1.jpg" alt="">
-                  </div>
-                  <div class="name align-self-center">Claire Williams <span class="position">Business Manager</span></div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- .flip-container -->
-        </div>
-
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-          <div class="block-2">
-            <div class="flipper">
-              <div class="front" style="background-image: url(images/person_2.jpg);">
-                <div class="box">
-                  <h2>Jane Johnson</h2>
-                  <p>Marketing Director</p>
-                </div>
-              </div>
-              <div class="back">
-                <!-- back content -->
-                <blockquote>
-                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
-                </blockquote>
-                <div class="author d-flex">
-                  <div class="image mr-3 align-self-center">
-                    <img src="images/person_2.jpg" alt="">
-                  </div>
-                  <div class="name align-self-center">Jane Johnson <span class="position">Marketing Director</span></div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- .flip-container -->
-        </div>
-
-      </div>
-    </div>
-    <!-- END .block-2 -->
-
-      <section class="section" id="section-rooms">
-        <div class="container">
-          <div class="row justify-content-center text-center mb-5">
-            <div class="col-md-7">
-              <h2 class="heading" data-aos="fade-up">Rooms &amp; Suites</h2>
-              <p data-aos="fade-up" data-aos-delay="100">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 col-lg-4" data-aos="fade-up">
-              <a href="#" class="room">
-                <figure class="img-wrap">
-                  <img src="images/img_1.jpg" alt="Free website template" class="img-fluid mb-3">
-                </figure>
-                <div class="p-3 text-center room-info">
-                  <h2>Single Room</h2>
-                  <span class="text-uppercase letter-spacing-1">90$ / per night</span>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-md-6 col-lg-4" data-aos="fade-up">
-              <a href="#" class="room">
-                <figure class="img-wrap">
-                  <img src="images/img_2.jpg" alt="Free website template" class="img-fluid mb-3">
-                </figure>
-                <div class="p-3 text-center room-info">
-                  <h2>Family Room</h2>
-                  <span class="text-uppercase letter-spacing-1">120$ / per night</span>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-md-6 col-lg-4" data-aos="fade-up">
-              <a href="#" class="room">
-                <figure class="img-wrap">
-                  <img src="images/img_3.jpg" alt="Free website template" class="img-fluid mb-3">
-                </figure>
-                <div class="p-3 text-center room-info">
-                  <h2>Presidential Room</h2>
-                  <span class="text-uppercase letter-spacing-1">250$ / per night</span>
-                </div>
-              </a>
-            </div>
-
-
-          </div>
-        </div>
-      </section>
-      
-      
-      <section class="section slider-section bg-light">
-        <div class="container">
-          <div class="row justify-content-center text-center mb-5">
-            <div class="col-md-7">
-              <h2 class="heading" data-aos="fade-up">Photos</h2>
-              <p data-aos="fade-up" data-aos-delay="100">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="home-slider major-caousel owl-carousel mb-5" data-aos="fade-up" data-aos-delay="200">
-                <div class="slider-item">
-                  <a href="images/slider-1.jpg" data-fancybox="images" data-caption="Caption for this image"><img src="images/slider-1.jpg" alt="Image placeholder" class="img-fluid"></a>
-                </div>
-                <div class="slider-item">
-                  <a href="images/slider-2.jpg" data-fancybox="images" data-caption="Caption for this image"><img src="images/slider-2.jpg" alt="Image placeholder" class="img-fluid"></a>
-                </div>
-                <div class="slider-item">
-                  <a href="images/slider-3.jpg" data-fancybox="images" data-caption="Caption for this image"><img src="images/slider-3.jpg" alt="Image placeholder" class="img-fluid"></a>
-                </div>
-                <div class="slider-item">
-                  <a href="images/slider-4.jpg" data-fancybox="images" data-caption="Caption for this image"><img src="images/slider-4.jpg" alt="Image placeholder" class="img-fluid"></a>
-                </div>
-                <div class="slider-item">
-                  <a href="images/slider-5.jpg" data-fancybox="images" data-caption="Caption for this image"><img src="images/slider-5.jpg" alt="Image placeholder" class="img-fluid"></a>
-                </div>
-                <div class="slider-item">
-                  <a href="images/slider-6.jpg" data-fancybox="images" data-caption="Caption for this image"><img src="images/slider-6.jpg" alt="Image placeholder" class="img-fluid"></a>
-                </div>
-                <div class="slider-item">
-                  <a href="images/slider-7.jpg" data-fancybox="images" data-caption="Caption for this image"><img src="images/slider-7.jpg" alt="Image placeholder" class="img-fluid"></a>
-                </div>
-              </div>
-              <!-- END slider -->
-            </div>
-          
-          </div>
-        </div>
-      </section>
-      <!-- END section -->
-      
-      <section class="section bg-image overlay" style="background-image: url('images/hero_3.jpg');" id="section-menus">
-        <div class="container">
-          <div class="row justify-content-center text-center mb-5">
-            <div class="col-md-7">
-              <h2 class="heading text-white" data-aos="fade">Our Restaurant Menu</h2>
-              <p class="text-white" data-aos="fade" data-aos-delay="100">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-            </div>
-          </div>
-          <div class="food-menu-tabs" data-aos="fade">
-            <ul class="nav nav-tabs mb-5" id="myTab" role="tablist">
-              <li class="nav-item">
-                <a class="nav-link active letter-spacing-2" id="mains-tab" data-toggle="tab" href="#mains" role="tab" aria-controls="mains" aria-selected="true">Food</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link letter-spacing-2" id="desserts-tab" data-toggle="tab" href="#desserts" role="tab" aria-controls="desserts" aria-selected="false">Desserts</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link letter-spacing-2" id="drinks-tab" data-toggle="tab" href="#drinks" role="tab" aria-controls="drinks" aria-selected="false">Drinks</a>
-              </li>
-            </ul>
-            <div class="tab-content py-5" id="myTabContent">
-              
-              
-              <div class="tab-pane fade show active text-left" id="mains" role="tabpanel" aria-labelledby="mains-tab">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="food-menu mb-5">
-                      <span class="d-block text-primary h4 mb-3">$20.00</span>
-                      <h3 class="text-white"><a href="#" class="text-white">Murgh Tikka Masala</a></h3>
-                      <p class="text-white text-opacity-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                    <div class="food-menu mb-5">
-                      <span class="d-block text-primary h4 mb-3">$35.00</span>
-                      <h3 class="text-white"><a href="#" class="text-white">Fish Moilee</a></h3>
-                      <p class="text-white text-opacity-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                    <div class="food-menu mb-5">
-                      <span class="d-block text-primary h4 mb-3">$15.00</span>
-                      <h3 class="text-white"><a href="#" class="text-white">Safed Gosht</a></h3>
-                      <p class="text-white text-opacity-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="food-menu mb-5">
-                      <span class="d-block text-primary h4 mb-3">$10.00</span>
-                      <h3 class="text-white"><a href="#" class="text-white">French Toast Combo</a></h3>
-                      <p class="text-white text-opacity-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                    <div class="food-menu mb-5">
-                      <span class="d-block text-primary h4 mb-3">$8.35</span>
-                      <h3 class="text-white"><a href="#" class="text-white">Vegie Omelet</a></h3>
-                      <p class="text-white text-opacity-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                    <div class="food-menu mb-5">
-                      <span class="d-block text-primary h4 mb-3">$22.00</span>
-                      <h3 class="text-white"><a href="#" class="text-white">Chorizo &amp; Egg Omelet</a></h3>
-                      <p class="text-white text-opacity-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                  </div>
-                </div>
-                
-
-              </div> <!-- .tab-pane -->
-
-              <div class="tab-pane fade text-left" id="desserts" role="tabpanel" aria-labelledby="desserts-tab">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="food-menu mb-5">
-                      <span class="d-block text-primary h4 mb-3">$11.00</span>
-                      <h3 class="text-white"><a href="#" class="text-white">Banana Split</a></h3>
-                      <p class="text-white text-opacity-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                    <div class="food-menu mb-5">
-                      <span class="d-block text-primary h4 mb-3">$72.00</span>
-                      <h3 class="text-white"><a href="#" class="text-white">Sticky Toffee Pudding</a></h3>
-                      <p class="text-white text-opacity-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                    <div class="food-menu mb-5">
-                      <span class="d-block text-primary h4 mb-3">$26.00</span>
-                      <h3 class="text-white"><a href="#" class="text-white">Pecan</a></h3>
-                      <p class="text-white text-opacity-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="food-menu mb-5">
-                      <span class="d-block text-primary h4 mb-3">$42.00</span>
-                      <h3 class="text-white"><a href="#" class="text-white">Apple Strudel</a></h3>
-                      <p class="text-white text-opacity-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                    <div class="food-menu mb-5">
-                      <span class="d-block text-primary h4 mb-3">$7.35</span>
-                      <h3 class="text-white"><a href="#" class="text-white">Pancakes</a></h3>
-                      <p class="text-white text-opacity-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                    <div class="food-menu mb-5">
-                      <span class="d-block text-primary h4 mb-3">$22.00</span>
-                      <h3 class="text-white"><a href="#" class="text-white">Ice Cream Sundae</a></h3>
-                      <p class="text-white text-opacity-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                  </div>
-                </div>
-              </div> <!-- .tab-pane -->
-              <div class="tab-pane fade text-left" id="drinks" role="tabpanel" aria-labelledby="drinks-tab">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="food-menu mb-5">
-                      <span class="d-block text-primary h4 mb-3">$32.00</span>
-                      <h3 class="text-white"><a href="#" class="text-white">Spring Water</a></h3>
-                      <p class="text-white text-opacity-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                    <div class="food-menu mb-5">
-                      <span class="d-block text-primary h4 mb-3">$14.00</span>
-                      <h3 class="text-white"><a href="#" class="text-white">Coke, Diet Coke, Coke Zero</a></h3>
-                      <p class="text-white text-opacity-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                    <div class="food-menu mb-5">
-                      <span class="d-block text-primary h4 mb-3">$93.00</span>
-                      <h3 class="text-white"><a href="#" class="text-white">Orange Fanta</a></h3>
-                      <p class="text-white text-opacity-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="food-menu mb-5">
-                      <span class="d-block text-primary h4 mb-3">$18.00</span>
-                      <h3 class="text-white"><a href="#" class="text-white">Lemonade, Lemon Squash</a></h3>
-                      <p class="text-white text-opacity-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                    <div class="food-menu mb-5">
-                      <span class="d-block text-primary h4 mb-3">$38.35</span>
-                      <h3 class="text-white"><a href="#" class="text-white">Sparkling Mineral Water</a></h3>
-                      <p class="text-white text-opacity-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                    <div class="food-menu mb-5">
-                      <span class="d-block text-primary h4 mb-3">$69.00</span>
-                      <h3 class="text-white"><a href="#" class="text-white">Lemon, Lime &amp; Bitters</a></h3>
-                      <p class="text-white text-opacity-7">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                  </div>
-                </div>
-              </div> <!-- .tab-pane -->
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      <!-- END section -->
-      
-      
-
-      <section class="section blog-post-entry bg-light" id="section-events">
-        <div class="container">
-          <div class="row justify-content-center text-center mb-5">
-            <div class="col-md-7">
-              <h2 class="heading" data-aos="fade-up">Events</h2>
-              <p data-aos="fade-up">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="100">
-
-              <div class="media media-custom d-block mb-4 h-100">
-                <a href="#" class="mb-4 d-block"><img src="images/img_1.jpg" alt="Image placeholder" class="img-fluid"></a>
-                <div class="media-body">
-                  <span class="meta-post">February 26, 2018</span>
-                  <h2 class="mt-0 mb-3"><a href="#">Travel Hacks to Make Your Flight More Comfortable</a></h2>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                </div>
-              </div>
-
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="200">
-              <div class="media media-custom d-block mb-4 h-100">
-                <a href="#" class="mb-4 d-block"><img src="images/img_2.jpg" alt="Image placeholder" class="img-fluid"></a>
-                <div class="media-body">
-                  <span class="meta-post">February 26, 2018</span>
-                  <h2 class="mt-0 mb-3"><a href="#">5 Job Types That Aallow You To Earn As You Travel The World</a></h2>
-                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="300">
-              <div class="media media-custom d-block mb-4 h-100">
-                <a href="#" class="mb-4 d-block"><img src="images/img_3.jpg" alt="Image placeholder" class="img-fluid"></a>
-                <div class="media-body">
-                  <span class="meta-post">February 26, 2018</span>
-                  <h2 class="mt-0 mb-3"><a href="#">30 Great Ideas On Gifts For Travelers</a></h2>
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. t is a paradisematic country, in which roasted parts of sentences.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section contact-section" id="section-contact">
-      <div class="container">
-        <div class="row justify-content-center text-center mb-5">
-            <div class="col-md-7">
-              <h2 class="heading" data-aos="fade-up">Contact Us</h2>
-              <p data-aos="fade-up">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-            </div>
-          </div>
-        <div class="row">
-          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-            
-            <form method="post" class="bg-white p-md-5 p-4 mb-5 border">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <label for="name">Name</label>
-                  <input type="text" name="name" id="name" class="form-control ">
-                </div>
-                <div class="col-md-6 form-group">
-                  <label for="phone">Phone</label>
-                  <input type="text" name="phone" id="phone" class="form-control ">
-                </div>
-              </div>
-          
-              <div class="row">
-                <div class="col-md-12 form-group">
-                  <label for="email">Email</label>
-                  <input type="email" name="email" id="email" class="form-control ">
-                </div>
-              </div>
-              <div class="row mb-4">
-                <div class="col-md-12 form-group">
-                  <label for="message">Write Message</label>
-                  <textarea name="message" name="message" id="message" class="form-control " cols="30" rows="8"></textarea>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="submit" value="Send Message" class="btn btn-primary text-white font-weight-bold">
-                  <div class="submitting"></div>
-                </div>
-              </div>
-
-             
-            </form>
-
-            
-
-          </div>
-          <div class="col-md-5" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-8">
             <div class="row">
-              <div class="col-md-10 ml-auto contact-info">
-                <p><span class="d-block">Address:</span> <span class="text-black"> 98 West 21th Street, Suite 721 New York NY 10016</span></p>
-                <p><span class="d-block">Phone:</span> <span class="text-black"> (+1) 234 4567 8910</span></p>
-                <p><span class="d-block">Email:</span> <span class="text-black"> info@yourdomain.com</span></p>
+              <div class="col-lg-4 divider-d-none">
+                <hr>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <h1 class = "color-orange text-center">How it works</h1>
+              </div>
+              <div class="col-lg-4 divider-d-none">
+                <hr>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-12 text-center">
+                  <h1 class = "font-weight-bold color-orange">1</h1>
+                  <img src="images/work1.jpg" alt="Image placeholder" class="mx-auto">
+                  <p class = "font-weight-bold">Enter details about your trips or event.</p> 
+                  <p>where are you going and how soon do you need it? </p>
+              </div>
+              <div class="col-lg-4 col-md-12 text-center">
+                <h1 class = "font-weight-bold color-orange">2</h1>
+                <img src="images/work2.jpg" alt="Image placeholder" class="mx-auto">
+                <p class = "font-weight-bold">Enter your size and fit preferences.</p> 
+                <p> Here put the content.</p>
+              </div>
+              <div class="col-lg-4 col-md-12 text-center">
+                <h1 class = "font-weight-bold color-orange">3</h1>
+                <img src="images/work3.jpg" alt="Image placeholder" class="mx-auto">
+                <p class = "font-weight-bold">Rentable style deliverd to you!</p> 
+                <p>Try it on, wear it, return it. If you love something there is an option to purchase at a discount.Need to exchange?iIs all local so its all easy.</p>
               </div>
             </div>
           </div>
+          <div class="col-lg-2"></div>
         </div>
-      </div>
-    </section>
+      </section>
 
-      <section class="section bg-image overlay" style="background-image: url('images/hero_4.jpg');">
-        <div class="container" >
-          <div class="row align-items-center">
-            <div class="col-12 col-md-6 text-center mb-4 mb-md-0 text-md-left" data-aos="fade-up">
-              <h2 class="text-white font-weight-bold">A Best Place To Stay. Reserve Now!</h2>
+      <section class="section testimonial-section">
+        <div class="container mb-4">
+          <div class="row">
+            <div class="col-lg-3 col-sm-1 divider-d-none">
+              <hr>
             </div>
-            <div class="col-12 col-md-6 text-center text-md-right" data-aos="fade-up" data-aos-delay="200">
-              <!-- Extra large modal -->
-              <a href="#" class="btn btn-outline-white-primary py-3 text-white px-5" data-toggle="modal" data-target="#reservation-form">Reserve Now</a>
+
+            <div class="col-lg-6 col-sm-10">
+              <h1 class = "color-orange text-center">Meet a few of our local stylist</h3>
+              <p class = "text-center">Loerm ipsum dolor sit amet, consecterut adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+            <div class="col-lg-3 col-sm-1 divider-d-none">
+              <hr>
+            </div>
+          </div>
+          <div class="js-carousel-1 owl-carousel mb-5" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial text-center slider-item">
+                <div class="author-image mb-3">
+                  <div class="img-container">
+                    <img src="images/person_1.jpg" alt="Image placeholder" class="mx-auto">
+                    <p class = "mt-2 font-weight-bold text-dark"> Appalachian Trek</p>
+                  </div>
+                </div>
+            </div>
+            <div class="testimonial text-center slider-item">
+                <div class="author-image mb-3">
+                  <div class="img-container">
+                    <img src="images/person_3.jpg" alt="Image placeholder" class="mx-auto">
+                    <p class = "mt-2 font-weight-bold text-dark"> Botswana Safari</p>
+                  </div>
+                </div>
+            </div>
+            <div class="testimonial text-center slider-item">
+                <div class="author-image mb-3">
+                  <div class="img-container">
+                    <img src="images/person_2.jpg" alt="Image placeholder" class="mx-auto">
+                    <p class = "mt-2 font-weight-bold text-dark">Destination Wedding</p>
+                  </div>
+                </div>
+            </div>
+            <div class="testimonial text-center slider-item">
+                <div class="author-image mb-3">
+                  <div class="img-container">
+                    <img src="images/person_1.jpg" alt="Image placeholder" class="mx-auto">
+                    <p class = "mt-2 font-weight-bold text-dark"> Europe</p>
+                  </div>
+                </div>
+            </div>
+            <div class="testimonial text-center slider-item">
+                <div class="author-image mb-3">
+                  <div class="img-container">
+                    <img src="images/person_3.jpg" alt="Image placeholder" class="mx-auto">
+                    <p class = "mt-2 font-weight-bold text-dark"> Glastonberry</p>
+                  </div>
+                </div>
+            </div>
+            <div class="testimonial text-center slider-item">
+                <div class="author-image mb-3">
+                  <div class="img-container">
+                    <img src="images/person_2.jpg" alt="Image placeholder" class="mx-auto">
+                    <p class = "mt-2 font-weight-bold text-dark"> Japan</p>
+                  </div>
+                </div>
+            </div>
+            <div class="testimonial text-center slider-item">
+                <div class="author-image mb-3">
+                  <div class="img-container">
+                    <img src="images/person_1.jpg" alt="Image placeholder" class="mx-auto">
+                    <p class = "mt-2 font-weight-bold text-dark"> Appalachian Trek</p>
+                  </div>
+                </div>
+            </div>
+            <div class="testimonial text-center slider-item">
+                <div class="author-image mb-3">
+                  <div class="img-container">
+                    <img src="images/person_3.jpg" alt="Image placeholder" class="mx-auto">
+                    <p class = "mt-2 font-weight-bold text-dark"> Appalachian Trek</p>
+                  </div>
+                </div>
+            </div>
+            <div class="testimonial text-center slider-item">
+                <div class="author-image mb-3">
+                  <div class="img-container">
+                    <img src="images/person_2.jpg" alt="Image placeholder" class="mx-auto">
+                    <p class = "mt-2 font-weight-bold text-dark"> Appalachian Trek</p>
+                  </div>
+                </div>
+            </div>
+            <div class="testimonial text-center slider-item">
+                <div class="author-image mb-3">
+                  <div class="img-container">
+                    <img src="images/person_1.jpg" alt="Image placeholder" class="mx-auto">
+                    <p class = "mt-2 font-weight-bold text-dark"> Appalachian Trek</p>
+                  </div>
+                </div>
+            </div>
+          </div> 
+          <div class=" text-center">
+            <a href="#" data-fancybox="" class="btn btn-brown text-white py-2 mr-3 letter-spacing-1 text-center">
+              View All
+            </a> 
+          </div>
+        </div>
+          <!-- END slider -->
+      </section>
+
+      <section class="py-5" id="section-about">
+        <div class="container">
+          
+          <div class="row">
+            <div class="col-md-12 col-lg-7 ml-auto order-lg-1 position-relative" data-aos="fade-up">
+              <img src="images/slider-8.jpg" alt="Image" class="img-fluid">
+            </div>
+            <div class="col-md-12 col-lg-5 order-lg-2 mt-md-4" data-aos="fade-up">
+              <h3 class = "color-orange text-center">From the blog</h3>
+              <h1 class="color-dark font-weight-bold text-center">A Summer in Greece</h1>
+              <p class="mb-5">
+              Often called the cradle of Western civilization. Athens, its capital, retains landmarks including the 5th-centry B.C.Acropolis citadel with the Parthenon temple.Greece is also known for its beaches, from the black sands of Santorini to the party resors of Mykonos.
+              </p>
+              <div class="text-center">
+                  <a href="#"  data-fancybox class="d-block color-green py-2 mr-3 font-weight-bold">
+                    VIEW FASHION ITINERARY
+                  </a>
+                  <a href="#"  data-fancybox class="d-block color-green py-2 mr-3 font-weight-bold">
+                    MEET THE STYLIST
+                  </a>
+                  <a href="#"  data-fancybox class="btn btn-brown text-white py-2 mr-3 letter-spacing-1 mt-4">
+                    View All Posts
+                  </a>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <footer class="section footer-section">
-        <div class="container">
-          <div class="row mb-4">
-            <div class="col-md-3 mb-5">
-              <ul class="list-unstyled link">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Terms &amp; Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-               <li><a href="#">Rooms</a></li>
-              </ul>
-            </div>
-            <div class="col-md-3 mb-5">
-              <ul class="list-unstyled link">
-                <li><a href="#">The Rooms &amp; Suites</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Restaurant</a></li>
-              </ul>
-            </div>
-            <div class="col-md-3 mb-5 pr-md-5 contact-info">
-              <!-- <li>198 West 21th Street, <br> Suite 721 New York NY 10016</li> -->
-              <p><span class="d-block"><span class="ion-ios-location h5 mr-3 text-primary"></span>Address:</span> <span> 198 West 21th Street, <br> Suite 721 New York NY 10016</span></p>
-              <p><span class="d-block"><span class="ion-ios-telephone h5 mr-3 text-primary"></span>Phone:</span> <span> (+1) 435 3533</span></p>
-              <p><span class="d-block"><span class="ion-ios-email h5 mr-3 text-primary"></span>Email:</span> <span> info@yourdomain.com</span></p>
-            </div>
-            <div class="col-md-3 mb-5">
-              <p>Sign up for our newsletter</p>
-              <form action="#" class="footer-newsletter">
-                <div class="form-group">
-                  <input type="email" class="form-control" placeholder="Email...">
-                  <button type="submit" class="btn"><span class="fa fa-paper-plane"></span></button>
+      <section class="section" id="orange">
+        <div class="row">
+          <div class="col-md-6 back-orange d-flex justify-content-center">
+            <div class="row align-items-center">
+              <div class="col-12 col-sm-4 col-md-12 col-lg-4 text-center">
+                <img src="images/orange-logo.jpg" alt="">
+              </div>
+              <div class="col-12 col-sm-8 col-md-12 col-lg-8 text-center">
+                <p class = "text-white">Sign up for news</p>
+                <div  class = "d-flex justify-content-center">
+                  <input type="text" class = "input-sign" placeholder = "Enter your email">
+                  <button class = "btn-sign">
+                  <i class="fas fa-chevron-right"></i>
+                  </button>
                 </div>
-              </form>
-            </div>
-          </div>
-          <div class="row pt-5">
-            <p class="col-md-8 text-left">
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart text-primary" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-              
-            <p class="col-md-4 text-right social">
-              <a href="#"><span class="fa fa-tripadvisor"></span></a>
-              <a href="#"><span class="fa fa-facebook"></span></a>
-              <a href="#"><span class="fa fa-twitter"></span></a>
-              <a href="#"><span class="fa fa-linkedin"></span></a>
-              <a href="#"><span class="fa fa-vimeo"></span></a>
-            </p>
-          </div>
-        </div>
-      </footer>
-
-    
-      <!-- Modal -->
-      <div class="modal fade " id="reservation-form" tabindex="-1" role="dialog" aria-labelledby="reservationFormTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            
-            <div class="modal-body">
-              <div class="row">
-                <div class="col-md-12" data-aos="fade-up" data-aos-delay="100">
-                  
-                  <form action="index.html"  method="post" class="bg-white p-4">
-                    <div class="row mb-4"><div class="col-12"><h2>Reservation</h2></div></div>
-                    <div class="row">
-                      <div class="col-md-6 form-group">
-                        <label class="text-black font-weight-bold" for="name">Name</label>
-                        <input type="text" id="name" class="form-control ">
-                      </div>
-                      <div class="col-md-6 form-group">
-                        <label class="text-black font-weight-bold" for="phone">Phone</label>
-                        <input type="text" id="phone" class="form-control ">
-                      </div>
-                    </div>
-                
-                    <div class="row">
-                      <div class="col-md-12 form-group">
-                        <label class="text-black font-weight-bold" for="email">Email</label>
-                        <input type="email" id="email" class="form-control ">
-                      </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="col-md-6 form-group">
-                        <label class="text-black font-weight-bold" for="checkin_date">Date Check In</label>
-                        <input type="text" id="checkin_date" class="form-control">
-                      </div>
-                      <div class="col-md-6 form-group">
-                        <label class="text-black font-weight-bold" for="checkout_date">Date Check Out</label>
-                        <input type="text" id="checkout_date" class="form-control">
-                      </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="col-md-6 form-group">
-                        <label for="adults" class="font-weight-bold text-black">Adults</label>
-                        <div class="field-icon-wrap">
-                          <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                          <select name="" id="adults" class="form-control">
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4+</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="col-md-6 form-group">
-                        <label for="children" class="font-weight-bold text-black">Children</label>
-                        <div class="field-icon-wrap">
-                          <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                          <select name="" id="children" class="form-control">
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4+</option>
-                          </select>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mb-4">
-                      <div class="col-md-12 form-group">
-                        <label class="text-black font-weight-bold" for="message">Notes</label>
-                        <textarea name="message" id="message" class="form-control " cols="30" rows="8"></textarea>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-6 form-group">
-                        <input type="submit" value="Reserve Now" class="btn btn-primary text-white py-3 px-5 font-weight-bold">
-                      </div>
-                    </div>
-                  </form>
-
-                </div>
-                
               </div>
             </div>
-           
+          </div>
+          <div class="col-md-6 text-center sign-info p-5">
+            <div class = "">
+              <span class = "h5 font-weight-bold text-black d-block">Investors</span>
+              <a href = "" class = "color-orange">info@localaway</a>
+            </div>
+            <div class = "pt-5">
+              <span class = "h5 font-weight-bold text-black d-block">Investors</span>
+              <a href = "" class = "color-orange">info@localaway</a>
+            </div>
+            <div class = "pt-5">
+              <span class = "h5 font-weight-bold text-black d-block">Investors</span>
+              <a href = "" class = "color-orange">info@localaway</a>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+
+      <section class="section">
+        <div class="container text-center">
+          <hr>
+          <img class = "mt-4" src="images/logo.png" alt="">
+          <div class = "mt-4">
+            <a href="" class = "h3 "><i class="fab fa-instagram"></i></a>
+            <a href="" class = "h3 pl-4"><i class="fab fa-twitter"></i></a>
+            <a href="" class = "h3 pl-4"><i class="fab fa-facebook"></i></a>
+          </div>
+          <p class = "pt-2">Copyright 2019 © Local Away</p>
+          
+        </div>
+      </section>
+
       
       <script src="js/jquery-3.3.1.min.js"></script>
       <script src="js/jquery-migrate-3.0.1.min.js"></script>

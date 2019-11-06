@@ -88,6 +88,11 @@
                 items: 3,
                 nav: true,
                 loop: false
+            },
+            1300: {
+                items: 4,
+                nav: true,
+                loop: false
             }
         }
     });
