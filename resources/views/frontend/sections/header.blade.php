@@ -6,7 +6,7 @@
       <span></span>
     </div>
     <div class = "d-flex">
-      <a class="navbar-brand m-auto" href="index.html">
+      <a class="navbar-brand m-auto" href="/">
         <img class = "d-none d-lg-block" src="/storage/uploads/{{$logo->filename}}" alt="/storage/uploads/{{$logo->filename}}">  
         <img class = "d-block d-lg-none" src="/images/orange-logo.jpg" alt="mobile-logo">  
       </a>
