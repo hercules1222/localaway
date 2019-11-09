@@ -27,7 +27,7 @@
       </ul>
     </div>
   </div>
-  <div class = "container d-lg-none d-flex justify-content-around">
+  <div class = "container d-lg-none d-flex justify-content-around mobile-nav">
     <div>
       <a class = "text-dark">Sign in.</a>
     </div>

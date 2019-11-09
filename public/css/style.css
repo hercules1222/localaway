@@ -268,7 +268,7 @@ textarea.form-control {
 
 @media (max-width: 991.98px) {
     .site-menu-toggle {
-        margin-right: 15px;
+        margin-right: 0px;
         display: block;
         top: 10px;
         position: relative;
@@ -2284,4 +2284,21 @@ i.form-item {
 
 .font-smaller {
     font-size: 0.8em!important;
+}
+
+
+/* end */
+
+
+/* mobile scroll design */
+
+.scrolled {
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+    padding-top: 15px!important;
+}
+
+.mobile-nav {
+    padding: 15px;
+    padding-top: 0px!important;
 }

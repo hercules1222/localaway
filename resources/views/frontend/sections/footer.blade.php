@@ -7,7 +7,7 @@
             <a href="" class = "h3 pl-4"><i class="fab fa-twitter"></i></a>
             <a href="" class = "h3 pl-4"><i class="fab fa-facebook"></i></a>
           </div>
-          <p class = "pt-2">Copyright 2019 © Local Away</p>
+          <p class = "h6 small pt-2">Copyright 2019 © Local Away</p>
           
         </div>
       </section>
