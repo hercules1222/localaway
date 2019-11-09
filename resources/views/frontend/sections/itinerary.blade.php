@@ -1,4 +1,3 @@
-
       <section class="section testimonial-section">
         <div class="container mb-4">
           <div class="row">
@@ -6,7 +5,7 @@
               <hr>
             </div>
             <div class="col-lg-4 col-sm-12">
-              <h3 class = "color-orange text-center">Other Fashion Itineraries</h3>
+              <h3 class = "color-orange text-center">Fashion Itineraries</h3>
             </div>
             <div class="col-lg-4 divider-d-none">
               <hr>

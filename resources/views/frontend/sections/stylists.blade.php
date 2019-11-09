@@ -19,7 +19,7 @@
                 <div class="author-image mb-3">
                   <div class="img-container">
                     <img src="/storage/uploads/{{$stylist->filename}}" alt="{{$stylist->title}}" class="mx-auto">
-                    <p class = "mt-2 font-weight-bold text-dark"> {{$stylist->title}}</p>
+                    <p class = " h6 mt-2 font-weight-bold text-dark"> {{$stylist->title}}</p>
                   </div>
                 </div>
             </div>

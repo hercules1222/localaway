@@ -767,7 +767,19 @@ textarea.form-control {
     display: inline-block;
 }
 
+.owl-carousel.js-carousel-1 .owl-dots .owl-dot>span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #e9ecef;
+    display: inline-block;
+}
+
 .owl-carousel.js-carousel-2 .owl-dots .owl-dot.active>span {
+    background: #ff0000;
+}
+
+.owl-carousel.js-carousel-1 .owl-dots .owl-dot.active>span {
     background: #ff0000;
 }
 
@@ -1188,7 +1200,7 @@ textarea.form-control {
 
 .block-32 {
     background: #fff;
-    padding: 72px;
+    padding: 50px;
     -webkit-box-shadow: 0 2px 80px -10px rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 80px -10px rgba(0, 0, 0, 0.2);
     width: 100%;
@@ -1997,7 +2009,7 @@ a.nav-link {
 }
 
 .section-search {
-    margin-top: -250px;
+    margin-top: -180px;
 }
 
 .checkbox label:after,
@@ -2101,8 +2113,8 @@ a.nav-link {
 
 i.form-item {
     position: absolute;
-    left: 10px;
-    top: 15px;
+    left: 16px;
+    top: 19px;
     z-index: 99;
 }
 
@@ -2132,10 +2144,6 @@ i.form-item {
 .carousel-control.right {
     margin-left: 15px;
     background-image: none;
-}
-
-.owl-dots {
-    display: none;
 }
 
 .js-carousel-2 p {
@@ -2266,4 +2274,14 @@ i.form-item {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+
+/* end */
+
+
+/* footer menu font size */
+
+.font-smaller {
+    font-size: 0.8em!important;
 }
