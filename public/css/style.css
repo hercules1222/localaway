@@ -2091,7 +2091,7 @@ a.nav-link {
 
 @media (max-width: 991.98px) {
     .section-search {
-        margin-top: 36px;
+        margin-top: -250px;
     }
     .check-availabilty {
         margin-top: 0px;
