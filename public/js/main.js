@@ -73,6 +73,7 @@
         animateIn: 'fadeIn',
         nav: true,
         autoplayHoverPause: true,
+        autoHeight: true,
         items: 3,
         navText: ["<span class='ion-chevron-left'></span>", "<span class='ion-chevron-right'></span>"],
         responsive: {
@@ -100,12 +101,12 @@
     // owl carousel
     var major2Carousel = $('.js-carousel-2');
     major2Carousel.owlCarousel({
-        loop: false,
+        loop: true,
         autoplay: false,
         stagePadding: 7,
         margin: 20,
-        // animateOut: 'fadeOut',
-        // animateIn: 'fadeIn',
+        animateOut: 'fadeOut',
+        animateIn: 'fadeIn',
         nav: true,
         autoplayHoverPause: true,
         autoHeight: true,

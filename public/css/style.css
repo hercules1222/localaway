@@ -2302,3 +2302,7 @@ i.form-item {
     padding: 15px;
     padding-top: 0px!important;
 }
+
+.owl-stage-outer.owl-height {
+    height: 343px !important;
+}
