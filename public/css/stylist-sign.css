@@ -1,0 +1,129 @@
+.back-image {
+    background-image: url("/images/stylist-sign-1.jpg");
+    height: 100vh;
+    top: 0;
+}
+
+.radio-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default radio button */
+
+.radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* Create a custom radio button */
+
+.checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 32px;
+    width: 32px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid #3bcdc2;
+}
+
+
+/* When the radio button is checked, add a blue background */
+
+.radio-container input:checked~.checkmark {
+    background-color: #3bcdc2;
+}
+
+.radio-container .check-sign {
+    display: none;
+}
+
+.radio-container input:checked~.checkmark .check-sign {
+    display: block;
+}
+
+.circle-btn {
+    border-radius: 30px!important;
+    background-color: #c6a07a;
+    border-color: #c6a07a;
+    /* width: 165px; */
+    color: white;
+    padding: 50px;
+}
+
+.circle-btn:hover {
+    color: #c6a07a!important;
+    background-color: white;
+    border: 2px solid #c6a07a;
+}
+
+.question {
+    color: #fa5d47;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    border-radius: 0rem;
+}
+
+.back-image {
+    position: fixed;
+    right: 0;
+}
+
+.signature {
+    font-size: 6em;
+    color: #3bcdc2;
+}
+
+.signature:hover {
+    cursor: pointer;
+}
+
+.number {
+    font-size: 8em;
+    font-weight: bold;
+    color: #fa5d47;
+}
+
+.check-sign {
+    color: #3bcdc2;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 10px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 4px;
+}
+
+.congrate {
+    letter-spacing: 2px;
+    font-size: -webkit-xxx-large;
+}
+
+.link-btn {
+    width: 200px!important;
+}
+
+.vh-100 {
+    height: 100vh!important;
+}
+
+.a-link {
+    text-decoration: underline;
+}

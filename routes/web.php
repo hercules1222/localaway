@@ -18,6 +18,7 @@ Route::get('/dashboard','DashboardController@index');
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/dashboard/logo-image', 'DashboardController@index');
 Route::get('/dashboard/hero-image', 'DashboardController@hero');
@@ -30,3 +31,12 @@ Route::get('/admin/file/use/{id}', 'FileController@use');
 Route::post('/admin/file/update/{id}', 'FileController@update');
 Route::get('/admin/file/move-up/{id}', 'FileController@up');
 Route::get('/admin/file/move-down/{id}', 'FileController@down');
+
+Route::get('/auth/redirect/{provider}', 'SocialController@redirect');
+Route::get('/auth/callback/{provider}', 'SocialController@callback');
+
+Auth::routes();
+
+Route::get('/become-stylist', function () {
+    return view('stylist-sign-in');
+});
