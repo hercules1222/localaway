@@ -2,6 +2,7 @@
     background-image: url("/images/stylist-sign-1.jpg");
     height: 100vh;
     top: 0;
+    background-position: center;
 }
 
 .radio-container {
@@ -59,7 +60,7 @@
     border-radius: 30px!important;
     background-color: #c6a07a;
     border-color: #c6a07a;
-    /* width: 165px; */
+    border: 2px solid #c6a07a;
     color: white;
     padding: 50px;
 }
@@ -68,6 +69,12 @@
     color: #c6a07a!important;
     background-color: white;
     border: 2px solid #c6a07a;
+}
+
+.circle-btn:active {
+    background-color: #fa5d47!important;
+    color: white!important;
+    border: 2px solid white!important;
 }
 
 .question {
@@ -126,4 +133,90 @@
 
 .a-link {
     text-decoration: underline;
+}
+
+#title {
+    color: white;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    text-align: right;
+    padding-right: 1em;
+    margin-top: 4em;
+}
+
+#myProgress {
+    background-color: #ddd;
+}
+
+#myBar {
+    width: 25%;
+    height: 1em;
+    background-color: #fa5d47;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-btn {
+    border-radius: 30px!important;
+    background-color: #c6a07a;
+    border-color: #c6a07a;
+    color: white;
+    padding: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid;
+}
+
+.upload-btn:hover {
+    background-color: white;
+    border-color: #c6a07a;
+    border: 2px solid #c6a07a;
+    color: #c6a07a;
+    padding: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.upload-btn:active {
+    background-color: #fa5d47!important;
+    color: white!important;
+    border: 2px solid white!important;
+}
+
+.upload-form {
+    padding: 4em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    border: 6px solid #3bcdc0;
+    border-radius: 19px;
+}
+
+@media (max-width: 992px) {
+    .title {
+        font-size: 2em;
+        letter-spacing: 2px;
+    }
+    .number {
+        font-size: 6em;
+    }
+    .logo {
+        margin: auto;
+        margin-top: 2em;
+    }
+    .upload-form {
+        border: none;
+        padding: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .signup {
+        height: 100vh;
+    }
+    #logo {
+        margin-left: 5em;
+        margin-top: 3em;
+    }
 }
