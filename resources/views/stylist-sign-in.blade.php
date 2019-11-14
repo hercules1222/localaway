@@ -239,11 +239,11 @@
                                                 Website Link, Social Media Pages
                                                 <div class="form-group ">
                                                     <label for="name" class=" text-secondary small">{{ __('URL') }}</label>
-                                                    <input id="name" type="text" class="form-control border-none kt-portlet--border-bottom-danger" name="boutique-link1" value="">
+                                                    <input id="boutique-link1" type="text" class="url form-control border-none kt-portlet--border-bottom-danger" name="boutique-link1" value="">
                                                     <label for="name" class="text-secondary small">{{ __('URL') }}</label>
-                                                    <input id="name" type="text" class="form-control border-none kt-portlet--border-bottom-danger" name="boutique-link2" value="">
+                                                    <input id="boutique-link2" type="text" class="url form-control border-none kt-portlet--border-bottom-danger" name="boutique-link2" value="">
                                                     <label for="name" class=" text-secondary small">{{ __('URL') }}</label>
-                                                    <input id="name" type="text" class="form-control border-none kt-portlet--border-bottom-danger" name="boutique-link3" value="">
+                                                    <input id="boutique-link3" type="text" class="url form-control border-none kt-portlet--border-bottom-danger" name="boutique-link3" value="">
                                                 </div>
                                             </span>
                                         </div>
@@ -288,18 +288,18 @@
                                                 LinkedIn Profile
                                                 <div class="form-group">
                                                     <label for="name" class="text-secondary small">{{ __('URL') }}</label>
-                                                    <input id="name" type="text" class="form-control border-none kt-portlet--border-bottom-danger" name="linkedin" value="">
+                                                    <input id="linkedin" type="text" class="url form-control border-none kt-portlet--border-bottom-danger" name="linkedin" value="">
                                                 </div>
                                             </span>
                                             <span class ='font-weight-bold question '>
                                                 Relevant Link
                                                 <div class="form-group ">
                                                     <label for="name" class=" text-secondary small">{{ __('URL') }}</label>
-                                                    <input id="name" type="name" class="form-control border-none kt-portlet--border-bottom-danger" name="stylist-link1" value="">
+                                                    <input id="stylist-link1" type="name" class="url form-control border-none kt-portlet--border-bottom-danger" name="stylist-link1" value="">
                                                     <label for="name" class=" text-secondary small">{{ __('URL') }}</label>
-                                                    <input id="name" type="name" class="form-control border-none kt-portlet--border-bottom-danger" name="stylist-link2" value="">
+                                                    <input id="stylist-link1" type="name" class="url form-control border-none kt-portlet--border-bottom-danger" name="stylist-link2" value="">
                                                     <label for="name" class=" text-secondary small">{{ __('URL') }}</label>
-                                                    <input id="name" type="name" class="form-control border-none kt-portlet--border-bottom-danger" name="stylist-link3" value="">
+                                                    <input id="stylist-link3" type="name" class="url form-control border-none kt-portlet--border-bottom-danger" name="stylist-link3" value="">
                                                 </div>
                                             </span>
                                         </div>
