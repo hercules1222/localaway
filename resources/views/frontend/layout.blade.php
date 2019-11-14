@@ -29,7 +29,7 @@
       @include('frontend.sections.work')
       @include('frontend.sections.stylists')
       @include('frontend.sections.blog')
-      <!-- @include('frontend.sections.subscribe') -->
+      @include('frontend.sections.subscribe')
       @include('frontend.sections.footer')
       @include('frontend.sections.footer_menu')
       <script src="js/jquery-3.3.1.min.js"></script>

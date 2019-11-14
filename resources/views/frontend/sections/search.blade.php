@@ -5,8 +5,8 @@
               <form class = "" action="#">
                 <div class = "row">
                   <div class="col">
-                    <h2>What should I wear to ...</h2>
-                    <p>Tell us what you need  and we'll pack you bags</p>
+                    <h2>Tell us about what  you need</h2>
+                    <p>Weekly wardrobe? Date night? We’ve got you covered.</p>
                   </div>
                 </div>
                 <div class="row">

@@ -5,7 +5,7 @@
               <hr>
             </div>
             <div class="col-lg-4 col-sm-12">
-              <h3 class = "color-orange text-center mb-4">Fashion Itineraries</h3>
+              <h3 class = "color-orange text-center mb-4">Other Fashion Itineraries</h3>
             </div>
             <div class="col-lg-4 divider-d-none">
               <hr>
