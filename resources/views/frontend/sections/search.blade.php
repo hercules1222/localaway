@@ -46,7 +46,7 @@
                     <button class="btn btn-block text-white btn-brown">Let's Go!</button>
                   </div>
                 </div>
-                <div class="row pt-3">
+                <!-- <div class="row pt-3">
                   <div class="col d-flex">
                     <div class="checkbox">
                       <label>
@@ -58,7 +58,7 @@
                       </label>
                     </div>
                   </div>
-                </div>
+                </div> -->
               </form>
             </div>
 
