@@ -21,9 +21,9 @@ $(document).ready(function() {
     });
 
     $(".step2").click(function() {
-        // if (!validate_email()) {
-        //     return;
-        // }
+        if (!validate_email()) {
+            return;
+        }
         $(".step-2").css("display", "none");
         if ($("#boutique").prop("checked")) {
 
