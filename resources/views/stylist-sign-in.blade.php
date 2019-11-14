@@ -23,7 +23,7 @@
             <div class="row signup">
                 <div class="col-lg-7 my-auto">
                     <div class="row">
-                        <div class="col-10 offset-1 my-4">
+                        <div class="col-10 col-lg-8 offset-lg-2 offset-1 my-4">
                             <div class="d-flex" style="flex-direction: column;height: 100%;justify-content: space-between;">
                                 <form action="">
                                     <div id="step-1">
