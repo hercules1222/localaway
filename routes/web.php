@@ -40,3 +40,5 @@ Auth::routes();
 Route::get('/become-stylist', function () {
     return view('stylist-sign-in');
 });
+
+Route::post('/stylist-signup', 'StylistController@store');
