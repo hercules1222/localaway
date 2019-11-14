@@ -19,11 +19,13 @@
     <div class="collapse navbar-collapse" id="templateux-navbar-nav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item mb-link"><a class="nav-link" href="/become-stylist">Partner with Us</a></li>
+        @guest
         <li class="nav-item ml-xl-2 ml-lg-2 ml-md-0 ml-sm-0 ml-0">
             <a class="nav-link" href="/dashboard" target="_blank">
                 <span>Sign In</span>
             </a>
         </li>
+        @endguest
         <li class="nav-item ml-xl-2 ml-lg-2 ml-md-0 ml-sm-0 ml-0">
             <a class="nav-link" href="/about" target="_blank">
                 <span>About</span>
