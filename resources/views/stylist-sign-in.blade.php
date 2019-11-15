@@ -251,7 +251,7 @@
                                         <div class='mt-5'>
                                             <label class="radio-container">
                                                 <h5 class = 'text-dark px-2 mt-2 mb-4'>Please agree to our guidelines so that we can reach you.</h5>
-                                                <input type="checkbox"  checked="checked" name="radio">
+                                                <input id = "boutique-agree" type="checkbox"  checked="checked" name="radio">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign "></i>
                                                 </span>
@@ -307,7 +307,7 @@
                                         <div class='mt-5'>
                                             <label class="radio-container">
                                                 <h5 class = 'text-dark px-2 mt-2 mb-4'>Please agree to our guidelines so that we can reach you.</h5>
-                                                <input type="checkbox"  name="radio">
+                                                <input id="stylist-agree" type="checkbox" checked="checked">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign "></i>
                                                 </span>

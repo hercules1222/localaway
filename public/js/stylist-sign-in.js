@@ -1,4 +1,12 @@
 $(document).ready(function() {
+
+    $(window).keydown(function(event) {
+        if (event.keyCode == 13) {
+            event.preventDefault();
+            return false;
+        }
+    });
+
     $(".plus").click(function() {
         hours = $(".hours").html();
         $(".hours").html(parseInt(hours) + 1);
@@ -48,16 +56,19 @@ $(document).ready(function() {
                 }
             }
         } else {
-            if (!isUrlValid($("#linkedin"))) {
+            if (!isUrlValid($("#linkedin").val())) {
                 $("#linkedin").focus();
                 return false;
             }
-            for (let index = 0; index < 3; index++) {
+            for (let index = 1; index < 4; index++) {
                 if (!isUrlValid($("#stylist-link" + index).val())) {
                     $("#boutique-link" + index).focus();
                     return false;
                 }
             }
+        }
+        if (!isAgree()) {
+            return false;
         }
         $(".step-3").css("display", "none");
         $("#step-4").css("display", "block");
@@ -148,12 +159,26 @@ $(document).on("focusout", ".url", function() {
 });
 
 function isUrlValid(url) {
-    if (url != "") {
+    if ((url != "") && (url != undefined)) {
         var is_success = /^(https?|s?ftp):\/\/(((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:)*@)?(((\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5]))|((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?)(:\d*)?)(\/((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)+(\/(([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)*)*)?)?(\?((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)|[\uE000-\uF8FF]|\/|\?)*)?(#((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)|\/|\?)*)?$/i.test(url);
         if (!is_success) {
             return false;
         }
-        return true
+        return true;
     }
     return true;
+}
+
+function isAgree() {
+    if ($("#boutique").prop("checked")) {
+        if (!$("#boutique-agree").prop("checked")) {
+            return false;
+        }
+        return true;
+    } else {
+        if (!$("#stylist-agree").prop("checked")) {
+            return false;
+        }
+        return true;
+    }
 }
