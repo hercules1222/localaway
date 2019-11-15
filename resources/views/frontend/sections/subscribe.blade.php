@@ -10,7 +10,7 @@
           <div  class = "d-flex justify-content-center">
             <input type="text" class = "input-sign" placeholder = "Enter your email">
             <button class = "btn-sign">
-            <i class="fas fa-chevron-right"></i>
+              >
             </button>
           </div>
         </div>
