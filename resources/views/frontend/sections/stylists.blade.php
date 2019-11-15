@@ -19,14 +19,14 @@
                 <div class="author-image mb-3">
                   <div class="img-container">
                     <img src="/storage/uploads/{{$stylist->filename}}" alt="{{$stylist->title}}" class="mx-auto">
-                    <p class = " h6 mt-2 font-weight-bold text-dark"> {{$stylist->title}}</p>
+                    <p class = "h4 mt-2 text-left text-black"> {{$stylist->title}}</p>
                   </div>
                 </div>
             </div>
             @endforeach
           </div> 
           <div class=" text-center">
-            <a href="#" data-fancybox="" class="btn btn-brown text-white py-2 mr-3 letter-spacing-1 text-center">
+            <a href="#" data-fancybox="" class="btn btn-brown text-white mr-3 letter-spacing-1 text-center">
               View All
             </a> 
           </div>

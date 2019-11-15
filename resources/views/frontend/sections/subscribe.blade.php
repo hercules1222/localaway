@@ -3,9 +3,9 @@
     <div class="col-md-6 back-orange d-flex justify-content-center">
       <div class="row align-items-center">
         <div class="col-12 col-sm-4 col-md-12 col-lg-4 text-center">
-          <img src="images/subscribe.png" alt="">
+          <img src="images/subscribe.jpg" alt="" class='sub-logo'>
         </div>
-        <div class="col-12 col-sm-8 col-md-12 col-lg-8 text-center">
+        <div class="col-12 col-sm-8 col-md-12 col-lg-8 text-center text-lg-left">
           <p class = "text-white">Sign up for news</p>
           <div  class = "d-flex justify-content-center">
             <input type="text" class = "input-sign" placeholder = "Enter your email">

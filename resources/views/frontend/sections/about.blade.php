@@ -8,7 +8,7 @@
         <h1 class="color-orange text-center text-md-left">We'll dress you locally for business, fun or events</h1>
         <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
         <p class = "text-center">
-            <a href="#"  data-fancybox class="btn btn-brown text-white py-2 mr-3 letter-spacing-1">
+            <a href="#"  data-fancybox class="btn btn-brown text-white mr-3 letter-spacing-1">
               Sign Up
             </a>
           </p>

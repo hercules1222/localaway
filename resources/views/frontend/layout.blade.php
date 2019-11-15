@@ -19,6 +19,17 @@
       <link rel="stylesheet" type="text/css" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
       <!-- Theme Style -->
       <link rel="stylesheet" href="css/style.css">
+      <style type="text/css">
+      @font-face {
+          font-family: Avenir-Black;
+          src: url("/fonts/Avenir-Black.ttf");
+      }
+      
+      @font-face {
+          font-family: Poppins-Regular;
+          src: url("/fonts/Poppins-Regular.ttf");
+      }
+      </style>
     </head>
     <body data-spy="scroll" data-target="#templateux-navbar" data-offset="200">
       @include('frontend.sections.header')

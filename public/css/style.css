@@ -55,10 +55,10 @@ h5 {
 }
 
 .btn {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     border-radius: 50px;
 }
 
@@ -105,7 +105,7 @@ h5 {
 .form-control {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
-    height: 50px;
+    height: 60px;
     border-width: 2px;
 }
 
@@ -1200,7 +1200,7 @@ textarea.form-control {
 
 .block-32 {
     background: #fff;
-    padding: 50px;
+    padding: 75px;
     -webkit-box-shadow: 0 2px 80px -10px rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 80px -10px rgba(0, 0, 0, 0.2);
     width: 100%;
@@ -2097,7 +2097,7 @@ a.nav-link {
         margin-top: 0px;
     }
     .block-32 {
-        padding: 20px;
+        padding: 45px;
     }
 }
 
@@ -2305,4 +2305,20 @@ i.form-item {
 
 .owl-stage-outer.owl-height {
     height: 343px !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Avenir-Black!important;
+}
+
+body,
+p {
+    font-family: Poppins-Regular!important;
+}
+
+.sub-logo {
+    width: 120px;
 }
