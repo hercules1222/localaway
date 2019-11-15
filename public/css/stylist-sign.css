@@ -225,3 +225,15 @@ textarea {
     background: repeating-linear-gradient(#ffffff, #ffffff 24px, #e1e1e1 24px, #e1e1e1 25px);
     border: 0px;
 }
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Avenir-Black!important;
+}
+
+body,
+p {
+    font-family: Poppins-Regular!important;
+}
