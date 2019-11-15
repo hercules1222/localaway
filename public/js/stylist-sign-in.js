@@ -21,7 +21,7 @@ $(document).ready(function() {
             $("#step-2-independent").css("display", "block");
         }
         $(".back-image").css("background-image", "url('/images/stylist-sign-2.jpg')");
-        $("#logo").get(0).scrollIntoView()
+        $("#logo").get(0).scrollIntoView();
         $('#title').text(function(i) {
             return 'Become part of the LocaAway Family';
         });
