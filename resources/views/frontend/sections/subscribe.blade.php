@@ -22,12 +22,17 @@
         <a href = "" class = "color-orange">info@localaway</a>
       </div>
       <div class = "pt-5">
-        <span class = "h5 font-weight-bold text-black d-block">Investors</span>
-        <a href = "" class = "color-orange">info@localaway</a>
+        <span class = "h5 font-weight-bold text-black d-block">Get in touch</span>
+        <a href = "" class = "color-orange">hello@localaway</a>
       </div>
       <div class = "pt-5">
-        <span class = "h5 font-weight-bold text-black d-block">Investors</span>
-        <a href = "" class = "color-orange">info@localaway</a>
+        <span class = "h5 font-weight-bold text-black d-block">Follow us</span>
+        <span class = "h5 font-weight-bold text-black d-block">Connet on 
+          <a href = "" class = "color-orange">facebook, </a>
+          <a href = "" class = "color-orange">twitter</a>
+          or
+          <a href = "" class = "color-orange">instagram</a>
+        </span>
       </div>
     </div>
   </div>
