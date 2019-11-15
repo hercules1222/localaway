@@ -5,12 +5,12 @@
       <span></span>
       <span></span>
     </div>
-    <div class = "d-lg-flex d-block text-center">
+    <div class = "d-lg-flex d-block text-center mb-2">
       <a class="navbar-brand m-auto" href="/">
         <img class = "d-none d-lg-block" src="/storage/uploads/{{$logo->filename}}" alt="/storage/uploads/{{$logo->filename}}">  
         <img class = "d-block d-lg-none" src="/images/orange-logo.jpg" alt="mobile-logo">  
       </a>
-      <a class="btn btn-block text-white btn-brown ml-2 font-weight-bold mb-2" href="/become-stylist">Partner with Us</a>
+      <a class="header-btn btn-block text-white ml-lg-2" href="/become-stylist">Partner with Us</a>
     </div>
     <!-- END menu-toggle -->
     <div class = "d-lg-none d-flex"> 
