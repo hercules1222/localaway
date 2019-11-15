@@ -5,7 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>Become a stylist </title>
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <link href="/images/orange-logo.png" rel="icon" type="image/x-icon" />
+      <link href="/images/favicon-32x32.png" rel="icon" rel="icon" type="image/png" sizes="32x32" />
       <link rel="stylesheet" href="/css/bootstrap.min.css">
       <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
       <link rel="stylesheet" type="text/css" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
