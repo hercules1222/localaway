@@ -25,7 +25,8 @@
                     <div class="row">
                         <div class="col-10 col-lg-8 offset-lg-2 offset-1 my-4">
                             <div class="d-flex" style="flex-direction: column;height: 100%;justify-content: space-between;">
-                                <form id="stylist-signup" action="/stylist-signup">
+                                <form id="stylist-signup" action="/stylist-signup" method="post" enctype="multipart/form-data">
+                                    @csrf
                                     <div id="step-1">
                                         <h1 class="font-weight-bold mb-5 title">Are you representing a retail brand, boutique or are an independant stylist?</h1>
                                         <label class="radio-container mb-4">
@@ -65,7 +66,7 @@
                                             </label>
                                             <label class="radio-container">
                                                 America
-                                                <input type="radio" value='america' name="location">
+                                                <input type="radio" checked="checked" value='america' name="location">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign"></i>
                                                 </span>
@@ -250,7 +251,7 @@
                                         <div class='mt-5'>
                                             <label class="radio-container">
                                                 <h5 class = 'text-dark px-2 mt-2 mb-4'>Please agree to our guidelines so that we can reach you.</h5>
-                                                <input type="checkbox"  name="radio">
+                                                <input type="checkbox"  checked="checked" name="radio">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign "></i>
                                                 </span>

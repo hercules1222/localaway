@@ -4,8 +4,9 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Http\Request;
 use App\Upload;
+use App\Stylist;
 
-class FileController extends Controller
+class StylistController extends Controller
 {
     public function store(Request $request)
     {
@@ -17,36 +18,45 @@ class FileController extends Controller
         //     'title' => $request->get('qqfilename'),
         // ]);
 
-        $stylist_type = $request->get('isBoutique');
+        $stylist_type = $request->get('stylist-type');
         $location = $request->get('location');
         $hours = $request->get('hours');
-        $stylist_name = $request->get('stylist-name');
-        $stylist_email = $request->get('stylist-email');
-        $letter = $request->get('letter');
         $linkedin = $request->get('linkedin');
-        $link1 = $request->get('link1');
-        $link2 = $request->get('link2');
-        $link3 = $request->get('link3');
-
-        $uploadedFile = $request->file('image');
-        $filename = time().$uploadedFile->getClientOriginalName();
-        Storage::disk('public')->putFileAs('uploads', $uploadedFile, $filename);
-        $max = Upload::where('collection',$collection)->max('extra');
-        if (is_null($max)){
-            $max = 0;
+        if  ($stylist_type=="boutique"){
+            $stylist_name = $request->get('boutique-name');
+            $stylist_email = $request->get('boutique-email');
+            $letter = $request->get('boutique-letter');
+            $link1 = $request->get('boutique-link1');
+            $link2 = $request->get('boutique-link2');
+            $link3 = $request->get('boutique-link3');
+            $resume = $request->file('boutique-resume');
+        }else{
+            $stylist_name = $request->get('stylist-name');
+            $stylist_email = $request->get('stylist-email');
+            $letter = $request->get('stylist-letter');
+            $link1 = $request->get('stylist-link1');
+            $link2 = $request->get('stylist-link2');
+            $link3 = $request->get('stylist-link3');
+            $resume = $request->file('stylist-resume');
         }
-        if(($max == 1) && ($collection == "logo" || $collection == "hero")){
-            $max = -1;
+        if($resume!=null){
+            $filename = time().$resume->getClientOriginalName();
+            Storage::disk('public')->putFileAs('uploads/resume', $resume, $filename);
+            $stylist->resume = $filename;
         }
-        $upload = new Upload;
-        $upload->filename = $filename;
-        $upload->collection = $collection;
-        $upload->title = $title;
-        $upload->extra = $max + 1;
-        // $upload->user()->associate(auth()->user());
-
-        $upload->save();
-            return redirect('/dashboard/'.$collection.'-image');
+        $stylist = new stylist;
+        $stylist->stylist_type = $stylist_type;
+        $stylist->location = $location;
+        $stylist->work_hour = $hours;
+        $stylist->stylist_name = $stylist_name;
+        $stylist->stylist_email = $stylist_email;
+        $stylist->coverletter = $letter;
+        $stylist->linkedin = $linkedin;
+        $stylist->relevant_link1 = $link1;
+        $stylist->relevant_link2 = $link2;
+        $stylist->relevant_link3 = $link3;
+        $stylist->save();
+            return redirect('/');
     }
 
     public function delete(Request $request, $id)
