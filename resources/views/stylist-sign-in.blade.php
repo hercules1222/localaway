@@ -65,45 +65,45 @@
                                         <h1 class="font-weight-bold mb-5 title">Start your new side job <br>-home office or freelance - <br>and earn money styling customers.</h1>
                                         <div class="">
                                             <span class ='font-weight-bold question'>Question 1
-                                                <h5 class = 'text-dark mt-2'>What location or event are you an expert stylist in?</h5>
+                                                <h5 class = 'text-dark mt-4'>What location or event are you an expert stylist in?</h5>
                                             </span>
 
-                                            <label class="radio-container">
+                                            <label class="radio-container mt-4">
                                                 Africa
                                                 <input type="radio"  value='africa' name="location">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign"></i>
                                                 </span>
                                             </label>
-                                            <label class="radio-container">
+                                            <label class="radio-container mt-4">
                                                 America
                                                 <input type="radio" checked="checked" value='america' name="location">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign"></i>
                                                 </span>
                                             </label>
-                                            <label class="radio-container">
+                                            <label class="radio-container mt-4">
                                                 Asia
                                                 <input type="radio" value='asia' name="location">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign"></i>
                                                 </span>
                                             </label>
-                                            <label class="radio-container">
+                                            <label class="radio-container mt-4">
                                                 Oceania
                                                 <input type="radio" value='oceania' name="location">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign"></i>
                                                 </span>
                                             </label>
-                                            <label class="radio-container">
+                                            <label class="radio-container mt-4">
                                                 Europe
                                                 <input type="radio" value='europe' name="location">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign"></i>
                                                 </span>
                                             </label>
-                                            <label class="radio-container">
+                                            <label class="radio-container mt-4">
                                                 Other
                                                 <input type="radio" value='other' name="location">
                                                 <span class="checkmark">
@@ -113,7 +113,7 @@
                                         </div>
                                         <div class="mt-5">
                                             <span class ='font-weight-bold question'>Question 2
-                                                <h5 class = 'text-dark mt-2'>How many hours would you like to work as a LocalAway expert each week?</h5>
+                                                <h5 class = 'text-dark mt-4'>How many hours would you like to work as a LocalAway expert each week?</h5>
                                             </span>
                                             <div>
                                                 <span onclick="javascript:minusfunction()" class = "signature">-</span>
@@ -124,14 +124,14 @@
                                         </div>
                                         <div class="mt-5">
                                             <span class ='font-weight-bold question'>Question 3
-                                                <h5 class = 'text-dark mt-2'>Interested? Tell us about yourself:</h5>
+                                                <h5 class = 'text-dark mt-4'>Interested? Tell us about yourself:</h5>
                                             </span>
-                                            <div class="form-group mt-2">
-                                                <label for="name" class="mt-2 text-secondary small">{{ __('Name') }}</label>
+                                            <div class="form-group mt-4">
+                                                <label for="name" class="mt-4 text-secondary small">{{ __('Name') }}</label>
                                                 <input id="name" type="text" class="form-control border-none kt-portlet--border-bottom-danger" name="boutique-name" value="">
                                             </div>
-                                            <div class="form-group mt-2">
-                                                <label for="email" class="mt-2 text-secondary small">{{ __('Email') }}</label>
+                                            <div class="form-group mt-4">
+                                                <label for="email" class="mt-4 text-secondary small">{{ __('Email') }}</label>
                                                 <input id="boutique-email" type="text" class="email form-control border-none kt-portlet--border-bottom-danger" name="boutique-email" value="" >
                                             </div>
                                         </div>
@@ -146,45 +146,45 @@
                                         <h1 class="font-weight-bold mb-5 title">We're excited to partner with you! Welcome to the future of a sustainable supply chain.</h1>
                                         <div class="">
                                             <span class ='font-weight-bold question'>Question 1
-                                                <h5 class = 'text-dark mt-2'>What location or event are you an expert stylist in?</h5>
+                                                <h5 class = 'text-dark mt-4'>What location or event are you an expert stylist in?</h5>
                                             </span>
 
-                                            <label class="radio-container">
+                                            <label class="radio-container mt-4">
                                                 Africa
                                                 <input type="radio"  value='africa' name="location">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign"></i>
                                                 </span>
                                             </label>
-                                            <label class="radio-container">
+                                            <label class="radio-container mt-4">
                                                 America
                                                 <input type="radio" value='america' name="location">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign"></i>
                                                 </span>
                                             </label>
-                                            <label class="radio-container">
+                                            <label class="radio-container mt-4">
                                                 Asia
                                                 <input type="radio" value='asia' name="location">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign"></i>
                                                 </span>
                                             </label>
-                                            <label class="radio-container">
+                                            <label class="radio-container mt-4">
                                                 Oceania
                                                 <input type="radio" value='oceania' name="location">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign"></i>
                                                 </span>
                                             </label>
-                                            <label class="radio-container">
+                                            <label class="radio-container mt-4">
                                                 Europe
                                                 <input type="radio" value='europe' name="location">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign"></i>
                                                 </span>
                                             </label>
-                                            <label class="radio-container">
+                                            <label class="radio-container mt-4">
                                                 Other
                                                 <input type="radio" value='other' name="location">
                                                 <span class="checkmark">
@@ -194,7 +194,7 @@
                                         </div>
                                         <div class="mt-5">
                                             <span class ='font-weight-bold question'>Question 2
-                                                <h5 class = 'text-dark mt-2'>How many hours itmes would you like to include in the platform?</h5>
+                                                <h5 class = 'text-dark mt-4'>How many hours itmes would you like to include in the platform?</h5>
                                             </span>
                                             <div>
                                                 <span onclick="javascript:minusfunction()" class = "signature">-</span>
@@ -204,14 +204,14 @@
                                         </div>
                                         <div class="mt-5">
                                             <span class ='font-weight-bold question'>Question 3
-                                                <h5 class = 'text-dark mt-2'>Tell us about yourself:</h5>
+                                                <h5 class = 'text-dark mt-4'>Tell us about yourself:</h5>
                                             </span>
-                                            <div class="form-group mt-2">
-                                                <label for="name" class="mt-2 text-secondary small">{{ __('Name') }}</label>
+                                            <div class="form-group mt-4">
+                                                <label for="name" class="mt-4 text-secondary small">{{ __('Name') }}</label>
                                                 <input id="name" type="text" class="form-control border-none kt-portlet--border-bottom-danger" name="stylist-name" value="">
                                             </div>
-                                            <div class="form-group mt-2">
-                                                <label for="email" class="mt-2 text-secondary small">{{ __('Email') }}</label>
+                                            <div class="form-group mt-4">
+                                                <label for="email" class="mt-4 text-secondary small">{{ __('Email') }}</label>
                                                 <input id="stylist-email" type="text" class="email form-control border-none kt-portlet--border-bottom-danger" name="stylist-email" value="">
                                             </div>
                                         </div>
