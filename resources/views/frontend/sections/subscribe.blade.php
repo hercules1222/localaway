@@ -19,19 +19,19 @@
     <div class="col-md-6 text-center sign-info p-5">
       <div class = "">
         <span class = "h5 font-weight-bold text-black d-block">Investors</span>
-        <a href = "" class = "color-orange">info@localaway</a>
+        <a href = "mailto:info@localaway" class = "color-orange">info@localaway</a>
       </div>
       <div class = "pt-5">
-        <span class = "h5 font-weight-bold text-black d-block">Get in touch</span>
-        <a href = "" class = "color-orange">hello@localaway</a>
+        <span class = "h5 font-weight-bold text-black d-block">Support</span>
+        <a href = "mailto:contact@localaway" class = "color-orange">contact@localaway</a>
       </div>
       <div class = "pt-5">
         <span class = "h5 font-weight-bold text-black d-block">Follow us</span>
         <span class = "h5 font-weight-bold text-black d-block">Connet on 
-          <a href = "" class = "color-orange">facebook, </a>
-          <a href = "" class = "color-orange">twitter</a>
+          <a href = "https://www.facebook.com/localaway/" class = "color-orange">facebook, </a>
+          <a href = "https://twitter.com/local_away" class = "color-orange">twitter</a>
           or
-          <a href = "" class = "color-orange">instagram</a>
+          <a href = "https://www.instagram.com/accounts/login/" class = "color-orange">instagram</a>
         </span>
       </div>
     </div>

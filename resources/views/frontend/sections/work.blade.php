@@ -20,20 +20,21 @@
                     <img src="images/work1.jpg" alt="Image placeholder" >
                   </div>
                   <div  class = "text-center">
-                    <span>Enter details about your style need or event.<br>
-                      <p class='font-weight-bold'>
+                    <span class='font-avenir'>Enter details about your style need or event.<br>
+                      <p class='font-weight-bold mt-2 text-black'>
                         Where are you going and how son do yo need it?
                       </p>
                     </span>
                   </div>
-              </div><div class="col-lg-4 col-md-12">
+              </div>
+              <div class="col-lg-4 col-md-12">
                   <div class = "d-flex text-center justify-content-center">
                     <h1 class = "font-weight-bold color-orange my-auto mx-0">2</h1>
                     <img src="images/work2.jpg" alt="Image placeholder" >
                   </div>
                   <div  class = "text-center">
-                    <span>Tell us about your preferences.<br>
-                      <p class='font-weight-bold'>Enter your size and fit preferences.</p>
+                    <span class='font-avenir'>Tell us about your preferences.<br>
+                      <p class='font-weight-bold mt-2 text-black'>Enter your size and fit preferences.</p>
                     </span>
                   </div>
               </div><div class="col-lg-4 col-md-12">
@@ -42,8 +43,8 @@
                     <img src="images/work3.jpg" alt="Image placeholder" >
                   </div>
                   <div  class = "text-center">
-                    <span><br>
-                      <p class='font-weight-bold'>
+                    <span class='font-avenir'><br>
+                      <p class='font-weight-bold mt-2 text-black'>
                         Try it on, wear it, return it. If you love something there is an option to purchase at a discount. Need to exchange? Its all local so its all easy.
                         </p>
                       </span>
