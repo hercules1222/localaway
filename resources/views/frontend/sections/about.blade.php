@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-lg-7 ml-auto order-lg-2 position-relative text-right d-none d-lg-block" data-aos="fade-up">
-        <img src="images/hero_4.jpg" alt="Image" class="img-fluid  w-100">
+        <img src="images/hero_4.jpg" alt="Image" class="img-fluid  h-100">
       </div>
       <div class="col-md-12 col-lg-5 order-lg-1 mt-md-4" data-aos="fade-up">
         <h1 class="color-orange text-center text-md-left">We'll dress you locally for business, fun or events</h1>
