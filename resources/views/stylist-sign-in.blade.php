@@ -68,48 +68,10 @@
                                                 <h5 class = 'text-dark mt-4'>What location or event are you an expert stylist in?</h5>
                                             </span>
 
-                                            <label class="radio-container mt-4">
-                                                Africa
-                                                <input type="radio"  value='africa' name="location">
-                                                <span class="checkmark">
-                                                    <i class="fas fa-check check-sign"></i>
-                                                </span>
-                                            </label>
-                                            <label class="radio-container mt-4">
-                                                America
-                                                <input type="radio" checked="checked" value='america' name="location">
-                                                <span class="checkmark">
-                                                    <i class="fas fa-check check-sign"></i>
-                                                </span>
-                                            </label>
-                                            <label class="radio-container mt-4">
-                                                Asia
-                                                <input type="radio" value='asia' name="location">
-                                                <span class="checkmark">
-                                                    <i class="fas fa-check check-sign"></i>
-                                                </span>
-                                            </label>
-                                            <label class="radio-container mt-4">
-                                                Oceania
-                                                <input type="radio" value='oceania' name="location">
-                                                <span class="checkmark">
-                                                    <i class="fas fa-check check-sign"></i>
-                                                </span>
-                                            </label>
-                                            <label class="radio-container mt-4">
-                                                Europe
-                                                <input type="radio" value='europe' name="location">
-                                                <span class="checkmark">
-                                                    <i class="fas fa-check check-sign"></i>
-                                                </span>
-                                            </label>
-                                            <label class="radio-container mt-4">
-                                                Other
-                                                <input type="radio" value='other' name="location">
-                                                <span class="checkmark">
-                                                    <i class="fas fa-check check-sign"></i>
-                                                </span>
-                                            </label>
+                                            <div class="form-group mt-4">
+                                                <label for="location" class="mt-4 text-secondary small">{{ __('Location') }}</label>
+                                                <input id="location" type="text" class="form-control border-none kt-portlet--border-bottom-danger" name="location" value="">
+                                            </div>
                                         </div>
                                         <div class="mt-5">
                                             <span class ='font-weight-bold question'>Question 2
@@ -127,11 +89,11 @@
                                                 <h5 class = 'text-dark mt-4'>Interested? Tell us about yourself:</h5>
                                             </span>
                                             <div class="form-group mt-4">
-                                                <label for="name" class="mt-4 text-secondary small">{{ __('Name') }}</label>
-                                                <input id="name" type="text" class="form-control border-none kt-portlet--border-bottom-danger" name="boutique-name" value="">
+                                                <label for="boutique-name" class="mt-4 text-secondary small">{{ __('Name') }}</label>
+                                                <input id="boutique-name" type="text" class="form-control border-none kt-portlet--border-bottom-danger" name="boutique-name" value="">
                                             </div>
                                             <div class="form-group mt-4">
-                                                <label for="email" class="mt-4 text-secondary small">{{ __('Email') }}</label>
+                                                <label for="boutique-email" class="mt-4 text-secondary small">{{ __('Email') }}</label>
                                                 <input id="boutique-email" type="text" class="email form-control border-none kt-portlet--border-bottom-danger" name="boutique-email" value="" >
                                             </div>
                                         </div>
@@ -158,7 +120,7 @@
                                             </label>
                                             <label class="radio-container mt-4">
                                                 America
-                                                <input type="radio" value='america' name="location">
+                                                <input type="radio" value='america' checked="checked" name="location">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign"></i>
                                                 </span>
