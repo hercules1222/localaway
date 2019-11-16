@@ -1,4 +1,4 @@
-<section class="">
+<section class="footer-menu">
   <div class="text-center bg-dard">
     <div class="d-lg-none">
         <div class = "bg-dark d-flex justify-content-center p-4 row">

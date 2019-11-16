@@ -18,6 +18,7 @@
       <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
       <link rel="stylesheet" type="text/css" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
       <!-- Theme Style -->
+      <link rel="stylesheet" href="css/answer.css">
       <link rel="stylesheet" href="css/style.css">
       <style type="text/css">
       @font-face {
@@ -38,7 +39,7 @@
                 <div class="row site-hero-inner justify-content-center align-items-center">
                     <div class="col-md-10 text-center" data-aos="fade-up">
                         <span class='text-dark h3'>Looks like  you're heading</span>
-                        <span class='d-flex justify-content-center mt-3 align-items-baseline mb-4'>
+                        <span class='d-lg-flex justify-content-center mt-3 align-items-baseline mb-4'>
                             @if ($location != "")
                             <p class='text-dark h4'>to&nbsp</p>
                             <h1 class='color-orange'> {{$location}}&nbsp</h1> 

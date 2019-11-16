@@ -1,4 +1,4 @@
-<section class="mb-5">
+<section class="mb-5 footer">
   <div class="container text-center">
     <img class = "mt-4" src="images/logo.png" alt="">
     <div class = "mt-4">
