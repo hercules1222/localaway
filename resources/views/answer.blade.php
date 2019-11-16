@@ -61,7 +61,7 @@
                             <a class="btn btn-brown  text-white mt-4" href="/">Take our Style Quiz</a>
                         </span>
                         <span>
-                            <a class="btn-block mt-4 answer-sign font-weight-bold " href="/">Sign in</a>
+                            <a class="btn-block mt-4 answer-sign font-weight-bold " href="/login">Sign in</a>
                         </span>
                     </div>
                 </div>
