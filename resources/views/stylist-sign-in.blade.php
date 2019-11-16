@@ -177,7 +177,7 @@
                                                 <input id="name" type="text" class="form-control border-none kt-portlet--border-bottom-danger" name="stylist-name" value="">
                                             </div>
                                             <div class="form-group mt-4">
-                                                <label for="email" class="mt-4 text-secondary small">{{ __('Email') }}</label>
+                                                <label for="stylist-email" class="mt-4 text-secondary small">{{ __('Email') }}</label>
                                                 <input id="stylist-email" type="text" class="email form-control border-none kt-portlet--border-bottom-danger" name="stylist-email" value="">
                                             </div>
                                         </div>
