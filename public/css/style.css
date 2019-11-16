@@ -2333,3 +2333,12 @@ p {
     height: 50px;
     margin: auto;
 }
+
+.answer-tell {
+    line-height: 2em;
+}
+
+.answer-sign {
+    color: #c6a07b;
+    text-decoration: underline;
+}

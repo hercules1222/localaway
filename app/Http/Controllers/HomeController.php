@@ -36,4 +36,18 @@ class HomeController extends Controller
             'hero' => $hero,
         ]);
     }
+
+    public function showAnswer(Request $request)
+    {
+        $logo = Upload::where('collection' ,'logo')->where('extra',1)->first();
+        // $hero = Upload::where('collection' ,'hero')->where('extra',1)->first();
+        $event = $request->get('event');
+        $location = $request->get('location');
+        return view('answer', [
+            'logo' => $logo,
+            'event' => $event,
+            'location' => $location,
+            // 'hero' => $hero,
+        ]);
+    }
 }

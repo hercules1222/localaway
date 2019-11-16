@@ -46,3 +46,6 @@ Route::get('/customer-sign-up', function () {
 });
 
 Route::post('/stylist-signup', 'StylistController@store');
+
+Route::post('/answer', 'HomeController@showAnswer');
+Route::get('/answer', 'HomeController@index');

@@ -1,6 +1,5 @@
-<section class="section">
+<section class="mb-5">
   <div class="container text-center">
-    <hr>
     <img class = "mt-4" src="images/logo.png" alt="">
     <div class = "mt-4">
       <a href="" class = "h3 "><i class="fab fa-instagram"></i></a>
