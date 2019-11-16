@@ -18,10 +18,26 @@
                     <div class = "picker-wrapper">
                       <i class="far fa-calendar-alt form-item"></i>
                       <select name="" id="adults" class="form-control pl-5">
-                        <option placeholder="" value="">Event Type</option>
-                        <option value="">Party</option>
-                        <option value="">Birthday</option>
-                        <option value="">Shopping</option>
+                        <option class='text-black' placeholder="" value="">Event Type</option>
+                        <option value="">Casual Friday</option>
+                        <option value="">Holiday Party</option>
+                        <option value="">Brunch</option>
+                        <option value="">Date Night</option>
+                        <option value="">Workout</option>
+                        <option value="">Concert</option>
+                        <option value="">Weekend</option>
+                        <option value="">Influencer Pics</option>
+                        <option value="">Interview</option>
+                        <option value="">Vacation</option>
+                        <option value="">Golf</option>
+                        <option value="">Sleeping</option>
+                        <option value="">Wine Tasting</option>
+                        <option value="">Getting Outside</option>
+                        <option value="">Cocktail Hour</option>
+                        <option value="">Conference</option>
+                        <option value="">Travel Day</option>
+                        <option value="">Tourist Day</option>
+                        <option value="">Other </option>
                       </select>
                     </div>
                   </div>
@@ -33,9 +49,57 @@
                       <i class="fas fa-map-marker-alt form-item"></i>
                       <select name="" id="adults" class="form-control pl-5">
                         <option placeholder="" value="">Location</option>
-                        <option value="">Califonia</option>
                         <option value="">New York</option>
-                        <option value="">London</option>
+                        <option value="">Los Angeles</option>
+                        <option value="">Chicago</option>
+                        <option value="">Chicago</option>
+                        <option value="">Houston</option>
+                        <option value="">Phoenix</option>
+                        <option value="">Philadelphia</option>
+                        <option value="">San Antonio</option>
+                        <option value="">San Diego</option>
+                        <option value="">Dallas</option>
+                        <option value="">San Jose</option>
+                        <option value="">Austin</option>
+                        <option value="">Jacksonville</option>
+                        <option value="">Fort Worth</option>
+                        <option value="">Columbus</option>
+                        <option value="">San Francisco</option>
+                        <option value="">Charlotte</option>
+                        <option value="">Indianapolis</option>
+                        <option value="">Seattle</option>
+                        <option value="">Denver</option>
+                        <option value="">Washington</option>
+                        <option value="">Boston</option>
+                        <option value="">El Paso</option>
+                        <option value="">Detroit</option>
+                        <option value="">Nashville</option>
+                        <option value="">Portland</option>
+                        <option value="">Memphis</option>
+                        <option value="">Oklahoma</option>
+                        <option value="">Las Vegas</option>
+                        <option value="">Louisville</option>
+                        <option value="">Baltimore</option>
+                        <option value="">Milwaukee</option>
+                        <option value="">Albuquerque</option>
+                        <option value="">Tucson</option>
+                        <option value="">Fresno</option>
+                        <option value="">Mesa</option>
+                        <option value="">Sacramento</option>
+                        <option value="">Atlanta</option>
+                        <option value="">Kansas</option>
+                        <option value="">Colorado</option>
+                        <option value="">Miami</option>
+                        <option value="">Raleigh</option>
+                        <option value="">Omaha</option>
+                        <option value="">Long Beach</option>
+                        <option value="">Virginia Beach</option>
+                        <option value="">Oakland</option>
+                        <option value="">Minneapolis</option>
+                        <option value="">Tulsa</option>
+                        <option value="">Arlington</option>
+                        <option value="">Tampa</option>
+                        <option value="">New Orleans</option>
                       </select>
                     </div>
                   </div>
