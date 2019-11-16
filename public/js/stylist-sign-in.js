@@ -85,7 +85,15 @@ $(document).ready(function() {
         const hours = $(".hours").html();
         $("#input-hours").val(hours);
         return true;
-    })
+    });
+
+    $('.location-radio').click(function() {
+        if ($("#other-selector").prop("checked")) {
+            $('#other-location').css("display", "block");
+        } else {
+            $('#other-location').css("display", "none");
+        }
+    });
 });
 
 // dzone = new Dropzone("#upload_resume", { url: "/file/post" });

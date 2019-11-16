@@ -69,8 +69,8 @@
                                             </span>
 
                                             <div class="form-group mt-4">
-                                                <label for="location" class="mt-4 text-secondary small">{{ __('Location') }}</label>
-                                                <input id="location" type="text" class="form-control border-none kt-portlet--border-bottom-danger" name="location" value="">
+                                                <label for="boutique-location" class="mt-4 text-secondary small">{{ __('Location') }}</label>
+                                                <input id="boutique-location" type="text" class="form-control border-none kt-portlet--border-bottom-danger" name="boutique_location" value="">
                                             </div>
                                         </div>
                                         <div class="mt-5">
@@ -113,46 +113,50 @@
 
                                             <label class="radio-container mt-4">
                                                 Africa
-                                                <input type="radio"  value='africa' name="location">
+                                                <input class = "location-radio" type="radio"  value='africa' name="stylist_location">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign"></i>
                                                 </span>
                                             </label>
                                             <label class="radio-container mt-4">
                                                 America
-                                                <input type="radio" value='america' checked="checked" name="location">
+                                                <input class = "location-radio" type="radio" value='america' checked="checked" name="stylist_location">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign"></i>
                                                 </span>
                                             </label>
                                             <label class="radio-container mt-4">
                                                 Asia
-                                                <input type="radio" value='asia' name="location">
+                                                <input class = "location-radio" type="radio" value='asia' name="stylist_location">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign"></i>
                                                 </span>
                                             </label>
                                             <label class="radio-container mt-4">
                                                 Oceania
-                                                <input type="radio" value='oceania' name="location">
+                                                <input class = "location-radio" type="radio" value='oceania' name="stylist_location">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign"></i>
                                                 </span>
                                             </label>
                                             <label class="radio-container mt-4">
                                                 Europe
-                                                <input type="radio" value='europe' name="location">
+                                                <input class = "location-radio" type="radio" value='europe' name="stylist_location">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign"></i>
                                                 </span>
                                             </label>
                                             <label class="radio-container mt-4">
                                                 Other
-                                                <input type="radio" value='other' name="location">
+                                                <input class = "location-radio" id='other-selector' type="radio" value='other' name="stylist_location">
                                                 <span class="checkmark">
                                                     <i class="fas fa-check check-sign"></i>
                                                 </span>
                                             </label>
+                                            <div id='other-location' class="form-group mt-4" style="display:none">
+                                                <label for="otherlocation" class="mt-4 text-secondary small">{{ __('Location') }}</label>
+                                                <input id="otherlocation" type="text" class="email form-control border-none kt-portlet--border-bottom-danger" name="other_location" value="">
+                                            </div>
                                         </div>
                                         <div class="mt-5">
                                             <span class ='font-weight-bold question'>Question 2

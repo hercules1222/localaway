@@ -19,10 +19,10 @@ class StylistController extends Controller
         // ]);
 
         $stylist_type = $request->get('stylist-type');
-        $location = $request->get('location');
         $hours = $request->get('hours');
         $linkedin = $request->get('linkedin');
         if  ($stylist_type=="boutique"){
+            $location = $request->get('boutique_location');
             $stylist_name = $request->get('boutique-name');
             $stylist_email = $request->get('boutique-email');
             $letter = $request->get('boutique-letter');
@@ -31,6 +31,11 @@ class StylistController extends Controller
             $link3 = $request->get('boutique-link3');
             $resume = $request->file('boutique-resume');
         }else{
+            if($request->get('stylist_location')=="other"){
+                $location = $request->get('other_location');
+            }else{
+                $location = $request->get('stylist_location');
+            }
             $stylist_name = $request->get('stylist-name');
             $stylist_email = $request->get('stylist-email');
             $letter = $request->get('stylist-letter');
