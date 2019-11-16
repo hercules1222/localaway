@@ -2342,3 +2342,9 @@ p {
     color: #c6a07b;
     text-decoration: underline;
 }
+
+.answer-input {
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+}

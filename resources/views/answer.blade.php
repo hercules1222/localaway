@@ -39,13 +39,19 @@
                     <div class="col-md-10 text-center" data-aos="fade-up">
                         <span class='text-dark h3'>Looks like  you're heading</span>
                         <span class='d-flex justify-content-center mt-3 align-items-baseline mb-4'>
+                            @if ($location != "")
                             <p class='text-dark h4'>to&nbsp</p>
                             <h1 class='color-orange'> {{$location}}&nbsp</h1> 
+                            @endif
+                            @if ($event != "")
                             <p class='text-dark h4'>for a&nbsp</p> 
                             @if ($event === "Other")
-                            <input type="text">
+                            <h1 class='color-orange'>
+                                <input type="text" class='answer-input color-orange text-center' placeholder = "type here" autof1ocus>
+                            </h1>
                             @else
                             <h1 class='color-orange'>{{$event}}</h1>
+                            @endif
                             @endif
                         </span>
                         <span class='text-dark answer-tell d-lg-block'>
