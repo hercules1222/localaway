@@ -2267,6 +2267,23 @@ i.form-item {
     height: 2em;
     font-size: 2em;
     background-color: white;
+    transition: all ease .2s;
+    cursor: pointer;
+}
+
+.btn-sign:hover {
+    background-color: #c6a07b;
+    color: white;
+}
+
+.btn-sign:active {
+    outline: none;
+    background-color: #fe7c6c;
+    color: white;
+}
+
+.btn-sign:focus {
+    outline: none;
 }
 
 .sign-info {
@@ -2348,4 +2365,9 @@ p {
     border: none;
     background: none;
     border-bottom: 1px solid black;
+}
+
+#news,
+#thank {
+    transition: all ease .2s;
 }

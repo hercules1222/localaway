@@ -21,7 +21,7 @@
                   <a href="#"  data-fancybox class="d-block color-green py-2 mr-3 font-weight-bold">
                     MEET THE STYLIST
                   </a>
-                  <a href="#"  data-fancybox class="btn btn-brown text-white py-2 mr-3 letter-spacing-1 mt-4">
+                  <a href="#"  data-fancybox class="btn btn-brown text-white  mr-3 mt-4">
                     View All Posts
                   </a>
               </div>

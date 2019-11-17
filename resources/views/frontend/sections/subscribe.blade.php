@@ -6,10 +6,11 @@
           <img src="images/subscribe.jpg" alt="" class='sub-logo'>
         </div>
         <div class="col-12 col-sm-8 col-md-12 col-lg-8 text-center text-lg-left">
-          <p class = "text-white">Sign up for news</p>
-          <div  class = "d-flex justify-content-center">
-            <input type="text" class = "input-sign" placeholder = "Enter your email">
-            <button class = "btn-sign">
+          <p id='news' class = "text-white">Sign up for news</p>
+          <p id='thank' class = "text-white font-weight-bold text-center" style='display:none;'>Thank you!</p>
+          <div  id='email-btn' class = "d-flex justify-content-center">
+            <input id="sub-email" type="text" class = "input-sign text-white" placeholder = "Enter your email">
+            <button id='sign-btn' class = "btn-sign">
               >
             </button>
           </div>
