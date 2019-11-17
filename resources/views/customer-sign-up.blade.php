@@ -61,7 +61,7 @@
                             <div class="d-flex" style="flex-direction: column;height: 100%;justify-content: space-between;">
                                 <form id="stylist-signup" action="/stylist-signup" method="post" enctype="multipart/form-data">
                                     @csrf
-                                    @include('auth.register(ori)')
+                                    @include('auth.register')
                                     <div id="step-2-boutique" class="mt-5 step-2" style="display: none;">
                                         <h1 class="font-weight-bold mb-5 title">Start your new side job <br>-home office or freelance - <br>and earn money styling customers.</h1>
                                         <div class="">
