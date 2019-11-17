@@ -1,27 +1,38 @@
 <!DOCTYPE HTML>
   <html>
     <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>Become a stylist </title>
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <link href="/images/orange-logo.png" rel="icon" type="image/x-icon" />
-      <link rel="stylesheet" href="/css/bootstrap.min.css">
-      <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
-      <link rel="stylesheet" type="text/css" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-      <link rel="stylesheet" type="text/css" href = "/css/customer-sign.css">
-      <!-- Theme Style -->
-      <style type="text/css">
-      @font-face {
-          font-family: Avenir-Black;
-          src: url("/fonts/Avenir-Black.ttf");
-      }
-      
-      @font-face {
-          font-family: Poppins-Regular;
-          src: url("/fonts/Poppins-Regular.ttf");
-      }
-      </style>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Become a stylist </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="/images/orange-logo.png" rel="icon" type="image/x-icon" />
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+        <link rel="stylesheet" type="text/css" href = "/css/customer-sign.css">
+
+        <!-- Register style and js -->
+        <!-- <script src="{{ asset('js/app.js') }}" defer></script>
+        <!-- Fonts -->
+        <!-- <link rel="dns-prefetch" href="//fonts.gstatic.com"> -->
+        <!-- <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> -->
+        <!-- Styles -->
+        <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
+        <!-- <link href="{{ asset('css/login.css') }}" rel="stylesheet"> --> -->
+        <!-- End Register -->
+        
+        <!-- Custom Font Style -->
+        <style type="text/css">
+            @font-face {
+                font-family: Avenir-Black;
+                src: url("/fonts/Avenir-Black.ttf");
+            }
+            
+            @font-face {
+                font-family: Poppins-Regular;
+                src: url("/fonts/Poppins-Regular.ttf");
+            }
+        </style>
     </head>
     <body>
         <div class="container-fluid ">
@@ -50,29 +61,7 @@
                             <div class="d-flex" style="flex-direction: column;height: 100%;justify-content: space-between;">
                                 <form id="stylist-signup" action="/stylist-signup" method="post" enctype="multipart/form-data">
                                     @csrf
-                                    <div id="step-1">
-                                        <h1 class="font-weight-bold mb-5 title">Are you representing a retail brand, boutique or are an independant stylist?</h1>
-                                        <label class="radio-container mb-4">
-                                            Boutique/Brand
-                                            <input type="radio" checked="checked" value="boutique" name="stylist-type" id="boutique">
-                                            <span class="checkmark">
-                                                <i class="fas fa-check  check-sign"></i>
-                                            </span>
-                                        </label>
-                                        <label class="radio-container">
-                                            Independent
-                                            <input type="radio" value="independent" name="stylist-type" id="independent">
-                                            <span class="checkmark">
-                                                <i class="fas fa-check  check-sign"></i>
-                                            </span>
-                                        </label>
-                                        <div class="text-right" style="margin-top: 7em;">
-                                            <a class="btn circle-btn btn-primary text-white font-weight-bold py-3 " id="step1" style>
-                                            Next Section
-                                            </a>
-                                        </div>
-                                    </div>
-
+                                    @include('auth.register(ori)')
                                     <div id="step-2-boutique" class="mt-5 step-2" style="display: none;">
                                         <h1 class="font-weight-bold mb-5 title">Start your new side job <br>-home office or freelance - <br>and earn money styling customers.</h1>
                                         <div class="">
