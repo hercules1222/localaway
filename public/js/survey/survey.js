@@ -145,6 +145,9 @@ $(function() {
                 flag = true;
             }
         });
+        if ($(item + " input").length == 0) {
+            flag = true;
+        }
 
         if (flag == false) {
 
