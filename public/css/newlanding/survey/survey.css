@@ -184,7 +184,7 @@ i {
     color: white!important;
 }
 
-.title {
+#title {
     position: absolute;
     top: 20px;
     transition: opacity .5s ease;

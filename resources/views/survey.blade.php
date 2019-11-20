@@ -12,13 +12,13 @@
         <div class="container-fluid">
             <nav class='row justify-content-center'>
                 <div class="col-6">
-                    <h2 class="title font-weight-bold" style="opacity:0;">1.Boutique Profile</h2>
+                    <h2 id="title" class="font-weight-bold" style="opacity:0;">1.Boutique Profile</h2>
                 </div>
             </nav>
             <form class="wizard-container">
                 <div class="wizard-body" style="top: 0">
 
-                    <div class="item item-show row ">
+                    <div class="item item-show row start-part">
                         <div class="col-4 text-center">
                             <img src="/images/newlanding/logo.png" alt="logo" width="100">       
                             <p class="h5 mt-3 text-secondary">Tell us more about your preferences and we’ll send you what you need.</p>
@@ -29,7 +29,7 @@
                         </div>
                     </div>
 
-                    <div class="item row item-show">
+                    <div class="item row item-show first-part">
                         <div class="col-6">
                             <div class="question">
                                 <span class="h3">
@@ -666,7 +666,7 @@
 
 
 
-                    <div class="item row">
+                    <div class="item row second-part">
                         <div class="col-6 ">
                             <div class="question">
                                 <span class="h3">
@@ -844,7 +844,7 @@
                     </div>
 
 
-                    <div class="item row">
+                    <div class="item row third-part">
                         <div class="col-6 ">
                             <div class="question">
                                 <span class="h3">
@@ -1369,7 +1369,7 @@
 
 
 
-                    <div class="item row">
+                    <div class="item row forth-part">
                         <div class="col-6 ">
                             <div class="question">
                                 <span class="h3">

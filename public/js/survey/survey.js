@@ -17,7 +17,7 @@ $(function() {
                 current_item--;
             }
         } while ($(".item:nth-child(" + (current_item + 1)).css("visibility") == "hidden");
-
+        changeTitle(current_item);
         $(".wizard-body").css("top", -current_item * 100 + "%");
         $(".item").removeClass("item-show");
         $(".item:nth-child(" + (current_item + 1) + ")").addClass("item-show");
@@ -31,10 +31,12 @@ $(function() {
                 current_item++;
             } while ($(".item:nth-child(" + (current_item + 1)).css("visibility") == "hidden");
 
+            changeTitle(current_item);
+
             $(".wizard-body").css("top", -current_item * 100 + "%");
             $(".item").removeClass("item-show");
             $(".item:nth-child(" + (current_item + 1) + ")").addClass("item-show");
-            if (progress + 3 == current_item) {
+            if (progress + 2 == current_item) {
                 move();
             }
         }
@@ -45,7 +47,6 @@ $(function() {
         $(".item:nth-child(" + (current_item + 1) + ") input.text-answer").focus();
         if (keycode == "13") {
             $(".next-button").click();
-            $(".title").css("opacity", "1");
         } else {
 
             // const item_button_selector = ".item:nth-child(" + (current_item + 1) + ") .item-button[data-key=" + keycode + "]";
@@ -168,4 +169,34 @@ $(function() {
             return true;
         }
     }
+
+    function changeTitle(current) {
+        var title_class = [
+            "start-part",
+            "first-part",
+            "second-part",
+            "third-part",
+            "forth-part",
+        ];
+
+        var title_class = [
+            "",
+            "1.Boutique Profile",
+            "2.Customers",
+            "3.Logistics",
+            "4.LocalAway Partnership",
+        ];
+
+        for (let i = 0; i < 5; i++) {
+
+            if ($(".item:nth-child(" + (current + 1) + ")").hasClass(title_class[i])) {
+                $("#title").text(title[0]);
+                if (i == 0) {
+                    $("#title").css("opacity", "1");
+                }
+            }
+
+        }
+    }
+
 })
