@@ -126,10 +126,9 @@ textarea.form-control {
 .site-hero {
     background-size: cover;
     height: 100vh;
-    max-height: 700px;
+    /* max-height: 700px; */
     width: 100%;
     position: relative;
-    background-position: center;
 }
 
 .site-hero .heading {
