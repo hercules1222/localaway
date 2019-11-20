@@ -24,6 +24,7 @@ $(function() {
             $(".wizard-body").css("top", -current_item * 100 + "%");
             $(".item").removeClass("item-show");
             $(".item:nth-child(" + (current_item + 1) + ")").addClass("item-show");
+            move();
         }
     });
 
@@ -49,8 +50,11 @@ $(function() {
                 } else {
                     $(item_checkbox_selector + "+label .hidden-text").click();
                     $(item_checkbox_selector).prop("checked", true);
-                    $(item_arrow_selector).css("opacity", "1");
-                    $(item_arrow_selector).css("bottom", "0");
+                    if ($(item_checkbox_selector).length != 0) {
+
+                        $(item_arrow_selector).css("opacity", "1");
+                        $(item_arrow_selector).css("bottom", "0");
+                    }
                 }
                 if ($(item_checkbox_selector).hasClass("link-expand")) {
                     linkexpand(".link-expand");

@@ -222,3 +222,23 @@ input[type=radio] {
 .hidden-text:focus {
     outline: none;
 }
+
+#myProgress {
+    width: 100%;
+    background-color: #f0f8ff;
+    width: 310px;
+    height: 12px;
+    margin: auto;
+    border: 1px solid #00a3ff;
+    border-radius: 10px;
+}
+
+#myBar {
+    width: 0%;
+    height: 10px;
+    transition: width 1s ease;
+    background-color: #51b1e7;
+    /* border: 1px solid #00a3ff; */
+    margin: auto 0;
+    border-radius: 10px;
+}
