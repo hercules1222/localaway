@@ -2,21 +2,29 @@ $(function() {
     let current_item = 0;
 
     $(".prev-button").click(function() {
-        if (current_item > 0) {
-            current_item--;
-        }
+        do {
+            if (current_item > 0) {
+                current_item--;
+            }
+        } while ($(".item:nth-child(" + (current_item + 1)).css("visibility") == "hidden");
+
         $(".wizard-body").css("top", -current_item * 100 + "%");
         $(".item").removeClass("item-show");
         $(".item:nth-child(" + (current_item + 1) + ")").addClass("item-show");
     });
 
     $(".next-button").click(function() {
-        if (current_item < 100) {
-            current_item++;
+        const is_checked = checkEmpty(".item:nth-child(" + (current_item + 1) + ")");
+        if (is_checked) {
+
+            do {
+                current_item++;
+            } while ($(".item:nth-child(" + (current_item + 1)).css("visibility") == "hidden");
+
+            $(".wizard-body").css("top", -current_item * 100 + "%");
+            $(".item").removeClass("item-show");
+            $(".item:nth-child(" + (current_item + 1) + ")").addClass("item-show");
         }
-        $(".wizard-body").css("top", -current_item * 100 + "%");
-        $(".item").removeClass("item-show");
-        $(".item:nth-child(" + (current_item + 1) + ")").addClass("item-show");
     });
 
     $("body").on("keydown", function(e) {
@@ -46,6 +54,9 @@ $(function() {
                 }
                 if ($(item_checkbox_selector).hasClass("link-expand")) {
                     linkexpand(".link-expand");
+                }
+                if ($(item_checkbox_selector).hasClass("if")) {
+                    $(item_checkbox_selector).click();
                 }
             }
 
@@ -98,6 +109,44 @@ $(function() {
             $(expand_selecter + " .hidden-text").focus();
         } else {
             $(expand_selecter).css("visibility", "hidden");
+        }
+    }
+
+    $("#20-a").on('click', function() {
+        $('.if-no').css('visibility', 'visible');
+        $('.if-yes').css('visibility', 'hidden');
+    });
+
+    $("#20-b").on('click', function() {
+        $('.if-yes').css('visibility', 'visible');
+        $('.if-no').css('visibility', 'hidden');
+    });
+
+    function checkEmpty(item) {
+        let flag = false;
+        $(item + " input[type=checkbox]").each(function() {
+            if ($(this)[0].checked) {
+                flag = true;
+            }
+        });
+
+        $(item + " input[type=radio]").each(function() {
+            if ($(this)[0].checked) {
+                flag = true;
+            }
+        });
+
+        $(item + " input[type=text]").each(function() {
+            if ($(this).val() != "") {
+                flag = true;
+            }
+        });
+
+        if (flag == false) {
+
+            return false;
+        } else {
+            return true;
         }
     }
 })
