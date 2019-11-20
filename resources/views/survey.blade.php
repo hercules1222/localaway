@@ -17,7 +17,7 @@
             </nav>
             <form class="wizard-container">
                 <div class="wizard-body" style="top: 0">
-<!-- 
+
                     <div class="item item-show row ">
                         <div class="col-4 text-center">
                             <img src="/images/newlanding/logo.png" alt="logo" width="100">       
@@ -27,7 +27,7 @@
                                 <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
 
                     <div class="item row item-show">
                         <div class="col-6">
