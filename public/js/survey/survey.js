@@ -1,6 +1,16 @@
 $(function() {
     let current_item = 0;
 
+    var progress = -1;
+    const question_count = 29
+
+    function move() {
+        if (progress < question_count) {
+            var elem = document.getElementById("myBar");
+            elem.style.width = ((++progress) * 100 / question_count) + "%";
+        }
+    }
+
     $(".prev-button").click(function() {
         do {
             if (current_item > 0) {
@@ -24,7 +34,9 @@ $(function() {
             $(".wizard-body").css("top", -current_item * 100 + "%");
             $(".item").removeClass("item-show");
             $(".item:nth-child(" + (current_item + 1) + ")").addClass("item-show");
-            move();
+            if (progress + 3 == current_item) {
+                move();
+            }
         }
     });
 
