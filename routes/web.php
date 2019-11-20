@@ -12,10 +12,9 @@
 */
 
 
+Auth::routes();
 
 Route::get('/dashboard','DashboardController@index');
-
-Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/home', 'HomeController@index')->name('home');
@@ -35,8 +34,6 @@ Route::get('/admin/file/move-down/{id}', 'FileController@down');
 Route::get('/auth/redirect/{provider}', 'SocialController@redirect');
 Route::get('/auth/callback/{provider}', 'SocialController@callback');
 
-Auth::routes();
-
 Route::get('/become-stylist', function () {
     return view('stylist-sign-in');
 });
@@ -49,3 +46,13 @@ Route::post('/stylist-signup', 'StylistController@store');
 
 Route::post('/answer', 'HomeController@showAnswer');
 Route::get('/answer', 'HomeController@index');
+
+
+
+Route::get('/newlanding', function () {
+    return view('newlanding');
+});
+
+Route::get('/survey', function () {
+    return view('survey');
+});
