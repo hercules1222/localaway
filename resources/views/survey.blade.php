@@ -12,7 +12,7 @@
         <div class="container-fluid">
             <nav class='row justify-content-center'>
                 <div class="col-6">
-                    <h2 id="title" class="font-weight-bold" style="opacity:0;">1.Boutique Profile</h2>
+                    <h2 id="title" class="font-weight-bold" style="opacity:0;"></h2>
                 </div>
             </nav>
             <form class="wizard-container">
@@ -543,7 +543,7 @@
                         </div>
                     </div>
 
-                    <div class="item row">
+                    <div class="item row ">
                         <div class="col-6 ">
                             <div class="question">
                                 <span class="h3">
@@ -603,7 +603,7 @@
                         </div>
                     </div>
 
-                    <div class="item row">
+                    <div class="item row first-part">
                         <div class="col-6 ">
                             <div class="question">
                                 <span class="h3">
@@ -775,7 +775,7 @@
                         </div>
                     </div>
 
-                    <div class="item row">
+                    <div class="item row second-part">
                         <div class="col-6 ">
                             <div class="question">
                                 <span class="h3">
@@ -1234,7 +1234,7 @@
                         </div>
                     </div>
 
-                    <div class="item row">
+                    <div class="item row ">
                         <div class="col-6 ">
                             <div class="question">
                                 <span class="h3">
@@ -1319,7 +1319,7 @@
                         </div>
                     </div>
 
-                    <div class="item row">
+                    <div class="item row third-part">
                         <div class="col-6 ">
                             <div class="question">
                                 <span class="h3">
@@ -1490,7 +1490,7 @@
                         </div>
                     </div>
 
-                    <div class="item row">
+                    <div class="item row forth-part">
                         <div class="col-6 ">
                             <div class="question">
                                 <span class="h3">

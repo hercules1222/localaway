@@ -36,7 +36,7 @@ $(function() {
             $(".wizard-body").css("top", -current_item * 100 + "%");
             $(".item").removeClass("item-show");
             $(".item:nth-child(" + (current_item + 1) + ")").addClass("item-show");
-            if (progress + 2 == current_item) {
+            if (progress + 2 <= current_item) {
                 move();
             }
         }
@@ -171,31 +171,31 @@ $(function() {
     }
 
     function changeTitle(current) {
-        var title_class = [
-            "start-part",
-            "first-part",
-            "second-part",
-            "third-part",
-            "forth-part",
+        var title = [
+            "1. Boutique Profile",
+            "2. Customers",
+            "3. Logistics",
+            "4. LocalAway Partnership"
         ];
+        if ($(".item:nth-child(" + (current + 1) + ")").hasClass("first-part")) {
+            $("#title").css("opacity", "1");
+            $("#title").text(title[0]);
+        }
 
-        var title_class = [
-            "",
-            "1.Boutique Profile",
-            "2.Customers",
-            "3.Logistics",
-            "4.LocalAway Partnership",
-        ];
+        if ($(".item:nth-child(" + (current + 1) + ")").hasClass("second-part")) {
+            $("#title").text(title[1]);
+        }
 
-        for (let i = 0; i < 5; i++) {
+        if ($(".item:nth-child(" + (current + 1) + ")").hasClass("third-part")) {
+            $("#title").text(title[2]);
+        }
 
-            if ($(".item:nth-child(" + (current + 1) + ")").hasClass(title_class[i])) {
-                $("#title").text(title[0]);
-                if (i == 0) {
-                    $("#title").css("opacity", "1");
-                }
-            }
+        if ($(".item:nth-child(" + (current + 1) + ")").hasClass("forth-part")) {
+            $("#title").text(title[3]);
+        }
 
+        if ($(".item:nth-child(" + (current + 1) + ")").hasClass("start-part")) {
+            $("#title").css("opacity", "0");
         }
     }
 

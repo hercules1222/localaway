@@ -58,7 +58,7 @@
     border: 1px solid white;
     background: white;
     width: 100%;
-    padding: 15px;
+    padding: 15px 0px;
     border-radius: 3px;
     transition: all 0.5s ease;
     position: relative;
@@ -104,8 +104,8 @@ i {
     line-height: 0.8em;
     width: 1.2em;
     height: 1.5em;
-    color: #51b1e7;
-    border: 1px solid #51b1e7;
+    color: #00BFAF;
+    border: 1px solid #00BFAF;
     border-radius: 4px;
     margin: inherit;
     text-align: center;
@@ -123,19 +123,19 @@ i {
 
 .answer {
     margin-top: 5px;
-    border: 2px solid #51b1e7;
+    border: 2px solid #00BFAF;
     padding: 0.3em;
-    background-color: aliceblue;
+    background-color: #00bfaf17;
     border-radius: 7px;
-    color: #51b1e7;
+    color: #00BFAF;
 }
 
 .answer:hover {
-    background: #51b1e766;
+    background: #00BFAF66;
 }
 
 .color-blue {
-    color: #51b1e7;
+    color: #00BFAF;
 }
 
 .answers input[type=checkbox] {
@@ -151,7 +151,7 @@ i {
 }
 
 .answers input:checked+.answer .character {
-    background-color: #51b1e7;
+    background-color: #00BFAF;
 }
 
 .answers input:checked+.answer {
@@ -198,11 +198,11 @@ input.text-answer {
     font-size: 1.5em;
     padding: 20px 60px;
     /* border-bottom: 2px solid; */
-    color: #51b1e7;
+    color: #00BFAF;
 }
 
 input.text-answer::placeholder {
-    color: #51b1e766;
+    color: #00BFAF66;
 }
 
 input.text-answer:focus {
@@ -216,7 +216,7 @@ input[type=radio] {
 .hidden-text {
     width: 100%;
     border: none;
-    background-color: aliceblue;
+    background-color: #00bfaf17;
 }
 
 .hidden-text:focus {
@@ -225,11 +225,11 @@ input[type=radio] {
 
 #myProgress {
     width: 100%;
-    background-color: #f0f8ff;
+    background-color: #00bfaf17;
     width: 310px;
     height: 12px;
     margin: auto;
-    border: 1px solid #00a3ff;
+    border: 1px solid #00BFAF;
     border-radius: 10px;
 }
 
@@ -237,8 +237,13 @@ input[type=radio] {
     width: 0%;
     height: 10px;
     transition: width 1s ease;
-    background-color: #51b1e7;
+    background-color: #00BFAF;
     /* border: 1px solid #00a3ff; */
     margin: auto 0;
     border-radius: 10px;
+}
+
+.btn {
+    background-color: #c6a07b!important;
+    border-color: #c6a07b!important;
 }
