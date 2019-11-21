@@ -56,3 +56,7 @@ Route::get('/newlanding', function () {
 Route::get('/survey', function () {
     return view('survey');
 });
+
+Route::get('/job', function () {
+    return view('job');
+});

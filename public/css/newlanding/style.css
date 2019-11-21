@@ -132,6 +132,14 @@ textarea.form-control {
     position: relative;
 }
 
+.site-hero-2 {
+    background-size: cover;
+    height: 80vh;
+    min-height: 700px;
+    width: 100%;
+    position: relative;
+}
+
 .site-hero .heading {
     font-family: "Playfair Display", times, serif;
     font-weight: bold;
@@ -159,6 +167,18 @@ textarea.form-control {
     right: 0;
 }
 
+.site-hero-2.overlay:before {
+    background: rgba(0, 0, 0, 0.45);
+    content: "";
+    position: absolute;
+    height: 80vh;
+    min-height: 700px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
 .site-hero.inner-page {
     height: 50vh;
     min-height: 700px;
@@ -172,6 +192,10 @@ textarea.form-control {
 .site-hero-inner {
     height: 100vh;
     min-height: 700px;
+}
+
+.site-hero-inner-2 {
+    min-height: 400px;
 }
 
 .site-hero-inner .heading {
@@ -449,7 +473,7 @@ textarea.form-control {
 }
 
 .testimonial .author-image img {
-    width: 70px;
+    width: 200px;
 }
 
 .post .media-custom {
@@ -458,7 +482,7 @@ textarea.form-control {
     -o-transition: .3s all ease;
     transition: .3s all ease;
     -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: -1px 11px 32px 2px rgba(0, 0, 0, 0.2);
 }
 
 .post .media-custom:hover,
@@ -792,6 +816,7 @@ textarea.form-control {
 .footer-section {
     background: #1a1a1a;
     color: #fff;
+    padding-bottom: 0px!important;
 }
 
 .footer-section a {
@@ -2149,4 +2174,9 @@ textarea.form-control {
 }
 #capsule img {
     width: 100%;
+}
+.room-info {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
 }
