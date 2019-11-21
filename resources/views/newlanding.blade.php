@@ -39,7 +39,7 @@
 
         <div class="collapse navbar-collapse" id="templateux-navbar-nav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item "><a class="nav-link text-white" href="#section-events">Jobs</a></li>
+            <li class="nav-item "><a class="nav-link text-white" href="/job">Jobs</a></li>
             <li class="nav-item cta-btn ml-xl-2 ml-lg-2 ml-md-0 ml-sm-0 ml-0 "><a class="nav-link text-white" href="#" target="_blank"><span class="pb_rounded-4 px-4 rounded">Request Access</span></a></li>
           </ul>
         </div>
