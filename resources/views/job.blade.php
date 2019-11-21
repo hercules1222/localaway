@@ -38,14 +38,14 @@
         <div class="collapse navbar-collapse" id="templateux-navbar-nav">
             <ul class="navbar-nav ml-auto">
             <!-- <li class="nav-item "><a class="nav-link text-white" href="#section-events">Jobs</a></li> -->
-                <li class="nav-item cta-btn ml-xl-2 ml-lg-2 ml-md-0 ml-sm-0 ml-0 "><a class="nav-link text-white" href="#" target="_blank"><span class="pb_rounded-4 px-4 rounded">Request Access</span></a></li>
+                <!-- <li class="nav-item cta-btn ml-xl-2 ml-lg-2 ml-md-0 ml-sm-0 ml-0 "><a class="nav-link text-white" href="#" target="_blank"><span class="pb_rounded-4 px-4 rounded">Request Access</span></a></li> -->
             </ul>
         </div>
     </div>
     </nav>
     <!-- END nav -->
 
-    <section class="site-hero-2 overlay" style="background-image: url(/images/newlanding/hero_4.jpg)" data-stellar-background-ratio="0.5" id="section-home">
+    <section class="site-hero-2 overlay" style="background-image: url(/images/newlanding/hero_3.jpg)" data-stellar-background-ratio="0.5" id="section-home">
         <div class="container-fluid">
             <div class="row site-hero-inner-2 align-items-center">
                 <div class="col-lg-5 offset-lg-1 text-center text-lg-left" data-aos="fade-up">
@@ -337,7 +337,6 @@
                 <p><span class="d-block"><span class="ion-ios-email h5 mr-3 text-primary"></span>Email:</span> <span> info@yourdomain.com</span></p>
             </div>
             <div class="col-md-3 mb-5">
-                <p>Sign up for our newsletter</p>
                 <form action="#" class="footer-newsletter">
                     <div class="form-group">
                         <input type="email" class="form-control" placeholder="Email...">
