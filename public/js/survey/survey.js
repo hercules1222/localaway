@@ -91,7 +91,7 @@ $(function() {
 
     $("#start-button").click(function(e) {
         $(".next-button").click();
-        $(".title").css("opacity", "1");
+        // $(".title").css("opacity", "1");
     });
 
     $(".ok-button").click(function(e) {
@@ -179,6 +179,7 @@ $(function() {
         ];
         if ($(".item:nth-child(" + (current + 1) + ")").hasClass("first-part")) {
             $("#title").css("opacity", "1");
+            $(".navigation-bar").css("opacity", "1");
             $("#title").text(title[0]);
         }
 
@@ -196,6 +197,7 @@ $(function() {
 
         if ($(".item:nth-child(" + (current + 1) + ")").hasClass("start-part")) {
             $("#title").css("opacity", "0");
+            $(".navigation-bar").css("opacity", "0");
         }
     }
 

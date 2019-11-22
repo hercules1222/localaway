@@ -9,11 +9,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
-        <div class="container-fluid">
+        <div class="container-fluid m-0 p-0">
             <nav class='row justify-content-center'>
-                <div class="col-6">
-                    <h2 id="title" class="font-weight-bold" style="opacity:0;"></h2>
-                </div>
+                <h2 id="title" class="font-weight-bold" style="opacity:0;"></h2>
             </nav>
             <form class="wizard-container">
                 <div class="wizard-body" style="top: 0">
@@ -30,7 +28,7 @@
                     </div>
 
                     <div class="item row item-show first-part">
-                        <div class="col-6">
+                        <div class="col-lg-6">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2 m-0" aria-hidden="true"></i>
@@ -128,7 +126,7 @@
                     </div>
 
                     <div class="item row">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -175,7 +173,7 @@
                     </div>
 
                     <div class="item row">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -256,7 +254,7 @@
                     </div>
 
                     <div class="item row">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -304,7 +302,7 @@
                     </div>
 
                     <div class="item row">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -352,7 +350,7 @@
                     </div>
 
                     <div class="item row">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -419,7 +417,7 @@
                     </div>
 
                     <div class="item row">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -463,7 +461,7 @@
                     </div>
 
                     <div class="item row">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -500,7 +498,7 @@
                     </div>
 
                     <div class="item row">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -514,7 +512,7 @@
                     </div>
 
                     <div class="item row">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -529,7 +527,7 @@
                     </div>
 
                     <div class="item row">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -544,7 +542,7 @@
                     </div>
 
                     <div class="item row ">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -604,7 +602,7 @@
                     </div>
 
                     <div class="item row first-part">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -667,7 +665,7 @@
 
 
                     <div class="item row second-part">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -776,7 +774,7 @@
                     </div>
 
                     <div class="item row second-part">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -845,7 +843,7 @@
 
 
                     <div class="item row third-part">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -892,7 +890,7 @@
                     </div>
 
                     <div class="item row">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -959,7 +957,7 @@
                     </div>
 
                     <div class="item row">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -1006,7 +1004,7 @@
                     </div>
 
                     <div class="item row">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -1043,7 +1041,7 @@
                     </div>
 
                     <div class="item row if-no" style="visibility:hidden;">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -1080,7 +1078,7 @@
                     </div>
 
                     <div class="item row if-yes" style="visibility:hidden;">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -1117,7 +1115,7 @@
                     </div>
 
                     <div class="item row if-yes" style="visibility:hidden;">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -1176,7 +1174,7 @@
                     </div>
 
                     <div class="item row">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -1235,7 +1233,7 @@
                     </div>
 
                     <div class="item row ">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -1283,7 +1281,7 @@
                     </div>
 
                     <div class="item row">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -1320,7 +1318,7 @@
                     </div>
 
                     <div class="item row third-part">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -1370,7 +1368,7 @@
 
 
                     <div class="item row forth-part">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -1419,7 +1417,7 @@
                     
 
                     <div class="item row">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -1463,7 +1461,7 @@
                     </div>
 
                     <div class="item row">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -1477,7 +1475,7 @@
                     </div>
 
                     <div class="item row">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -1491,7 +1489,7 @@
                     </div>
 
                     <div class="item row forth-part">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
@@ -1508,7 +1506,7 @@
             </form>
 
             
-            <div class="navigation-bar p-5 d-flex">
+            <div class="navigation-bar p-5 d-flex" style="opacity:0;">
                 <div id="myProgress">
                     <div id="myBar"></div>
                 </div>
