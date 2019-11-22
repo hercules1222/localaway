@@ -172,7 +172,7 @@
                 
                     <div class="testimonial text-center slider-item col-md-4 col-lg-3">
                         <div class="author-image mb-3">
-                        <img src="images/person_1.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+                        <img src="images/person_4.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                         </div>
 
                         <p class='pb-1 text-black font-weight-bold'>Design</p>
@@ -216,7 +216,7 @@
 
                     <div class="testimonial text-center slider-item col-md-4 col-lg-3">
                         <div class="author-image mb-3">
-                        <img src="images/person_2.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+                        <img src="images/person_4.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                         </div>
                         <p class='pb-1 text-black font-weight-bold'>Stylist</p>
                         <p><em>&mdash; John Doe</em></p>
@@ -224,18 +224,12 @@
                     
                     <div class="testimonial text-center slider-item col-md-4 col-lg-3">
                         <div class="author-image mb-3">
-                        <img src="images/person_2.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+                        <img src="images/person_1.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                         </div>
                         <p class='pb-1 text-black font-weight-bold'>Stylist</p>
                         <p><em>&mdash; John Doe</em></p>
                     </div>
-                    <div class="testimonial text-center slider-item col-md-4 col-lg-3">
-                        <div class="author-image mb-3">
-                        <img src="images/person_2.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
-                        </div>
-                        <p class='pb-1 text-black font-weight-bold'>Stylist</p>
-                        <p><em>&mdash; John Doe</em></p>
-                    </div>
+                   
 
             </div>
             
