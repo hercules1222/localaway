@@ -161,17 +161,16 @@
     </section>
 
     <section class=" testimonial-section bg-light pb-5">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row justify-content-center text-center mb-5">
                 <div class="col-md-7">
                     <div class="separator"></div>
                     <h1>Meet the team</h1>
                 </div>
             </div>
-            <div class="row" data-aos="fade-up">
-                <div class="col-10 offset-1 d-flex justify-content-center">
+            <div class="row justify-content-center" data-aos="fade-up">
                 
-                    <div class="testimonial text-center slider-item col-2">
+                    <div class="testimonial text-center slider-item col-md-4 col-lg-3">
                         <div class="author-image mb-3">
                         <img src="images/person_1.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                         </div>
@@ -180,7 +179,7 @@
                         <p><em>&mdash; Jean Smith</em></p>
                     </div> 
 
-                    <div class="testimonial text-center slider-item col-2">
+                    <div class="testimonial text-center slider-item col-md-4 col-lg-3">
                         <div class="author-image mb-3">
                         <img src="images/person_2.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                         </div>
@@ -188,7 +187,7 @@
                         <p><em>&mdash; John Doe</em></p>
                     </div>
 
-                    <div class="testimonial text-center slider-item col-2">
+                    <div class="testimonial text-center slider-item col-md-4 col-lg-3">
                         <div class="author-image mb-3">
                         <img src="images/person_3.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                         </div>
@@ -198,7 +197,7 @@
                     </div>
 
 
-                    <div class="testimonial text-center slider-item col-2">
+                    <div class="testimonial text-center slider-item col-md-4 col-lg-3">
                         <div class="author-image mb-3">
                         <img src="images/person_1.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                         </div>
@@ -207,48 +206,39 @@
                         <p><em>&mdash; Jean Smith</em></p>
                     </div> 
 
-                    <div class="testimonial text-center slider-item col-2">
+                    <div class="testimonial text-center slider-item col-md-4 col-lg-3">
                         <div class="author-image mb-3">
                         <img src="images/person_2.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                         </div>
                         <p class='pb-1 text-black font-weight-bold'>Stylist</p>
                         <p><em>&mdash; John Doe</em></p>
                     </div>
-                </div>
-            </div>
-            <div class="row mt-4" data-aos="fade-up">
-                <div class="col-10 offset-1 justify-content-center d-flex">
-                    <div class="row">
 
-                        <div class="testimonial text-center slider-item col-4">
-                            <div class="author-image mb-3">
-                                <img src="images/person_3.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
-                            </div>
-                            
-                            <p class='pb-1 text-black font-weight-bold'>Growth</p>
-                            <p><em>&mdash; John Doe</em></p>
+                    <div class="testimonial text-center slider-item col-md-4 col-lg-3">
+                        <div class="author-image mb-3">
+                        <img src="images/person_2.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                         </div>
-                        
-                        <div class="testimonial text-center slider-item col-4">
-                            <div class="author-image mb-3">
-                                <img src="images/person_3.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
-                            </div>
-                            
-                            <p class='pb-1 text-black font-weight-bold'>Partnership Manager</p>
-                            <p><em>&mdash; John Doe</em></p>
-                        </div>
-                        
-                        <div class="testimonial text-center slider-item col-4">
-                            <div class="author-image mb-3">
-                                <img src="images/person_3.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
-                            </div>
-                            
-                            <p class='pb-1 text-black font-weight-bold'>Marketing</p>
-                            <p><em>&mdash; John Doe</em></p>
-                        </div>
+                        <p class='pb-1 text-black font-weight-bold'>Stylist</p>
+                        <p><em>&mdash; John Doe</em></p>
                     </div>
-                </div>          
+                    
+                    <div class="testimonial text-center slider-item col-md-4 col-lg-3">
+                        <div class="author-image mb-3">
+                        <img src="images/person_2.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+                        </div>
+                        <p class='pb-1 text-black font-weight-bold'>Stylist</p>
+                        <p><em>&mdash; John Doe</em></p>
+                    </div>
+                    <div class="testimonial text-center slider-item col-md-4 col-lg-3">
+                        <div class="author-image mb-3">
+                        <img src="images/person_2.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+                        </div>
+                        <p class='pb-1 text-black font-weight-bold'>Stylist</p>
+                        <p><em>&mdash; John Doe</em></p>
+                    </div>
+
             </div>
+            
         </div>
     </section>
         

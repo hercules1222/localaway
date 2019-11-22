@@ -247,3 +247,7 @@ input[type=radio] {
     background-color: #c6a07b!important;
     border-color: #c6a07b!important;
 }
+
+a {
+    cursor: pointer;
+}
