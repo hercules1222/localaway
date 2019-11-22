@@ -128,6 +128,220 @@
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
+                                    What kind of style does your boutique offer?<br>
+                                </span>
+                            </div>
+                            <div class="answers my-4">
+                                <input type="radio" data-key="65"  id="3-a" name="fashion_counts" value="">
+                                <label for="3-a" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>A</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Business</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="66"  id="3-b" name="fashion_counts" value="">
+                                <label for="3-b" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>B</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Casual</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="67"  id="3-c" name="fashion_counts" value="">
+                                <label for="3-c" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>C</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Chic/Elegant</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="68"  id="3-d" name="fashion_counts" value="">
+                                <label for="3-d" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>D</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Sophisticated</span>
+                                    </div>
+                                </label>
+                                <input type="radio" data-key="69"  id="3-e" name="fashion_counts" value="">
+                                <label for="3-e" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>E</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Vintage</span>
+                                    </div>
+                                </label>
+                                
+                                <input type="radio" data-key="70"  id="3-f" name="fashion_counts" value="">
+                                <label for="3-f" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>F</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Sportive</span>
+                                    </div>
+                                </label>
+                            
+                                <input type="radio" data-key="71"  id="3-g" name="fashion_counts" value="">
+                                <label for="3-g" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>G</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Bohemian</span>
+                                    </div>
+                                </label>
+                            
+                                <input type="radio" data-key="72"  id="3-h" name="fashion_counts" value="">
+                                <label for="3-h" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>H</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Rocker</span>
+                                    </div>
+                                </label>
+                                
+                                <input type="radio" data-key="73"  id="3-i" name="fashion_counts" value="">
+                                <label for="3-i" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>I</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Maternity</span>
+                                    </div>
+                                </label>
+                                
+                                <input type="radio" data-key="74"  id="3-j" name="fashion_counts" value="">
+                                <label for="3-j" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>J</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Event-specific</span>
+                                    </div>
+                                </label>
+                                
+                                <input type="radio" data-key="75"  id="3-k" name="fashion_counts" value="">
+                                <label for="3-k" class="answer d-flex other">
+                                    <div class="character ">
+                                        <span>K</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Other</span>
+                                        <input type="text" class="hidden-text" style="display: none;">
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="arrow-btn" style="opacity:0;">   
+                                <a class="btn btn-primary ok-button">OK</a>
+                                Press <strong>Enter</strong>
+                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item row">
+                        <div class="col-lg-6 ">
+                            <div class="question">
+                                <span class="h3">
+                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
+                                    What sizes do you sell?<br>
+                                </span>
+                            </div>
+                            <div class="answers my-4">
+                                <input type="radio" data-key="65"  id="3-a" name="fashion_counts" value="">
+                                <label for="3-a" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>A</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>XS / US Size 0-4 / EU Size 30-34</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="66"  id="3-b" name="fashion_counts" value="">
+                                <label for="3-b" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>B</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>S / US Size 6-8 / EU Size 36-38</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="67"  id="3-c" name="fashion_counts" value="">
+                                <label for="3-c" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>C</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>M / US Size 10-12 / EU Size 40-32</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="68"  id="3-d" name="fashion_counts" value="">
+                                <label for="3-d" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>D</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>L / US Size 14-16 / EU Size 44-46</span>
+                                    </div>
+                                </label>
+                                <input type="radio" data-key="69"  id="3-e" name="fashion_counts" value="">
+                                <label for="3-e" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>E</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>XL / US Size 18-20 / EU Size 48-50</span>
+                                    </div>
+                                </label>
+                                
+                                <input type="radio" data-key="70"  id="3-f" name="fashion_counts" value="">
+                                <label for="3-f" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>F</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>XXL / US Size 22-24  / EU Size 52-54</span>
+                                    </div>
+                                </label>
+                            
+                                <input type="radio" data-key="71"  id="3-g" name="fashion_counts" value="">
+                                <label for="3-g" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>G</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>XXXL / US Size 26- 28 / EU Size 56-58</span>
+                                    </div>
+                                </label>
+                            
+                            </div>
+                            <div class="arrow-btn" style="opacity:0;">   
+                                <a class="btn btn-primary ok-button">OK</a>
+                                Press <strong>Enter</strong>
+                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item row">
+                        <div class="col-lg-6 ">
+                            <div class="question">
+                                <span class="h3">
+                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
                                     How many fashion items would you like to add to your L/A portfolio?<br>
                                 </span>
                             </div>
@@ -138,7 +352,7 @@
                                         <span>A</span>
                                     </div>
                                     <div class="answer-body">
-                                        <span>more than 10</span>
+                                        <span> < 5</span>
                                     </div>
                                 </label>
 
@@ -148,7 +362,7 @@
                                         <span>B</span>
                                     </div>
                                     <div class="answer-body">
-                                        <span>more than 50</span>
+                                        <span> 5 - 10</span>
                                     </div>
                                 </label>
 
@@ -158,9 +372,21 @@
                                         <span>C</span>
                                     </div>
                                     <div class="answer-body">
-                                        <span>more than 100</span>
+                                        <span> 10 - 20</span>
                                     </div>
                                 </label>
+
+                                <input type="radio" data-key="68"  id="3-d" name="fashion_counts" value="">
+                                <label for="3-d" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>D</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>> 20</span>
+                                    </div>
+                                </label>
+                                
+                            
                             </div>
                             <div class="arrow-btn" style="opacity:0;">   
                                 <a class="btn btn-primary ok-button">OK</a>
@@ -304,60 +530,12 @@
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
-                                    How big is your inventory?<br>
+                                    How many people are employed by your boutique?<br>
                                 </span>
                             </div>
-                            <div class="answers mt-4">
-                                <input type="radio" data-key="65"  id="6-a" name="inventory_size" value="">
-                                <label for="6-a" class="answer d-flex">
-                                    <div class="character ">
-                                        <span>A</span>
-                                    </div>
-                                    <div class="answer-body">
-                                        <span>more than 10</span>
-                                    </div>
-                                </label>
-
-                                <input type="radio" data-key="66"  id="6-b" name="inventory_size" value="">
-                                <label for="6-b" class="answer d-flex">
-                                    <div class="character ">
-                                        <span>B</span>
-                                    </div>
-                                    <div class="answer-body">
-                                        <span>more than 100</span>
-                                    </div>
-                                </label>
-
-                                <input type="radio" data-key="67"  id="6-c" name="inventory_size" value="">
-                                <label for="6-c" class="answer d-flex other">
-                                    <div class="character ">
-                                        <span>C</span>
-                                    </div>
-                                    <div class="answer-body">
-                                        <span>etc</span>
-                                        <input type="text" class="hidden-text" style="display: none;">
-                                    </div>
-                                </label>
-                            </div>
-                            <div class="arrow-btn" style="opacity:0;">   
-                                <a class="btn btn-primary ok-button">OK</a>
-                                Press <strong>Enter</strong>
-                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item row">
-                        <div class="col-lg-6 ">
-                            <div class="question">
-                                <span class="h3">
-                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
-                                    How many brands do you sell?<br>
-                                </span>
-                            </div>
-                            <div class="answers mt-4">
-                                <input type="radio" data-key="65"  id="7-a" name="brands_numbder" value="">
-                                <label for="7-a" class="answer d-flex">
+                            <div class="answers my-4">
+                                <input type="radio" data-key="65"  id="3-a" name="fashion_counts" value="">
+                                <label for="3-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
                                     </div>
@@ -366,8 +544,8 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="66"  id="7-b" name="brands_numbder" value="">
-                                <label for="7-b" class="answer d-flex">
+                                <input type="radio" data-key="66"  id="3-b" name="fashion_counts" value="">
+                                <label for="3-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
                                     </div>
@@ -376,8 +554,8 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="67"  id="7-c" name="brands_numbder" value="">
-                                <label for="7-c" class="answer d-flex">
+                                <input type="radio" data-key="67"  id="3-c" name="fashion_counts" value="">
+                                <label for="3-c" class="answer d-flex">
                                     <div class="character ">
                                         <span>C</span>
                                     </div>
@@ -386,8 +564,8 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="68"  id="7-d" name="brands_numbder" value="">
-                                <label for="7-d" class="answer d-flex">
+                                <input type="radio" data-key="68"  id="3-d" name="fashion_counts" value="">
+                                <label for="3-d" class="answer d-flex">
                                     <div class="character ">
                                         <span>D</span>
                                     </div>
@@ -395,14 +573,43 @@
                                         <span>4</span>
                                     </div>
                                 </label>
-
-                                <input type="radio" data-key="69"  id="7-e" name="brands_numbder" value="">
-                                <label for="7-e" class="answer d-flex">
+                                <input type="radio" data-key="69"  id="3-e" name="fashion_counts" value="">
+                                <label for="3-e" class="answer d-flex">
                                     <div class="character ">
                                         <span>E</span>
                                     </div>
                                     <div class="answer-body">
-                                        <span>more than 10</span>
+                                        <span>5</span>
+                                    </div>
+                                </label>
+                                
+                                <input type="radio" data-key="70"  id="3-f" name="fashion_counts" value="">
+                                <label for="3-f" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>F</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>>5</span>
+                                    </div>
+                                </label>
+                            
+                                <input type="radio" data-key="71"  id="3-g" name="fashion_counts" value="">
+                                <label for="3-g" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>G</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>>10</span>
+                                    </div>
+                                </label>
+                            
+                                <input type="radio" data-key="72"  id="3-h" name="fashion_counts" value="">
+                                <label for="3-h" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>H</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>>20</span>
                                     </div>
                                 </label>
                             </div>
@@ -443,12 +650,12 @@
                                     </div>
                                 </label>
 
-                                <label class="answer expanded d-flex" style="visibility: hidden;">
+                                <!-- <label class="answer expanded d-flex" style="visibility: hidden;">
                                     <span>How many:</span>
                                     <div class="answer-body">
                                         <input type="text" class="hidden-text" name="stylist_number">
                                     </div>
-                                </label>
+                                </label> -->
                             </div>
                             <div class="arrow-btn" style="opacity:0;">   
                                 <a class="btn btn-primary ok-button">OK</a>
@@ -463,130 +670,113 @@
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
-                                    Is your boutique part of a fashion-chain?<br>
+                                    What percentage of revenue comes from online business?<br>
                                 </span>
                             </div>
-                            <div class="answers mt-4">
-                                <input type="radio" data-key="65"  id="9-a" name="fashion_chain" value="">
-                                <label for="9-a" class="answer d-flex">
+                            <div class="answers my-4">
+                                <input type="radio" data-key="65"  id="3-a" name="fashion_counts" value="">
+                                <label for="3-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
                                     </div>
                                     <div class="answer-body">
-                                        <span>Yes</span>
+                                        <span>< 10%</span>
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="66"  id="9-b" name="fashion_chain" value="">
-                                <label for="9-b" class="answer d-flex">
+                                <input type="radio" data-key="66"  id="3-b" name="fashion_counts" value="">
+                                <label for="3-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
                                     </div>
                                     <div class="answer-body">
-                                        <span>No</span>
-                                    </div>
-                                </label>
-                            </div>
-                            <div class="arrow-btn" style="opacity:0;">   
-                                <a class="btn btn-primary ok-button">OK</a>
-                                Press <strong>Enter</strong>
-                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item row">
-                        <div class="col-lg-6 ">
-                            <div class="question">
-                                <span class="h3">
-                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
-                                    What percentage of revenue comes from offline/online?<br>
-                                </span>
-                            </div>
-                            <div class="answers mt-4">
-                                <input class="text-answer" type="text"  name="revenue_percentage" value="" placeholder = "Type your answer here..." >
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item row">
-                        <div class="col-lg-6 ">
-                            <div class="question">
-                                <span class="h3">
-                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
-                                        How do you combine on- and offline strategy?<br>
-                                </span>
-                                <!-- <p class="color-brown mt-4">Choose as many as possible</p> -->
-                            </div>
-                            <div class="answers mt-4">
-                                <input class="text-answer" type="text"  name="combine_strategy" value="" placeholder = "Type your answer here..." >
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item row">
-                        <div class="col-lg-6 ">
-                            <div class="question">
-                                <span class="h3">
-                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
-                                    What percentage of customers are locals/”friends”/referring c  vs. 1-time customers (from abroad)?<br>
-                                </span>
-                                <!-- <p class="color-brown mt-4">Choose as many as possible</p> -->
-                            </div>
-                            <div class="answers mt-4">
-                                <input class="text-answer" type="text"  name="abroad_percentage" value="" placeholder = "Type your answer here..." >
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item row ">
-                        <div class="col-lg-6 ">
-                            <div class="question">
-                                <span class="h3">
-                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
-                                    How do you advertise your brand? -online<br>
-                                </span>
-                                <p class="color-brown mt-4">Choose as many as possible</p>
-                            </div>
-                            <div class="answers mt-4">
-                                <input type="checkbox" data-key="65"  id="13-a" name="advertize_online[]" value="">
-                                <label for="13-a" class="answer d-flex">
-                                    <div class="character ">
-                                        <span>A</span>
-                                    </div>
-                                    <div class="answer-body">
-                                        <span>Google</span>
+                                        <span>10-30%</span>
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="66"  id="13-b" name="advertize_online[]" value="">
-                                <label for="13-b" class="answer d-flex">
-                                    <div class="character ">
-                                        <span>B</span>
-                                    </div>
-                                    <div class="answer-body">
-                                        <span>Facebook</span>
-                                    </div>
-                                </label>
-
-                                <input type="checkbox" data-key="67"  id="13-c" name="advertize_online[]" value="">
-                                <label for="13-c" class="answer d-flex">
+                                <input type="radio" data-key="67"  id="3-c" name="fashion_counts" value="">
+                                <label for="3-c" class="answer d-flex">
                                     <div class="character ">
                                         <span>C</span>
                                     </div>
                                     <div class="answer-body">
-                                        <span>Instagram</span>
+                                        <span>30-60%</span>
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="68"  id="13-d" name="advertize_online[]" value="">
-                                <label for="13-d" class="answer d-flex other">
+                                <input type="radio" data-key="68"  id="3-d" name="fashion_counts" value="">
+                                <label for="3-d" class="answer d-flex">
                                     <div class="character ">
                                         <span>D</span>
                                     </div>
                                     <div class="answer-body">
-                                        <span>etc</span>
-                                        <input type="text" class="hidden-text" style="display: none;">
+                                        <span>60-80%</span>
+                                    </div>
+                                </label>
+                                <input type="radio" data-key="69"  id="3-e" name="fashion_counts" value="">
+                                <label for="3-e" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>E</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>80-90%</span>
+                                    </div>
+                                </label>
+                                
+                                <input type="radio" data-key="70"  id="3-f" name="fashion_counts" value="">
+                                <label for="3-f" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>F</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>90-100%</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="arrow-btn" style="opacity:0;">   
+                                <a class="btn btn-primary ok-button">OK</a>
+                                Press <strong>Enter</strong>
+                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item row">
+                        <div class="col-lg-6 ">
+                            <div class="question">
+                                <span class="h3">
+                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
+                                    What percentage of customers are locals/”friends”/referring  (vs. 1-time customers (from abroad)?<br>
+                                </span>
+                            </div>
+                            <div class="answers my-4">
+                                <input type="radio" data-key="65"  id="3-a" name="fashion_counts" value="">
+                                <label for="3-a" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>A</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>< 50%</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="66"  id="3-b" name="fashion_counts" value="">
+                                <label for="3-b" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>B</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>> 50%</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="67"  id="3-c" name="fashion_counts" value="">
+                                <label for="3-c" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>C</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>> 75%</span>
                                     </div>
                                 </label>
 
@@ -604,52 +794,49 @@
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
-                                    How do you advertise your brand? -offline<br>
+                                    How do you advertise your brand?
                                 </span>
-                                <p class="color-brown mt-4">Choose as many as possible</p>
                             </div>
                             <div class="answers mt-4">
-                                <input type="checkbox" data-key="65"  id="14-a" name="advertize_offline[]" value="">
-                                <label for="14-a" class="answer d-flex">
+                                <input type="radio" data-key="65"  id="13-a" name="advertize_online" value="">
+                                <label for="13-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
                                     </div>
                                     <div class="answer-body">
-                                        <span>Flyers</span>
+                                        <span>Google</span>
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="66"  id="14-b" name="advertize_offline[]" value="">
-                                <label for="14-b" class="answer d-flex">
+                                <input type="radio" data-key="66"  id="13-b" name="advertize_online" value="">
+                                <label for="13-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
                                     </div>
                                     <div class="answer-body">
-                                        <span>Newspaper</span>
+                                        <span>Facebook</span>
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="67"  id="14-c" name="advertize_offline[]" value="">
-                                <label for="14-c" class="answer d-flex">
+                                <input type="radio" data-key="67"  id="13-c" name="advertize_online" value="">
+                                <label for="13-c" class="answer d-flex">
                                     <div class="character ">
                                         <span>C</span>
                                     </div>
                                     <div class="answer-body">
-                                        <span>Magazine</span>
+                                        <span>Instagram</span>
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="68"  id="14-d" name="advertize_offline[]" value="">
-                                <label for="14-d" class="answer d-flex other">
+                                <input type="radio" data-key="68"  id="13-d" name="advertize_online" value="">
+                                <label for="13-d" class="answer d-flex">
                                     <div class="character ">
                                         <span>D</span>
                                     </div>
                                     <div class="answer-body">
-                                        <span>etc</span>
-                                        <input type="text" class="hidden-text" style="display: none;">
+                                        <span>Offline (Flyers, Newspaper, Magazines, Events,...)</span>
                                     </div>
                                 </label>
-
                             </div>
                             <div class="arrow-btn" style="opacity:0;">   
                                 <a class="btn btn-primary ok-button">OK</a>
@@ -659,15 +846,12 @@
                         </div>
                     </div>
 
-
-
-
                     <div class="item row second-part">
                         <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
-                                    What are your target customers?<br>
+                                    What are your target customers?
                                 </span>
                                 <p class="color-brown mt-4">Choose as many as possible</p>
                             </div>
@@ -771,12 +955,590 @@
                         </div>
                     </div>
 
+                    <div class="item row third-part">
+                        <div class="col-lg-6 ">
+                            <div class="question">
+                                <span class="h3">
+                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
+                                    How would you like to deliver illustrations of your fashion pieces<br> (for the upload to our fashion portfolio)?<br>
+                                </span>
+                            </div>
+                            <div class="answers mt-4">
+                                <input type="radio" data-key="65"  id="9-a" name="fashion_chain" value="">
+                                <label for="9-a" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>A</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Send transparent .png files</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="66"  id="9-b" name="fashion_chain" value="">
+                                <label for="9-b" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>B</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Send photographs</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="67"  id="9-c" name="fashion_chain" value="">
+                                <label for="9-c" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>C</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>I would like to request a professional photographer</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="arrow-btn" style="opacity:0;">   
+                                <a class="btn btn-primary ok-button">OK</a>
+                                Press <strong>Enter</strong>
+                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item row">
+                        <div class="col-lg-6 ">
+                            <div class="question">
+                                <span class="h3">
+                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
+                                    How would you like to get notified in case of a sold item?<br>
+                                </span>
+                            </div>
+                            <div class="answers mt-4">
+                                <input type="radio" data-key="65"  id="19-a" name="communication_tool" value="">
+                                <label for="19-a" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>A</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>E-Mail</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="66"  id="19-b" name="communication_tool" value="">
+                                <label for="19-b" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>B</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Text Message</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="67"  id="19-c" name="communication_tool" value="">
+                                <label for="19-c" class="answer d-flex other">
+                                    <div class="character ">
+                                        <span>C</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Other(How)</span>
+                                        <input type="text" class="hidden-text" style="display: none;">
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="arrow-btn" style="opacity:0;">   
+                                <a class="btn btn-primary ok-button">OK</a>
+                                Press <strong>Enter</strong>
+                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item row">
+                        <div class="col-lg-6 ">
+                            <div class="question">
+                                <span class="h3">
+                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
+                                    Do you use an Inventory Management System (IMS)?<br>
+                                </span>
+                            </div>
+                            <div class="answers mt-4">
+                                <input type="radio" data-key="65"  id="20-a" name="use_IMS" value="" class="if">
+                                <label for="20-a" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>A</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>No</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="66"  id="20-b" name="use_IMS" value="" class="if">
+                                <label for="20-b" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>B</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Yes, Paper</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="67"  id="20-c" name="use_IMS" value="" class="if">
+                                <label for="20-c" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>C</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Yes, Excel</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="68"  id="20-d" name="use_IMS" value="" class="if">
+                                <label for="20-d" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>D</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Yes, I use a software system</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="arrow-btn" style="opacity:0;">   
+                                <a class="btn btn-primary ok-button">OK</a>
+                                Press <strong>Enter</strong>
+                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item row">
+                        <div class="col-lg-6 ">
+                            <div class="question">
+                                <span class="h3">
+                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
+                                    Is the shipping	 of clothes a logistic possibility for you?<br>
+                                </span>
+                            </div>
+                            <div class="answers mt-4">
+                                <input type="radio" data-key="65"  id="24-a" name="logistic_possibility" value="">
+                                <label for="24-a" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>A</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>No </span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="66"  id="24-b" name="logistic_possibility" value="">
+                                <label for="24-b" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>B</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Yes, international shipping</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="67"  id="24-c" name="logistic_possibility" value="">
+                                <label for="24-c" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>C</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Yes, but inland shipping only</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="68"  id="24-d" name="logistic_possibility" value="">
+                                <label for="24-d" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>D</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Yes, but only by courier (parcel pick-up service)</span>
+                                    </div>
+                                </label>
+
+
+                            </div>
+                            <div class="arrow-btn" style="opacity:0;">   
+                                <a class="btn btn-primary ok-button">OK</a>
+                                Press <strong>Enter</strong>
+                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item row ">
+                        <div class="col-lg-6 ">
+                            <div class="question">
+                                <span class="h3">
+                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
+                                    What payment services do you accept?
+                                </span>
+                            </div>
+                            <div class="answers mt-4">
+                                <input type="radio" data-key="65"  id="25-a" name="paymnet_method" value="">
+                                <label for="25-a" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>A</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Cash</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="66"  id="25-d" name="paymnet_method" value="">
+                                <label for="25-d" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>B</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Credit Card</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="67"  id="25-b" name="paymnet_method" value="">
+                                <label for="25-b" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>C</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Debit</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="68"  id="25-c" name="paymnet_method" value="">
+                                <label for="25-c" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>D</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Paypal</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="arrow-btn" style="opacity:0;">   
+                                <a class="btn btn-primary ok-button">OK</a>
+                                Press <strong>Enter</strong>
+                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item row third-part">
+                        <div class="col-lg-6 ">
+                            <div class="question">
+                                <span class="h3">
+                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
+                                    Do you accept returns (from LocalAway buyers)?<br>
+                                </span>
+                            </div>
+                            <div class="answers mt-4">
+                                <input type="radio" data-key="65"  id="27-a" name="accept_return" value="">
+                                <label for="27-a" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>A</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>No</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="66"  id="27-b" name="accept_return" value="">
+                                <label for="27-b" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>B</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Yes</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="67"  id="27-c" name="accept_return" value="">
+                                <label for="27-c" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>C</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Yes, but not for sales items</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="arrow-btn" style="opacity:0;">   
+                                <a class="btn btn-primary ok-button">OK</a>
+                                Press <strong>Enter</strong>
+                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item row item-show forth-part">
+                        <div class="col-lg-6">
+                            <div class="question">
+                                <span class="h3">
+                                    <i class="fa fa-long-arrow-right arrow2 m-0" aria-hidden="true"></i>
+                                    What kind of return do you expect from renting out clothes? <br>
+                                </span>
+                                <p class="color-brown mt-4">Please choose up to three options that are the most important to you</p>
+                            </div>
+                            <div class="answers mt-4">
+                                <input type="checkbox" data-key="65"  id="women-clothes" name="fashion_style[]" value="women's colthes">
+                                <label for="women-clothes" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>A</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Financial return on rented clothes to customers</span>
+                                    </div>
+                                </label>
+
+                                <input type="checkbox" data-key="66"  id="men-clothes" name="fashion_style[]" value="women's colthes">
+                                <label for="men-clothes" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>B</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Financial return on style-consulting for customers</span>
+                                    </div>
+                                </label>
+
+                                <input type="checkbox" data-key="67"  id="kid-clothes" name="fashion_style[]" value="kid's colthes">
+                                <label for="kid-clothes" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>C</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Increased sales to international customers</span>
+                                    </div>
+                                </label>
+
+                                <input type="checkbox" data-key="68"  id="second-hand" name="fashion_style[]" value="second-hand colthes">
+                                <label for="second-hand" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>D</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Increased visibility and prominence of your boutique/brand</span>
+                                    </div>
+                                </label>
+
+                                <input type="checkbox" data-key="69"  id="sustainable-brand" name="fashion_style[]" value="sustainable-brand">
+                                <label for="sustainable-brand" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>E</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Customer data (aggregated)</span>
+                                    </div>
+                                </label>
+
+                                <input type="checkbox" data-key="70"  id="sales" name="fashion_style[]" value="sales">
+                                <label for="sales" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>F</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Other</span>
+                                        <input type="text" class="hidden-text" style="display: none;">
+                                    </div>
+                                </label>
+
+                            </div>
+                            <div class="arrow-btn" style="opacity:0;">   
+                                <a class="btn btn-primary ok-button">OK</a>
+                                Press <strong>Enter</strong>
+                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item row">
+                        <div class="col-lg-6 ">
+                            <div class="question">
+                                <span class="h3">
+                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
+                                    What is a good phone number to reach you in the future?<br>
+                                </span>
+                            </div>
+                            <div class="answers mt-4">
+                                <input class="text-answer" type="text"  name="contact" value="" placeholder = "Type your answer here..." >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item row forth-part">
+                        <div class="col-lg-6 ">
+                            <div class="question">
+                                <span class="h3">
+                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
+                                    What is your postal address?
+                                </span>
+                            </div>
+                            <div class="answers mt-4">
+                                <input class="text-answer" type="text"  name="address" value="" placeholder = "Type your answer here..." >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item row">
+                        <div class="col-lg-6 ">
+                            <div class="question">
+                                <span class="h3">
+                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
+                                    Is there anything else you would like to add?
+                                </span>
+                            </div>
+                            <div class="answers mt-4">
+                                <input class="text-answer" type="text"  name="anything" value="" placeholder = "Type your answer here..." >
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- <div class="item row">
+                        <div class="col-lg-6 ">
+                            <div class="question">
+                                <span class="h3">
+                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
+                                    Is your boutique part of a fashion-chain?<br>
+                                </span>
+                            </div>
+                            <div class="answers mt-4">
+                                <input type="radio" data-key="65"  id="9-a" name="fashion_chain" value="">
+                                <label for="9-a" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>A</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Yes</span>
+                                    </div>
+                                </label>
+
+                                <input type="radio" data-key="66"  id="9-b" name="fashion_chain" value="">
+                                <label for="9-b" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>B</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>No</span>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="arrow-btn" style="opacity:0;">   
+                                <a class="btn btn-primary ok-button">OK</a>
+                                Press <strong>Enter</strong>
+                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item row">
+                        <div class="col-lg-6 ">
+                            <div class="question">
+                                <span class="h3">
+                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
+                                    What percentage of revenue comes from offline/online?<br>
+                                </span>
+                            </div>
+                            <div class="answers mt-4">
+                                <input class="text-answer" type="text"  name="revenue_percentage" value="" placeholder = "Type your answer here..." >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item row">
+                        <div class="col-lg-6 ">
+                            <div class="question">
+                                <span class="h3">
+                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
+                                        How What kind of fashion are you selling?y?<br>
+                                </span>
+                            </div>
+                            <div class="answers mt-4">
+                                <input class="text-answer" type="text"  name="combine_strategy" value="" placeholder = "Type your answer here..." >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item row">
+                        <div class="col-lg-6 ">
+                            <div class="question">
+                                <span class="h3">
+                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
+                                    What What kind of fashion are you selling?c  vs. 1-time customers (from abroad)?<br>
+                                </span>
+                            </div>
+                            <div class="answers mt-4">
+                                <input class="text-answer" type="text"  name="abroad_percentage" value="" placeholder = "Type your answer here..." >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item row first-part">
+                        <div class="col-lg-6 ">
+                            <div class="question">
+                                <span class="h3">
+                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
+                                    How What kind of fashion are you selling?r>
+                                </span>
+                                <p class="color-brown mt-4">Choose as many as possible</p>
+                            </div>
+                            <div class="answers mt-4">
+                                <input type="checkbox" data-key="65"  id="14-a" name="advertize_offline[]" value="">
+                                <label for="14-a" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>A</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Flyers</span>
+                                    </div>
+                                </label>
+
+                                <input type="checkbox" data-key="66"  id="14-b" name="advertize_offline[]" value="">
+                                <label for="14-b" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>B</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Newspaper</span>
+                                    </div>
+                                </label>
+
+                                <input type="checkbox" data-key="67"  id="14-c" name="advertize_offline[]" value="">
+                                <label for="14-c" class="answer d-flex">
+                                    <div class="character ">
+                                        <span>C</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>Magazine</span>
+                                    </div>
+                                </label>
+
+                                <input type="checkbox" data-key="68"  id="14-d" name="advertize_offline[]" value="">
+                                <label for="14-d" class="answer d-flex other">
+                                    <div class="character ">
+                                        <span>D</span>
+                                    </div>
+                                    <div class="answer-body">
+                                        <span>etc</span>
+                                        <input type="text" class="hidden-text" style="display: none;">
+                                    </div>
+                                </label>
+
+                            </div>
+                            <div class="arrow-btn" style="opacity:0;">   
+                                <a class="btn btn-primary ok-button">OK</a>
+                                Press <strong>Enter</strong>
+                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="item row second-part">
                         <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
-                                    What are the buying habits of your customers?<br>
+                                    What kind of fashion are you selling?s?<br>
                                 </span>
                                 <p class="color-brown mt-4">Choose as many as possible</p>
                             </div>
@@ -837,10 +1599,9 @@
                                 <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
-
-                    <div class="item row third-part">
+                    <!-- <div class="item row third-part">
                         <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
@@ -885,9 +1646,9 @@
                                 <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
-                    <div class="item row">
+                    <!-- <div class="item row">
                         <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
@@ -953,91 +1714,7 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="item row">
-                        <div class="col-lg-6 ">
-                            <div class="question">
-                                <span class="h3">
-                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
-                                    How would you like to get notified in case of a sold item?<br>
-                                </span>
-                            </div>
-                            <div class="answers mt-4">
-                                <input type="radio" data-key="65"  id="19-a" name="communication_tool" value="">
-                                <label for="19-a" class="answer d-flex">
-                                    <div class="character ">
-                                        <span>A</span>
-                                    </div>
-                                    <div class="answer-body">
-                                        <span>E-Mail</span>
-                                    </div>
-                                </label>
-
-                                <input type="radio" data-key="66"  id="19-b" name="communication_tool" value="">
-                                <label for="19-b" class="answer d-flex">
-                                    <div class="character ">
-                                        <span>B</span>
-                                    </div>
-                                    <div class="answer-body">
-                                        <span>Text Message</span>
-                                    </div>
-                                </label>
-
-                                <input type="radio" data-key="67"  id="19-c" name="communication_tool" value="">
-                                <label for="19-c" class="answer d-flex">
-                                    <div class="character ">
-                                        <span>C</span>
-                                    </div>
-                                    <div class="answer-body">
-                                        <span>Other</span>
-                                    </div>
-                                </label>
-                            </div>
-                            <div class="arrow-btn" style="opacity:0;">   
-                                <a class="btn btn-primary ok-button">OK</a>
-                                Press <strong>Enter</strong>
-                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item row">
-                        <div class="col-lg-6 ">
-                            <div class="question">
-                                <span class="h3">
-                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
-                                    Do you use an Inventory Management System (IMS)?<br>
-                                </span>
-                            </div>
-                            <div class="answers mt-4">
-                                <input type="radio" data-key="65"  id="20-a" name="use_IMS" value="" class="if">
-                                <label for="20-a" class="answer d-flex">
-                                    <div class="character ">
-                                        <span>A</span>
-                                    </div>
-                                    <div class="answer-body">
-                                        <span>No</span>
-                                    </div>
-                                </label>
-
-                                <input type="radio" data-key="66"  id="20-b" name="use_IMS" value="" class="if">
-                                <label for="20-b" class="answer d-flex">
-                                    <div class="character ">
-                                        <span>B</span>
-                                    </div>
-                                    <div class="answer-body">
-                                        <span>Yes</span>
-                                    </div>
-                                </label>
-                            </div>
-                            <div class="arrow-btn" style="opacity:0;">   
-                                <a class="btn btn-primary ok-button">OK</a>
-                                Press <strong>Enter</strong>
-                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                    </div>
-
+                 
                     <div class="item row if-no" style="visibility:hidden;">
                         <div class="col-lg-6 ">
                             <div class="question">
@@ -1176,113 +1853,6 @@
                             <div class="question">
                                 <span class="h3">
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
-                                    Is the shipping	 of clothes a logistic possibility for you?<br>
-                                </span>
-                            </div>
-                            <div class="answers mt-4">
-                                <input type="radio" data-key="65"  id="24-a" name="logistic_possibility" value="">
-                                <label for="24-a" class="answer d-flex">
-                                    <div class="character ">
-                                        <span>A</span>
-                                    </div>
-                                    <div class="answer-body">
-                                        <span>No </span>
-                                    </div>
-                                </label>
-
-                                <input type="radio" data-key="66"  id="24-b" name="logistic_possibility" value="">
-                                <label for="24-b" class="answer d-flex">
-                                    <div class="character ">
-                                        <span>B</span>
-                                    </div>
-                                    <div class="answer-body">
-                                        <span>Yes, international shipping</span>
-                                    </div>
-                                </label>
-
-                                <input type="radio" data-key="67"  id="24-c" name="logistic_possibility" value="">
-                                <label for="24-c" class="answer d-flex">
-                                    <div class="character ">
-                                        <span>C</span>
-                                    </div>
-                                    <div class="answer-body">
-                                        <span>Yes, but inland shipping only</span>
-                                    </div>
-                                </label>
-
-                                <input type="radio" data-key="68"  id="24-d" name="logistic_possibility" value="">
-                                <label for="24-d" class="answer d-flex">
-                                    <div class="character ">
-                                        <span>D</span>
-                                    </div>
-                                    <div class="answer-body">
-                                        <span>Yes, but only by courier (parcel pick-up service)</span>
-                                    </div>
-                                </label>
-
-
-                            </div>
-                            <div class="arrow-btn" style="opacity:0;">   
-                                <a class="btn btn-primary ok-button">OK</a>
-                                Press <strong>Enter</strong>
-                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item row ">
-                        <div class="col-lg-6 ">
-                            <div class="question">
-                                <span class="h3">
-                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
-                                    What payment services do you accept?<br>
-                                </span>
-                                <p class="color-brown mt-4">Choose as many as possible</p>
-                            </div>
-                            <div class="answers mt-4">
-                                <input type="checkbox" data-key="65"  id="25-a" name="paymnet_method[]" value="">
-                                <label for="25-a" class="answer d-flex">
-                                    <div class="character ">
-                                        <span>A</span>
-                                    </div>
-                                    <div class="answer-body">
-                                        <span>Credit Card</span>
-                                    </div>
-                                </label>
-
-                                <input type="checkbox" data-key="66"  id="25-b" name="paymnet_method[]" value="">
-                                <label for="25-b" class="answer d-flex">
-                                    <div class="character ">
-                                        <span>B</span>
-                                    </div>
-                                    <div class="answer-body">
-                                        <span>Debit</span>
-                                    </div>
-                                </label>
-
-                                <input type="checkbox" data-key="67"  id="25-c" name="paymnet_method[]" value="">
-                                <label for="25-c" class="answer d-flex">
-                                    <div class="character ">
-                                        <span>C</span>
-                                    </div>
-                                    <div class="answer-body">
-                                        <span>Paypal</span>
-                                    </div>
-                                </label>
-                            </div>
-                            <div class="arrow-btn" style="opacity:0;">   
-                                <a class="btn btn-primary ok-button">OK</a>
-                                Press <strong>Enter</strong>
-                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item row">
-                        <div class="col-lg-6 ">
-                            <div class="question">
-                                <span class="h3">
-                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
                                     Would you agree on shipping several sizes to a customer (for fitting purposes)?<br>
                                 </span>
                             </div>
@@ -1314,56 +1884,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="item row third-part">
-                        <div class="col-lg-6 ">
-                            <div class="question">
-                                <span class="h3">
-                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
-                                    Do you accept returns (from LocalAway buyers)?<br>
-                                </span>
-                            </div>
-                            <div class="answers mt-4">
-                                <input type="radio" data-key="65"  id="27-a" name="accept_return" value="">
-                                <label for="27-a" class="answer d-flex">
-                                    <div class="character ">
-                                        <span>A</span>
-                                    </div>
-                                    <div class="answer-body">
-                                        <span>No</span>
-                                    </div>
-                                </label>
-
-                                <input type="radio" data-key="66"  id="27-b" name="accept_return" value="">
-                                <label for="27-b" class="answer d-flex">
-                                    <div class="character ">
-                                        <span>B</span>
-                                    </div>
-                                    <div class="answer-body">
-                                        <span>Yes</span>
-                                    </div>
-                                </label>
-
-                                <input type="radio" data-key="67"  id="27-c" name="accept_return" value="">
-                                <label for="27-c" class="answer d-flex">
-                                    <div class="character ">
-                                        <span>C</span>
-                                    </div>
-                                    <div class="answer-body">
-                                        <span>Yes, but not for sales items</span>
-                                    </div>
-                                </label>
-                            </div>
-                            <div class="arrow-btn" style="opacity:0;">   
-                                <a class="btn btn-primary ok-button">OK</a>
-                                Press <strong>Enter</strong>
-                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                    </div>
-
-
-
 
                     <div class="item row forth-part">
                         <div class="col-lg-6 ">
@@ -1412,8 +1932,6 @@
                         </div>
                     </div>
 
-                    
-
                     <div class="item row">
                         <div class="col-lg-6 ">
                             <div class="question">
@@ -1456,49 +1974,7 @@
                                 <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="item row">
-                        <div class="col-lg-6 ">
-                            <div class="question">
-                                <span class="h3">
-                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
-                                    How would you like to be contacted in the future?<br>
-                                </span>
-                            </div>
-                            <div class="answers mt-4">
-                                <input class="text-answer" type="text"  name="contact" value="" placeholder = "Type your answer here..." >
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item row">
-                        <div class="col-lg-6 ">
-                            <div class="question">
-                                <span class="h3">
-                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
-                                    Would you like to add anything?<br>
-                                </span>
-                            </div>
-                            <div class="answers mt-4">
-                                <input class="text-answer" type="text"  name="anything" value="" placeholder = "Type your answer here..." >
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item row forth-part">
-                        <div class="col-lg-6 ">
-                            <div class="question">
-                                <span class="h3">
-                                    <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
-                                    What is your boutique’s address?<br>
-                                </span>
-                            </div>
-                            <div class="answers mt-4">
-                                <input class="text-answer" type="text"  name="address" value="" placeholder = "Type your answer here..." >
-                            </div>
-                        </div>
-                    </div>
+                    </div> -->
 
                 </div>
             </form>
