@@ -2,7 +2,7 @@ $(function() {
     let current_item = 0;
 
     var progress = -1;
-    const question_count = 29
+    const question_count = 22
 
     function move() {
         if (progress < question_count) {
@@ -47,6 +47,8 @@ $(function() {
         $(".item:nth-child(" + (current_item + 1) + ") input.text-answer").focus();
         if (keycode == "13") {
             $(".next-button").click();
+            event.preventDefault();
+            return false;
         } else {
 
             // const item_button_selector = ".item:nth-child(" + (current_item + 1) + ") .item-button[data-key=" + keycode + "]";
