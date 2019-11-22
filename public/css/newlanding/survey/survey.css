@@ -36,8 +36,6 @@
 .btn-circle {
     background-color: #c6a07b;
     color: white;
-    padding-left: 35px;
-    padding-right: 35px;
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -45,6 +43,7 @@
     margin: auto;
     transition: all ease .25s;
     border: none;
+    width: 150px;
 }
 
 .btn-circle:hover {

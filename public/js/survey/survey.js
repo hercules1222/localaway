@@ -45,40 +45,44 @@ $(function() {
     $("body").on("keydown", function(e) {
         const keycode = e.which;
         $(".item:nth-child(" + (current_item + 1) + ") input.text-answer").focus();
-        if (keycode == "13") {
-            $(".next-button").click();
-            event.preventDefault();
-            return false;
+        if ($(".item:nth-child(" + (current_item + 1) + ")").hasClass("end-part")) {
+            window.location.replace("http://staging.localaway.com/newlanding");
         } else {
-
-            // const item_button_selector = ".item:nth-child(" + (current_item + 1) + ") .item-button[data-key=" + keycode + "]";
-            // $(item_button_selector).click();
-
-            const item_checkbox_selector = ".item:nth-child(" + (current_item + 1) + ") input[data-key=" + keycode + "]";
-            const item_arrow_selector = ".item:nth-child(" + (current_item + 1) + ") div.arrow-btn";
-            const item_hidden_text = ".item:nth-child(" + (current_item + 1) + ") input.hidden-text";
-            if ($(item_hidden_text).is(":focus")) {
-                return;
+            if (keycode == "13") {
+                $(".next-button").click();
+                event.preventDefault();
+                return false;
             } else {
-                if ($(item_checkbox_selector).prop("checked")) {
-                    $(item_checkbox_selector).prop("checked", false);
-                } else {
-                    $(item_checkbox_selector + "+label .hidden-text").click();
-                    $(item_checkbox_selector).prop("checked", true);
-                    if ($(item_checkbox_selector).length != 0) {
 
-                        $(item_arrow_selector).css("opacity", "1");
-                        $(item_arrow_selector).css("bottom", "0");
+                // const item_button_selector = ".item:nth-child(" + (current_item + 1) + ") .item-button[data-key=" + keycode + "]";
+                // $(item_button_selector).click();
+
+                const item_checkbox_selector = ".item:nth-child(" + (current_item + 1) + ") input[data-key=" + keycode + "]";
+                const item_arrow_selector = ".item:nth-child(" + (current_item + 1) + ") div.arrow-btn";
+                const item_hidden_text = ".item:nth-child(" + (current_item + 1) + ") input.hidden-text";
+                if ($(item_hidden_text).is(":focus")) {
+                    return;
+                } else {
+                    if ($(item_checkbox_selector).prop("checked")) {
+                        $(item_checkbox_selector).prop("checked", false);
+                    } else {
+                        $(item_checkbox_selector + "+label .hidden-text").click();
+                        $(item_checkbox_selector).prop("checked", true);
+                        if ($(item_checkbox_selector).length != 0) {
+
+                            $(item_arrow_selector).css("opacity", "1");
+                            $(item_arrow_selector).css("bottom", "0");
+                        }
+                    }
+                    if ($(item_checkbox_selector).hasClass("link-expand")) {
+                        linkexpand(".link-expand");
+                    }
+                    if ($(item_checkbox_selector).hasClass("if")) {
+                        $(item_checkbox_selector).click();
                     }
                 }
-                if ($(item_checkbox_selector).hasClass("link-expand")) {
-                    linkexpand(".link-expand");
-                }
-                if ($(item_checkbox_selector).hasClass("if")) {
-                    $(item_checkbox_selector).click();
-                }
-            }
 
+            }
         }
     });
 

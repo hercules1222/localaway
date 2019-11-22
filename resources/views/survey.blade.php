@@ -18,7 +18,7 @@
                         <div class="col-lg-4 text-center">
                             <img src="/images/newlanding/logo.png" alt="logo" width="100">       
                             <p class="h5 mt-3 text-secondary">Tell us more about your preferences and we’ll send you what you need.</p>
-                            <button class="btn-circle my-3 item-button" data-key="13" id="start-button" type="button">Start</button>
+                            <button class="btn-circle my-3 item-button justify-content-center" data-key="13" id="start-button" type="button">Start</button>
                             <div class="arrow-btn">Press <strong>Enter</strong>   
                                 <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
                             </div>
@@ -1397,7 +1397,7 @@
                         <div class="col-lg-4 text-center">
                             <img src="/images/newlanding/logo.png" alt="logo" width="100">       
                             <p class="h5 mt-3 text-secondary">Thank you for your answer.</p>
-                            <button class="btn-circle my-3 item-button" data-key="13" type="submit">Submit</button>
+                            <a href="/newlanding" class="btn-circle my-3 item-button justify-content-center" data-key="13">Submit</a>
                         </div>
                     </div>
 
