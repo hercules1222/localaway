@@ -60,6 +60,7 @@ $(function() {
                 const item_checkbox_selector = ".item:nth-child(" + (current_item + 1) + ") input[data-key=" + keycode + "]";
                 const item_arrow_selector = ".item:nth-child(" + (current_item + 1) + ") div.arrow-btn";
                 const item_hidden_text = ".item:nth-child(" + (current_item + 1) + ") input.hidden-text";
+                const item_div = ".item:nth-child(" + (current_item + 1) + ")";
                 if ($(item_hidden_text).is(":focus")) {
                     return;
                 } else {
@@ -79,6 +80,10 @@ $(function() {
                     }
                     if ($(item_checkbox_selector).hasClass("if")) {
                         $(item_checkbox_selector).click();
+                    }
+                    if ($(item_div).hasClass("text-part")) {
+                        $(item_arrow_selector).css("opacity", "1");
+                        $(item_arrow_selector).css("bottom", "0");
                     }
                 }
 

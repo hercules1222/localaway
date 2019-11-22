@@ -1351,7 +1351,7 @@
                         </div>
                     </div>
 
-                    <div class="item row">
+                    <div class="item row text-part">
                         <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
@@ -1362,10 +1362,15 @@
                             <div class="answers mt-4">
                                 <input class="text-answer" type="text"  name="contact" value="" placeholder = "Type your answer here..." >
                             </div>
+                            <div class="arrow-btn" style="opacity:0;">   
+                                <a class="btn btn-primary ok-button">OK</a>
+                                Press <strong>Enter</strong>
+                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="item row">
+                    <div class="item row text-part">
                         <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
@@ -1376,10 +1381,15 @@
                             <div class="answers mt-4">
                                 <input class="text-answer" type="text"  name="address" value="" placeholder = "Type your answer here..." >
                             </div>
+                            <div class="arrow-btn" style="opacity:0;">   
+                                <a class="btn btn-primary ok-button">OK</a>
+                                Press <strong>Enter</strong>
+                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="item row forth-part">
+                    <div class="item row forth-part text-part">
                         <div class="col-lg-6 ">
                             <div class="question">
                                 <span class="h3">
@@ -1389,6 +1399,11 @@
                             </div>
                             <div class="answers mt-4">
                                 <input class="text-answer" type="text"  name="anything" value="" placeholder = "Type your answer here..." >
+                            </div>
+                            <div class="arrow-btn" style="opacity:0;">   
+                                <a class="btn btn-primary ok-button">OK</a>
+                                Press <strong>Enter</strong>
+                                <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
                             </div>
                         </div>
                     </div>
