@@ -357,8 +357,8 @@
             <div class="col-md-3 mb-5">
               <form action="#" class="footer-newsletter">
                 <div class="form-group">
-                  <input type="email" class="form-control" placeholder="Email...">
-                  <button type="submit" class="btn"><span class="fa fa-paper-plane"></span></button>
+                  <input type="email" class="form-control" placeholder="Request Access">
+                  <button type="submit" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" class="btn"><span class="fa fa-paper-plane"></span></button>
                 </div>
               </form>
             </div>
