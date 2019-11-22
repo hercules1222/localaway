@@ -21,6 +21,7 @@ $(function() {
         $(".wizard-body").css("top", -current_item * 100 + "%");
         $(".item").removeClass("item-show");
         $(".item:nth-child(" + (current_item + 1) + ")").addClass("item-show");
+        $("#pagination").text(current_item + "/23");
     });
 
     $(".next-button").click(function() {
@@ -35,6 +36,7 @@ $(function() {
 
             $(".wizard-body").css("top", -current_item * 100 + "%");
             $(".item").removeClass("item-show");
+            $("#pagination").text(current_item + "/23");
             $(".item:nth-child(" + (current_item + 1) + ")").addClass("item-show");
             if (progress + 2 <= current_item) {
                 move();

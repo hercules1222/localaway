@@ -2005,7 +2005,8 @@
 
             
             <div class="navigation-bar d-flex" style="opacity:0;">
-                <div id="myProgress">
+                    <div id="myProgress">
+                            <div id ="pagination">1/23</div>
                     <div id="myBar"></div>
                 </div>
                 <button class="btn btn-primary prev-button mx-2">Prev</button>

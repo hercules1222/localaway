@@ -265,3 +265,10 @@ a {
 .color-brown {
     color: #c6a07b;
 }
+
+#pagination {
+    position: absolute;
+    top: -12px;
+    left: 145px;
+    color: #00bfaf;
+}
