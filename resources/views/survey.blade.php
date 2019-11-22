@@ -1506,7 +1506,7 @@
             </form>
 
             
-            <div class="navigation-bar p-5 d-flex" style="opacity:0;">
+            <div class="navigation-bar d-flex" style="opacity:0;">
                 <div id="myProgress">
                     <div id="myBar"></div>
                 </div>
