@@ -46,8 +46,8 @@
     <!-- END nav -->
 
     <section class="site-hero-2 overlay" style="background-image: url(/images/newlanding/hero_3.jpg)" data-stellar-background-ratio="0.5" id="section-home">
-        <div class="container-fluid">
-            <div class="row site-hero-inner-2 align-items-center">
+        <div class="container-fluid h-100">
+            <div class="row site-hero-inner-2 align-items-center h-100">
                 <div class="col-lg-5 offset-lg-1 text-center text-lg-left" data-aos="fade-up">
                     <p class="h1 text-white letter-spacing-2">JOIN THE TEAM</p>
                     <div class='mt-5'>
