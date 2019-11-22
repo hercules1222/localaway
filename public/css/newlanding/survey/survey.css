@@ -190,6 +190,11 @@ i {
 
 #title {
     transition: opacity .5s ease;
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background: #e8f9f8;
 }
 
 input.text-answer {
@@ -258,8 +263,6 @@ a {
     margin: 0px!important;
 }
 
-nav {
-    position: absolute;
-    top: 20px;
-    width: 100%;
+.color-brown {
+    color: #c6a07b;
 }

@@ -80,14 +80,14 @@ $(function() {
         }
     });
 
-    $('body').on('mousewheel', function(e) {
-        const direction = Math.round(e.originalEvent.wheelDelta / 120);
-        if (direction > 0) {
-            $(".prev-button").click();
-        } else if (direction < 0) {
-            $(".next-button").click();
-        }
-    });
+    // $('body').on('mousewheel', function(e) {
+    //     const direction = Math.round(e.originalEvent.wheelDelta / 120);
+    //     if (direction > 0) {
+    //         $(".prev-button").click();
+    //     } else if (direction < 0) {
+    //         $(".next-button").click();
+    //     }
+    // });
 
     $("#start-button").click(function(e) {
         $(".next-button").click();

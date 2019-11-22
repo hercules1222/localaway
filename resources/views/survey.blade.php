@@ -10,9 +10,7 @@
     </head>
     <body>
         <div class="container-fluid m-0 p-0">
-            <nav class='row justify-content-center'>
-                <h2 id="title" class="font-weight-bold" style="opacity:0;"></h2>
-            </nav>
+                <h2 id="title" class="row justify-content-center font-weight-bold" style="opacity:0;"></h2>
             <form class="wizard-container">
                 <div class="wizard-body" style="top: 0">
 
@@ -34,7 +32,7 @@
                                     <i class="fa fa-long-arrow-right arrow2 m-0" aria-hidden="true"></i>
                                     What kind of fashion are you selling?<br>
                                 </span>
-                                <p class="color-blue mt-4">Choose as many as possible</p>
+                                <p class="color-brown mt-4">Choose as many as possible</p>
                             </div>
                             <div class="answers mt-4">
                                 <input type="checkbox" data-key="65"  id="women-clothes" name="fashion_style[]" value="women's colthes">
@@ -179,7 +177,7 @@
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
                                     Do you have an online shop, and if so, on what platform(s)?<br>
                                 </span>
-                                <p class="color-blue mt-4">Choose as many as possible</p>
+                                <p class="color-brown mt-4">Choose as many as possible</p>
                             </div>
                             <div class="answers mt-4">
                                 <input type="checkbox" data-key="65"  id="4-a" name="online_shop[]" value="">
@@ -518,7 +516,7 @@
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
                                         How do you combine on- and offline strategy?<br>
                                 </span>
-                                <!-- <p class="color-blue mt-4">Choose as many as possible</p> -->
+                                <!-- <p class="color-brown mt-4">Choose as many as possible</p> -->
                             </div>
                             <div class="answers mt-4">
                                 <input class="text-answer" type="text"  name="combine_strategy" value="" placeholder = "Type your answer here..." >
@@ -533,7 +531,7 @@
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
                                     What percentage of customers are locals/”friends”/referring c  vs. 1-time customers (from abroad)?<br>
                                 </span>
-                                <!-- <p class="color-blue mt-4">Choose as many as possible</p> -->
+                                <!-- <p class="color-brown mt-4">Choose as many as possible</p> -->
                             </div>
                             <div class="answers mt-4">
                                 <input class="text-answer" type="text"  name="abroad_percentage" value="" placeholder = "Type your answer here..." >
@@ -548,7 +546,7 @@
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
                                     How do you advertise your brand? -online<br>
                                 </span>
-                                <p class="color-blue mt-4">Choose as many as possible</p>
+                                <p class="color-brown mt-4">Choose as many as possible</p>
                             </div>
                             <div class="answers mt-4">
                                 <input type="checkbox" data-key="65"  id="13-a" name="advertize_online[]" value="">
@@ -608,7 +606,7 @@
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
                                     How do you advertise your brand? -offline<br>
                                 </span>
-                                <p class="color-blue mt-4">Choose as many as possible</p>
+                                <p class="color-brown mt-4">Choose as many as possible</p>
                             </div>
                             <div class="answers mt-4">
                                 <input type="checkbox" data-key="65"  id="14-a" name="advertize_offline[]" value="">
@@ -671,7 +669,7 @@
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
                                     What are your target customers?<br>
                                 </span>
-                                <p class="color-blue mt-4">Choose as many as possible</p>
+                                <p class="color-brown mt-4">Choose as many as possible</p>
                             </div>
                             <div class="answers mt-4">
                                 <input type="checkbox" data-key="65"  id="15-a" name="taget_customer[]" value="">
@@ -780,7 +778,7 @@
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
                                     What are the buying habits of your customers?<br>
                                 </span>
-                                <p class="color-blue mt-4">Choose as many as possible</p>
+                                <p class="color-brown mt-4">Choose as many as possible</p>
                             </div>
                             <div class="answers mt-4">
                                 <input type="checkbox" data-key="65"  id="16-a" name="customer_habit[]" value="">
@@ -1239,7 +1237,7 @@
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
                                     What payment services do you accept?<br>
                                 </span>
-                                <p class="color-blue mt-4">Choose as many as possible</p>
+                                <p class="color-brown mt-4">Choose as many as possible</p>
                             </div>
                             <div class="answers mt-4">
                                 <input type="checkbox" data-key="65"  id="25-a" name="paymnet_method[]" value="">
