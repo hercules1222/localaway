@@ -214,7 +214,7 @@
             <div class="row justify-content-center" data-aos="fade-up">
                 <div class="testimonial text-center slider-item col-md-4 col-lg-3">
                     <div class="author-image mb-3">
-                    <img src="images/newlanding/jen.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+                    <img src="/images/newlanding/jen.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
 
                     <p class='m-0  font-weight-bold'>Design</p>
@@ -224,7 +224,7 @@
 
                 <div class="testimonial text-center slider-item col-md-4 col-lg-3">
                     <div class="author-image mb-3">
-                    <img src="images/newlanding/binwu.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+                    <img src="/images/newlanding/binwu.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
                     <p class='m-0  font-weight-bold'>Engineering</p>
                     <p class="font-weight-bold text-black  m-0"><em>&mdash; Bin Wu</em></p>
@@ -233,7 +233,7 @@
 
                 <div class="testimonial text-center slider-item col-md-4 col-lg-3">
                     <div class="author-image mb-3">
-                    <img src="images/newlanding/tina.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+                    <img src="/images/newlanding/tina.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
 
                     <p class='m-0  font-weight-bold'>Marketing</p>
@@ -244,7 +244,7 @@
 
                 <div class="testimonial text-center slider-item col-md-4 col-lg-3">
                     <div class="author-image mb-3">
-                    <img src="images/newlanding/aditi.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+                    <img src="/images/newlanding/aditi.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
 
                     <p class='m-0  font-weight-bold'>Marketing</p>
