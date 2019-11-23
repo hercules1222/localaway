@@ -205,49 +205,93 @@
         </div>
       </section>
       
-      <section class="section" id="section-about" style='background: #F7F7F7;'>
+      <section class="section bg-white pb-0">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-3 align-items-center" data-aos="fade-up">
-              <img class='quote-1' src="/images/newlanding/quote.svg" alt="">  
+              <img class='myquote-1' src="/images/newlanding/quote.svg" alt="">  
               <p class='font-weight-bold'>Jen Furman,</p>
               <p>
                 Independent Brand/Stylist <br><br>
                 ”I love how easy it is to get my new styles to a global audience”
               </p>
-              <img class='quote-2' src="/images/newlanding/quote.svg" alt="">  
+              <img class='myquote-2' src="/images/newlanding/quote.svg" alt="">  
             </div>
           </div>
         </div>
       </section>
 
+      <section class="bg-white" id="partner">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-md-12 col-lg-6 m-auto ml-auto order-lg-2 position-relative p-0 partner" data-aos="fade-up">
+              <img src="/images/newlanding/apple.png" alt="">
+            </div>
+            <div class="col-md-12 col-lg-6 order-lg-1 p-5" data-aos="fade-up">
+              <div class="col-lg-10 m-auto">
+                <h1 class="mb-4 order-1 font-orange">Be a Part of the Revolution</h1>
+                <p class="mb-5 order-3 text-black">
+                  Shipping and handling covered - local couriour servives. <br><br>
+                  Insurace and security and all the things.<br><br>
+                  Great things about fashion is that it always looks forward
+                </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
 
+      <section class="bg-white section pt-0" id="partner">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-md-12 col-lg-6 m-auto ml-auto order-lg-1 position-relative p-0 partner" data-aos="fade-up">
+              <img src="/images/newlanding/survey.png" alt="">
+            </div>
+            <div class="col-md-12 col-lg-6 order-lg-2 p-5" data-aos="fade-up">
+              <div class="col-lg-10 m-auto">
+                <h1 class="mb-4 order-1 font-brown">Get to know your audience, down to last detail</h1>
+                <p class="mb-5 order-3 text-black">
+                  Access to customers preferecnes through an AI Data platform.<br><br>
+                  Letting you know more about your customers helps to incrase sales and make them happy.<br><br>
+                  Win Win.
+                </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
 
-
-
-
-
-
-
-
-
-
+      <section class="bg-white" id="chain">
+        <div class="container-fluid h-100">
+          <div class="row align-items-center h-100">
+            <div class="col-md-12 col-lg-6 order-lg-1 position-relative p-0 " data-aos="fade-up">
+              <div class="col-lg-8 m-auto p-5 chain-content">
+                <h1 class="mb-4 order-1 text-black">The future is a sustainable supply chain</h1>
+                <div class="separator color-green ml-0"></div>
+                <p class="mb-5 order-3 text-black">
+                  Access to customers preferecnes through an AI Data platform.<br><br>
+                  Letting you know more about your customers helps to incrase sales and make them happy.<br><br>
+                  Win Win.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section class="" id="package">
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="col-md-12 col-lg-7 m-auto ml-auto order-lg-2 position-relative" data-aos="fade-up">
-              <img src="/images/newlanding/slider-8.jpg" alt="Image" class="img-fluid">
+            <div class="col-md-12 col-lg-7 m-auto ml-auto order-lg-1 position-relative" data-aos="fade-up">
+              <img src="/images/newlanding/phones.jpg" alt="Image" class="img-fluid">
             </div>
-            <div class="col-md-12 col-lg-5 order-lg-1 p-5" data-aos="fade-up">
+            <div class="col-md-12 col-lg-5 order-lg-2 p-5" data-aos="fade-up">
               <div class="col-lg-10 m-auto">
-                <div class="separator m-0"></div>
-                <h1 class="mb-4">Platform makes it easy for you.</h1>
-                <p class="mb-5">
-                  We built an amazing new platform to help users feel prepared for anything.<br>
-                  Get access to our amazing technology that creates a unique capsule with unique brands and personalized styles. 
+                <p class="mb-5 h4 text-black text-center">
+                  Our stylists use the AI tools to curate unique looks from inventory of over 50K boutiques and independent brands.
                 </p>
-                <p><a href="http://staging.localaway.com"  data-fancybox class="btn btn-primary text-white py-2 mr-3 text-uppercase">Visit the site</a></p>
               </div>
             </div>
             
@@ -255,6 +299,35 @@
         </div>
       </section>
       
+      <section class="bg-green" id="contact">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-md-12 col-lg-7 m-auto ml-auto order-lg-1 position-relative" data-aos="fade-up">
+              <img src="/images/newlanding/phones.jpg" alt="Image" class="img-fluid">
+            </div>
+            <div class="col-md-12 col-lg-5 order-lg-2 p-5" data-aos="fade-up">
+              <div class="col-lg-10 m-auto">
+                <p class="mb-5 h4 text-black text-center">
+                  Our stylists use the AI tools to curate unique looks from inventory of over 50K boutiques and independent brands.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+
+
+
+
+
+
+
+
+
+
+
       <section class="bg-light p-lg-5" id="quote">
         <div class="container-fluid quotes quotes-1 update-navbar-white update-navbar-show-button update-navbar-hide-take-me-to-superhuman">
         <div class="row pt-5">

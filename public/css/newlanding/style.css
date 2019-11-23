@@ -2201,8 +2201,14 @@ textarea.form-control {
 .color-brown {
     color: #C6A07A!important;
 }
+.font-orange {
+    color: #FD5B46!important;
+}
 .bg-brown {
     background-color: #C6A07A!important;
+}
+.font-brown {
+    color: #C6A07A!important;
 }
 .bg-orange {
     background-color: #FD5B46!important;
@@ -2243,15 +2249,22 @@ p {
     height: 70vh;
     background-size: cover;
 }
-.quote-2 {
+.myquote-2 {
     width: 40px;
     position: absolute;
     top: -30px;
     left: -60px;
 }
-.quote-1 {
+.myquote-1 {
     width: 40px;
     position: absolute;
     top: 145px;
     left: 280px;
+}
+#chain {
+    background-image: url("/images/newlanding/chain.jpg");
+    height: 75vh;
+}
+#chain .chain-content {
+    background: #ffffff80;
 }
