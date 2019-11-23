@@ -2217,9 +2217,17 @@ textarea.form-control {
     box-shadow: inset 0 4px 0 0 #FD5B46!important;
     height: 3px!important;
 }
+.color-green {
+    box-shadow: inset 0 4px 0 0 #02BFAF!important;
+    height: 3px!important;
+}
+.color-white {
+    box-shadow: inset 0 4px 0 0 white!important;
+    height: 3px!important;
+}
 .platform {
     background-image: url(/images/newlanding/platform.jpg);
-    height: 75vh;
+    height: 70vh;
     background-size: cover;
 }
 p {
@@ -2227,11 +2235,23 @@ p {
 }
 .clothes {
     background-image: url(/images/newlanding/clothes.jpg);
-    height: 75vh;
+    height: 70vh;
     background-size: cover;
 }
 .package {
     background-image: url(/images/newlanding/package.jpg);
-    height: 75vh;
+    height: 70vh;
     background-size: cover;
+}
+.quote-2 {
+    width: 40px;
+    position: absolute;
+    top: -30px;
+    left: -60px;
+}
+.quote-1 {
+    width: 40px;
+    position: absolute;
+    top: 145px;
+    left: 280px;
 }

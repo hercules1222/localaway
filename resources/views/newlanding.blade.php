@@ -169,7 +169,7 @@
             </div>
             <div class="col-md-12 col-lg-6 order-lg-2 p-5" data-aos="fade-up">
               <div class="col-lg-10 m-auto">
-              <div class="separator color-orange"></div>
+              <div class="separator color-green ml-0"></div>
                 <h1 class="mb-4 order-1 color-brown">Styles with so much attention to detal deserves attention </h1>
                 <p class="mb-5 order-3 text-black">
                 Access to customers preferecnes through an AI Data platform.<br><br>
@@ -191,13 +191,12 @@
             </div>
             <div class="col-md-12 col-lg-6 order-lg-1 p-5" data-aos="fade-up">
               <div class="col-lg-10 m-auto">
-              <div class="separator color-orange"></div>
-                <h1 class="mb-4 order-1 color-brown">Styles with so much attention to detal deserves attention </h1>
-                <p class="mb-5 order-3 text-black">
-                Access to customers preferecnes through an AI Data platform.<br><br>
-                Global audience<br><br>
-                Letting you know more about your customers helps to incrase sales and make them happy.<br><br>
-                Win Win.
+              <div class="separator color-white ml-0"></div>
+                <h1 class="mb-4 order-1 text-white">Beautifully packaged with recycled materials</h1>
+                <p class="mb-5 order-3 text-white">
+                  Shipping and handling covered - local couriour servives.<br><br>
+                  Insurace and security and all the things.<br><br>
+                  Great things about fashion is that it always looks forward
                 </p>
               </div>
             </div>
@@ -206,6 +205,34 @@
         </div>
       </section>
       
+      <section class="section" id="section-about" style='background: #F7F7F7;'>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-3 align-items-center" data-aos="fade-up">
+              <img class='quote-1' src="/images/newlanding/quote.svg" alt="">  
+              <p class='font-weight-bold'>Jen Furman,</p>
+              <p>
+                Independent Brand/Stylist <br><br>
+                ”I love how easy it is to get my new styles to a global audience”
+              </p>
+              <img class='quote-2' src="/images/newlanding/quote.svg" alt="">  
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
       <section class="" id="package">
         <div class="container-fluid">
           <div class="row align-items-center">
