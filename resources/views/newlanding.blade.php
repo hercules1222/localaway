@@ -208,14 +208,15 @@
       <section class="section bg-white pb-0">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-3 align-items-center" data-aos="fade-up">
-              <img class='myquote-1' src="/images/newlanding/quote.svg" alt="">  
-              <p class='font-weight-bold'>Jen Furman,</p>
+            <div class="col-lg-3 align-items-center" data-aos="fade-up">
+              <p class='font-weight-bold'>Jen Furman,
+                  <img class='myquote-1' src="/images/newlanding/quote.svg" alt="">  
+              </p>
               <p>
                 Independent Brand/Stylist <br><br>
                 ”I love how easy it is to get my new styles to a global audience”
+                <img class='myquote-2' src="/images/newlanding/quote.svg" alt="">  
               </p>
-              <img class='myquote-2' src="/images/newlanding/quote.svg" alt="">  
             </div>
           </div>
         </div>
@@ -225,7 +226,6 @@
         <div class="container-fluid">
           <div class="row align-items-center">
             <div class="col-md-12 col-lg-6 m-auto ml-auto order-lg-2 position-relative p-0 partner" data-aos="fade-up">
-              <img src="/images/newlanding/apple.png" alt="">
             </div>
             <div class="col-md-12 col-lg-6 order-lg-1 p-5" data-aos="fade-up">
               <div class="col-lg-10 m-auto">
@@ -246,7 +246,6 @@
         <div class="container-fluid">
           <div class="row align-items-center">
             <div class="col-md-12 col-lg-6 m-auto ml-auto order-lg-1 position-relative p-0 partner" data-aos="fade-up">
-              <img src="/images/newlanding/survey.png" alt="">
             </div>
             <div class="col-md-12 col-lg-6 order-lg-2 p-5" data-aos="fade-up">
               <div class="col-lg-10 m-auto">
@@ -284,11 +283,11 @@
       <section class="" id="package">
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="col-md-12 col-lg-7 m-auto ml-auto order-lg-1 position-relative" data-aos="fade-up">
+            <div class="col-md-12 col-lg-6 order-lg-1 p-0" data-aos="fade-up">
               <img src="/images/newlanding/phones.jpg" alt="Image" class="img-fluid">
             </div>
-            <div class="col-md-12 col-lg-5 order-lg-2 p-5" data-aos="fade-up">
-              <div class="col-lg-10 m-auto">
+            <div class="col-md-12 col-lg-6 p-0 order-lg-2" data-aos="fade-up">
+              <div class="col-lg-8 m-auto">
                 <p class="mb-5 h4 text-black text-center">
                   Our stylists use the AI tools to curate unique looks from inventory of over 50K boutiques and independent brands.
                 </p>
@@ -299,46 +298,38 @@
         </div>
       </section>
       
-      <section class="bg-green" id="contact">
+      <section class="bg-green section" id="contact">
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="col-md-12 col-lg-7 m-auto ml-auto order-lg-1 position-relative" data-aos="fade-up">
-              <img src="/images/newlanding/phones.jpg" alt="Image" class="img-fluid">
-            </div>
-            <div class="col-md-12 col-lg-5 order-lg-2 p-5" data-aos="fade-up">
+            <div class="col-md-12 col-lg-6 order-lg-1 p-5" data-aos="fade-up">
               <div class="col-lg-10 m-auto">
-                <p class="mb-5 h4 text-black text-center">
-                  Our stylists use the AI tools to curate unique looks from inventory of over 50K boutiques and independent brands.
+                <h1 class="mb-5 h1 text-white text-center">
+                  Get early access to the platform
+                </h1>
+                <div  class="footer-newsletter">
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Enter Email">
+                        <button type="submit" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" class="btn"><span>Request Access</span></button>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6 order-lg-2 p-5" data-aos="fade-up">
+              <div class="col-lg-8 m-auto">
+                <p class="mb-5 h5 text-white text-left">
+                The only local and sustainable clothes capsule, now on your doorstep.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      
-
-
-
-
-
-
-
-
-
-
-
 
       <section class="bg-light p-lg-5" id="quote">
         <div class="container-fluid quotes quotes-1 update-navbar-white update-navbar-show-button update-navbar-hide-take-me-to-superhuman">
-        <div class="row pt-5">
-          <div class="col-lg-10 m-auto" data-aos="fade-up">
-            <div class="separator m-0"></div>
-            <h1 class="te">What people say about Localaway?</h1>
-          </div>
-        </div>  
         <div class="row background">
             <div class=""></div>
-            <div class="col-xs-offset-1 col-xs-10 col-sm-8 col-md-6 col-lg-6 mt-5">
+            <div class="col-xs-offset-1 col-xs-10 col-sm-8 col-md-6 col-lg-6 m-0">
               <div class="quote quote-1 wow fadeInUp" style="visibility: visible;" data-aos="fade-up">
                 <div class="image"></div>
                 <div class="quote-container">
@@ -358,7 +349,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-3 col-sm-8 col-md-offset-5 col-md-6 col-lg-offset-6 col-lg-6 mt-4">
+            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-3 col-sm-8 col-md-offset-5 col-md-6 col-lg-offset-6 col-lg-6 m-0">
               <div class="quote quote-2 wow fadeInUp" style="visibility: visible;" data-aos="fade-up">
                 <div class="image"></div>
                 <div class="quote-container">
@@ -382,7 +373,64 @@
         </div>
       </section>
 
-      <section class="" id="quiz">
+      <section class=" testimonial-section section">
+        <div class="container">
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-md-7">
+                    <div class="separator"></div>
+                    <h1>Meet the founders</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center" data-aos="fade-up">
+                <div class="testimonial text-center slider-item col-md-4 col-lg-3">
+                    <div class="author-image mb-3">
+                    <img src="/images/newlanding/Julia.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+                    </div>
+
+                    <p class='m-0  font-weight-bold'>Founder, CEO</p>
+                    <p class="font-weight-bold text-black  m-0"><em>&mdash;Julia Peter</em></p>
+                    <p class='m-0  font-weight-bold'>Formerly Google Search, Google Travel, Facebook AI, and Sony Corporation</p>
+                </div> 
+
+                <div class="testimonial text-center slider-item col-md-4 col-lg-3">
+                    <div class="author-image mb-3">
+                    <img src="/images/newlanding/Lukas.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+                    </div>
+                    <p class='m-0  font-weight-bold'>Co-Founder</p>
+                    <p class="font-weight-bold text-black  m-0"><em>&mdash;Dr. Lukas Peter</em></p>
+                    <p class='m-0  font-weight-bold'>VC and entrepreneur, doctorate focus on startup culture</p>
+                </div>
+                <div></div>
+                <div class="testimonial text-center slider-item col-md-4 col-lg-3">
+                    <div class="author-image mb-3">
+                    <img src="/images/newlanding/Brigitte.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+                    </div>
+
+                    <p class='m-0  font-weight-bold'>Technical Advisor</p>
+                    <p class="font-weight-bold text-black  m-0"><em>&mdash; Brigitte Harder</em></p>
+                    <p class='m-0  font-weight-bold'> Google Travel Search, Google VR, Google Payments</p>
+                </div>
+
+
+                <div class="testimonial text-center slider-item col-md-4 col-lg-3">
+                    <div class="author-image mb-3">
+                    <img src="/images/newlanding/Ahmad.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+                    </div>
+
+                    <p class='m-0  font-weight-bold'>Technical Advisor</p>
+                    <p class="font-weight-bold text-black  m-0"><em>&mdash; Dr. Ahmad Byagowi </em></p>
+                    <p class='m-0  font-weight-bold'> Founder of ArdulMU, Former CEO of UMSATS and CTO of YMT currently Facebook Network Architect</p>
+                </div> 
+            </div>
+            <div class='row justify-content-center text-center'>
+              <a class="btn text-white">Join the team</a>                
+            </div>
+        </div>
+    </section>
+
+
+
+      <!-- <section class="" id="quiz">
         <div class="container-fluid">
           <div class="row align-items-center">
             <div class="col-md-12 col-lg-5 m-auto ml-auto order-2 order-lg-1 position-relative" data-aos="fade-up">
@@ -468,7 +516,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       
       <footer class="section footer-section">
         <div class="container">
@@ -498,7 +546,7 @@
             </div>
             
             <div class="col-lg-5 mb-5 mt-auto">
-                <div action="#" class="footer-newsletter">
+                <div  class="footer-newsletter">
                     <div class="form-group">
                         <input type="email" class="form-control" placeholder="Enter Email">
                         <button type="submit" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" class="btn"><span>Request Access</span></button>

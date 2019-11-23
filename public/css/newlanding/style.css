@@ -2249,6 +2249,16 @@ p {
     height: 70vh;
     background-size: cover;
 }
+.partner {
+    background-image: url(/images/newlanding/apple.png);
+    height: 70vh;
+    background-size: cover;
+}
+.audience {
+    background-image: url(/images/newlanding/survey.png);
+    height: 70vh;
+    background-size: cover;
+}
 .myquote-2 {
     width: 40px;
     position: absolute;
