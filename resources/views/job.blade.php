@@ -214,7 +214,7 @@
             <div class="row justify-content-center" data-aos="fade-up">
                 <div class="testimonial text-center slider-item col-md-4 col-lg-3">
                     <div class="author-image mb-3">
-                    <img src="/images/newlanding/jen.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+                    <img src="/images/newlanding/Jen.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
 
                     <p class='m-0  font-weight-bold'>Design</p>
@@ -224,7 +224,7 @@
 
                 <div class="testimonial text-center slider-item col-md-4 col-lg-3">
                     <div class="author-image mb-3">
-                    <img src="/images/newlanding/binwu.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+                    <img src="/images/newlanding/Binwu.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
                     <p class='m-0  font-weight-bold'>Engineering</p>
                     <p class="font-weight-bold text-black  m-0"><em>&mdash; Bin Wu</em></p>
@@ -233,7 +233,7 @@
 
                 <div class="testimonial text-center slider-item col-md-4 col-lg-3">
                     <div class="author-image mb-3">
-                    <img src="/images/newlanding/tina.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+                    <img src="/images/newlanding/Tina.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
 
                     <p class='m-0  font-weight-bold'>Marketing</p>
@@ -244,7 +244,7 @@
 
                 <div class="testimonial text-center slider-item col-md-4 col-lg-3">
                     <div class="author-image mb-3">
-                    <img src="/images/newlanding/aditi.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+                    <img src="/images/newlanding/Aditi.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
 
                     <p class='m-0  font-weight-bold'>Marketing</p>
@@ -256,7 +256,7 @@
     </section>
         
     <div class="section" style="background-image: url(/images/newlanding/222.jpg)" id="section-team">
-        <div class="container bg-white">
+        <div class="container bg-white" data-aos="fade-up">
             <div class="row justify-content-center text-center mb-5">
                 <div class="col-md-7 mb-5">
                     <div class="separator"></div>
