@@ -5,13 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Localaway</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=|Roboto+Sans:400,700|Playfair+Display:400,700"> -->
         <link rel="stylesheet" href="/css/newlanding/bootstrap.min.css">
         <link rel="stylesheet" href="/css/newlanding/animate.css">
         <link rel="stylesheet" href="/css/newlanding/owl.carousel.min.css">
         <link rel="stylesheet" href="/css/newlanding/aos.css">
         <link rel="stylesheet" href="/css/newlanding/bootstrap-datepicker.css">
-        <lnk rel="stylesheet" href="/css/newlanding/jquery.timepicker.css">
+        <link rel="stylesheet" href="/css/newlanding/jquery.timepicker.css">
         <link rel="stylesheet" href="/css/newlanding/fancybox.min.css">
         
         <link rel="stylesheet" href="/fonts/ionicons/css/ionicons.min.css">
@@ -24,24 +23,24 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="templateux-navbar">
         <div class="container-fluid justify-content-center">
-        <a class="navbar-brand" href="/">
-            <img class='d-none d-lg-block' src="/images/newlanding/long-logo.png" alt="">
-            <img class='d-lg-none d-block' src="/images/newlanding/long-logo.png" alt="">
-        </a>
-        <div class="site-menu-toggle js-site-menu-toggle  ml-auto"  data-aos="fade" data-toggle="collapse" data-target="#templateux-navbar-nav" aria-controls="templateux-navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-            <!-- END menu-toggle -->
+            <a class="navbar-brand" href="/">
+                <img class='d-none d-lg-block' src="/images/newlanding/long-logo.png" alt="">
+                <img class='d-lg-none d-block' src="/images/newlanding/long-logo.png" alt="">
+            </a>
+            <div class="site-menu-toggle js-site-menu-toggle  ml-auto"  data-aos="fade" data-toggle="collapse" data-target="#templateux-navbar-nav" aria-controls="templateux-navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+                <!-- END menu-toggle -->
 
-        <div class="collapse navbar-collapse" id="templateux-navbar-nav">
-            <ul class="navbar-nav ml-auto">
-            <!-- <li class="nav-item "><a class="nav-link text-white" href="#section-events">Jobs</a></li> -->
-                <!-- <li class="nav-item cta-btn ml-xl-2 ml-lg-2 ml-md-0 ml-sm-0 ml-0 "><a class="nav-link text-white" href="#" target="_blank"><span class="pb_rounded-4 px-4 rounded">Request Access</span></a></li> -->
-            </ul>
+            <div class="collapse navbar-collapse" id="templateux-navbar-nav">
+                <ul class="navbar-nav ml-auto">
+                <!-- <li class="nav-item "><a class="nav-link text-white" href="#section-events">Jobs</a></li> -->
+                    <!-- <li class="nav-item cta-btn ml-xl-2 ml-lg-2 ml-md-0 ml-sm-0 ml-0 "><a class="nav-link text-white" href="#" target="_blank"><span class="pb_rounded-4 px-4 rounded">Request Access</span></a></li> -->
+                </ul>
+            </div>
         </div>
-    </div>
     </nav>
     <!-- END nav -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -96,19 +95,19 @@
           </div>
         </div>
       </div>
-    <section class="site-hero-2 overlay" style="background-image: url(/images/newlanding/job.jpg)" data-stellar-background-ratio="0.5" id="section-home">
+    <section class="site-hero-2 overlay" style="background-image: url(/images/newlanding/job.jpg)" data-stellar-background-ratio="0.5" >
         <div class="container-fluid h-100">
             <div class="row site-hero-inner-2 align-items-center h-100">
                 <div class="col-lg-5 offset-lg-1 text-center text-lg-left" data-aos="fade-up">
                     <p class="h1 text-white letter-spacing-2">JOIN THE TEAM</p>
                     <div class='mt-5'>
-                        <a href='#section-position'  class="btn btn-primary text-white py-2 text-uppercase ml-lg-2" >VIEW OPEN POSITION</a>
+                        <a href='#section-positoin'  class="btn smoothscroll btn-primary text-white py-2 text-uppercase ml-lg-2" >VIEW OPEN POSITION</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <a class="mouse smoothscroll" href="#section-about" >
+        <a class="mouse smoothscroll" href="#section-positoin" >
             <div class="mouse-icon">
                 <span class="mouse-wheel"></span>
             </div>
@@ -116,7 +115,7 @@
     </section>
     <!-- END section -->
 
-    <section class="section" id="section-about">
+    <section class="section" id="section-positoin">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-10 text-center align-items-center" data-aos="fade-up">
@@ -319,52 +318,39 @@
 
     <footer class="section footer-section">
         <div class="container">
-          <div class="row mb-4">
-            <div class="col-md-3 mb-5">
-              <ul class="list-unstyled link">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Terms &amp; Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-               <li><a href="#">Rooms</a></li>
+          <div class="row ">
+            <div class="col-lg-4 mb-4 mb-md-5">
+              <ul class="list-unstyled link m-0">
+                <li class="d-flex justify-content-space-evently">
+                    <a class="navbar-brand" href="/">
+                        <img class='d-none d-md-block' src="/images/newlanding/white-logo.jpg" alt="">
+                        <img class='d-md-none' src="/images/newlanding/white-mobile-logo.jpg" alt="" width="60">
+                    </a>
+                </li>
+                <li class="d-flex justify-content-space-evently">
+                    <a href="#">Jobs</a>
+                    <a href="#">Contact</a>
+                </li>
+                <li class="d-flex justify-content-space-evently m-0">
+                   <a href="#">Privacy</a>
+                   <a href="#">Terms</a>
+                </li>
               </ul>
             </div>
-            <div class="col-md-3 mb-5">
-              <ul class="list-unstyled link">
-                <li><a href="#">The Rooms &amp; Suites</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Restaurant</a></li>
-              </ul>
+            <div class="col-lg-3 mb-5 d-flex justify-content-space-evently  align-items-end">
+                <a class="h3 color-brown" href="#"><span class="fa fa-instagram"></span></a>   
+                <a class="h3 color-brown" href="#"><span class="fa fa-twitter"></span></a> 
+                <a class="h3 color-brown" href="#"><span class="fa fa-facebook"></span></a>    
             </div>
-            <div class="col-md-3 mb-5 pr-md-5 contact-info">
-              <!-- <li>198 West 21th Street, <br> Suite 721 New York NY 10016</li> -->
-              <p><span class="d-block"><span class="ion-ios-location h5 mr-3 text-primary"></span>Address:</span> <span> 198 West 21th Street, <br> Suite 721 New York NY 10016</span></p>
-              <p><span class="d-block"><span class="ion-ios-telephone h5 mr-3 text-primary"></span>Phone:</span> <span> (+1) 435 3533</span></p>
-              <p><span class="d-block"><span class="ion-ios-email h5 mr-3 text-primary"></span>Email:</span> <span> info@yourdomain.com</span></p>
+            
+            <div class="col-lg-5 mb-5 mt-auto">
+                <form action="#" class="footer-newsletter">
+                    <div class="form-group">
+                        <input type="email" class="form-control w-60" placeholder="Enter Email">
+                        <button type="submit" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" class="btn w-40"><span>Request Access</span></button>
+                    </div>
+                </form>
             </div>
-            <div class="col-md-3 mb-5">
-              <form action="#" class="footer-newsletter">
-                <div class="form-group">
-                  <input type="email" class="form-control" placeholder="Request Access">
-                  <button type="submit" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" class="btn"><span class="fa fa-paper-plane"></span></button>
-                </div>
-              </form>
-            </div>
-          </div>
-          <div class="row pt-5">
-            <p class="col-md-8 text-left">
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-              
-            <p class="col-md-4 text-right social">
-              <a href="#"><span class="fa fa-tripadvisor"></span></a>
-              <a href="#"><span class="fa fa-facebook"></span></a>
-              <a href="#"><span class="fa fa-twitter"></span></a>
-              <a href="#"><span class="fa fa-linkedin"></span></a>
-              <a href="#"><span class="fa fa-vimeo"></span></a>
-            </p>
-          </div>
         </div>
       </footer>
       

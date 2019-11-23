@@ -124,39 +124,81 @@
       </section>
       <!-- END section -->
 
-      <section class="py-5" id="section-about">
+      <section class="section" id="section-about" style='background: #F7F7F7;'>
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-12 text-center align-items-center" data-aos="fade-up">
-              <div class="separator"></div>
               <h1>Not just another box of style. 
-                <h3 class="mb-4">
-                LocalAway is more because …
-                </h1> 
-              </h4>
-              <p class="mb-5 col-lg-6 m-auto text-left">Be part of this community of over 50K shops and unique independent brands. We set out to  bring local brands online, and the online community back to the locals, so you can support your city not to get swept away by the big brands.
-                Keep your city in style, 
+                <!-- <platform class="mb-4">
+                  LocalAway is more because …
+                </h3>  -->
+              </h1>
+              <div class="separator color-orange"></div>
+              <p class="mb-5 col-lg-5 m-auto text-center ">Be part of this community of over 50K shops and unique independent brands.<br><br> We set out to  bring local brands online, and the online community back to the locals, so you can support your city not to get swept away by the big brands.
+                <br><br>Keep your city in style, 
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="bg-light" id="introduction">
+      <section class="bg-brown" id="introduction">
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="col-md-12 col-lg-7 m-auto ml-auto order-lg-1 position-relative p-0" data-aos="fade-up">
-              <img src="/images/newlanding/hero_4.jpg" alt="Image" class="img-fluid order-2">
+            <div class="col-md-12 col-lg-6 m-auto ml-auto order-lg-1 position-relative p-0 platform" data-aos="fade-up">
             </div>
-            <div class="col-md-12 col-lg-5 order-lg-2 p-5" data-aos="fade-up">
+            <div class="col-md-12 col-lg-6 order-lg-2 p-5" data-aos="fade-up">
               <div class="col-lg-10 m-auto">
-                <div class="separator m-0"></div>
-                <h1 class="mb-4 order-1">Platform makes it easy for you.</h1>
-                <p class="mb-5 order-3">
-                  We built an amazing new platform to help users feel prepared for anything.<br>
+              <div class="separator color-orange ml-0"></div>
+                <h1 class="mb-4 order-1 text-white">Our platform makes it easy for you.</h1>
+                <p class="mb-5 order-3 text-white">
+                  We built an amazing new platform to help users feel prepared for anything.<br><br>
                   Get access to our amazing technology that creates a unique capsule with unique brands and personalized styles. 
                 </p>
-                <p><a href="http://staging.localaway.com"  data-fancybox class="btn btn-primary text-white py-2 mr-3 text-uppercase">Visit the site</a></p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-white  " id="clothes">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-md-12 col-lg-6 m-auto ml-auto order-lg-1 position-relative p-0 clothes" data-aos="fade-up">
+            </div>
+            <div class="col-md-12 col-lg-6 order-lg-2 p-5" data-aos="fade-up">
+              <div class="col-lg-10 m-auto">
+              <div class="separator color-orange"></div>
+                <h1 class="mb-4 order-1 color-brown">Styles with so much attention to detal deserves attention </h1>
+                <p class="mb-5 order-3 text-black">
+                Access to customers preferecnes through an AI Data platform.<br><br>
+                Global audience<br><br>
+                Letting you know more about your customers helps to incrase sales and make them happy.<br><br>
+                Win Win.
+                </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-orange" id="package">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-md-12 col-lg-6 m-auto ml-auto order-lg-2 position-relative p-0 package" data-aos="fade-up">
+            </div>
+            <div class="col-md-12 col-lg-6 order-lg-1 p-5" data-aos="fade-up">
+              <div class="col-lg-10 m-auto">
+              <div class="separator color-orange"></div>
+                <h1 class="mb-4 order-1 color-brown">Styles with so much attention to detal deserves attention </h1>
+                <p class="mb-5 order-3 text-black">
+                Access to customers preferecnes through an AI Data platform.<br><br>
+                Global audience<br><br>
+                Letting you know more about your customers helps to incrase sales and make them happy.<br><br>
+                Win Win.
+                </p>
               </div>
             </div>
             
@@ -328,55 +370,41 @@
         </div>
       </section>
       
-
       <footer class="section footer-section">
         <div class="container">
-          <div class="row mb-4">
-            <div class="col-md-3 mb-5">
-              <ul class="list-unstyled link">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Terms &amp; Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-               <li><a href="#">Rooms</a></li>
+          <div class="row ">
+            <div class="col-lg-4 mb-4 mb-md-5">
+              <ul class="list-unstyled link m-0">
+                <li class="d-flex justify-content-space-evently">
+                    <a class="navbar-brand" href="/">
+                        <img class='d-none d-md-block' src="/images/newlanding/white-logo.jpg" alt="">
+                        <img class='d-md-none' src="/images/newlanding/white-mobile-logo.jpg" alt="" width="60">
+                    </a>
+                </li>
+                <li class="d-flex justify-content-space-evently">
+                    <a href="#">Jobs</a>
+                    <a href="#">Contact</a>
+                </li>
+                <li class="d-flex justify-content-space-evently m-0">
+                   <a href="#">Privacy</a>
+                   <a href="#">Terms</a>
+                </li>
               </ul>
             </div>
-            <div class="col-md-3 mb-5">
-              <ul class="list-unstyled link">
-                <li><a href="#">The Rooms &amp; Suites</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Restaurant</a></li>
-              </ul>
+            <div class="col-lg-3 mb-5 d-flex justify-content-space-evently  align-items-end">
+                <a class="h3 color-brown" href="#"><span class="fa fa-instagram"></span></a>   
+                <a class="h3 color-brown" href="#"><span class="fa fa-twitter"></span></a> 
+                <a class="h3 color-brown" href="#"><span class="fa fa-facebook"></span></a>    
             </div>
-            <div class="col-md-3 mb-5 pr-md-5 contact-info">
-              <!-- <li>198 West 21th Street, <br> Suite 721 New York NY 10016</li> -->
-              <p><span class="d-block"><span class="ion-ios-location h5 mr-3 text-primary"></span>Address:</span> <span> 198 West 21th Street, <br> Suite 721 New York NY 10016</span></p>
-              <p><span class="d-block"><span class="ion-ios-telephone h5 mr-3 text-primary"></span>Phone:</span> <span> (+1) 435 3533</span></p>
-              <p><span class="d-block"><span class="ion-ios-email h5 mr-3 text-primary"></span>Email:</span> <span> info@yourdomain.com</span></p>
-            </div>
-            <div class="col-md-3 mb-5">
-              <form action="#" class="footer-newsletter">
-                <div class="form-group">
-                  <input type="email" class="form-control" placeholder="Request Access">
-                  <button type="submit" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" class="btn"><span class="fa fa-paper-plane"></span></button>
+            
+            <div class="col-lg-5 mb-5 mt-auto">
+                <div action="#" class="footer-newsletter">
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Enter Email">
+                        <button type="submit" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" class="btn"><span>Request Access</span></button>
+                    </div>
                 </div>
-              </form>
             </div>
-          </div>
-          <div class="row pt-5">
-            <p class="col-md-8 text-left">
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-              
-            <p class="col-md-4 text-right social">
-              <a href="#"><span class="fa fa-tripadvisor"></span></a>
-              <a href="#"><span class="fa fa-facebook"></span></a>
-              <a href="#"><span class="fa fa-twitter"></span></a>
-              <a href="#"><span class="fa fa-linkedin"></span></a>
-              <a href="#"><span class="fa fa-vimeo"></span></a>
-            </p>
-          </div>
         </div>
       </footer>
       
