@@ -90,13 +90,13 @@
             </div>
             <div class="modal-footer">
               <a href="/survey">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa2" data-whatever="@mdo">Request Access</button>
+                <button type="button" class="btn " data-toggle="modal" data-target="#exampleModa2" data-whatever="@mdo">Request Access</button>
               </a>
             </div>
           </div>
         </div>
       </div>
-    <section class="site-hero-2 overlay" style="background-image: url(/images/newlanding/hero_3.jpg)" data-stellar-background-ratio="0.5" id="section-home">
+    <section class="site-hero-2 overlay" style="background-image: url(/images/newlanding/job.jpg)" data-stellar-background-ratio="0.5" id="section-home">
         <div class="container-fluid h-100">
             <div class="row site-hero-inner-2 align-items-center h-100">
                 <div class="col-lg-5 offset-lg-1 text-center text-lg-left" data-aos="fade-up">
@@ -116,25 +116,20 @@
     </section>
     <!-- END section -->
 
-    <section class="py-5" id="section-about">
+    <section class="section" id="section-about">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-12 text-center align-items-center" data-aos="fade-up">
+                <div class="col-10 text-center align-items-center" data-aos="fade-up">
                     <div class="separator"></div>
-                    <h1>Not just another box of style. 
-                        <h3 class="mb-4">
-                            LocalAway is more because …
-                        </h3> 
-                    </h1>
-                    <p class="mb-5 col-lg-6 m-auto text-left">Be part of this community of over 50K shops and unique independent brands. We set out to  bring local brands online, and the online community back to the locals, so you can support your city not to get swept away by the big brands.
-                        Keep your city in style, 
+                    <h1>Open Positions</h1> 
+                    <p class="mb-5 m-auto text-left"><strong class="text-dark font-weight-bold">Stylist1:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="bg-light" id="section-position">
+    <!-- <section class="bg-light" id="section-position">
         <div class="container">
             <div class="row justify-content-center text-center mb-5">
                 <div class="col-md-7">
@@ -167,14 +162,14 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="blog-post-entry pb-5" id="section-events">
+    <section class="blog-post-entry section bg-green" id="section-events">
         <div class="container">
             <div class="row justify-content-center text-center mb-5">
                 <div class="col-md-7">
                     <div class="separator"></div>
-                        <h1>Our Values</h1>
+                        <h1 class="text-white">Our Values</h1>
                     </div>
                 </div>
             </div>
@@ -184,8 +179,7 @@
                         
                         <div class="media media-custom d-block mb-4 h-100">
                             <div class="media-body">
-                                <h2 class="mt-0 mb-3"><a href="#">Travel Hacks to Make Your Flight More Comfortable</a></h2>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                <h2 class="mt-0 mb-3 text-white">Discovery & Education</h2>
                             </div>
                         </div>
                         
@@ -193,16 +187,14 @@
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="200">
                         <div class="media media-custom d-block mb-4 h-100">
                             <div class="media-body">
-                                <h2 class="mt-0 mb-3"><a href="#">5 Job Types That Aallow You To Earn As You Travel The World</a></h2>
-                                <>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                <h2 class="mt-0 mb-3 text-white">Self Expression</h2>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="300">
                         <div class="media media-custom d-block mb-4 h-100">
                             <div class="media-body">
-                                <h2 class="mt-0 mb-3"><a href="#">30 Great Ideas On Gifts For Travelers</a></h2>
-                                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. t is a paradisematic country, in which roasted parts of sentences.</p>
+                                <h2 class="mt-0 mb-3 text-white">Social Responsibility</h2>
                             </div>
                         </div>
                     </div>
@@ -211,7 +203,7 @@
         </div>
     </section>
 
-    <section class=" testimonial-section bg-light pb-5">
+    <section class=" testimonial-section section">
         <div class="container">
             <div class="row justify-content-center text-center mb-5">
                 <div class="col-md-7">
@@ -220,128 +212,106 @@
                 </div>
             </div>
             <div class="row justify-content-center" data-aos="fade-up">
-                
-                    <div class="testimonial text-center slider-item col-md-4 col-lg-3">
-                        <div class="author-image mb-3">
-                        <img src="images/person_4.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
-                        </div>
-
-                        <p class='pb-1 text-black font-weight-bold'>Design</p>
-                        <p><em>&mdash; Jean Smith</em></p>
-                    </div> 
-
-                    <div class="testimonial text-center slider-item col-md-4 col-lg-3">
-                        <div class="author-image mb-3">
-                        <img src="images/person_2.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
-                        </div>
-                        <p class='pb-1 text-black font-weight-bold'>Product</p>
-                        <p><em>&mdash; John Doe</em></p>
+                <div class="testimonial text-center slider-item col-md-4 col-lg-3">
+                    <div class="author-image mb-3">
+                    <img src="images/newlanding/jen.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
 
-                    <div class="testimonial text-center slider-item col-md-4 col-lg-3">
-                        <div class="author-image mb-3">
-                        <img src="images/person_3.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
-                        </div>
+                    <p class='m-0  font-weight-bold'>Design</p>
+                    <p class="font-weight-bold text-black  m-0"><em>&mdash; Jen Furman</em></p>
+                    <p class='m-0  font-weight-bold'>Fashion expert and local stylist</p>
+                </div> 
 
-                        <p class='pb-1 text-black font-weight-bold'>Engineering</p>
-                        <p><em>&mdash; John Doe</em></p>
+                <div class="testimonial text-center slider-item col-md-4 col-lg-3">
+                    <div class="author-image mb-3">
+                    <img src="images/newlanding/binwu.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+                    </div>
+                    <p class='m-0  font-weight-bold'>Engineering</p>
+                    <p class="font-weight-bold text-black  m-0"><em>&mdash; Bin Wu</em></p>
+                    <p class='m-0  font-weight-bold'>Engineering Expert</p>
+                </div>
+
+                <div class="testimonial text-center slider-item col-md-4 col-lg-3">
+                    <div class="author-image mb-3">
+                    <img src="images/newlanding/tina.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
 
+                    <p class='m-0  font-weight-bold'>Marketing</p>
+                    <p class="font-weight-bold text-black  m-0"><em>&mdash; Tina Awerro</em></p>
+                    <p class='m-0  font-weight-bold'>Marketing Expert</p>
+                </div>
 
-                    <div class="testimonial text-center slider-item col-md-4 col-lg-3">
-                        <div class="author-image mb-3">
-                        <img src="images/person_1.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
-                        </div>
 
-                        <p class='pb-1 text-black font-weight-bold'>Growth</p>
-                        <p><em>&mdash; Jean Smith</em></p>
-                    </div> 
-
-                    <div class="testimonial text-center slider-item col-md-4 col-lg-3">
-                        <div class="author-image mb-3">
-                        <img src="images/person_2.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
-                        </div>
-                        <p class='pb-1 text-black font-weight-bold'>Stylist</p>
-                        <p><em>&mdash; John Doe</em></p>
+                <div class="testimonial text-center slider-item col-md-4 col-lg-3">
+                    <div class="author-image mb-3">
+                    <img src="images/newlanding/aditi.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
 
-                    <div class="testimonial text-center slider-item col-md-4 col-lg-3">
-                        <div class="author-image mb-3">
-                        <img src="images/person_4.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
-                        </div>
-                        <p class='pb-1 text-black font-weight-bold'>Stylist</p>
-                        <p><em>&mdash; John Doe</em></p>
-                    </div>
-                    
-                    <div class="testimonial text-center slider-item col-md-4 col-lg-3">
-                        <div class="author-image mb-3">
-                        <img src="images/person_1.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
-                        </div>
-                        <p class='pb-1 text-black font-weight-bold'>Stylist</p>
-                        <p><em>&mdash; John Doe</em></p>
-                    </div>
-                   
-
+                    <p class='m-0  font-weight-bold'>Marketing</p>
+                    <p class="font-weight-bold text-black  m-0"><em>&mdash; Aditi Bandahari </em></p>
+                    <p class='m-0  font-weight-bold'>Social Outrech</p>
+                </div> 
             </div>
-            
         </div>
     </section>
         
-    <div class="container " id="section-team">
-        <div class="row justify-content-center text-center mb-5">
-            <div class="col-md-7 mb-5">
-                <div class="separator"></div>
-                <h1>Our Investor</h1>
+    <div class="section" style="background-image: url(/images/newlanding/222.jpg)" id="section-team">
+        <div class="container bg-white">
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-md-7 mb-5">
+                    <div class="separator"></div>
+                    <h1>Our Investor</h1>
+                </div>
             </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-md-6  " data-aos="fade-up" data-aos-delay="100">
-                <div class="block-2">
-                    <div class="flipper">
-                        <div class="front" style="background-image: url(images/person_3.jpg);">
-                            <div class="box">
-                                <h2>Will Smith</h2>
-                                <p>President</p>
-                            </div>
-                        </div>
-                        <div class="back">
-                            <!-- back content -->
-                            <blockquote>
-                                <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
-                            </blockquote>
-                            <div class="author d-flex">
-                                <div class="image mr-3 align-self-center">
-                                    <img src="images/person_3.jpg" alt="">
+            <div class="row justify-content-center">
+                <div class="col-md-6  " data-aos="fade-up" data-aos-delay="100">
+                    <div class="block-2">
+                        <div class="flipper">
+                            <div class="front" style="background-image: url(images/person_3.jpg);">
+                                <div class="box">
+                                    <h2>Will Smith</h2>
+                                    <p>President</p>
                                 </div>
-                                <div class="name align-self-center">Will Smith <span class="position">President</span></div>
                             </div>
-                        </div>
-                    </div>
-                </div> <!-- .flip-container -->
-            </div>
-            <div class="col-md-6 " data-aos="fade-up" data-aos-delay="200">
-                <div class="block-2"> <!-- .hover -->
-                    <div class="flipper">
-                        <div class="front" style="background-image: url(images/person_1.jpg);">
-                            <div class="box">
-                                <h2>Claire Williams</h2>
-                                <p>Business Manager</p>
-                            </div>
-                        </div>
-                        <div class="back">
-                            <!-- back content -->
-                            <blockquote>
-                                <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
-                            </blockquote>
-                            <div class="author d-flex">
-                                <div class="image mr-3 align-self-center">
-                                    <img src="images/person_1.jpg" alt="">
+                            <div class="back">
+                                <!-- back content -->
+                                <blockquote>
+                                    <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
+                                </blockquote>
+                                <div class="author d-flex">
+                                    <div class="image mr-3 align-self-center">
+                                        <img src="images/person_3.jpg" alt="">
+                                    </div>
+                                    <div class="name align-self-center">Will Smith <span class="position">President</span></div>
                                 </div>
-                                <div class="name align-self-center">Claire Williams <span class="position">Business Manager</span></div>
                             </div>
                         </div>
-                    </div>
-                </div> <!-- .flip-container -->
+                    </div> <!-- .flip-container -->
+                </div>
+                <div class="col-md-6 " data-aos="fade-up" data-aos-delay="200">
+                    <div class="block-2"> <!-- .hover -->
+                        <div class="flipper">
+                            <div class="front" style="background-image: url(images/person_1.jpg);">
+                                <div class="box">
+                                    <h2>Claire Williams</h2>
+                                    <p>Business Manager</p>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <!-- back content -->
+                                <blockquote>
+                                    <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
+                                </blockquote>
+                                <div class="author d-flex">
+                                    <div class="image mr-3 align-self-center">
+                                        <img src="images/person_1.jpg" alt="">
+                                    </div>
+                                    <div class="name align-self-center">Claire Williams <span class="position">Business Manager</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- .flip-container -->
+                </div>
             </div>
         </div>
     </div>

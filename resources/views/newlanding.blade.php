@@ -132,7 +132,7 @@
               <h1>Not just another box of style. 
                 <h3 class="mb-4">
                 LocalAway is more because …
-                </h3> 
+                </h1> 
               </h4>
               <p class="mb-5 col-lg-6 m-auto text-left">Be part of this community of over 50K shops and unique independent brands. We set out to  bring local brands online, and the online community back to the locals, so you can support your city not to get swept away by the big brands.
                 Keep your city in style, 
