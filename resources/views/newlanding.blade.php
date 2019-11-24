@@ -134,12 +134,6 @@
 
           </div>
         </div>
-
-        <a class="mouse smoothscroll" href="#section-about" >
-          <div class="mouse-icon">
-            <span class="mouse-wheel"></span>
-          </div>
-        </a>
             <img class='d-block d-lg-none w-100' src="/images/newlanding/hero_4.jpg" alt="">
       </section>
       <!-- END section -->
@@ -185,9 +179,9 @@
       <section class="bg-white  " id="clothes">
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="col-md-12 col-lg-6 m-auto ml-auto order-lg-1 position-relative p-0 clothes" data-aos="fade-up">
+            <div class="col-md-12 col-lg-6  ml-auto order-lg-1 position-relative p-0 clothes" data-aos="fade-up">
             </div>
-            <div class="col-md-12 col-lg-6 order-lg-2 p-5" data-aos="fade-up">
+            <div class="col-md-12 col-lg-6 order-lg-2 " data-aos="fade-up">
               <div class="col-lg-10 m-auto">
               <div class="separator color-green ml-0"></div>
                 <h1 class="mb-4 order-1 color-brown">Styles with so much attention to detal deserves attention </h1>
@@ -209,7 +203,7 @@
           <div class="row align-items-center">
             <div class="col-md-12 col-lg-6 m-auto ml-auto  order-2 position-relative p-0 package" data-aos="fade-up">
             </div>
-            <div class="col-md-12 col-lg-6 order-1 p-5" data-aos="fade-up">
+            <div class="col-md-12 col-lg-6 order-1 " data-aos="fade-up">
               <div class="col-lg-10 m-auto">
               <div class="separator color-white ml-0"></div>
                 <h1 class="mb-4 order-1 text-white">Beautifully packaged with recycled materials</h1>
@@ -304,11 +298,10 @@
         </div>
       </section>
 
-      <section class="section" id="package">
+      <section class=" p-lg-0" >
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="col-md-12 col-lg-6 order-lg-1 order-2 p-0" data-aos="fade-up">
-              <img src="/images/newlanding/phones.jpg" alt="Image" class="img-fluid">
+            <div class="col-md-12 col-lg-6 order-lg-1 order-2 p-0 ai" data-aos="fade-up">
             </div>
             <div class="col-md-12 col-lg-6 p-0 order-lg-2 order-1" data-aos="fade-up">
               <div class="col-lg-8 m-auto">
@@ -326,15 +319,13 @@
         <div class="container-fluid">
           <div class="row align-items-center">
             <div class="col-md-12 col-lg-6 order-lg-1 p-5" data-aos="fade-up">
-              <div class="col-lg-10 m-auto">
+              <div class="col-lg-10 m-auto text-center">
                 <h1 class="mb-5 h1 text-white text-center">
                   Get early access to the platform
                 </h1>
-                <div  class="footer-newsletter">
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Enter Email">
-                        <button type="submit" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" class="btn"><span>Request Access</span></button>
-                    </div>
+                <div class='d-lg-flex'>
+                  <input type="text" placeholder='Enter Email' class='text-white mail-text mb-2' autofocus>
+                  <button type="button" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Request Access</button>
                 </div>
               </div>
             </div>
@@ -349,11 +340,11 @@
         </div>
       </section>
 
-      <section class="bg-light p-lg-5" id="quote">
+      <section class="bg-light py-5" id="quote">
         <div class="container-fluid quotes quotes-1 update-navbar-white update-navbar-show-button update-navbar-hide-take-me-to-superhuman">
         <div class="row background">
             <div class=""></div>
-            <div class="col-xs-offset-1 col-xs-10 col-sm-8 col-md-6 col-lg-6 m-0">
+            <div class="col-xs-offset-1 col-xs-10 col-sm-8 col-md-6 col-lg-6 m-0 mb-4">
               <div class="quote quote-1 wow fadeInUp" style="visibility: visible;" data-aos="fade-up">
                 <div class="image"></div>
                 <div class="quote-container">
@@ -398,7 +389,7 @@
       </section>
 
       <section class=" testimonial-section section">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row justify-content-center text-center mb-5">
                 <div class="col-md-7">
                     <div class="separator"></div>
@@ -406,7 +397,7 @@
                 </div>
             </div>
             <div class="row justify-content-center" data-aos="fade-up">
-                <div class="testimonial text-center slider-item col-md-4 col-lg-3">
+                <div class="testimonial text-center slider-item col-md-6 col-lg-3 pl-lg-5">
                     <div class="author-image mb-3">
                     <img src="/images/newlanding/Julia.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
@@ -416,7 +407,8 @@
                     <p class='m-0  font-weight-bold'>Formerly Google Search, Google Travel, Facebook AI, and Sony Corporation</p>
                 </div> 
 
-                <div class="testimonial text-center slider-item col-md-4 col-lg-3">
+                <div class="testimonial text-center slider-item col-md-6 col-lg-3 pr-lg-5">
+                    <div class='vertical-divider d-none d-lg-block'></div>
                     <div class="author-image mb-3">
                     <img src="/images/newlanding/Lukas.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
@@ -424,8 +416,7 @@
                     <p class="font-weight-bold text-black  m-0"><em>&mdash;Dr. Lukas Peter</em></p>
                     <p class='m-0  font-weight-bold'>VC and entrepreneur, doctorate focus on startup culture</p>
                 </div>
-                <div></div>
-                <div class="testimonial text-center slider-item col-md-4 col-lg-3">
+                <div class="testimonial text-center slider-item col-md-6 col-lg-3 pl-lg-5">
                     <div class="author-image mb-3">
                     <img src="/images/newlanding/Brigitte.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
@@ -436,7 +427,7 @@
                 </div>
 
 
-                <div class="testimonial text-center slider-item col-md-4 col-lg-3">
+                <div class="testimonial text-center slider-item col-md-6 col-lg-3 pr-lg-5">
                     <div class="author-image mb-3">
                     <img src="/images/newlanding/Ahmad.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
@@ -446,8 +437,8 @@
                     <p class='m-0  font-weight-bold'> Founder of ArdulMU, Former CEO of UMSATS and CTO of YMT currently Facebook Network Architect</p>
                 </div> 
             </div>
-            <div class='row justify-content-center text-center'>
-              <a class="btn text-white">Join the team</a>                
+            <div class='row justify-content-center text-center mt-4'>
+              <a href="/job" class="btn text-white">Join the team</a>                
             </div>
         </div>
     </section>
@@ -571,10 +562,10 @@
             
             <div class="col-lg-5 mb-5 mt-auto">
                 <div  class="footer-newsletter">
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Enter Email">
-                        <button type="submit" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" class="btn"><span>Request Access</span></button>
-                    </div>
+                  <div class='d-lg-flex text-center'>
+                    <input type="text" placeholder='Enter Email' class='text-white mail-text mb-2' autofocus>
+                    <button type="button" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Request Access</button>
+                  </div>
                 </div>
             </div>
         </div>

@@ -2232,7 +2232,7 @@ textarea.form-control {
 }
 .platform {
     background-image: url(/images/newlanding/platform.jpg);
-    height: 70vh;
+    height: 100vh;
     background-size: cover;
 }
 p {
@@ -2240,27 +2240,35 @@ p {
 }
 .clothes {
     background-image: url(/images/newlanding/clothes.jpg);
-    height: 70vh;
+    height: 100vh;
     background-size: cover;
 }
 .package {
     background-image: url(/images/newlanding/package.jpg);
-    height: 70vh;
+    height: 100vh;
     background-size: cover;
 }
 .partner {
     background-image: url(/images/newlanding/apple.png);
-    height: 70vh;
+    height: 100vh;
     background-size: cover;
     background-size: contain;
     background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+.ai {
+    background-image: url(/images/newlanding/phones.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
 }
 .audience {
     background-image: url(/images/newlanding/survey.png);
-    height: 70vh;
+    height: 100vh;
     background-size: cover;
     background-size: contain;
-    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
 }
 .myquote-2 {
     width: 40px;
@@ -2292,4 +2300,12 @@ p {
 }
 .awake {
     display: none!important;
+}
+.vertical-divider {
+    position: absolute;
+    width: 2px;
+    border: 2px solid #cacaca;
+    height: 250px;
+    right: 0;
+    background-color: #cacaca;
 }
