@@ -298,7 +298,7 @@
         </div>
       </section>
 
-      <section class=" p-lg-0" >
+      <section class="p-lg-0" >
         <div class="container-fluid">
           <div class="row align-items-center">
             <div class="col-md-12 col-lg-6 order-lg-1 order-2 p-0 ai" data-aos="fade-up">
