@@ -21,26 +21,38 @@
 
       <!-- Theme Style -->
       <link rel="stylesheet" href="/css/newlanding/style.css">
+
+        <!-- Custom Font Style -->
+        <style type="text/css">
+            @font-face {
+                font-family: Avenir-Black;
+                src: url("/fonts/Avenir-Black.ttf");
+            }
+            
+            @font-face {
+                font-family: Poppins-Regular;
+                src: url("/fonts/Poppins-Regular.ttf");
+            }
+        </style>
     </head>
     <body data-spy="scroll" data-target="#templateux-navbar" data-offset="200">
 
-    <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="templateux-navbar">
-      <div class="container-fluid justify-content-center">
-        <a class="navbar-brand" href="/">
-          <img class='d-none d-lg-block' src="/images/newlanding/long-logo.png" alt="">
-          <img class='d-lg-none d-block' src="/images/newlanding/long-logo.png" alt="">
-        </a>
+    <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light px-lg-5 " id="templateux-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand " href="/newlanding">
+          <img class='' src="/images/newlanding/white-logo.svg" width="300" alt="">
+        <!-- </a>
         <div class="site-menu-toggle js-site-menu-toggle  ml-auto"  data-aos="fade" data-toggle="collapse" data-target="#templateux-navbar-nav" aria-controls="templateux-navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
               <span></span>
               <span></span>
               <span></span>
-            </div>
+            </div> -->
             <!-- END menu-toggle -->
 
         <div class="collapse navbar-collapse" id="templateux-navbar-nav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item "><a class="nav-link text-white" href="/job">Jobs</a></li>
-            <li class="nav-item cta-btn ml-xl-2 ml-lg-2 ml-md-0 ml-sm-0 ml-0 "><a href ="" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" class="nav-link text-white" ><span class="pb_rounded-4 px-4 rounded">Request Access</span></a></li>
+            <!-- <li class="nav-item cta-btn ml-xl-2 ml-lg-2 ml-md-0 ml-sm-0 ml-0 "><a href ="" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" class="nav-link text-white" ><span class="pb_rounded-4 px-4 rounded">Request Access</span></a></li> -->
           </ul>
         </div>
       </div>
@@ -102,17 +114,24 @@
         </div>
       </div>
 
-      <section class="site-hero overlay" style="background-image: url(/images/newlanding/hero_4.jpg)" data-stellar-background-ratio="0.5" id="section-home">
+      <section class=''>
         <div class="container-fluid">
           <div class="row site-hero-inner align-items-center">
-            <div class="col-lg-5 offset-lg-1 text-center text-lg-left" data-aos="fade-up">
-              <p class="h1 text-white">The only local and sustainable colthes capsule, now on your doorstep.</p>
-              <div class='mt-5'>
-                <input type="text" placeholder='Enter Email' class='text-white mail-text mb-2' autofocus>
-                <button type="button" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Request Access</button>
+            <div class="col-12 col-lg-5 bg-green h-100 d-flex p-lg-5 align-items-center">
+              <div class="">
+                <div class="text-center text-lg-left" data-aos="fade-up">
+                  <p class="h1 text-white mt-5" style="line-height: inherit;">The only clothes capsule with integrity, delivered.</p>
+                  <div class='mt-5'>
+                    <input type="text" placeholder='Enter Email' class='text-white mail-text mb-2' autofocus>
+                    <button type="button" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Request Access</button>
+                  </div>
+                  <p class="h4 text-white mt-5">Keep your city in style.</p>
+                </div>
               </div>
-              <p class="h4 text-white mt-5">Bring the local uniqueness back to your <br> community/city.</p>
             </div>
+            <div class="d-none d-lg-block col-12 col-lg-7 site-hero overlay" style="background-image: url(/images/newlanding/hero_4.jpg)" data-stellar-background-ratio="0.5" id="section-home">
+            </div>
+
           </div>
         </div>
 
@@ -121,6 +140,7 @@
             <span class="mouse-wheel"></span>
           </div>
         </a>
+            <img class='d-block d-lg-none w-100' src="/images/newlanding/hero_4.jpg" alt="">
       </section>
       <!-- END section -->
 
@@ -145,9 +165,9 @@
       <section class="bg-brown" id="introduction">
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="col-md-12 col-lg-6 m-auto ml-auto order-lg-1 position-relative p-0 platform" data-aos="fade-up">
+            <div class="col-md-12 col-lg-6 m-auto ml-auto order-2 order-lg-1 position-relative p-0 platform" data-aos="fade-up">
             </div>
-            <div class="col-md-12 col-lg-6 order-lg-2 p-5" data-aos="fade-up">
+            <div class="col-md-12 col-lg-6 order-1 order-lg-2 p-5" data-aos="fade-up">
               <div class="col-lg-10 m-auto">
               <div class="separator color-orange ml-0"></div>
                 <h1 class="mb-4 order-1 text-white">Our platform makes it easy for you.</h1>
@@ -187,9 +207,9 @@
       <section class="bg-orange" id="package">
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="col-md-12 col-lg-6 m-auto ml-auto order-lg-2 position-relative p-0 package" data-aos="fade-up">
+            <div class="col-md-12 col-lg-6 m-auto ml-auto  order-2 position-relative p-0 package" data-aos="fade-up">
             </div>
-            <div class="col-md-12 col-lg-6 order-lg-1 p-5" data-aos="fade-up">
+            <div class="col-md-12 col-lg-6 order-1 p-5" data-aos="fade-up">
               <div class="col-lg-10 m-auto">
               <div class="separator color-white ml-0"></div>
                 <h1 class="mb-4 order-1 text-white">Beautifully packaged with recycled materials</h1>
@@ -205,29 +225,33 @@
         </div>
       </section>
       
-      <section class="section bg-white pb-0">
+      <section class="section bg-white ">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-lg-3 align-items-center" data-aos="fade-up">
-              <p class='font-weight-bold'>Jen Furman,
-                  <img class='myquote-1' src="/images/newlanding/quote.svg" alt="">  
-              </p>
-              <p>
-                Independent Brand/Stylist <br><br>
-                ”I love how easy it is to get my new styles to a global audience”
-                <img class='myquote-2' src="/images/newlanding/quote.svg" alt="">  
-              </p>
+            <div class="col-lg-4 align-items-center" data-aos="fade-up">
+              <h1 class='text-left font-orange'>"</h1>
+              <br><br><br>
+              <div class='px-4'>
+                <p class='font-weight-bold'>Jen Furman,
+                  </p>
+                  <p>
+                    Independent Brand/Stylist <br><br>
+                    ”I love how easy it is to get my new styles to a global audience”
+                  </p>
+                </div>
+                <br><br><br>
+              <h1 class='text-right font-orange'>"</h1>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="bg-white" id="partner">
+      <section class="bg-white section" id="partner">
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="col-md-12 col-lg-6 m-auto ml-auto order-lg-2 position-relative p-0 partner" data-aos="fade-up">
+            <div class="d-none d-lg-block col-lg-6 m-auto ml-auto order-lg-2 position-relative p-0 partner" data-aos="fade-up">
             </div>
-            <div class="col-md-12 col-lg-6 order-lg-1 p-5" data-aos="fade-up">
+            <div class="col-md-12 col-lg-6 order-lg-1 " data-aos="fade-up">
               <div class="col-lg-10 m-auto">
                 <h1 class="mb-4 order-1 font-orange">Be a Part of the Revolution</h1>
                 <p class="mb-5 order-3 text-black">
@@ -242,12 +266,12 @@
         </div>
       </section>
 
-      <section class="bg-white section pt-0" id="partner">
+      <section class="bg-white section pt-0 ">
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="col-md-12 col-lg-6 m-auto ml-auto order-lg-1 position-relative p-0 partner" data-aos="fade-up">
+            <div class="d-none d-lg-block col-lg-6 m-auto ml-auto order-lg-1 position-relative p-0 audience" data-aos="fade-up">
             </div>
-            <div class="col-md-12 col-lg-6 order-lg-2 p-5" data-aos="fade-up">
+            <div class="col-md-12 col-lg-6 order-lg-2 " data-aos="fade-up">
               <div class="col-lg-10 m-auto">
                 <h1 class="mb-4 order-1 font-brown">Get to know your audience, down to last detail</h1>
                 <p class="mb-5 order-3 text-black">
@@ -262,11 +286,11 @@
         </div>
       </section>
 
-      <section class="bg-white" id="chain">
+      <section class="section bg-white" id="chain">
         <div class="container-fluid h-100">
           <div class="row align-items-center h-100">
-            <div class="col-md-12 col-lg-6 order-lg-1 position-relative p-0 " data-aos="fade-up">
-              <div class="col-lg-8 m-auto p-5 chain-content">
+            <div class="col-md-12 col-lg-6 order-lg-1  p-0 " data-aos="fade-up">
+              <div class="col-lg-8 p-lg-5 m-lg-auto p-3 chain-content">
                 <h1 class="mb-4 order-1 text-black">The future is a sustainable supply chain</h1>
                 <div class="separator color-green ml-0"></div>
                 <p class="mb-5 order-3 text-black">
@@ -280,13 +304,13 @@
         </div>
       </section>
 
-      <section class="" id="package">
+      <section class="section" id="package">
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="col-md-12 col-lg-6 order-lg-1 p-0" data-aos="fade-up">
+            <div class="col-md-12 col-lg-6 order-lg-1 order-2 p-0" data-aos="fade-up">
               <img src="/images/newlanding/phones.jpg" alt="Image" class="img-fluid">
             </div>
-            <div class="col-md-12 col-lg-6 p-0 order-lg-2" data-aos="fade-up">
+            <div class="col-md-12 col-lg-6 p-0 order-lg-2 order-1" data-aos="fade-up">
               <div class="col-lg-8 m-auto">
                 <p class="mb-5 h4 text-black text-center">
                   Our stylists use the AI tools to curate unique looks from inventory of over 50K boutiques and independent brands.

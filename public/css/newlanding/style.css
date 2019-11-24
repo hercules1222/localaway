@@ -169,7 +169,7 @@ textarea.form-control {
 }
 
 .site-hero.overlay:before {
-    background: rgba(0, 0, 0, 0.45);
+    /* background: rgba(0, 0, 0, 0.45); */
     content: "";
     position: absolute;
     height: 100vh;
@@ -1802,8 +1802,7 @@ textarea.form-control {
 
 @media (max-width: 991.98px) {
     .pb_navbar {
-        background: #fff;
-        padding: 15px 15px;
+        background: #02BFAF padding: 15px 15px;
     }
     .pb_navbar .navbar-brand {
         color: #000 !important;
@@ -2003,7 +2002,7 @@ textarea.form-control {
     background: none;
     color: white;
     border: none;
-    border-bottom: 2px solid;
+    border-bottom: 2px solid #FD5B46;
 }
 
 .mail-text::placeholder {
@@ -2253,11 +2252,15 @@ p {
     background-image: url(/images/newlanding/apple.png);
     height: 70vh;
     background-size: cover;
+    background-size: contain;
+    background-repeat-x: no-repeat;
 }
 .audience {
     background-image: url(/images/newlanding/survey.png);
     height: 70vh;
     background-size: cover;
+    background-size: contain;
+    background-repeat-x: no-repeat;
 }
 .myquote-2 {
     width: 40px;
@@ -2273,8 +2276,20 @@ p {
 }
 #chain {
     background-image: url("/images/newlanding/chain.jpg");
-    height: 75vh;
 }
 #chain .chain-content {
     background: #ffffff80;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-family: Avenir-Black!important;
+}
+body,
+p {
+    font-family: Poppins-Regular!important;
+}
+.awake {
+    display: none!important;
 }
