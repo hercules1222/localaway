@@ -120,12 +120,12 @@
             <div class="col-12 col-lg-5 bg-green h-100 d-flex p-lg-5 align-items-center">
               <div class="">
                 <div class="text-center text-lg-left" data-aos="fade-up">
-                  <p class="h1 text-white mt-5" style="line-height: inherit;">The only clothes capsule with integrity, delivered.</p>
+                  <p class="h1 text-white mt-5" style="line-height: inherit;">Capsule wardrobes with a conscience</p>
                   <div class='mt-5'>
                     <input type="text" placeholder='Enter Email' class='text-white mail-text mb-2' autofocus>
                     <button type="button" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Request Access</button>
                   </div>
-                  <p class="h4 text-white mt-5">Keep your city in style.</p>
+                  <p class="h4 text-white mt-5">At your doorstep</p>
                 </div>
               </div>
             </div>
@@ -164,10 +164,10 @@
             <div class="col-md-12 col-lg-6 order-1 order-lg-2 p-5" data-aos="fade-up">
               <div class="col-lg-10 m-auto">
               <div class="separator color-orange ml-0"></div>
-                <h1 class="mb-4 order-1 text-white">Our platform makes it easy for you.</h1>
+                <h1 class="mb-4 order-1 text-white">A simple platform designed with you in mind</h1>
                 <p class="mb-5 order-3 text-white">
-                  We built an amazing new platform to help users feel prepared for anything.<br><br>
-                  Get access to our amazing technology that creates a unique capsule with unique brands and personalized styles. 
+                  Our platform is easy to use and built to help you find the right outfit for every occasion<br><br>
+                  Get access to our AI technology that creates a unique capsule wardrobe personalized for you from amazing local brands.
                 </p>
               </div>
             </div>
@@ -184,12 +184,10 @@
             <div class="col-md-12 col-lg-6 order-lg-2 " data-aos="fade-up">
               <div class="col-lg-10 m-auto">
               <div class="separator color-green ml-0"></div>
-                <h1 class="mb-4 order-1 color-brown">Styles with so much attention to detal deserves attention </h1>
+                <h1 class="mb-4 order-1 color-brown">Styles with so much attention to detail deserve a little extra </h1>
                 <p class="mb-5 order-3 text-black">
-                Access to customers preferecnes through an AI Data platform.<br><br>
-                Global audience<br><br>
-                Letting you know more about your customers helps to incrase sales and make them happy.<br><br>
-                Win Win.
+                  Gain access to a global audience and valuable customer preferences through our AI data platform <br><br>
+                  Learn more about your customers and what they like so you can create an even better fashion experience for them 
                 </p>
               </div>
             </div>
@@ -206,11 +204,11 @@
             <div class="col-md-12 col-lg-6 order-1 " data-aos="fade-up">
               <div class="col-lg-10 m-auto">
               <div class="separator color-white ml-0"></div>
-                <h1 class="mb-4 order-1 text-white">Beautifully packaged with recycled materials</h1>
+                <h1 class="mb-4 order-1 text-white">Beautifully packaged, and always sustainable</h1>
                 <p class="mb-5 order-3 text-white">
-                  Shipping and handling covered - local couriour servives.<br><br>
-                  Insurace and security and all the things.<br><br>
-                  Great things about fashion is that it always looks forward
+                  Packaged with recyclable materials, all parcels are insured. <br><br>
+                  We do all the work, so you don’t need to do the worrying.<br><br>
+                  Fashion always looks forward, and we’re excited to have you on this journey with us.
                 </p>
               </div>
             </div>
@@ -226,7 +224,7 @@
               <h1 class='text-left font-orange'>"</h1>
               <br><br><br>
               <div class='px-4'>
-                <p class='font-weight-bold'>Jen Furman,
+                <p class='font-weight-bold text-black'>Jen Furman,
                   </p>
                   <p>
                     Independent Brand/Stylist <br><br>
@@ -247,11 +245,12 @@
             </div>
             <div class="col-md-12 col-lg-6 order-lg-1 " data-aos="fade-up">
               <div class="col-lg-10 m-auto">
+                <div class="separator color-green ml-0"></div>
                 <h1 class="mb-4 order-1 font-orange">Be a Part of the Revolution</h1>
                 <p class="mb-5 order-3 text-black">
-                  Shipping and handling covered - local couriour servives. <br><br>
-                  Insurace and security and all the things.<br><br>
-                  Great things about fashion is that it always looks forward
+                  Fashion always looks forward, so why shouldn’t we? <br><br>
+                  Packaged with sustainability in mind, we work with local couriers to deliver great capsule wardrobes <br><br>
+                  Fashion with a conscience - this is the new normal we’re striving for, join us.
                 </p>
               </div>
             </div>
@@ -267,11 +266,13 @@
             </div>
             <div class="col-md-12 col-lg-6 order-lg-2 " data-aos="fade-up">
               <div class="col-lg-10 m-auto">
+                <div class="separator color-orange ml-0"></div>
                 <h1 class="mb-4 order-1 font-brown">Get to know your audience, down to last detail</h1>
                 <p class="mb-5 order-3 text-black">
-                  Access to customers preferecnes through an AI Data platform.<br><br>
-                  Letting you know more about your customers helps to incrase sales and make them happy.<br><br>
-                  Win Win.
+                  Empowering you to get to know your audience even better through our AI data platform <br><br>
+                  Get access to a global audience and data to help you create a better experience for your customers <br><br>
+                  Data that gets you more sales and keeps your customers happy.
+
                 </p>
               </div>
             </div>
@@ -288,9 +289,12 @@
                 <h1 class="mb-4 order-1 text-black">The future is a sustainable supply chain</h1>
                 <div class="separator color-green ml-0"></div>
                 <p class="mb-5 order-3 text-black">
-                  Access to customers preferecnes through an AI Data platform.<br><br>
-                  Letting you know more about your customers helps to incrase sales and make them happy.<br><br>
-                  Win Win.
+                  And you can be a part of it. <br><br>
+                  Walks-ins are great, but what if the customer came to you? <br><br>
+                  Showing customers the future of fashion through the power of local boutiques <br><br>
+                  Local, easy to find and always memorable <br><br>
+                  Everything delivered, easy return process - all of the fun, none of the fuss.
+
                 </p>
               </div>
             </div>
@@ -306,7 +310,8 @@
             <div class="col-md-12 col-lg-6 section order-lg-2 order-2 py-5" data-aos="fade-up">
               <div class="col-lg-8 m-auto">
                 <p class=" h4 text-black text-center">
-                  Our stylists use the AI tools to curate unique looks from inventory of over 50K boutiques and independent brands.
+                <br><br>  
+                Our stylists use the AI tools to curate unique looks from inventory of over 50K boutiques and independent brands. <br><br>
                 </p>
               </div>
             </div>

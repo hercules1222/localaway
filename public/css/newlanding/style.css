@@ -2016,7 +2016,7 @@ textarea.form-control {
 
 .separator {
     display: block;
-    width: 42px;
+    width: 150px;
     height: 6px;
     box-shadow: inset 0 4px 0 0 #cacaca;
     margin: 50px auto 24px;
@@ -2220,15 +2220,15 @@ textarea.form-control {
 }
 .color-orange {
     box-shadow: inset 0 4px 0 0 #FD5B46!important;
-    height: 3px!important;
+    height: 4px!important;
 }
 .color-green {
     box-shadow: inset 0 4px 0 0 #02BFAF!important;
-    height: 3px!important;
+    height: 4px!important;
 }
 .color-white {
     box-shadow: inset 0 4px 0 0 white!important;
-    height: 3px!important;
+    height: 4px!important;
 }
 .platform {
     background-image: url(/images/newlanding/platform.jpg);
