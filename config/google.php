@@ -20,7 +20,7 @@ return [
     'client_id' => env('GOOGLE_CLIENT_ID', '886572506421-pctjaj6qd0j7fqmhl199bgtg2cp539bu.apps.googleusercontent.com'),
     'client_secret' => env('GOOGLE_CLIENT_SECRET', 'CF3_TZkbNa_IsQ2Vw7-S5Lf5'),
     'redirect_uri' => env('GOOGLE_REDIRECT', ''),
-    'scopes' => [\Google_Service_Sheets::DRIVE, \Google_Service_Sheets::SPREADSHEETS],
+    // 'scopes' => [\Google_Service_Sheets::DRIVE, \Google_Service_Sheets::SPREADSHEETS],
     'access_type' => 'online',
     'approval_prompt' => 'auto',
 
