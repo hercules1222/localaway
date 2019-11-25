@@ -560,9 +560,9 @@
               </ul>
             </div>
             <div class="col-lg-3 mb-5 d-flex justify-content-space-evently  align-items-end">
-                <a class="h3 color-brown" href="#"><span class="fa fa-instagram"></span></a>   
-                <a class="h3 color-brown" href="#"><span class="fa fa-twitter"></span></a> 
-                <a class="h3 color-brown" href="#"><span class="fa fa-facebook"></span></a>    
+                <a class="h3 color-brown" href="https://www.instagram.com/accounts/login/"><span class="fa fa-instagram"></span></a>   
+                <a class="h3 color-brown" href="https://twitter.com/local_away"><span class="fa fa-twitter"></span></a> 
+                <a class="h3 color-brown" href="https://www.facebook.com/localaway/"><span class="fa fa-facebook"></span></a>    
             </div>
             
             <div class="col-lg-5 mb-5 mt-auto">

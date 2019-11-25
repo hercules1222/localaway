@@ -18,14 +18,26 @@
 
         <!-- Theme Style -->
         <link rel="stylesheet" href="/css/newlanding/style.css">
+
+          <!-- Custom Font Style -->
+          <style type="text/css">
+            @font-face {
+                font-family: Avenir-Black;
+                src: url("/fonts/Avenir-Black.ttf");
+            }
+            
+            @font-face {
+                font-family: Poppins-Regular;
+                src: url("/fonts/Poppins-Regular.ttf");
+            }
+        </style>
     </head>
     <body data-spy="scroll" data-target="#templateux-navbar" data-offset="200">
 
     <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="templateux-navbar">
         <div class="container-fluid justify-content-center">
             <a class="navbar-brand" href="/">
-                <img class='d-none d-lg-block' src="/images/newlanding/long-logo.png" alt="">
-                <img class='d-lg-none d-block' src="/images/newlanding/long-logo.png" alt="">
+                <img class='' src="/images/newlanding/white-logo.svg" width="300" alt="">
             </a>
             <div class="site-menu-toggle js-site-menu-toggle  ml-auto"  data-aos="fade" data-toggle="collapse" data-target="#templateux-navbar-nav" aria-controls="templateux-navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span></span>
@@ -119,8 +131,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-10 text-center align-items-center" data-aos="fade-up">
-                    <div class="separator"></div>
                     <h1>Open Positions</h1> 
+                    <div class="separator color-orange"></div>
                     <p class="mb-5 m-auto text-left"><strong class="text-dark font-weight-bold">Stylist1:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
                     </p>
                 </div>
@@ -167,34 +179,42 @@
         <div class="container">
             <div class="row justify-content-center text-center mb-5">
                 <div class="col-md-7">
-                    <div class="separator"></div>
-                        <h1 class="text-white">Our Values</h1>
-                    </div>
+                    <h1 class="text-white">Our Values</h1>
+                    <div class="separator color-white"></div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="100">
-                        
-                        <div class="media media-custom d-block mb-4 h-100">
-                            <div class="media-body">
-                                <h2 class="mt-0 mb-3 text-white">Discovery & Education</h2>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="200">
-                        <div class="media media-custom d-block mb-4 h-100">
-                            <div class="media-body">
-                                <h2 class="mt-0 mb-3 text-white">Self Expression</h2>
-                            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="100">
+                    
+                    <div class="media media-custom d-block mb-4 h-100">
+                        <div class="media-body">
+                            <h2 class="mt-0 mb-3 text-white">Discovery & Education</h2>
+                            <p class="text-white">
+                            Helping you find the right look by tapping into our community of local boutiques and independent brands
+                            </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="300">
-                        <div class="media media-custom d-block mb-4 h-100">
-                            <div class="media-body">
-                                <h2 class="mt-0 mb-3 text-white">Social Responsibility</h2>
-                            </div>
+                    
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="200">
+                    <div class="media media-custom d-block mb-4 h-100">
+                        <div class="media-body">
+                            <h2 class="mt-0 mb-3 text-white">Self Expression</h2>
+                            <p class="text-white">
+                                Helping you find the right look by tapping into our community of local boutiques and independent brands
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="300">
+                    <div class="media media-custom d-block mb-4 h-100">
+                        <div class="media-body">
+                            <h2 class="mt-0 mb-3 text-white">Social Responsibility</h2>
+                            <p class="text-white">
+                                Helping you find the right look by tapping into our community of local boutiques and independent brands
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -206,8 +226,8 @@
         <div class="container">
             <div class="row justify-content-center text-center mb-5">
                 <div class="col-md-7">
-                    <div class="separator"></div>
                     <h1>Meet the team</h1>
+                    <div class="separator color-orange"></div>
                 </div>
             </div>
             <div class="row justify-content-center" data-aos="fade-up">
@@ -227,7 +247,7 @@
                     </div>
                     <p class='m-0  font-weight-bold'>Engineering</p>
                     <p class="font-weight-bold text-black  m-0"><em>&mdash; Bin Wu</em></p>
-                    <p class='m-0  font-weight-bold'>Engineering Expert</p>
+                    <p class='m-0  font-weight-bold'>Software Engineer</p>
                 </div>
 
                 <div class="testimonial text-center slider-item col-md-4 col-lg-3">
@@ -254,66 +274,7 @@
         </div>
     </section>
         
-    <div class="section" style="background-image: url(/images/newlanding/222.jpg)" id="section-team">
-        <div class="container bg-white" data-aos="fade-up">
-            <div class="row justify-content-center text-center mb-5">
-                <div class="col-md-7 mb-5">
-                    <div class="separator"></div>
-                    <h1>Our Investor</h1>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-6  " data-aos="fade-up" data-aos-delay="100">
-                    <div class="block-2">
-                        <div class="flipper">
-                            <div class="front" style="background-image: url(images/person_3.jpg);">
-                                <div class="box">
-                                    <h2>Will Smith</h2>
-                                    <p>President</p>
-                                </div>
-                            </div>
-                            <div class="back">
-                                <!-- back content -->
-                                <blockquote>
-                                    <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
-                                </blockquote>
-                                <div class="author d-flex">
-                                    <div class="image mr-3 align-self-center">
-                                        <img src="images/person_3.jpg" alt="">
-                                    </div>
-                                    <div class="name align-self-center">Will Smith <span class="position">President</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- .flip-container -->
-                </div>
-                <div class="col-md-6 " data-aos="fade-up" data-aos-delay="200">
-                    <div class="block-2"> <!-- .hover -->
-                        <div class="flipper">
-                            <div class="front" style="background-image: url(images/person_1.jpg);">
-                                <div class="box">
-                                    <h2>Claire Williams</h2>
-                                    <p>Business Manager</p>
-                                </div>
-                            </div>
-                            <div class="back">
-                                <!-- back content -->
-                                <blockquote>
-                                    <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
-                                </blockquote>
-                                <div class="author d-flex">
-                                    <div class="image mr-3 align-self-center">
-                                        <img src="images/person_1.jpg" alt="">
-                                    </div>
-                                    <div class="name align-self-center">Claire Williams <span class="position">Business Manager</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- .flip-container -->
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
 
     <footer class="section footer-section">
@@ -338,9 +299,9 @@
               </ul>
             </div>
             <div class="col-lg-3 mb-5 d-flex justify-content-space-evently  align-items-end">
-                <a class="h3 color-brown" href="#"><span class="fa fa-instagram"></span></a>   
-                <a class="h3 color-brown" href="#"><span class="fa fa-twitter"></span></a> 
-                <a class="h3 color-brown" href="#"><span class="fa fa-facebook"></span></a>    
+                <a class="h3 color-brown" href="https://www.instagram.com/accounts/login/"><span class="fa fa-instagram"></span></a>   
+                <a class="h3 color-brown" href="https://twitter.com/local_away"><span class="fa fa-twitter"></span></a> 
+                <a class="h3 color-brown" href="https://www.facebook.com/localaway/"><span class="fa fa-facebook"></span></a>   
             </div>
             
             <div class="col-lg-5 mb-5 mt-auto">
@@ -352,19 +313,19 @@
                 </form>
             </div>
         </div>
-      </footer>
+    </footer>
       
-      <script src="/js/jquery-3.3.1.min.js"></script>
-      <script src="/js/jquery-migrate-3.0.1.min.js"></script>
-      <script src="/js/popper.min.js"></script>
-      <script src="/js/bootstrap.min.js"></script>
-      <script src="/js/owl.carousel.min.js"></script>
-      <script src="/js/jquery.stellar.min.js"></script>
-      <script src="/js/jquery.fancybox.min.js"></script>
-      <script src="/js/jquery.easing.1.3.js"></script>
-      <script src="/js/aos.js"></script>
-      <script src="/js/bootstrap-datepicker.js"></script> 
-      <script src="/js/jquery.timepicker.min.js"></script> 
-      <script src="/js/main.js"></script>
-    </body>
-  </html>
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/jquery.stellar.min.js"></script>
+    <script src="/js/jquery.fancybox.min.js"></script>
+    <script src="/js/jquery.easing.1.3.js"></script>
+    <script src="/js/aos.js"></script>
+    <script src="/js/bootstrap-datepicker.js"></script> 
+    <script src="/js/jquery.timepicker.min.js"></script> 
+    <script src="/js/main.js"></script>
+</body>
+</html>
