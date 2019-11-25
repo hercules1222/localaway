@@ -2258,10 +2258,16 @@ p {
 }
 .ai {
     background-image: url(/images/newlanding/phones.jpg);
+    background-image: url(/images/newlanding/phones.jpg);
     height: 100vh;
     background-size: cover;
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
+}
+@media (max-width: 991.98px) {
+    .ai {
+        background-image: url(/images/newlanding/phones-2.jpg);
+    }
 }
 .audience {
     background-image: url(/images/newlanding/survey.png);

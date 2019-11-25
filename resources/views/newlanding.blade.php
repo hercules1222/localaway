@@ -301,11 +301,11 @@
       <section class="p-lg-0" >
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="col-md-12 col-lg-6 order-lg-1 order-2 p-0 ai" data-aos="fade-up">
+            <div class="col-md-12 col-lg-6 order-lg-1 order-1 p-0 ai" data-aos="fade-up">
             </div>
-            <div class="col-md-12 col-lg-6 section order-lg-2 order-1 py-5" data-aos="fade-up">
+            <div class="col-md-12 col-lg-6 section order-lg-2 order-2 py-5" data-aos="fade-up">
               <div class="col-lg-8 m-auto">
-                <p class="mb-5 h4 text-black text-center">
+                <p class=" h4 text-black text-center">
                   Our stylists use the AI tools to curate unique looks from inventory of over 50K boutiques and independent brands.
                 </p>
               </div>
@@ -329,7 +329,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-12 col-lg-6 order-lg-2 p-5" data-aos="fade-up">
+            <div class="d-none d-lg-block col-md-12 col-lg-6 order-lg-2 p-5" data-aos="fade-up">
               <div class="col-lg-8 m-auto">
                 <p class="mb-5 h5 text-white text-left">
                 The only local and sustainable clothes capsule, now on your doorstep.
