@@ -340,7 +340,7 @@
         </div>
       </section>
 
-      <section class="bg-light py-5" id="quote">
+      <!-- <section class="bg-light py-5" id="quote">
         <div class="container-fluid quotes quotes-1 update-navbar-white update-navbar-show-button update-navbar-hide-take-me-to-superhuman">
         <div class="row background">
             <div class=""></div>
@@ -386,7 +386,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <section class=" testimonial-section section">
         <div class="container-fluid">
