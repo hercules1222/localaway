@@ -14,49 +14,63 @@
 
 Auth::routes();
 
-Route::get('/dashboard','DashboardController@index');
-
-Route::get('/', 'HomeController@index')->name('home');
-Route::get('/home', 'HomeController@index')->name('home');
-
-Route::get('/dashboard/logo-image', 'DashboardController@index');
-Route::get('/dashboard/hero-image', 'DashboardController@hero');
-Route::get('/dashboard/itinerary-image', 'DashboardController@itinerary');
-Route::get('/dashboard/stylist-image', 'DashboardController@stylist');
-
-Route::post('/admin/file/upload', 'FileController@store');
-Route::get('/admin/file/delete/{id}', 'FileController@delete');
-Route::get('/admin/file/use/{id}', 'FileController@use');
-Route::post('/admin/file/update/{id}', 'FileController@update');
-Route::get('/admin/file/move-up/{id}', 'FileController@up');
-Route::get('/admin/file/move-down/{id}', 'FileController@down');
-
-Route::get('/auth/redirect/{provider}', 'SocialController@redirect');
-Route::get('/auth/callback/{provider}', 'SocialController@callback');
-
-Route::get('/become-stylist', function () {
-    return view('stylist-sign-in');
+Route::domain('staging.localaway.com')->group(function () {
+    
+    
+    Route::get('/dashboard','DashboardController@index');
+    
+    Route::get('/', 'HomeController@index')->name('home');
+    Route::get('/home', 'HomeController@index')->name('home');
+    
+    Route::get('/dashboard/logo-image', 'DashboardController@index');
+    Route::get('/dashboard/hero-image', 'DashboardController@hero');
+    Route::get('/dashboard/itinerary-image', 'DashboardController@itinerary');
+    Route::get('/dashboard/stylist-image', 'DashboardController@stylist');
+    
+    Route::post('/admin/file/upload', 'FileController@store');
+    Route::get('/admin/file/delete/{id}', 'FileController@delete');
+    Route::get('/admin/file/use/{id}', 'FileController@use');
+    Route::post('/admin/file/update/{id}', 'FileController@update');
+    Route::get('/admin/file/move-up/{id}', 'FileController@up');
+    Route::get('/admin/file/move-down/{id}', 'FileController@down');
+    
+    Route::get('/auth/redirect/{provider}', 'SocialController@redirect');
+    Route::get('/auth/callback/{provider}', 'SocialController@callback');
+    
+    Route::get('/become-stylist', function () {
+        return view('stylist-sign-in');
+    });
+    
+    Route::get('/customer-sign-up', function () {
+        return view('customer-sign-up');
+    });
+    
+    Route::post('/stylist-signup', 'StylistController@store');
+    
+    Route::post('/answer', 'HomeController@showAnswer');
+    Route::get('/answer', 'HomeController@index');
 });
 
-Route::get('/customer-sign-up', function () {
-    return view('customer-sign-up');
-});
-
-Route::post('/stylist-signup', 'StylistController@store');
-
-Route::post('/answer', 'HomeController@showAnswer');
-Route::get('/answer', 'HomeController@index');
+    
 
 
+Route::domain('localaway.com')->group(function () {
+    
+    Route::get('/newlanding', function () {
+        return view('newlanding');
+    });
+    
+    Route::get('/', function () {
+        return view('newlanding');
+    });
 
-Route::get('/newlanding', function () {
-    return view('newlanding');
-});
-
-Route::get('/survey', function () {
-    return view('survey');
-});
-
-Route::get('/job', function () {
-    return view('job');
+    Route::post('post', 'PostController')->name('post.store');
+    
+    Route::get('/survey', function () {
+        return view('survey');
+    });
+    
+    Route::get('/job', function () {
+        return view('job');
+    });
 });

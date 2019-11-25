@@ -2,6 +2,7 @@
 <html>
     <head>
     <meta charset="utf-8">
+    <link href="/images/favicon-32x32.png" rel="icon" rel="icon" type="image/png" sizes="32x32" />
     <title>Go Survey</title>
     <link rel="stylesheet" href="/css/newlanding/survey/survey.css">
     <link rel="stylesheet" href="/fonts/fontawesome/css/font-awesome.min.css">
@@ -11,7 +12,8 @@
     <body>
         <div class="container-fluid m-0 p-0">
                 <h2 id="title" class="row justify-content-center font-weight-bold" style="opacity:0;"></h2>
-            <form class="wizard-container">
+            <form action="{{ route('post.store') }}" method="post" class="wizard-container">
+                @csrf
                 <div class="wizard-body" style="top: 0">
 
                     <div class="item item-show row start-part">
@@ -45,7 +47,7 @@
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="66"  id="1-b" name="fashion_style[]" value="women's colthes">
+                                <input type="checkbox" data-key="66"  id="1-b" name="fashion_style[]" value="men's colthes">
                                 <label for="1-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
@@ -132,7 +134,7 @@
                                 </span>
                             </div>
                             <div class="answers my-4">
-                                <input type="radio" data-key="65"  id="2-a" name="fashion_counts" value="">
+                                <input type="radio" data-key="65"  id="2-a" name="boutique_style" value="Business">
                                 <label for="2-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
@@ -142,7 +144,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="66"  id="2-b" name="fashion_counts" value="">
+                                <input type="radio" data-key="66"  id="2-b" name="boutique_style" value="Casual">
                                 <label for="2-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
@@ -152,7 +154,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="67"  id="2-c" name="fashion_counts" value="">
+                                <input type="radio" data-key="67"  id="2-c" name="boutique_style" value="Chic/Elegant">
                                 <label for="2-c" class="answer d-flex">
                                     <div class="character ">
                                         <span>C</span>
@@ -162,7 +164,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="68"  id="2-d" name="fashion_counts" value="">
+                                <input type="radio" data-key="68"  id="2-d" name="boutique_style" value="Sophisticated">
                                 <label for="2-d" class="answer d-flex">
                                     <div class="character ">
                                         <span>D</span>
@@ -171,7 +173,7 @@
                                         <span>Sophisticated</span>
                                     </div>
                                 </label>
-                                <input type="radio" data-key="69"  id="2-e" name="fashion_counts" value="">
+                                <input type="radio" data-key="69"  id="2-e" name="boutique_style" value="Vintage">
                                 <label for="2-e" class="answer d-flex">
                                     <div class="character ">
                                         <span>E</span>
@@ -181,7 +183,7 @@
                                     </div>
                                 </label>
                                 
-                                <input type="radio" data-key="70"  id="2-f" name="fashion_counts" value="">
+                                <input type="radio" data-key="70"  id="2-f" name="boutique_style" value="Sportive">
                                 <label for="2-f" class="answer d-flex">
                                     <div class="character ">
                                         <span>F</span>
@@ -191,7 +193,7 @@
                                     </div>
                                 </label>
                             
-                                <input type="radio" data-key="71"  id="2-g" name="fashion_counts" value="">
+                                <input type="radio" data-key="71"  id="2-g" name="boutique_style" value="Bohemian">
                                 <label for="2-g" class="answer d-flex">
                                     <div class="character ">
                                         <span>G</span>
@@ -201,7 +203,7 @@
                                     </div>
                                 </label>
                             
-                                <input type="radio" data-key="72"  id="2-h" name="fashion_counts" value="">
+                                <input type="radio" data-key="72"  id="2-h" name="boutique_style" value="Rocker">
                                 <label for="2-h" class="answer d-flex">
                                     <div class="character ">
                                         <span>H</span>
@@ -211,7 +213,7 @@
                                     </div>
                                 </label>
                                 
-                                <input type="radio" data-key="73"  id="2-i" name="fashion_counts" value="">
+                                <input type="radio" data-key="73"  id="2-i" name="boutique_style" value="Maternity">
                                 <label for="2-i" class="answer d-flex">
                                     <div class="character ">
                                         <span>I</span>
@@ -221,7 +223,7 @@
                                     </div>
                                 </label>
                                 
-                                <input type="radio" data-key="74"  id="2-j" name="fashion_counts" value="">
+                                <input type="radio" data-key="74"  id="2-j" name="boutique_style" value="Event-specific">
                                 <label for="2-j" class="answer d-flex">
                                     <div class="character ">
                                         <span>J</span>
@@ -231,14 +233,14 @@
                                     </div>
                                 </label>
                                 
-                                <input type="radio" data-key="75"  id="2-k" name="fashion_counts" value="">
+                                <input type="radio" data-key="75"  id="2-k" name="boutique_style" value="Other">
                                 <label for="2-k" class="answer d-flex other">
                                     <div class="character ">
                                         <span>K</span>
                                     </div>
                                     <div class="answer-body">
                                         <span>Other</span>
-                                        <input type="text" class="hidden-text" style="display: none;">
+                                        <input type="text" class="hidden-text" style="display: none;" name="boutique_style_other">
                                     </div>
                                 </label>
                             </div>
@@ -259,7 +261,7 @@
                                 </span>
                             </div>
                             <div class="answers my-4">
-                                <input type="radio" data-key="65"  id="3-a" name="fashion_counts" value="">
+                                <input type="radio" data-key="65"  id="3-a" name="size" value="XS / US Size 0-4 / EU Size 30-34">
                                 <label for="3-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
@@ -269,7 +271,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="66"  id="3-b" name="fashion_counts" value="">
+                                <input type="radio" data-key="66"  id="3-b" name="size" value="S / US Size 6-8 / EU Size 36-38">
                                 <label for="3-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
@@ -279,7 +281,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="67"  id="3-c" name="fashion_counts" value="">
+                                <input type="radio" data-key="67"  id="3-c" name="size" value="M / US Size 10-12 / EU Size 40-32">
                                 <label for="3-c" class="answer d-flex">
                                     <div class="character ">
                                         <span>C</span>
@@ -289,7 +291,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="68"  id="3-d" name="fashion_counts" value="">
+                                <input type="radio" data-key="68"  id="3-d" name="size" value="L / US Size 14-16 / EU Size 44-46">
                                 <label for="3-d" class="answer d-flex">
                                     <div class="character ">
                                         <span>D</span>
@@ -298,7 +300,7 @@
                                         <span>L / US Size 14-16 / EU Size 44-46</span>
                                     </div>
                                 </label>
-                                <input type="radio" data-key="69"  id="3-e" name="fashion_counts" value="">
+                                <input type="radio" data-key="69"  id="3-e" name="size" value="XL / US Size 18-20 / EU Size 48-50">
                                 <label for="3-e" class="answer d-flex">
                                     <div class="character ">
                                         <span>E</span>
@@ -308,7 +310,7 @@
                                     </div>
                                 </label>
                                 
-                                <input type="radio" data-key="70"  id="3-f" name="fashion_counts" value="">
+                                <input type="radio" data-key="70"  id="3-f" name="size" value="XXL / US Size 22-24  / EU Size 52-54">
                                 <label for="3-f" class="answer d-flex">
                                     <div class="character ">
                                         <span>F</span>
@@ -318,7 +320,7 @@
                                     </div>
                                 </label>
                             
-                                <input type="radio" data-key="71"  id="3-g" name="fashion_counts" value="">
+                                <input type="radio" data-key="71"  id="3-g" name="size" value="XXXL / US Size 26- 28 / EU Size 56-58">
                                 <label for="3-g" class="answer d-flex">
                                     <div class="character ">
                                         <span>G</span>
@@ -346,7 +348,7 @@
                                 </span>
                             </div>
                             <div class="answers my-4">
-                                <input type="radio" data-key="65"  id="4-a" name="fashion_counts" value="">
+                                <input type="radio" data-key="65"  id="4-a" name="fashion_items" value="< 5">
                                 <label for="4-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
@@ -356,7 +358,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="66"  id="4-b" name="fashion_counts" value="">
+                                <input type="radio" data-key="66"  id="4-b" name="fashion_items" value="5 - 10">
                                 <label for="4-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
@@ -366,7 +368,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="67"  id="4-c" name="fashion_counts" value="">
+                                <input type="radio" data-key="67"  id="4-c" name="fashion_items" value="10 - 20">
                                 <label for="4-c" class="answer d-flex">
                                     <div class="character ">
                                         <span>C</span>
@@ -376,7 +378,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="68"  id="4-d" name="fashion_counts" value="">
+                                <input type="radio" data-key="68"  id="4-d" name="fashion_items" value="> 20">
                                 <label for="4-d" class="answer d-flex">
                                     <div class="character ">
                                         <span>D</span>
@@ -406,7 +408,7 @@
                                 <p class="color-brown mt-4">Choose as many as possible</p>
                             </div>
                             <div class="answers mt-4">
-                                <input type="checkbox" data-key="65"  id="5-a" name="online_shop[]" value="">
+                                <input type="checkbox" data-key="65"  id="5-a" name="online_shop[]" value="No">
                                 <label for="5-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
@@ -416,7 +418,7 @@
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="66"  id="5-b" name="online_shop[]" value="">
+                                <input type="checkbox" data-key="66"  id="5-b" name="online_shop[]" value="Boutique’s webpage">
                                 <label for="5-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
@@ -426,7 +428,7 @@
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="67"  id="5-c" name="online_shop[]" value="">
+                                <input type="checkbox" data-key="67"  id="5-c" name="online_shop[]" value="Instagram">
                                 <label for="5-c" class="answer d-flex">
                                     <div class="character ">
                                         <span>C</span>
@@ -436,7 +438,7 @@
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="68"  id="5-d" name="online_shop[]" value="">
+                                <input type="checkbox" data-key="68"  id="5-d" name="online_shop[]" value="Facebook">
                                 <label for="5-d" class="answer d-flex">
                                     <div class="character ">
                                         <span>D</span>
@@ -446,7 +448,7 @@
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="69"  id="5-e" name="online_shop[]" value="">
+                                <input type="checkbox" data-key="69"  id="5-e" name="online_shop[]" value="Partner shop">
                                 <label for="5-e" class="answer d-flex">
                                     <div class="character ">
                                         <span>E</span>
@@ -456,14 +458,14 @@
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="70"  id="5-f" name="online_shop[]" value="">
+                                <input type="checkbox" data-key="70"  id="5-f" name="online_shop[]" value="Other">
                                 <label for="5-f" class="answer d-flex other">
                                     <div class="character ">
                                         <span>F</span>
                                     </div>
                                     <div class="answer-body">
                                         <span>Other</span>
-                                        <input type="text" class="hidden-text" style="display: none;">
+                                        <input type="text" class="hidden-text" style="display: none;" name="online_shop_other">
                                     </div>
                                 </label>
 
@@ -486,7 +488,7 @@
                                 </span>
                             </div>
                             <div class="answers mt-4">
-                                <input type="radio" data-key="65"  id="6-a" name="shop_technology" value="">
+                                <input type="radio" data-key="65"  id="6-a" name="shop_technology" value="Shopify">
                                 <label for="6-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
@@ -496,7 +498,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="66"  id="6-b" name="shop_technology" value="">
+                                <input type="radio" data-key="66"  id="6-b" name="shop_technology" value="Magento">
                                 <label for="6-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
@@ -506,14 +508,14 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="67"  id="6-c" name="shop_technology" value="">
+                                <input type="radio" data-key="67"  id="6-c" name="shop_technology" value="other">
                                 <label for="6-c" class="answer d-flex other">
                                     <div class="character ">
                                         <span>C</span>
                                     </div>
                                     <div class="answer-body">
                                         <span>etc</span>
-                                        <input type="text" class="hidden-text" style="display: none;">
+                                        <input type="text" class="hidden-text"  name="shop_technology_other" style="display: none;">
                                     </div>
                                 </label>
                             </div>
@@ -534,7 +536,7 @@
                                 </span>
                             </div>
                             <div class="answers my-4">
-                                <input type="radio" data-key="65"  id="7-a" name="fashion_counts" value="">
+                                <input type="radio" data-key="65"  id="7-a" name="employee_number" value="1">
                                 <label for="7-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
@@ -544,7 +546,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="66"  id="7-b" name="fashion_counts" value="">
+                                <input type="radio" data-key="66"  id="7-b" name="employee_number" value="2">
                                 <label for="7-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
@@ -554,7 +556,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="67"  id="7-c" name="fashion_counts" value="">
+                                <input type="radio" data-key="67"  id="7-c" name="employee_number" value="3">
                                 <label for="7-c" class="answer d-flex">
                                     <div class="character ">
                                         <span>C</span>
@@ -564,7 +566,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="68"  id="7-d" name="fashion_counts" value="">
+                                <input type="radio" data-key="68"  id="7-d" name="employee_number" value="4">
                                 <label for="7-d" class="answer d-flex">
                                     <div class="character ">
                                         <span>D</span>
@@ -573,7 +575,7 @@
                                         <span>4</span>
                                     </div>
                                 </label>
-                                <input type="radio" data-key="69"  id="7-e" name="fashion_counts" value="">
+                                <input type="radio" data-key="69"  id="7-e" name="employee_number" value="5">
                                 <label for="7-e" class="answer d-flex">
                                     <div class="character ">
                                         <span>E</span>
@@ -583,7 +585,7 @@
                                     </div>
                                 </label>
                                 
-                                <input type="radio" data-key="70"  id="7-f" name="fashion_counts" value="">
+                                <input type="radio" data-key="70"  id="7-f" name="employee_number" value=">5">
                                 <label for="7-f" class="answer d-flex">
                                     <div class="character ">
                                         <span>F</span>
@@ -593,7 +595,7 @@
                                     </div>
                                 </label>
                             
-                                <input type="radio" data-key="71"  id="7-g" name="fashion_counts" value="">
+                                <input type="radio" data-key="71"  id="7-g" name="employee_number" value=">10">
                                 <label for="7-g" class="answer d-flex">
                                     <div class="character ">
                                         <span>G</span>
@@ -603,7 +605,7 @@
                                     </div>
                                 </label>
                             
-                                <input type="radio" data-key="72"  id="7-h" name="fashion_counts" value="">
+                                <input type="radio" data-key="72"  id="7-h" name="employee_number" value=">20">
                                 <label for="7-h" class="answer d-flex">
                                     <div class="character ">
                                         <span>H</span>
@@ -630,7 +632,7 @@
                                 </span>
                             </div>
                             <div class="answers mt-4">
-                                <input type="radio" data-key="65"  id="8-a" name="stylist_number" value="" class="link-expand">
+                                <input type="radio" data-key="65"  id="8-a" name="customer_style" value="We are also stylists" class="link-expand">
                                 <label for="8-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
@@ -640,7 +642,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="66"  id="8-b" name="stylist_number" value=""  class="link-expand">
+                                <input type="radio" data-key="66"  id="8-b" name="customer_style" value="We work with/ have separate stylist"  class="link-expand">
                                 <label for="8-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
@@ -674,7 +676,7 @@
                                 </span>
                             </div>
                             <div class="answers my-4">
-                                <input type="radio" data-key="65"  id="9-a" name="fashion_counts" value="">
+                                <input type="radio" data-key="65"  id="9-a" name="online_percentage" value="10%">
                                 <label for="9-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
@@ -684,7 +686,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="66"  id="9-b" name="fashion_counts" value="">
+                                <input type="radio" data-key="66"  id="9-b" name="online_percentage" value="10-30%">
                                 <label for="9-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
@@ -694,7 +696,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="67"  id="9-c" name="fashion_counts" value="">
+                                <input type="radio" data-key="67"  id="9-c" name="online_percentage" value="30-60%">
                                 <label for="9-c" class="answer d-flex">
                                     <div class="character ">
                                         <span>C</span>
@@ -704,7 +706,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="68"  id="9-d" name="fashion_counts" value="">
+                                <input type="radio" data-key="68"  id="9-d" name="online_percentage" value="60-80%">
                                 <label for="9-d" class="answer d-flex">
                                     <div class="character ">
                                         <span>D</span>
@@ -713,7 +715,7 @@
                                         <span>60-80%</span>
                                     </div>
                                 </label>
-                                <input type="radio" data-key="69"  id="9-e" name="fashion_counts" value="">
+                                <input type="radio" data-key="69"  id="9-e" name="online_percentage" value="80-90%">
                                 <label for="9-e" class="answer d-flex">
                                     <div class="character ">
                                         <span>E</span>
@@ -723,7 +725,7 @@
                                     </div>
                                 </label>
                                 
-                                <input type="radio" data-key="70"  id="9-f" name="fashion_counts" value="">
+                                <input type="radio" data-key="70"  id="9-f" name="online_percentage" value="90-100%">
                                 <label for="9-f" class="answer d-flex">
                                     <div class="character ">
                                         <span>F</span>
@@ -750,7 +752,7 @@
                                 </span>
                             </div>
                             <div class="answers my-4">
-                                <input type="radio" data-key="65"  id="10-a" name="fashion_counts" value="">
+                                <input type="radio" data-key="65"  id="10-a" name="customer_percent" value="<50%">
                                 <label for="10-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
@@ -760,7 +762,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="66"  id="10-b" name="fashion_counts" value="">
+                                <input type="radio" data-key="66"  id="10-b" name="customer_percent" value=">50%">
                                 <label for="10-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
@@ -770,7 +772,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="67"  id="10-c" name="fashion_counts" value="">
+                                <input type="radio" data-key="67"  id="10-c" name="customer_percent" value=">75%">
                                 <label for="10-c" class="answer d-flex">
                                     <div class="character ">
                                         <span>C</span>
@@ -798,7 +800,7 @@
                                 </span>
                             </div>
                             <div class="answers mt-4">
-                                <input type="radio" data-key="65"  id="11-a" name="advertize_online" value="">
+                                <input type="radio" data-key="65"  id="11-a" name="advertize_method" value="Google">
                                 <label for="11-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
@@ -808,7 +810,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="66"  id="11-b" name="advertize_online" value="">
+                                <input type="radio" data-key="66"  id="11-b" name="advertize_method" value="Facebook">
                                 <label for="11-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
@@ -818,7 +820,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="67"  id="11-c" name="advertize_online" value="">
+                                <input type="radio" data-key="67"  id="11-c" name="advertize_method" value="Instagram">
                                 <label for="11-c" class="answer d-flex">
                                     <div class="character ">
                                         <span>C</span>
@@ -828,7 +830,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="68"  id="11-d" name="advertize_online" value="">
+                                <input type="radio" data-key="68"  id="11-d" name="advertize_method" value="Offline">
                                 <label for="11-d" class="answer d-flex">
                                     <div class="character ">
                                         <span>D</span>
@@ -856,7 +858,7 @@
                                 <p class="color-brown mt-4">Choose as many as possible</p>
                             </div>
                             <div class="answers mt-4">
-                                <input type="checkbox" data-key="65"  id="12-a" name="taget_customer[]" value="">
+                                <input type="checkbox" data-key="65"  id="12-a" name="taget_customer[]" value="Low income level">
                                 <label for="12-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
@@ -866,7 +868,7 @@
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="66"  id="12-b" name="taget_customer[]" value="">
+                                <input type="checkbox" data-key="66"  id="12-b" name="taget_customer[]" value="Medium income level">
                                 <label for="12-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
@@ -876,7 +878,7 @@
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="67"  id="12-c" name="taget_customer[]" value="">
+                                <input type="checkbox" data-key="67"  id="12-c" name="taget_customer[]" value="High income level">
                                 <label for="12-c" class="answer d-flex">
                                     <div class="character ">
                                         <span>C</span>
@@ -886,7 +888,7 @@
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="68"  id="12-d" name="taget_customer[]" value="">
+                                <input type="checkbox" data-key="68"  id="12-d" name="taget_customer[]" value="Age below 30">
                                 <label for="12-d" class="answer d-flex">
                                     <div class="character ">
                                         <span>D</span>
@@ -896,7 +898,7 @@
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="69"  id="12-e" name="taget_customer[]" value="">
+                                <input type="checkbox" data-key="69"  id="12-e" name="taget_customer[]" value="Age between 30 and 50">
                                 <label for="12-e" class="answer d-flex">
                                     <div class="character ">
                                         <span>E</span>
@@ -906,7 +908,7 @@
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="70"  id="12-f" name="taget_customer[]" value="">
+                                <input type="checkbox" data-key="70"  id="12-f" name="taget_customer[]" value="Age 50+">
                                 <label for="12-f" class="answer d-flex">
                                     <div class="character ">
                                         <span>F</span>
@@ -916,7 +918,7 @@
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="71"  id="12-g" name="taget_customer[]" value="">
+                                <input type="checkbox" data-key="71"  id="12-g" name="taget_customer[]" value="Local customers">
                                 <label for="12-g" class="answer d-flex">
                                     <div class="character ">
                                         <span>G</span>
@@ -926,7 +928,7 @@
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="72"  id="12-h" name="taget_customer[]" value="">
+                                <input type="checkbox" data-key="72"  id="12-h" name="taget_customer[]" value="International customers">
                                 <label for="12-h" class="answer d-flex">
                                     <div class="character ">
                                         <span>H</span>
@@ -936,7 +938,7 @@
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="73"  id="12-i" name="taget_customer[]" value="">
+                                <input type="checkbox" data-key="73"  id="12-i" name="taget_customer[]" value="Likely to travel ">
                                 <label for="12-i" class="answer d-flex">
                                     <div class="character ">
                                         <span>I</span>
@@ -964,7 +966,7 @@
                                 </span>
                             </div>
                             <div class="answers mt-4">
-                                <input type="radio" data-key="65"  id="13-a" name="fashion_chain" value="">
+                                <input type="radio" data-key="65"  id="13-a" name="illustration_method" value="Send transparent .png files">
                                 <label for="13-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
@@ -974,7 +976,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="66"  id="13-b" name="fashion_chain" value="">
+                                <input type="radio" data-key="66"  id="13-b" name="illustration_method" value="Send photographs">
                                 <label for="13-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
@@ -984,7 +986,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="67"  id="13-c" name="fashion_chain" value="">
+                                <input type="radio" data-key="67"  id="13-c" name="illustration_method" value="I would like to request a professional photographer">
                                 <label for="13-c" class="answer d-flex">
                                     <div class="character ">
                                         <span>C</span>
@@ -1011,7 +1013,7 @@
                                 </span>
                             </div>
                             <div class="answers mt-4">
-                                <input type="radio" data-key="65"  id="14-a" name="communication_tool" value="">
+                                <input type="radio" data-key="65"  id="14-a" name="notification_method" value="E-mail">
                                 <label for="14-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
@@ -1021,7 +1023,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="66"  id="14-b" name="communication_tool" value="">
+                                <input type="radio" data-key="66"  id="14-b" name="notification_method" value="Text Message">
                                 <label for="14-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
@@ -1031,14 +1033,14 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="67"  id="14-c" name="communication_tool" value="">
+                                <input type="radio" data-key="67"  id="14-c" name="notification_method" value="other">
                                 <label for="14-c" class="answer d-flex other">
                                     <div class="character ">
                                         <span>C</span>
                                     </div>
                                     <div class="answer-body">
                                         <span>Other(How)</span>
-                                        <input type="text" class="hidden-text" style="display: none;">
+                                        <input type="text" class="hidden-text" name="notification_method_other" style="display: none;">
                                     </div>
                                 </label>
                             </div>
@@ -1059,7 +1061,7 @@
                                 </span>
                             </div>
                             <div class="answers mt-4">
-                                <input type="radio" data-key="65"  id="15-a" name="use_IMS" value="" class="if">
+                                <input type="radio" data-key="65"  id="15-a" name="use_IMS" value="No" class="if">
                                 <label for="15-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
@@ -1069,7 +1071,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="66"  id="15-b" name="use_IMS" value="" class="if">
+                                <input type="radio" data-key="66"  id="15-b" name="use_IMS" value="Yes, Paper" class="if">
                                 <label for="15-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
@@ -1079,7 +1081,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="67"  id="15-c" name="use_IMS" value="" class="if">
+                                <input type="radio" data-key="67"  id="15-c" name="use_IMS" value="Yes, Excel" class="if">
                                 <label for="15-c" class="answer d-flex">
                                     <div class="character ">
                                         <span>C</span>
@@ -1089,7 +1091,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="68"  id="15-d" name="use_IMS" value="" class="if">
+                                <input type="radio" data-key="68"  id="15-d" name="use_IMS" value="Yes, I use a software system" class="if">
                                 <label for="15-d" class="answer d-flex">
                                     <div class="character ">
                                         <span>D</span>
@@ -1116,7 +1118,7 @@
                                 </span>
                             </div>
                             <div class="answers mt-4">
-                                <input type="radio" data-key="65"  id="16-a" name="logistic_possibility" value="">
+                                <input type="radio" data-key="65"  id="16-a" name="shipping_possiblity" value="No">
                                 <label for="16-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
@@ -1126,7 +1128,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="66"  id="16-b" name="logistic_possibility" value="">
+                                <input type="radio" data-key="66"  id="16-b" name="shipping_possiblity" value="Yes, international shipping">
                                 <label for="16-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
@@ -1136,7 +1138,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="67"  id="16-c" name="logistic_possibility" value="">
+                                <input type="radio" data-key="67"  id="16-c" name="shipping_possiblity" value="Yes, but inland shipping only">
                                 <label for="16-c" class="answer d-flex">
                                     <div class="character ">
                                         <span>C</span>
@@ -1146,7 +1148,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="68"  id="16-d" name="logistic_possibility" value="">
+                                <input type="radio" data-key="68"  id="16-d" name="shipping_possiblity" value="Yes, but only by courier (parcel pick-up service)">
                                 <label for="16-d" class="answer d-flex">
                                     <div class="character ">
                                         <span>D</span>
@@ -1175,7 +1177,7 @@
                                 </span>
                             </div>
                             <div class="answers mt-4">
-                                <input type="radio" data-key="65"  id="17-a" name="paymnet_method" value="">
+                                <input type="radio" data-key="65"  id="17-a" name="paymnet_method" value="Cash">
                                 <label for="17-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
@@ -1185,7 +1187,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="66"  id="17-b" name="paymnet_method" value="">
+                                <input type="radio" data-key="66"  id="17-b" name="paymnet_method" value="Credit Card">
                                 <label for="17-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
@@ -1195,7 +1197,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="67"  id="17-c" name="paymnet_method" value="">
+                                <input type="radio" data-key="67"  id="17-c" name="paymnet_method" value="Debit">
                                 <label for="17-c" class="answer d-flex">
                                     <div class="character ">
                                         <span>C</span>
@@ -1205,7 +1207,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="68"  id="17-d" name="paymnet_method" value="">
+                                <input type="radio" data-key="68"  id="17-d" name="paymnet_method" value="Paypal">
                                 <label for="17-d" class="answer d-flex">
                                     <div class="character ">
                                         <span>D</span>
@@ -1232,7 +1234,7 @@
                                 </span>
                             </div>
                             <div class="answers mt-4">
-                                <input type="radio" data-key="65"  id="18-a" name="accept_return" value="">
+                                <input type="radio" data-key="65"  id="18-a" name="accept_return" value="No">
                                 <label for="18-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
@@ -1242,7 +1244,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="66"  id="18-b" name="accept_return" value="">
+                                <input type="radio" data-key="66"  id="18-b" name="accept_return" value="Yes">
                                 <label for="18-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
@@ -1252,7 +1254,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="67"  id="18-c" name="accept_return" value="">
+                                <input type="radio" data-key="67"  id="18-c" name="accept_return" value="Yes, but not for sales items">
                                 <label for="18-c" class="answer d-flex">
                                     <div class="character ">
                                         <span>C</span>
@@ -1280,7 +1282,7 @@
                                 <p class="color-brown mt-4">Please choose up to three options that are the most important to you</p>
                             </div>
                             <div class="answers mt-4">
-                                <input type="checkbox" data-key="65"  id="19-a" name="fashion_style[]" value="women's colthes">
+                                <input type="checkbox" data-key="65"  id="19-a" name="return_type[]" value="Financial return on rented clothes to customers">
                                 <label for="19-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
@@ -1290,7 +1292,7 @@
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="66"  id="19-b" name="fashion_style[]" value="women's colthes">
+                                <input type="checkbox" data-key="66"  id="19-b" name="return_type[]" value="Financial return on style-consulting for customers">
                                 <label for="19-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
@@ -1300,7 +1302,7 @@
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="67"  id="19-c" name="fashion_style[]" value="kid's colthes">
+                                <input type="checkbox" data-key="67"  id="19-c" name="return_type[]" value="Increased sales to international customers">
                                 <label for="19-c" class="answer d-flex">
                                     <div class="character ">
                                         <span>C</span>
@@ -1310,7 +1312,7 @@
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="68"  id="19-d" name="fashion_style[]" value="second-hand colthes">
+                                <input type="checkbox" data-key="68"  id="19-d" name="return_type[]" value="Increased visibility and prominence of your boutique/brand">
                                 <label for="19-d" class="answer d-flex">
                                     <div class="character ">
                                         <span>D</span>
@@ -1320,7 +1322,7 @@
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="69"  id="19-e" name="fashion_style[]" value="sustainable-brand">
+                                <input type="checkbox" data-key="69"  id="19-e" name="return_type[]" value="Customer data (aggregated)">
                                 <label for="19-e" class="answer d-flex">
                                     <div class="character ">
                                         <span>E</span>
@@ -1330,15 +1332,14 @@
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="70"  id="19-f" name="fashion_style[]" value="sales">
+                                <input type="checkbox" data-key="70"  id="19-f" name="return_type[]" value="other">
                                 <label for="19-f" class="answer d-flex other">
                                     <div class="character ">
                                         <span>F</span>
                                     </div>
                                     <div class="answer-body">
                                         <span>Other</span>
-                                        <input type="text" class="hidden-text" style="display: none;">
-                                        <input type="text" class="hidden-text" style="display: none;">
+                                        <input type="text" class="hidden-text" style="display: none;" name="return_type_other" >
                                     </div>
                                 </label>
 
@@ -1360,7 +1361,7 @@
                                 </span>
                             </div>
                             <div class="answers mt-4">
-                                <input class="text-answer" type="text"  name="contact" value="" placeholder = "Type your answer here..." >
+                                <input class="text-answer" type="text"  name="phone" value="" placeholder = "Type your answer here..." >
                             </div>
                             <div class="arrow-btn" style="opacity:0;">   
                                 <a class="btn btn-primary ok-button">OK</a>
@@ -1379,7 +1380,7 @@
                                 </span>
                             </div>
                             <div class="answers mt-4">
-                                <input class="text-answer" type="text"  name="address" value="" placeholder = "Type your answer here..." >
+                                <input class="text-answer" type="text"  name="postal_address" value="" placeholder = "Type your answer here..." >
                             </div>
                             <div class="arrow-btn" style="opacity:0;">   
                                 <a class="btn btn-primary ok-button">OK</a>
@@ -1398,7 +1399,7 @@
                                 </span>
                             </div>
                             <div class="answers mt-4">
-                                <input class="text-answer" type="text"  name="anything" value="" placeholder = "Type your answer here..." >
+                                <input class="text-answer" type="text"  name="anything_else" value="" placeholder = "Type your answer here..." >
                             </div>
                             <div class="arrow-btn" style="opacity:0;">   
                                 <a class="btn btn-primary ok-button">OK</a>
@@ -1412,7 +1413,7 @@
                         <div class="col-lg-4 text-center">
                             <img src="/images/newlanding/logo.png" alt="logo" width="100">       
                             <p class="h5 mt-3 text-secondary">Thank you for your answer.</p>
-                            <a href="/newlanding" class="btn-circle my-3 item-button justify-content-center" data-key="13">Submit</a>
+                            <button type="submit" class="btn-circle my-3 item-button justify-content-center" data-key="13">Submit</a>
                         </div>
                     </div>
 
