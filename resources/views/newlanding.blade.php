@@ -39,7 +39,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light px-lg-5 " id="templateux-navbar">
       <div class="container-fluid">
-        <a class="navbar-brand " href="/newlanding">
+        <a class="navbar-brand m-auto m-lg-0" href="/newlanding">
           <img class='' src="/images/newlanding/white-logo.svg" width="300" alt="">
         <!-- </a>
         <div class="site-menu-toggle js-site-menu-toggle  ml-auto"  data-aos="fade" data-toggle="collapse" data-target="#templateux-navbar-nav" aria-controls="templateux-navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -303,7 +303,7 @@
           <div class="row align-items-center">
             <div class="col-md-12 col-lg-6 order-lg-1 order-2 p-0 ai" data-aos="fade-up">
             </div>
-            <div class="col-md-12 col-lg-6 p-0 order-lg-2 order-1" data-aos="fade-up">
+            <div class="col-md-12 col-lg-6 section order-lg-2 order-1 py-5" data-aos="fade-up">
               <div class="col-lg-8 m-auto">
                 <p class="mb-5 h4 text-black text-center">
                   Our stylists use the AI tools to curate unique looks from inventory of over 50K boutiques and independent brands.
@@ -344,7 +344,7 @@
         <div class="container-fluid quotes quotes-1 update-navbar-white update-navbar-show-button update-navbar-hide-take-me-to-superhuman">
         <div class="row background">
             <div class=""></div>
-            <div class="col-xs-offset-1 col-xs-10 col-sm-8 col-md-6 col-lg-6 m-0 mb-4">
+            <div class="col-xs-offset-1 col-xs-10  col-md-6 col-lg-6 m-0 mb-4">
               <div class="quote quote-1 wow fadeInUp" style="visibility: visible;" data-aos="fade-up">
                 <div class="image"></div>
                 <div class="quote-container">
@@ -364,7 +364,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-3 col-sm-8 col-md-offset-5 col-md-6 col-lg-offset-6 col-lg-6 m-0">
+            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-3  col-md-offset-5 col-md-6 col-lg-offset-6 col-lg-6 m-0">
               <div class="quote quote-2 wow fadeInUp" style="visibility: visible;" data-aos="fade-up">
                 <div class="image"></div>
                 <div class="quote-container">
