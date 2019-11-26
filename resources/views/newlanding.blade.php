@@ -8,7 +8,7 @@
       <link href="/images/favicon-32x32.png" rel="icon" rel="icon" type="image/png" sizes="32x32" />
       <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=|Roboto+Sans:400,700|Playfair+Display:400,700"> -->
 
-      <link rel="stylesheet" href="/css/newlanding/bootstrap.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel="stylesheet" href="/css/newlanding/animate.css">
       <link rel="stylesheet" href="/css/newlanding/owl.carousel.min.css">
       <link rel="stylesheet" href="/css/newlanding/aos.css">
@@ -71,18 +71,24 @@
               </button>
             </div>
             <div class="modal-body">
-              <form action = "/survey" method="post">
-                @csrf
+              <form id="request-form">
                 <div class="form-group">
                   <label for="recipient-name" class="col-form-label">Full name:</label>
-                  <input type="text" class="form-control" name="name" id="recipient-name" required>
+                  <input type="text" class="form-control" name="name" id="name-text" required>
                 </div>
                 <div class="form-group">
                   <label for="message-text" class="col-form-label">Email:</label>
-                  <input type="email" class="form-control" name="email" id="message-text" required>
+                  <input type="email" class="form-control" name="email" id="email-text" required>
                 </div>
                 <div class="modal-footer">
-                  <button type="submit" class="btn btn-primary">Request Access</button>
+                  <div class="clearfix">
+                    <div class="spinner-border float-left" role="status" style="display:none;">
+                      <span class="sr-only">Loading...</span>
+                    </div>
+                  </div>
+                  <button id="request-btn"  class="btn btn-primary">Request Access</button>
+                  <button id ="next-modal-btn" type="button" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2 d-none" data-toggle="modal" data-target="#exampleModa2" data-whatever=""></button>
+                  <button id = "close-btn" type="button" class="d-none btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
               </form>
             </div>
@@ -94,22 +100,23 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Welcome!</h5>
+              <h5 class="modal-title" id="exampleModalLabel2">Welcome</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              <form>
+              <form action="/survey" method='post'> 
+                @csrf
                 <div class="form-group">
-                  <label for="recipient-name" class="col-form-label">WELCOME TO L/A!</label>
+                  <input type="hidden" class="form-control" name="name" id="hidden-name">
+                  <input type="hidden" class="form-control" name="email" id="hidden-email">
+                  <label for="recipient-name" class="col-form-label" id="modalcontent2">WELCOME TO L/A!</label>
+                </div>
+                <div class="modal-footer">
+                  <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa2" data-whatever="@mdo">Request Access</button>
                 </div>
               </form>
-            </div>
-            <div class="modal-footer">
-              <a href="/survey">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa2" data-whatever="@mdo">Request Access</button>
-              </a>
             </div>
           </div>
         </div>
@@ -123,10 +130,10 @@
                 <div class="text-center text-lg-left" data-aos="fade-up">
                   <p class="h1 text-white mt-5" style="line-height: inherit;">Capsule wardrobes with a conscience</p>
                   <div class='mt-5'>
-                    <input type="text" placeholder='Enter Email' class='text-white mail-text mb-2' autofocus>
+                    <input type="mail" placeholder='Enter Email' class='text-white mail-text mb-2' required autofocus id = "emailtext">
                     <button type="button" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Request Access</button>
                   </div>
-                  <p class="h4 text-white mt-5">At your doorstep</p>
+                  <p class="h4 text-white mt-5">Personalized styles delivered, locally or away.</p>
                 </div>
               </div>
             </div>
@@ -149,7 +156,8 @@
                 </h3>  -->
               </h1>
               <div class="separator color-orange"></div>
-              <p class="mb-5 col-lg-5 m-auto text-center ">Be part of this community of over 50K shops and unique independent brands.<br><br> We set out to  bring local brands online, and the online community back to the locals, so you can support your city not to get swept away by the big brands.
+              <p class="mb-5 col-lg-5 m-auto text-center ">Be part of this community of over 2K shops, unique brands, and amazing vintage boutiques.
+                <br><br> We set out to  bring local brands online, and the online community back to the locals, so you can support your city not to get swept away by the big brands.
                 <br><br>Keep your city in style, 
               </p>
             </div>
@@ -338,7 +346,8 @@
             <div class="d-none d-lg-block col-md-12 col-lg-6 order-lg-2 p-5" data-aos="fade-up">
               <div class="col-lg-8 m-auto">
                 <p class="mb-5 h5 text-white text-left">
-                The only local and sustainable clothes capsule, now on your doorstep.
+                Capsule wardrobes with a conscious. <br><br>
+                Personalized styles delivered, locally or away.
                 </p>
               </div>
             </div>
@@ -418,9 +427,9 @@
                     <div class="author-image mb-3">
                     <img src="/images/newlanding/Lukas.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
-                    <p class='m-0  font-weight-bold'>Co-Founder</p>
+                    <p class='m-0  font-weight-bold'>Co-Founder, COO</p>
                     <p class="font-weight-bold text-black  m-0"><em>&mdash;Dr. Lukas Peter</em></p>
-                    <p class='m-0  font-weight-bold'>VC and entrepreneur, doctorate focus on startup culture</p>
+                    <p class='m-0  font-weight-bold'>Former founder of two startups with one exit. Now CEO of Swisscom Outposts in Berlin, China, and Silicon Valley.</p>
                 </div>
                 <div class="testimonial text-center slider-item col-md-6 col-lg-3 pl-lg-5 pr-lg-0">
                     <div class="author-image mb-3">
@@ -429,7 +438,7 @@
 
                     <p class='m-0  font-weight-bold'>Technical Advisor</p>
                     <p class="font-weight-bold text-black  m-0"><em>&mdash; Brigitte Harder</em></p>
-                    <p class='m-0  font-weight-bold'> Google Travel Search, Google VR, Google Payments</p>
+                    <p class='m-0  font-weight-bold'> Google Travel and Maps, Google Local Search, and Google VR</p>
                 </div>
 
 
@@ -589,5 +598,6 @@
       <script src="/js/bootstrap-datepicker.js"></script> 
       <script src="/js/jquery.timepicker.min.js"></script> 
       <script src="/js/main.js"></script>
+      <script src="/js/newlanding/newlanding.js"></script>
     </body>
   </html>

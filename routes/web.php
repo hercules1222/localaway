@@ -64,11 +64,15 @@ Route::domain('www.localaway.com')->group(function () {
         return view('newlanding');
     });
 
-    Route::post('post', 'PostController')->name('post.store');
     
-    Route::post('/survey', 'NewlandingController@index');
     
     Route::get('/job', function () {
         return view('job');
     });
+    
+    Route::post('post', 'PostController')->name('post.store');
+    
+    Route::get('/checkemail', 'NewlandingController@checkEmail');
+    
+    Route::post('/survey', 'NewlandingController@index');
 });

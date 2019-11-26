@@ -134,7 +134,13 @@
                 <div class="col-10 text-center align-items-center" data-aos="fade-up">
                     <h1>Open Positions</h1> 
                     <div class="separator color-orange"></div>
-                    <p class="mb-5 m-auto text-left"><strong class="text-dark font-weight-bold">Stylist1:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                    <p class="mb-5 m-auto text-left"><strong class="text-dark font-weight-bold">Stylist1:</strong> Hiring expert stylist to provide fashion advice; choosing and co-ordinating outfits and capsule wardrobes for clients and company.
+                        <p class='text-center'>
+                        <br><strong class="text-dark font-weight-bold"> Role </strong><br>
+                        - Keeping up to date with current and changing trends in fashion and design. <br>
+                        - Advising clients on fashion styling for their vision. <br>
+                        - Selecting the most appropriate pieces from collections and ranges for the customer or company need.
+                        </p>
                     </p>
                 </div>
             </div>
@@ -202,7 +208,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="200">
                     <div class="media media-custom d-block mb-4 h-100">
                         <div class="media-body">
-                            <h2 class="mt-0 mb-3 text-white">Self Expression</h2>
+                            <h2 class="mt-0 mb-3 text-white">Self-Expression</h2>
                             <p class="text-white">
                                 Helping you find the right look by tapping into our community of local boutiques and independent brands
                             </p>

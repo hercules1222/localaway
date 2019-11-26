@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Upload;
 
+use Revolution\Google\Sheets\Facades\Sheets;
 
 class NewlandingController extends Controller
 {
@@ -23,7 +23,7 @@ class NewlandingController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index(request $request)
+    public function index(Request $request)
     {
         $name = $request->input('name');
         $email = $request->input('email');
@@ -31,5 +31,26 @@ class NewlandingController extends Controller
             'name' => $name,
             'email' => $email,
         ]);
+    }
+    
+    public function checkEmail(Request $request)
+    {
+        $email = $request->input('email');
+        $flag=true;
+        $sheets = Sheets::spreadsheet(config('sheets.post_spreadsheet_id'))
+        ->sheet('DataSheet')->get();
+        foreach ($sheets AS $data) {
+            if($data[1]==$email){
+                $flag=false;
+            }
+        }
+        if($flag==true)
+        {
+            return "true";
+        }
+        else
+        {
+            return "false";
+        }
     }
 }
