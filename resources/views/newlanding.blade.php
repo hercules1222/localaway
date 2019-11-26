@@ -40,7 +40,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light px-lg-5 " id="templateux-navbar">
       <div class="container-fluid">
         <a class="navbar-brand m-auto m-lg-0" href="/newlanding">
-          <img class='logo-image' src="/images/newlanding/white-logo.svg" width="300" alt="">
+          <img class='logo-image' src="/images/newlanding/white-logo-ori.svg" width="300" alt="">
         <!-- </a>
         <div class="site-menu-toggle js-site-menu-toggle  ml-auto"  data-aos="fade" data-toggle="collapse" data-target="#templateux-navbar-nav" aria-controls="templateux-navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
               <span></span>
