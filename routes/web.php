@@ -52,10 +52,7 @@ Route::domain('staging.localaway.com')->group(function () {
 });
 
     
-
-
-Route::domain('www.localaway.com')->group(function () {
-    
+$appRoutes = function() {
     Route::get('/newlanding', function () {
         return view('newlanding');
     });
@@ -75,4 +72,7 @@ Route::domain('www.localaway.com')->group(function () {
     Route::get('/checkemail', 'NewlandingController@checkEmail');
     
     Route::post('/survey', 'NewlandingController@index');
-});
+};
+
+Route::group(array('domain' => 'www.localaway.com'), $appRoutes);
+Route::group(array('domain' => 'localaway.com'), $appRoutes);

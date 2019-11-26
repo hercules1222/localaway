@@ -2258,7 +2258,6 @@ p {
 }
 .ai {
     background-image: url(/images/newlanding/phones.jpg);
-    background-image: url(/images/newlanding/phones.jpg);
     height: 100vh;
     background-size: cover;
     background-repeat-x: no-repeat;
@@ -2266,7 +2265,7 @@ p {
 }
 @media (max-width: 991.98px) {
     .ai {
-        background-image: url(/images/newlanding/phones-2.jpg);
+        background-image: url(/images/newlanding/phones-2.png);
     }
 }
 .audience {
