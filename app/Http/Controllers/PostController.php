@@ -56,7 +56,7 @@ class PostController extends Controller
             $request->input('email'),
             implode(', ', $request->input('fashion_style')),
             $boutique_style,
-            $request->input('size'),
+            implode(', ' , $request->input('size')),
             $request->input('fashion_items'),
             $online_shop,
             $shop_technology,

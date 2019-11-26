@@ -55,7 +55,7 @@
                                         <span>B</span>
                                     </div>
                                     <div class="answer-body">
-                                        <span>Women’s Clothes</span>
+                                        <span>Men’s Clothes</span>
                                     </div>
                                 </label>
 
@@ -263,7 +263,7 @@
                                 </span>
                             </div>
                             <div class="answers my-4">
-                                <input type="radio" data-key="65"  id="3-a" name="size" value="XS / US Size 0-4 / EU Size 30-34">
+                                <input type="checkbox" data-key="65"  id="3-a" name="size[]" value="XS / US Size 0-4 / EU Size 30-34">
                                 <label for="3-a" class="answer d-flex">
                                     <div class="character ">
                                         <span>A</span>
@@ -273,7 +273,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="66"  id="3-b" name="size" value="S / US Size 6-8 / EU Size 36-38">
+                                <input type="checkbox" data-key="66"  id="3-b" name="size[]" value="S / US Size 6-8 / EU Size 36-38">
                                 <label for="3-b" class="answer d-flex">
                                     <div class="character ">
                                         <span>B</span>
@@ -283,7 +283,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="67"  id="3-c" name="size" value="M / US Size 10-12 / EU Size 40-32">
+                                <input type="checkbox" data-key="67"  id="3-c" name="size[]" value="M / US Size 10-12 / EU Size 40-32">
                                 <label for="3-c" class="answer d-flex">
                                     <div class="character ">
                                         <span>C</span>
@@ -293,7 +293,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="68"  id="3-d" name="size" value="L / US Size 14-16 / EU Size 44-46">
+                                <input type="checkbox" data-key="68"  id="3-d" name="size[]" value="L / US Size 14-16 / EU Size 44-46">
                                 <label for="3-d" class="answer d-flex">
                                     <div class="character ">
                                         <span>D</span>
@@ -302,7 +302,7 @@
                                         <span>L / US Size 14-16 / EU Size 44-46</span>
                                     </div>
                                 </label>
-                                <input type="radio" data-key="69"  id="3-e" name="size" value="XL / US Size 18-20 / EU Size 48-50">
+                                <input type="checkbox" data-key="69"  id="3-e" name="size[]" value="XL / US Size 18-20 / EU Size 48-50">
                                 <label for="3-e" class="answer d-flex">
                                     <div class="character ">
                                         <span>E</span>
@@ -312,7 +312,7 @@
                                     </div>
                                 </label>
                                 
-                                <input type="radio" data-key="70"  id="3-f" name="size" value="XXL / US Size 22-24  / EU Size 52-54">
+                                <input type="checkbox" data-key="70"  id="3-f" name="size[]" value="XXL / US Size 22-24  / EU Size 52-54">
                                 <label for="3-f" class="answer d-flex">
                                     <div class="character ">
                                         <span>F</span>
@@ -322,7 +322,7 @@
                                     </div>
                                 </label>
                             
-                                <input type="radio" data-key="71"  id="3-g" name="size" value="XXXL / US Size 26- 28 / EU Size 56-58">
+                                <input type="checkbox" data-key="71"  id="3-g" name="size[]" value="XXXL / US Size 26- 28 / EU Size 56-58">
                                 <label for="3-g" class="answer d-flex">
                                     <div class="character ">
                                         <span>G</span>
@@ -516,7 +516,7 @@
                                         <span>C</span>
                                     </div>
                                     <div class="answer-body">
-                                        <span>etc</span>
+                                        <span>Other</span>
                                         <input type="text" class="hidden-text"  name="shop_technology_other" style="display: none;">
                                     </div>
                                 </label>
