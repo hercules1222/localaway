@@ -71,19 +71,20 @@
               </button>
             </div>
             <div class="modal-body">
-              <form>
+              <form action = "/survey" method="post">
+                @csrf
                 <div class="form-group">
                   <label for="recipient-name" class="col-form-label">Full name:</label>
-                  <input type="text" class="form-control" id="recipient-name">
+                  <input type="text" class="form-control" name="name" id="recipient-name" required>
                 </div>
                 <div class="form-group">
                   <label for="message-text" class="col-form-label">Email:</label>
-                  <input type="text" class="form-control" id="message-text">
+                  <input type="email" class="form-control" name="email" id="message-text" required>
+                </div>
+                <div class="modal-footer">
+                  <button type="submit" class="btn btn-primary">Request Access</button>
                 </div>
               </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa2" data-whatever="@mdo" data-dismiss="modal">Request Access</button>
             </div>
           </div>
         </div>

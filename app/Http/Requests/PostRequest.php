@@ -24,6 +24,8 @@ class PostRequest extends FormRequest
     public function rules()
     {
         return [
+            'name' => "required",
+            'email' => "required",
             'fashion_style' => "required",
             'boutique_style' => "required",
             'size' => "required",

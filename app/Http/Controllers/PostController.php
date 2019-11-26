@@ -52,6 +52,8 @@ class PostController extends Controller
         }
         
         $append = [
+            $request->input('name'),
+            $request->input('email'),
             implode(', ', $request->input('fashion_style')),
             $boutique_style,
             $request->input('size'),
@@ -82,6 +84,6 @@ class PostController extends Controller
         ->sheet('DataSheet')
         ->append([$append]);
 
-        return view('newlanding');
+        return redirect('/');
     }
 }

@@ -14,6 +14,8 @@
                 <h2 id="title" class="row justify-content-center font-weight-bold" style="opacity:0;"></h2>
             <form action="{{ route('post.store') }}" method="post" class="wizard-container">
                 @csrf
+                <input type="hidden" value="{{$name}}" name="name">
+                <input type="hidden" value="{{$email}}" name="email">
                 <div class="wizard-body" style="top: 0">
 
                     <div class="item item-show row start-part">

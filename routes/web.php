@@ -66,9 +66,7 @@ Route::domain('localaway.com')->group(function () {
 
     Route::post('post', 'PostController')->name('post.store');
     
-    Route::get('/survey', function () {
-        return view('survey');
-    });
+    Route::post('/survey', 'NewlandingController@index');
     
     Route::get('/job', function () {
         return view('job');
