@@ -261,6 +261,7 @@
                                     <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
                                     What sizes do you sell?<br>
                                 </span>
+                                <p class="color-brown mt-4">Choose as many as possible</p>
                             </div>
                             <div class="answers my-4">
                                 <input type="checkbox" data-key="65"  id="3-a" name="size[]" value="XS / US Size 0-4 / EU Size 30-34">

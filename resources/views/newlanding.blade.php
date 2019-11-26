@@ -114,7 +114,7 @@
                   <label for="recipient-name" class="col-form-label" id="modalcontent2">WELCOME TO L/A!</label>
                 </div>
                 <div class="modal-footer">
-                  <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa2" data-whatever="@mdo">Request Access</button>
+                  <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa2" data-whatever="@mdo">Start Survey</button>
                 </div>
               </form>
             </div>
