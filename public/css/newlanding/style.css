@@ -2316,3 +2316,9 @@ p {
     right: 0;
     background-color: #cacaca;
 }
+.logo-image {
+    transition: filter .3s ease;
+}
+.logo-image:hover {
+    filter: brightness(3);
+}
