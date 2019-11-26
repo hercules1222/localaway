@@ -11,7 +11,7 @@
     </head>
     <body>
         <div class="container-fluid m-0 p-0">
-                <h2 id="title" class="row justify-content-center font-weight-bold" style="opacity:0;"></h2>
+                <h2 id="title" class="row justify-content-center font-weight-bold d-none" style="opacity:0;"></h2>
             <form action="{{ route('post.store') }}" method="post" class="wizard-container">
                 @csrf
                 <input type="hidden" value="{{$name}}" name="name">
