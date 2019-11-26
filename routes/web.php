@@ -54,7 +54,7 @@ Route::domain('staging.localaway.com')->group(function () {
     
 
 
-Route::domain('localaway.com')->group(function () {
+Route::domain('www.localaway.com')->group(function () {
     
     Route::get('/newlanding', function () {
         return view('newlanding');
