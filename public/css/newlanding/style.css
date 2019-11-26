@@ -2317,7 +2317,8 @@ p {
 }
 .logo-image {
     transition: filter .3s ease;
+    filter: brightness(3);
 }
 .logo-image:hover {
-    filter: brightness(3);
+    filter: brightness(0);
 }
