@@ -2320,5 +2320,5 @@ p {
     filter: brightness(3);
 }
 .logo-image:hover {
-    filter: brightness(0.5);
+    filter: brightness(1);
 }
