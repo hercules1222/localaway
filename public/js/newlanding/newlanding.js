@@ -7,6 +7,7 @@ $(function() {
 
     $("#request-form").submit(function() {
         $(".spinner-border").css("display", "block");
+        $("#request-btn").css("display", "none");
         var email = $('#email-text').val();
         var name = $('#name-text').val();
         const title = [
