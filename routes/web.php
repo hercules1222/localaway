@@ -71,6 +71,9 @@ $appRoutes = function() {
     
     Route::get('/checkemail', 'NewlandingController@checkEmail');
     
+    Route::get('/survey', function () {
+        return redirect('/');
+    });
     Route::post('/survey', 'NewlandingController@index');
 };
 
