@@ -27,19 +27,22 @@ $(function() {
     $(".next-button").click(function() {
         const is_checked = checkEmpty(".item:nth-child(" + (current_item + 1) + ")");
         if (is_checked) {
+            if (!$(".item:nth-child(" + (current_item + 1) + ")").hasClass("end-part")) {
 
-            do {
-                current_item++;
-            } while ($(".item:nth-child(" + (current_item + 1)).css("visibility") == "hidden");
 
-            changeTitle(current_item);
+                do {
+                    current_item++;
+                } while ($(".item:nth-child(" + (current_item + 1)).css("visibility") == "hidden");
 
-            $(".wizard-body").css("top", -current_item * 100 + "%");
-            $(".item").removeClass("item-show");
-            $("#pagination").text(current_item + "/23");
-            $(".item:nth-child(" + (current_item + 1) + ")").addClass("item-show");
-            if (progress + 2 <= current_item) {
-                move();
+                changeTitle(current_item);
+
+                $(".wizard-body").css("top", -current_item * 100 + "%");
+                $(".item").removeClass("item-show");
+                $("#pagination").text(current_item + "/23");
+                $(".item:nth-child(" + (current_item + 1) + ")").addClass("item-show");
+                if (progress + 2 <= current_item) {
+                    move();
+                }
             }
         }
     });
