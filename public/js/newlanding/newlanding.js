@@ -27,7 +27,6 @@ $(function() {
                 email: email
             },
             success: function(result) {
-
                 if (result == "true") {
                     $("#exampleModalLabel2").text(title[Math.floor(Math.random() * 2)]);
                     $("#modalcontent2").text(content[Math.floor(Math.random() * 2)]);
@@ -35,6 +34,8 @@ $(function() {
                     $("#exampleModalLabel2").text("Welcome Back!");
                     $("#modalcontent2").text("Our waitlist might be 200k, but we’re interested in putting you first. Access is $30 per month. Start uploading your clothes today so that our users can find great fashion locally. First tell us more about you.");
                 }
+                $(".spinner-border").css("display", "none");
+                $("#request-btn").css("display", "block");
                 $("#hidden-name").val(name);
                 $("#hidden-email").val(email);
                 $("#close-btn").click();
