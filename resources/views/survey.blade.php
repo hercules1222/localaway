@@ -12,7 +12,7 @@
     <body>
         <div class="container-fluid m-0 p-0">
                 <h2 id="title" class="row justify-content-center font-weight-bold d-none" style="opacity:0;"></h2>
-            <form action="{{ route('post.store') }}" method="post" class="wizard-container">
+            <form action="{{ route('post.store') }}" method="post" class="wizard-container" id='survey-form'>
                 @csrf
                 <input type="hidden" value="{{$name}}" name="name">
                 <input type="hidden" value="{{$email}}" name="email">
@@ -1416,7 +1416,7 @@
                         <div class="col-lg-4 text-center">
                             <img src="/images/newlanding/logo.png" alt="logo" width="100">       
                             <p class="h5 mt-3 text-secondary">Thank you for your answer.</p>
-                            <button type="submit" id= "submit-btn" class="btn-circle my-3 item-button justify-content-center" data-key="13">Submit</a>
+                            <button type="submit" class="btn-circle my-3 item-button justify-content-center" data-key="13">Submit</a>
                         </div>
                     </div>
 
