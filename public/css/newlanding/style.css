@@ -2322,3 +2322,11 @@ p {
 .logo-image:hover {
     filter: brightness(1);
 }
+.modal-dialog {
+    margin: auto;
+    height: 100%;
+    display: flex;
+}
+.modal-content {
+    margin: auto;
+}
