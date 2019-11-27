@@ -75,7 +75,7 @@
                                         <span>D</span>
                                     </div>
                                     <div class="answer-body">
-                                        <span>Seond-Hand Clothes</span>
+                                        <span>Second-Hand Clothes</span>
                                     </div>
                                 </label>
 
@@ -105,7 +105,7 @@
                                         <span>G</span>
                                     </div>
                                     <div class="answer-body">
-                                        <span>Accessories( Sunglassess, Jewelry, Bags, Hats, Scarves...)</span>
+                                        <span>Accessories( Sunglasses, Jewelry, Bags, Hats, Scarves...)</span>
                                     </div>
                                 </label>                                    
 
