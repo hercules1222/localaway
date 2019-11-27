@@ -1416,7 +1416,7 @@
                         <div class="col-lg-4 text-center">
                             <img src="/images/newlanding/logo.png" alt="logo" width="100">       
                             <p class="h5 mt-3 text-secondary">Thank you for your answer.</p>
-                            <button type="submit" class="btn-circle my-3 item-button justify-content-center" data-key="13">Submit</a>
+                            <button type="submit" id= "submit-btn" class="btn-circle my-3 item-button justify-content-center" data-key="13">Submit</a>
                         </div>
                     </div>
 

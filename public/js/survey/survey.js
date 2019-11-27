@@ -48,7 +48,9 @@ $(function() {
         const keycode = e.which;
         $(".item:nth-child(" + (current_item + 1) + ") input.text-answer").focus();
         if ($(".item:nth-child(" + (current_item + 1) + ")").hasClass("end-part")) {
-            window.location.replace("http://staging.localaway.com/newlanding");
+            if (keycode == "13") {
+                $("#submit-btn").click();
+            }
         } else {
             if (keycode == "13") {
                 $(".next-button").click();
