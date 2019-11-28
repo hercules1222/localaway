@@ -126,13 +126,13 @@
         <div class="container-fluid">
           <div class="row site-hero-inner align-items-center">
             <div class="col-12 col-lg-5 bg-green h-100 d-flex p-lg-5 align-items-center">
-              <div class="">
-                <div class="text-center text-lg-left" data-aos="fade-up">
-                  <h1 class="display-4 text-white mt-5" >Capsule wardrobes<br> with a conscience</h1>
-                  <form class='mt-5 first-form'>
-                    <input type="email" placeholder='Enter Email' class='text-white mail-text mb-2'  autofocus >
+              <div class="m-auto m-lg-0">
+                <div class="text-left" data-aos="fade-up">
+                  <h1 class="hero-title display-4 text-white mt-5" >Capsule wardrobes<br> with a conscience</h1>
+                  <form class='mt-5 first-form d-lg-flex'>
+                    <input type="email" placeholder='Enter Email' class='text-white mail-text mb-4 mb-lg-0'  autofocus >
                     <button type="button" class="d-none btn btn-primary text-white py-2 text-uppercase ml-lg-2 open-modal" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" ></button>
-                    <button type="submit" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2"  id ="first-request-btn">Request Access</button>
+                    <button type="submit" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2 request-btn"  id ="first-request-btn">Request Access</button>
                   </form>
                   <p class="h4 text-white mt-5">Personalized styles delivered, locally or away.</p>
                 </div>
@@ -171,7 +171,7 @@
           <div class="row align-items-center">
             <div class="col-md-12 col-lg-6 m-auto ml-auto order-2 order-lg-1 position-relative p-0 platform" data-aos="fade-up">
             </div>
-            <div class="col-md-12 col-lg-6 order-1 order-lg-2 p-5" data-aos="fade-up">
+            <div class="col-md-12 col-lg-6 order-1 order-lg-2 " data-aos="fade-up">
               <div class="col-lg-10 m-auto">
               <div class="separator color-orange ml-0"></div>
                 <h1 class="mb-4 order-1 text-white">A simple platform designed with you in mind</h1>
@@ -313,7 +313,8 @@
       <section class="section" >
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="col-md-12 col-lg-6 order-lg-1 order-1 p-0 ai" data-aos="fade-up">
+            <div class="col-md-12 col-lg-6 order-lg-1 order-1 p-0 " data-aos="fade-up">
+              <img src="/images/newlanding/phones.jpg" width="100%" alt="">
             </div>
             <div class="col-md-12 col-lg-6 section order-lg-2 order-2 py-5" data-aos="fade-up">
               <div class="col-lg-8 m-auto">
@@ -331,15 +332,15 @@
       <section class="bg-green section" id="contact">
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="col-md-12 col-lg-6 order-lg-1 p-5" data-aos="fade-up">
+            <div class="col-md-12 col-lg-6 order-lg-1" data-aos="fade-up">
               <div class="col-lg-10 m-auto text-center">
                 <h1 class="mb-5 h1 text-white text-center">
                   Get early access to the platform
                 </h1>
                 <form class='mt-5 first-form'>
-                  <input type="email" placeholder='Enter Email' class='text-white mail-text mb-2'  autofocus >
+                  <input type="email" placeholder='Enter Email' class='text-white mail-text mb-4'  autofocus >
                   <button type="button" class="d-none btn btn-primary text-white py-2 text-uppercase ml-lg-2 open-modal" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" ></button>
-                  <button type="submit" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2"  id ="first-request-btn-2">Request Access</button>
+                  <button type="submit" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2 request-btn"  id ="first-request-btn-2">Request Access</button>
                 </form>
               </div>
             </div>
@@ -576,10 +577,10 @@
             </div>
             
             <div class="col-lg-5 mb-5 mt-auto">
-              <form class='mt-5 first-form d-flex justify-content-center'>
-                  <input type="email" placeholder='Enter Email' class='text-white mail-text mb-2'  autofocus >
+              <form class='mt-5 first-form d-lg-flex justify-content-center'>
+                  <input type="email" placeholder='Enter Email' class='text-white mail-text mb-4'  autofocus >
                   <button type="button" class="d-none btn btn-primary text-white py-2 text-uppercase ml-lg-2 open-modal" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" ></button>
-                  <button type="submit" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2"  id ="first-request-btn-2">Request Access</button>
+                  <button type="submit" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2 request-btn"  id ="first-request-btn-2">Request Access</button>
                 </form>
             </div>
         </div>
