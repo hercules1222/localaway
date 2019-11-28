@@ -73,7 +73,7 @@
                 </div>
                 <div class="form-group">
                   <label for="message-text" class="col-form-label">Email:</label>
-                  <input type="text" class="form-control" id="message-text">
+                  <input type="text" class="form-control " id="email-text">
                 </div>
               </form>
             </div>
@@ -197,7 +197,7 @@
                     
                     <div class="media media-custom d-block mb-4 h-100">
                         <div class="media-body">
-                            <h2 class="mt-0 mb-3 text-white">Discovery & Education</h2>
+                            <h2 class="mt-0 mb-3 text-white">Discovery & Community</h2>
                             <p class="text-white">
                             Helping you find the right look by tapping into our community of local boutiques and independent brands
                             </p>
@@ -283,9 +283,8 @@
         
     
 
-
     <footer class="section footer-section">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row ">
             <div class="col-lg-4 mb-4 mb-md-5">
               <ul class="list-unstyled link m-0">
@@ -308,19 +307,18 @@
             <div class="col-lg-3 mb-5 d-flex justify-content-space-evently  align-items-end">
                 <a class="h3 color-brown" href="https://www.instagram.com/localaway/"><span class="fa fa-instagram"></span></a>   
                 <a class="h3 color-brown" href="https://twitter.com/local_away"><span class="fa fa-twitter"></span></a> 
-                <a class="h3 color-brown" href="https://www.facebook.com/localaway/"><span class="fa fa-facebook"></span></a>   
+                <a class="h3 color-brown" href="https://www.facebook.com/localaway/"><span class="fa fa-facebook"></span></a>    
             </div>
             
             <div class="col-lg-5 mb-5 mt-auto">
-                <form action="#" class="footer-newsletter">
-                    <div class="form-group">
-                        <input type="email" class="form-control w-60" placeholder="Enter Email">
-                        <button type="submit" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" class="btn w-40"><span>Request Access</span></button>
-                    </div>
+              <form class='mt-5 first-form d-flex justify-content-center'>
+                  <input type="email" placeholder='Enter Email' class='text-white mail-text mb-2'  autofocus >
+                  <button type="button" class="d-none btn btn-primary text-white py-2 text-uppercase ml-lg-2 open-modal" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" ></button>
+                  <button type="submit" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2"  id ="first-request-btn-2">Request Access</button>
                 </form>
             </div>
         </div>
-    </footer>
+      </footer>
       
     <script src="/js/jquery-3.3.1.min.js"></script>
     <script src="/js/jquery-migrate-3.0.1.min.js"></script>
@@ -334,5 +332,6 @@
     <script src="/js/bootstrap-datepicker.js"></script> 
     <script src="/js/jquery.timepicker.min.js"></script> 
     <script src="/js/main.js"></script>
+    <script src="/js/newlanding/newlanding.js"></script>
 </body>
 </html>

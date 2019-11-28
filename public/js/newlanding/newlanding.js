@@ -1,10 +1,10 @@
 $(function() {
     var row_number = 0;
-    $('#exampleModal').on('show.bs.modal', function(event) {
-        var recipient = $('#emailtext').val();
-        var modal = $(this)
-        modal.find('.modal-body input#email-text').val(recipient)
-    });
+    // $('#exampleModal').on('show.bs.modal', function(event) {
+    //     var recipient = $('.emailtext').val();
+    //     var modal = $(this)
+    //     modal.find('.modal-body input#email-text').val(recipient)
+    // });
 
     $("#request-form").submit(function() {
         $(".spinner-border").css("display", "block");
@@ -48,9 +48,10 @@ $(function() {
         return false;
     });
 
-    $("#first-form").submit(function() {
-        $("#open-modal").click();
-        var first_mail = $('#emailtext').val();
+    $(".first-form").submit(function() {
+        $(this).find('.open-modal').click();
+        var first_mail = $(this).find('.mail-text').val();
+        $('#exampleModal').find('.modal-body input#email-text').val(first_mail);
         $.ajax({
             url: "/save-email",
             method: 'get',
@@ -63,4 +64,6 @@ $(function() {
         });
         return false;
     });
+
+
 })

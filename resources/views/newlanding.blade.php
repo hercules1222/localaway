@@ -129,9 +129,9 @@
               <div class="">
                 <div class="text-center text-lg-left" data-aos="fade-up">
                   <p class="h1 text-white mt-5" style="line-height: inherit;">Capsule wardrobes<br> with a conscience</p>
-                  <form class='mt-5' id="first-form">
-                    <input type="email" placeholder='Enter Email' class='text-white mail-text mb-2'  autofocus id = "emailtext">
-                    <button type="button" class="d-none btn btn-primary text-white py-2 text-uppercase ml-lg-2" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" id="open-modal"></button>
+                  <form class='mt-5 first-form'>
+                    <input type="email" placeholder='Enter Email' class='text-white mail-text mb-2'  autofocus >
+                    <button type="button" class="d-none btn btn-primary text-white py-2 text-uppercase ml-lg-2 open-modal" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" ></button>
                     <button type="submit" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2"  id ="first-request-btn">Request Access</button>
                   </form>
                   <p class="h4 text-white mt-5">Personalized styles delivered, locally or away.</p>
@@ -151,7 +151,7 @@
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-12 text-center align-items-center" data-aos="fade-up">
-              <h1>Not just another box of style. 
+              <h1>Not just another box of style
                 <!-- <platform class="mb-4">
                   LocalAway is more because …
                 </h3>  -->
@@ -231,8 +231,7 @@
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-4 align-items-center" data-aos="fade-up">
-              <h1 class='text-left font-orange'>"</h1>
-              <br><br><br>
+              <p class='text-left font-orange display-2'>"</p>
               <div class='px-4'>
                 <p class='font-weight-bold text-black'>Jen Furman,
                   </p>
@@ -241,14 +240,13 @@
                     ”I love how easy it is to get my new styles to a global audience”
                   </p>
                 </div>
-                <br><br><br>
-              <h1 class='text-right font-orange'>"</h1>
+              <p class='text-right font-orange display-2'>"</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="bg-white section" id="partner">
+      <section class="bg-white " id="partner">
         <div class="container-fluid">
           <div class="row align-items-center">
             <div class="d-none d-lg-block col-lg-6 m-auto ml-auto order-lg-2 position-relative p-0 partner" data-aos="fade-up">
@@ -338,10 +336,11 @@
                 <h1 class="mb-5 h1 text-white text-center">
                   Get early access to the platform
                 </h1>
-                <div class='d-lg-flex'>
-                  <input type="text" placeholder='Enter Email' class='text-white mail-text mb-2' autofocus>
-                  <button type="button" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Request Access</button>
-                </div>
+                <form class='mt-5 first-form'>
+                  <input type="email" placeholder='Enter Email' class='text-white mail-text mb-2'  autofocus >
+                  <button type="button" class="d-none btn btn-primary text-white py-2 text-uppercase ml-lg-2 open-modal" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" ></button>
+                  <button type="submit" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2"  id ="first-request-btn-2">Request Access</button>
+                </form>
               </div>
             </div>
             <div class="d-none d-lg-block col-md-12 col-lg-6 order-lg-2 p-5" data-aos="fade-up">
@@ -550,7 +549,7 @@
       </section> -->
       
       <footer class="section footer-section">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row ">
             <div class="col-lg-4 mb-4 mb-md-5">
               <ul class="list-unstyled link m-0">
@@ -577,12 +576,11 @@
             </div>
             
             <div class="col-lg-5 mb-5 mt-auto">
-                <div  class="footer-newsletter">
-                  <div class='d-lg-flex text-center'>
-                    <input type="text" placeholder='Enter Email' class='text-white mail-text mb-2' autofocus>
-                    <button type="button" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Request Access</button>
-                  </div>
-                </div>
+              <form class='mt-5 first-form d-flex justify-content-center'>
+                  <input type="email" placeholder='Enter Email' class='text-white mail-text mb-2'  autofocus >
+                  <button type="button" class="d-none btn btn-primary text-white py-2 text-uppercase ml-lg-2 open-modal" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" ></button>
+                  <button type="submit" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2"  id ="first-request-btn-2">Request Access</button>
+                </form>
             </div>
         </div>
       </footer>

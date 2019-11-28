@@ -2003,6 +2003,9 @@ textarea.form-control {
     color: white;
     border: none;
     border-bottom: 2px solid #FD5B46;
+    width: 50%;
+    margin-right: 2em;
+    text-align: center;
 }
 
 .mail-text::placeholder {
@@ -2019,7 +2022,7 @@ textarea.form-control {
     width: 150px;
     height: 6px;
     box-shadow: inset 0 4px 0 0 #cacaca;
-    margin: 50px auto 24px;
+    margin: 25px auto 24px;
 }
 
 #section-about {
@@ -2242,6 +2245,7 @@ p {
     background-image: url(/images/newlanding/clothes.jpg);
     height: 100vh;
     background-size: cover;
+    background-position: right;
 }
 .package {
     background-image: url(/images/newlanding/package.jpg);
@@ -2265,7 +2269,7 @@ p {
 }
 @media (max-width: 991.98px) {
     .ai {
-        background-image: url(/images/newlanding/phones-2.png);
+        /* background-image: url(/images/newlanding/phones-2.png); */
     }
 }
 .audience {
