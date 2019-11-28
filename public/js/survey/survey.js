@@ -1,4 +1,73 @@
 $(function() {
+    var row_number = 0;
+    localStorage
+    // $('#exampleModal').on('show.bs.modal', function(event) {
+    //     var recipient = $('.emailtext').val();
+    //     var modal = $(this)
+    //     modal.find('.modal-body input#email-text').val(recipient)
+    // });
+
+    $("#request-form").submit(function() {
+        $(".spinner-border").css("display", "block");
+        $("#request-btn").css("display", "none");
+        var email = $('#email-text').val();
+        var name = $('#name-text').val();
+        const title = [
+            "Thank you for requesting access",
+            "Congratulations!",
+            "Welcome!",
+        ]
+        const content = [
+            "We’re excited to have you on board! Please check your email for next steps and to learn more about our waitlist. If you’d like to skip the line, you can fill out the survey by clicking on “start survey”. ",
+            "Our waitlist might be 200k, but we’re putting you first. Please check your inbox for next steps, and in the meantime please fill out the survey so we can learn about you!",
+            "Our waitlist might be 200k, but we’re interested in putting you first. Access is $30 per month. Start uploading your clothes today so that our users can find great fashion locally. First tell us more about you.",
+        ]
+        $.ajax({
+            url: "/checkemail",
+            method: 'get',
+            data: {
+                email: email,
+                name: name,
+                row_number: row_number
+            },
+            success: function(result) {
+                if (result == "true") {
+                    $("#exampleModalLabel2").text(title[Math.floor(Math.random() * 2)]);
+                    $("#modalcontent2").text(content[Math.floor(Math.random() * 2)]);
+                } else {
+                    $("#exampleModalLabel2").text("Welcome Back!");
+                    $("#modalcontent2").text("Our waitlist might be 200k, but we’re interested in putting you first. Access is $30 per month. Start uploading your clothes today so that our users can find great fashion locally. First tell us more about you.");
+                }
+                $(".spinner-border").css("display", "none");
+                $("#request-btn").css("display", "block");
+                $("#hidden-name").val(name);
+                $("#hidden-email").val(email);
+                $("#close-btn").click();
+                $("#next-modal-btn").click();
+            }
+        });
+        return false;
+    });
+
+    $(".first-form").submit(function() {
+        $(this).find('.open-modal').click();
+        var first_mail = $(this).find('.mail-text').val();
+        $('#exampleModal').find('.modal-body input#email-text').val(first_mail);
+        $.ajax({
+            url: "/save-email",
+            method: 'get',
+            data: {
+                email: first_mail
+            },
+            success: function(result) {
+                row_number = result;
+                localStorage.setItem("row_number", result);
+            }
+        });
+        return false;
+    });
+
+
     let current_item = 0;
 
     var progress = -1;
@@ -30,6 +99,7 @@ $(function() {
             if (!$(".item:nth-child(" + (current_item + 1) + ")").hasClass("end-part")) {
 
 
+                saveinfo(current_item);
                 do {
                     current_item++;
                 } while ($(".item:nth-child(" + (current_item + 1)).css("visibility") == "hidden");
@@ -219,4 +289,48 @@ $(function() {
         }
     }
 
+    function saveinfo(current_item) {
+        if (current_item > 0) {
+            if (!($(".item:nth-child(" + (current_item + 1) + ")").hasClass("end-part"))) {
+                var info = "";
+                const item_div = ".item:nth-child(" + (current_item + 1) + ")";
+
+                $(item_div + " :input[type='checkbox']:checked").each(function() {
+                    if ($(this).val() != undefined) {
+                        info += $(this).val() + ", ";
+                    }
+                });
+                info = info.slice(0, -2)
+
+                $(item_div + " :input[type='radio']:checked").each(function() {
+                    info += $(this).val();
+                });
+
+                // $(item_div + " :input[type='hidden']").each(function() {
+                //     info += $(this).text();
+                // });
+
+                $(item_div + " :input[type='text']").each(function() {
+                    if (info.indexOf("Other") >= 0) {
+                        info += ":" + $(this).val();
+                    } else {
+                        if ($(this).hasClass("text-answer")) {
+                            info = $(this).val();
+                        }
+                    }
+                });
+
+                $.ajax({
+                    url: "/save-info",
+                    method: 'get',
+                    data: {
+                        info: info,
+                        row_number: localStorage.getItem("row_number"),
+                        col_number: current_item + 2
+                    },
+                    success: function(result) {}
+                });
+            }
+        }
+    }
 })

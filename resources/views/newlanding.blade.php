@@ -599,6 +599,7 @@
       <script src="/js/bootstrap-datepicker.js"></script> 
       <script src="/js/jquery.timepicker.min.js"></script> 
       <script src="/js/main.js"></script>
-      <script src="/js/newlanding/newlanding.js"></script>
+      <!-- <script src="/js/newlanding/newlanding.js"></script> -->
+      <script src="/js/survey/survey.js"></script>
     </body>
   </html>

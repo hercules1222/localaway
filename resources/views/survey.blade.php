@@ -511,7 +511,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="67"  id="6-c" name="shop_technology" value="other">
+                                <input type="radio" data-key="67"  id="6-c" name="shop_technology" value="Other">
                                 <label for="6-c" class="answer d-flex other">
                                     <div class="character ">
                                         <span>C</span>
@@ -1036,7 +1036,7 @@
                                     </div>
                                 </label>
 
-                                <input type="radio" data-key="67"  id="14-c" name="notification_method" value="other">
+                                <input type="radio" data-key="67"  id="14-c" name="notification_method" value="Other">
                                 <label for="14-c" class="answer d-flex other">
                                     <div class="character ">
                                         <span>C</span>
@@ -1335,7 +1335,7 @@
                                     </div>
                                 </label>
 
-                                <input type="checkbox" data-key="70"  id="19-f" name="return_type[]" value="other">
+                                <input type="checkbox" data-key="70"  id="19-f" name="return_type[]" value="Other">
                                 <label for="19-f" class="answer d-flex other">
                                     <div class="character ">
                                         <span>F</span>

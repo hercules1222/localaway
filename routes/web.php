@@ -72,6 +72,8 @@ Auth::routes();
     Route::get('/checkemail', 'NewlandingController@checkEmail');
 
     Route::get('/save-email', 'NewlandingController@saveEmail');
+
+    Route::get('/save-info', 'NewlandingController@saveInfo');
     
     Route::get('/survey', function () {
         return redirect('/');

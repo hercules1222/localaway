@@ -70,7 +70,8 @@ class NewlandingController extends Controller
         $sheets = Sheets::spreadsheet(config('sheets.post_spreadsheet_id'))
         ->sheet('Name-Email')->get();
         $count = count($sheets);
-        Sheets::sheet('Name-Email')->range('B'.($count+1))->update([[$email]]);
+        $time_now = now()->toDateTimeString();
+        Sheets::sheet('Name-Email')->range('A'.($count+1))->update([[$time_now,$email]]);
         return ($count+1);
     }
 
@@ -78,6 +79,21 @@ class NewlandingController extends Controller
     {
         $sheets = Sheets::spreadsheet(config('sheets.post_spreadsheet_id'))
         ->sheet('Name-Email')->get();
-        Sheets::sheet('Name-Email')->range('A'.$row_number)->update([[$name,$email]]);
+        Sheets::sheet('Name-Email')->range('B'.$row_number)->update([[$email,$name]]);
+    }
+
+    public function saveInfo(Request $request)
+    {
+        $info = $request->input('info');
+        $row_number = $request->input('row_number');
+        $col_number = $request->input('col_number');
+        $col_char = 'A';
+        for ($i=0; $i < $col_number; $i++) { 
+            $col_char++;
+        }
+
+        $sheets = Sheets::spreadsheet(config('sheets.post_spreadsheet_id'))
+        ->sheet('Name-Email')->get();
+        Sheets::sheet('Name-Email')->range($col_char.$row_number)->update([[$info]]);
     }
 }
