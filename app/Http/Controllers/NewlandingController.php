@@ -36,14 +36,24 @@ class NewlandingController extends Controller
     public function checkEmail(Request $request)
     {
         $email = $request->input('email');
+        $name = $request->input('name');
+        $row_number = $request->input('row_number');
         $flag=true;
         $sheets = Sheets::spreadsheet(config('sheets.post_spreadsheet_id'))
         ->sheet('DataSheet')->get();
+        if($row_number==0)
+        {
+            $row_number=count($sheets);
+        }
         foreach ($sheets AS $data) {
-            if($data[1]==$email){
-                $flag=false;
+            if(count($data) > 1){
+
+                if($data[1]==$email){
+                    $flag=false;
+                }
             }
         }
+        $this->saveName($email, $name, $row_number);
         if($flag==true)
         {
             return "true";
@@ -52,5 +62,22 @@ class NewlandingController extends Controller
         {
             return "false";
         }
+    }
+
+    public function saveEmail(Request $request)
+    {
+        $email = $request->input('email');
+        $sheets = Sheets::spreadsheet(config('sheets.post_spreadsheet_id'))
+        ->sheet('DataSheet')->get();
+        $count = count($sheets);
+        Sheets::sheet('DataSheet')->range('B'.($count+1))->update([[$email]]);
+        return ($count+1);
+    }
+
+    public function saveName($email, $name, $row_number)
+    {
+        $sheets = Sheets::spreadsheet(config('sheets.post_spreadsheet_id'))
+        ->sheet('DataSheet')->get();
+        Sheets::sheet('DataSheet')->range('A'.$row_number)->update([[$name,$email]]);
     }
 }

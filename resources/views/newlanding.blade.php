@@ -129,10 +129,11 @@
               <div class="">
                 <div class="text-center text-lg-left" data-aos="fade-up">
                   <p class="h1 text-white mt-5" style="line-height: inherit;">Capsule wardrobes<br> with a conscience</p>
-                  <div class='mt-5'>
-                    <input type="mail" placeholder='Enter Email' class='text-white mail-text mb-2' required autofocus id = "emailtext">
-                    <button type="button" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Request Access</button>
-                  </div>
+                  <form class='mt-5' id="first-form">
+                    <input type="email" placeholder='Enter Email' class='text-white mail-text mb-2'  autofocus id = "emailtext">
+                    <button type="button" class="d-none btn btn-primary text-white py-2 text-uppercase ml-lg-2" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" id="open-modal"></button>
+                    <button type="submit" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2"  id ="first-request-btn">Request Access</button>
+                  </form>
                   <p class="h4 text-white mt-5">Personalized styles delivered, locally or away.</p>
                 </div>
               </div>

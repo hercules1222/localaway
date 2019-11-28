@@ -1,4 +1,5 @@
 $(function() {
+    var row_number = 0;
     $('#exampleModal').on('show.bs.modal', function(event) {
         var recipient = $('#emailtext').val();
         var modal = $(this)
@@ -24,7 +25,9 @@ $(function() {
             url: "/checkemail",
             method: 'get',
             data: {
-                email: email
+                email: email,
+                name: name,
+                row_number: row_number
             },
             success: function(result) {
                 if (result == "true") {
@@ -40,6 +43,22 @@ $(function() {
                 $("#hidden-email").val(email);
                 $("#close-btn").click();
                 $("#next-modal-btn").click();
+            }
+        });
+        return false;
+    });
+
+    $("#first-form").submit(function() {
+        $("#open-modal").click();
+        var first_mail = $('#emailtext').val();
+        $.ajax({
+            url: "/save-email",
+            method: 'get',
+            data: {
+                email: first_mail
+            },
+            success: function(result) {
+                row_number = result;
             }
         });
         return false;

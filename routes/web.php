@@ -70,6 +70,8 @@ Auth::routes();
     Route::post('post', 'PostController')->name('post.store');
     
     Route::get('/checkemail', 'NewlandingController@checkEmail');
+
+    Route::get('/save-email', 'NewlandingController@saveEmail');
     
     Route::get('/survey', function () {
         return redirect('/');
