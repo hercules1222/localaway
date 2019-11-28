@@ -242,7 +242,7 @@ $(function() {
         });
 
         $(item + " input[type=text]").each(function() {
-            if ($(this).val() != "") {
+            if (($(this).val() != "") && $(this).hasClass("text-answer")) {
                 flag = true;
             }
         });
