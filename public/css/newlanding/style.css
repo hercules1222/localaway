@@ -76,6 +76,28 @@ h5 {
     color: #C6A07A!important;
 }
 
+.close-btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    background-color: white;
+    border-color: #C6A07A;
+    color: #C6A07A;
+}
+
+.close-btn:hover {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    background-color: #C6A07A;
+    border-color: #C6A07A;
+    color: white!important;
+}
+
 .btn.btn-outline-white {
     border: 2px solid #fff;
 }
