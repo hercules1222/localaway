@@ -128,7 +128,7 @@
             <div class="col-12 col-lg-5 bg-green h-100 d-flex p-lg-5 align-items-center">
               <div class="">
                 <div class="text-center text-lg-left" data-aos="fade-up">
-                  <h1 class="display-4 text-white mt-5" style="line-height: inherit;">Capsule wardrobes<br> with a conscience</h1>
+                  <h1 class="display-4 text-white mt-5" >Capsule wardrobes<br> with a conscience</h1>
                   <form class='mt-5 first-form'>
                     <input type="email" placeholder='Enter Email' class='text-white mail-text mb-2'  autofocus >
                     <button type="button" class="d-none btn btn-primary text-white py-2 text-uppercase ml-lg-2 open-modal" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" ></button>
@@ -292,7 +292,7 @@
       <section class="section bg-white" id="chain">
         <div class="container-fluid h-100">
           <div class="row align-items-center h-100">
-            <div class="col-md-12 col-lg-6 order-lg-1  p-0 " data-aos="fade-up">
+            <div class="col-md-12 col-lg-6 order-lg-1  p-2 " data-aos="fade-up">
               <div class="col-lg-8 p-lg-5 m-lg-auto p-3 chain-content">
                 <h1 class="mb-4 order-1 text-black">The future is a sustainable supply chain</h1>
                 <div class="separator color-green ml-0"></div>
@@ -310,7 +310,7 @@
         </div>
       </section>
 
-      <section class="p-lg-0" >
+      <section class="section" >
         <div class="container-fluid">
           <div class="row align-items-center">
             <div class="col-md-12 col-lg-6 order-lg-1 order-1 p-0 ai" data-aos="fade-up">

@@ -2256,14 +2256,15 @@ p {
     background-image: url(/images/newlanding/apple.png);
     height: 100vh;
     background-size: cover;
-    background-size: contain;
+    /* background-size: contain; */
+    
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
 }
 .ai {
     background-image: url(/images/newlanding/phones.jpg);
     height: 100vh;
-    background-size: cover;
+    background-size: contain;
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
 }
@@ -2275,7 +2276,8 @@ p {
 .audience {
     background-image: url(/images/newlanding/survey.png);
     height: 100vh;
-    background-size: cover;
+    /* background-size: cover; */
+    
     background-size: contain;
     background-repeat-y: no-repeat;
 }
