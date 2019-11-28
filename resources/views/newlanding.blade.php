@@ -227,7 +227,7 @@
         </div>
       </section>
       
-      <section class="section bg-white ">
+      <section class="section bg-white pb-lg-0">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-4 align-items-center" data-aos="fade-up">
