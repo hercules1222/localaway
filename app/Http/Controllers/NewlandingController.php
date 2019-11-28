@@ -40,7 +40,7 @@ class NewlandingController extends Controller
         $row_number = $request->input('row_number');
         $flag=true;
         $sheets = Sheets::spreadsheet(config('sheets.post_spreadsheet_id'))
-        ->sheet('DataSheet')->get();
+        ->sheet('Name-Email')->get();
         if($row_number==0)
         {
             $row_number=count($sheets);
@@ -68,16 +68,16 @@ class NewlandingController extends Controller
     {
         $email = $request->input('email');
         $sheets = Sheets::spreadsheet(config('sheets.post_spreadsheet_id'))
-        ->sheet('DataSheet')->get();
+        ->sheet('Name-Email')->get();
         $count = count($sheets);
-        Sheets::sheet('DataSheet')->range('B'.($count+1))->update([[$email]]);
+        Sheets::sheet('Name-Email')->range('B'.($count+1))->update([[$email]]);
         return ($count+1);
     }
 
     public function saveName($email, $name, $row_number)
     {
         $sheets = Sheets::spreadsheet(config('sheets.post_spreadsheet_id'))
-        ->sheet('DataSheet')->get();
-        Sheets::sheet('DataSheet')->range('A'.$row_number)->update([[$name,$email]]);
+        ->sheet('Name-Email')->get();
+        Sheets::sheet('Name-Email')->range('A'.$row_number)->update([[$name,$email]]);
     }
 }
