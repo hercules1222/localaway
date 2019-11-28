@@ -413,7 +413,7 @@
                 </div>
             </div>
             <div class="row justify-content-center" data-aos="fade-up">
-                <div class="testimonial text-center slider-item col-md-6 col-lg-3 pl-lg-5 pr-lg-0">
+                <div class="testimonial text-center slider-item col-md-6 col-lg-3 pl-lg-5 pr-lg-0 mb-5">
                     <div class="author-image mb-3">
                     <img src="/images/newlanding/Julia.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
@@ -423,7 +423,7 @@
                     <p class='m-0  font-weight-bold'>Formerly Google Search, Google Travel, Facebook AI, and Sony Corporation</p>
                 </div> 
 
-                <div class="testimonial text-center slider-item col-md-6 col-lg-3 pr-lg-5 pl-lg-0">
+                <div class="testimonial text-center slider-item col-md-6 col-lg-3 pr-lg-5 pl-lg-0 mb-5">
                     <div class='vertical-divider d-none d-lg-block'></div>
                     <div class="author-image mb-3">
                     <img src="/images/newlanding/Lukas.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
@@ -432,7 +432,7 @@
                     <p class="font-weight-bold text-black  m-0"><em>&mdash;Dr. Lukas Peter</em></p>
                     <p class='m-0  font-weight-bold'>Former founder of two startups with one exit. Now CEO of Swisscom Outposts in Berlin, China, and Silicon Valley.</p>
                 </div>
-                <div class="testimonial text-center slider-item col-md-6 col-lg-3 pl-lg-5 pr-lg-0">
+                <div class="testimonial text-center slider-item col-md-6 col-lg-3 pl-lg-5 pr-lg-0 mb-5">
                     <div class="author-image mb-3">
                     <img src="/images/newlanding/Brigitte.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
@@ -443,7 +443,7 @@
                 </div>
 
 
-                <div class="testimonial text-center slider-item col-md-6 col-lg-3 pr-lg-5 pl-lg-0">
+                <div class="testimonial text-center slider-item col-md-6 col-lg-3 pr-lg-5 pl-lg-0 mb-5">
                     <div class="author-image mb-3">
                     <img src="/images/newlanding/Ahmad.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
