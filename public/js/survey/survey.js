@@ -52,7 +52,7 @@ $(function() {
         $(".item:nth-child(" + (current_item + 1) + ") input.text-answer").focus();
         if ($(".item:nth-child(" + (current_item + 1) + ")").hasClass("end-part")) {
             if (keycode == "13") {
-                $("#survey-form").submit();
+                // $("#survey-form").submit();
             }
         } else {
             if (keycode == "13") {
