@@ -128,7 +128,7 @@
             <div class="col-12 col-lg-5 bg-green h-100 d-flex p-lg-5 align-items-center">
               <div class="">
                 <div class="text-center text-lg-left" data-aos="fade-up">
-                  <p class="h1 text-white mt-5" style="line-height: inherit;">Capsule wardrobes<br> with a conscience</p>
+                  <h1 class="display-4 text-white mt-5" style="line-height: inherit;">Capsule wardrobes<br> with a conscience</h1>
                   <form class='mt-5 first-form'>
                     <input type="email" placeholder='Enter Email' class='text-white mail-text mb-2'  autofocus >
                     <button type="button" class="d-none btn btn-primary text-white py-2 text-uppercase ml-lg-2 open-modal" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" ></button>
