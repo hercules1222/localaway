@@ -250,7 +250,8 @@
       <section class="bg-white " id="partner">
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="d-none d-lg-block col-lg-6 m-auto ml-auto order-lg-2 position-relative p-0 partner" data-aos="fade-up">
+            <div class="d-none d-lg-block col-lg-6 m-auto ml-auto order-lg-2 position-relative p-0 " data-aos="fade-up">
+              <img src="/images/newlanding/apple.png" width="100%" alt="">
             </div>
             <div class="col-md-12 col-lg-6 order-lg-1 " data-aos="fade-up">
               <div class="col-lg-10 m-auto">
@@ -271,7 +272,8 @@
       <section class="bg-white section pt-0 ">
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="d-none d-lg-block col-lg-6 m-auto ml-auto order-lg-1 position-relative p-0 audience" data-aos="fade-up">
+            <div class="d-none d-lg-block col-lg-6 m-auto ml-auto order-lg-1 position-relative p-0" data-aos="fade-up">
+              <img src="/images/newlanding/survey.png" width="100%" alt="">
             </div>
             <div class="col-md-12 col-lg-6 order-lg-2 " data-aos="fade-up">
               <div class="col-lg-10 m-auto">
