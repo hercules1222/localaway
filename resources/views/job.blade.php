@@ -199,7 +199,7 @@
                         <div class="media-body">
                             <h2 class="mt-0 mb-3 text-white">Discovery & Community</h2>
                             <p class="text-white">
-                            Helping you find the right look by tapping into our community of local boutiques and independent brands
+                                Helping you find the right look by tapping into our community of local boutiques and independent brands
                             </p>
                         </div>
                     </div>
@@ -210,7 +210,7 @@
                         <div class="media-body">
                             <h2 class="mt-0 mb-3 text-white">Self-Expression</h2>
                             <p class="text-white">
-                                Helping you find the right look by tapping into our community of local boutiques and independent brands
+                                Your style, your way. Unique brands and clothing picked just for you
                             </p>
                         </div>
                     </div>
@@ -220,7 +220,7 @@
                         <div class="media-body">
                             <h2 class="mt-0 mb-3 text-white">Social Responsibility</h2>
                             <p class="text-white">
-                                Helping you find the right look by tapping into our community of local boutiques and independent brands
+                                We’re trying to create a new future for fashion rooted in sustainability
                             </p>
                         </div>
                     </div>
