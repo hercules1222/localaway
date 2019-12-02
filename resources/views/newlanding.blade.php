@@ -160,7 +160,7 @@
               <div class="separator color-orange"></div>
               <p class="mb-5 col-lg-5 m-auto text-center ">Be part of this community of over 2K shops, unique brands, and amazing vintage boutiques.
                 <br><br> We set out to  bring local brands online, and the online community back to the locals, so you can support your city not to get swept away by the big brands.
-                <br><br>Keep your city in style, 
+                <br><br>Keep your city in style
               </p>
             </div>
           </div>
@@ -232,7 +232,7 @@
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-4 align-items-center" data-aos="fade-up">
-              <p class='text-left font-orange display-2'>"</p>
+              <p class='text-left font-orange quotion' style='line-height: 1em;'>"</p>
               <div class='px-4'>
                 <p class='font-weight-bold text-black'>Jen Furman,
                   </p>
@@ -241,7 +241,7 @@
                     ”I love how easy it is to get my new styles to a global audience”
                   </p>
                 </div>
-              <p class='text-right font-orange display-2'>"</p>
+              <p class='text-right font-orange quotion'>"</p>
             </div>
           </div>
         </div>
@@ -338,7 +338,7 @@
             <div class="col-md-12 col-lg-6 order-lg-1" data-aos="fade-up">
               <div class="col-lg-10 m-auto text-center">
                 <h1 class="mb-5 h1 text-white text-center">
-                  Get early access to the platform
+                  Get early access<br> to the platform
                 </h1>
                 <form class='mt-5 first-form'>
                   <input type="email" placeholder='Enter Email' class='text-white mail-text mb-4'  autofocus >
@@ -565,10 +565,14 @@
                 </li>
                 <li class="d-flex justify-content-space-evently">
                     <a href="#">Jobs</a>
-                    <a href="#">Contact</a>
+                </li>
+                <li class="d-flex justify-content-space-evently m-0">
+                  <a href="#">Contact</a>
                 </li>
                 <li class="d-flex justify-content-space-evently m-0">
                    <a href="#">Privacy</a>
+                </li>
+                <li class="d-flex justify-content-space-evently m-0">
                    <a href="#">Terms</a>
                 </li>
               </ul>

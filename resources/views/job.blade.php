@@ -35,10 +35,10 @@
     </head>
     <body data-spy="scroll" data-target="#templateux-navbar" data-offset="200">
 
-    <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="templateux-navbar">
-        <div class="container-fluid justify-content-center">
+    <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light px-lg-5" id="templateux-navbar">
+        <div class="container-fluid ">
             <a class="navbar-brand" href="/">
-                <img class='' src="/images/newlanding/white-logo.svg" width="300" alt="">
+                <img class='' src="/images/newlanding/white-logo-ori.svg" width="300" alt="">
             </a>
             <div class="site-menu-toggle js-site-menu-toggle  ml-auto"  data-aos="fade" data-toggle="collapse" data-target="#templateux-navbar-nav" aria-controls="templateux-navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span></span>
@@ -134,8 +134,8 @@
                 <div class="col-10 text-center align-items-center" data-aos="fade-up">
                     <h1>Open Positions</h1> 
                     <div class="separator color-orange"></div>
-                    <p class="mb-5 m-auto text-left"><strong class="text-dark font-weight-bold">Stylist1:</strong> Hiring expert stylist to provide fashion advice; choosing and co-ordinating outfits and capsule wardrobes for clients and company.
-                        <p class='text-center'>
+                    <p class="mb-5 m-auto text-left"><strong class="text-dark font-weight-bold">Stylist 1:</strong> Hiring expert stylist to provide fashion advice; choosing and co-ordinating outfits and capsule wardrobes for clients and company.
+                        <p class='text-left'>
                         <br><strong class="text-dark font-weight-bold"> Role </strong><br>
                         - Keeping up to date with current and changing trends in fashion and design. <br>
                         - Advising clients on fashion styling for their vision. <br>
@@ -312,7 +312,7 @@
             
             <div class="col-lg-5 mb-5 mt-auto">
                 <form class='mt-5 first-form d-lg-flex justify-content-center'>
-                  <input type="email" placeholder='Enter Email' class='text-white mail-text mb-4'  autofocus >
+                  <input type="email" placeholder='Enter Email' class='text-white mail-text mb-4 mb-lg-0'  autofocus >
                   <button type="button" class="d-none btn btn-primary text-white py-2 text-uppercase ml-lg-2 open-modal" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" ></button>
                   <button type="submit" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2 request-btn"  id ="first-request-btn-2">Request Access</button>
                 </form>
