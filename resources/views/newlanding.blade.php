@@ -585,7 +585,7 @@
             
             <div class="col-lg-5 mb-5 mt-auto">
               <form class='mt-5 first-form d-lg-flex justify-content-center'>
-                  <input type="email" placeholder='Enter Email' class='text-white mail-text mb-4'  autofocus >
+                  <input type="email" placeholder='Enter Email' class='text-white mail-text mb-4 mb-lg-0'  autofocus >
                   <button type="button" class="d-none btn btn-primary text-white py-2 text-uppercase ml-lg-2 open-modal" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" ></button>
                   <button type="submit" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2 request-btn"  id ="first-request-btn-2">Request Access</button>
                 </form>
