@@ -71,14 +71,6 @@ class NewlandingController extends Controller
         ->sheet('Name-Email')->get();
         $count = count($sheets);
         $time_now = now()->toDateTimeString();
-        Sheets::sheet('Name-Email')->range('A'.($count+1))->update([[$time_now,$email]]);
-        return ($count+1);
-    }
-
-    public function saveName($email, $name, $row_number)
-    {
-        $sheets = Sheets::spreadsheet(config('sheets.post_spreadsheet_id'))
-        ->sheet('Name-Email')->get();
         $location = new Location();
         $position = $location->get($request->ip());
         if ($position) {
@@ -86,6 +78,14 @@ class NewlandingController extends Controller
         } else {
             $request->merge(['country' => 'Undefined Country']);
         }
+        Sheets::sheet('Name-Email')->range('A'.($count+1))->update([[$time_now,$email,$request->input("country")]]);
+        return ($count+1);
+    }
+
+    public function saveName($email, $name, $row_number)
+    {
+        $sheets = Sheets::spreadsheet(config('sheets.post_spreadsheet_id'))
+        ->sheet('Name-Email')->get();
         Sheets::sheet('Name-Email')->range('D'.$row_number)->update([[$name]]);
     }
 
@@ -94,7 +94,7 @@ class NewlandingController extends Controller
         $info = $request->input('info');
         $row_number = $request->input('row_number');
         $col_number = $request->input('col_number');
-        $col_char = 'A';
+        $col_char = 'B';
         for ($i=0; $i < $col_number; $i++) { 
             $col_char++;
         }
