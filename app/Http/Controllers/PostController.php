@@ -54,6 +54,7 @@ class PostController extends Controller
 
         $location = new Location();
         $position = $location->get($request->ip());
+        dd($position);
         if ($position) {
             $request->merge(['country' => $position->countryName]);
         } else {
