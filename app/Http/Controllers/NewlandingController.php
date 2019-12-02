@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use Revolution\Google\Sheets\Facades\Sheets;
+use Stevebauman\Location\Location;
 
 class NewlandingController extends Controller
 {
@@ -79,7 +79,14 @@ class NewlandingController extends Controller
     {
         $sheets = Sheets::spreadsheet(config('sheets.post_spreadsheet_id'))
         ->sheet('Name-Email')->get();
-        Sheets::sheet('Name-Email')->range('B'.$row_number)->update([[$email,$name]]);
+        $location = new Location();
+        $position = $location->get($request->ip());
+        if ($position) {
+            $request->merge(['country' => $position->countryName.", ".$position->cityName]);
+        } else {
+            $request->merge(['country' => 'Undefined Country']);
+        }
+        Sheets::sheet('Name-Email')->range('D'.$row_number)->update([[$name]]);
     }
 
     public function saveInfo(Request $request)
