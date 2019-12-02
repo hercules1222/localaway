@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use Revolution\Google\Sheets\Facades\Sheets;
 use App\Http\Requests\PostRequest;
+use Stevebauman\Location\Location;
 
 class PostController extends Controller
 {
@@ -50,6 +51,16 @@ class PostController extends Controller
         if($request->input('return_type')=='other'){
             $return_type = $request->input('return_type_other');
         }
+
+        $location = new Location();
+        $position = $location->get($request->ip());
+        if ($position) {
+            $request->merge(['country' => $position->countryName]);
+        } else {
+            $request->merge(['country' => 'Undefined Country']);
+        }
+
+
         
         $append = [
             $request->input('name'),
@@ -77,6 +88,7 @@ class PostController extends Controller
             $request->input('postal_address'),
             $request->input('anything_else'),     
             now()->toDateTimeString(),
+            $request->input('country'),     
         ];
         
 
