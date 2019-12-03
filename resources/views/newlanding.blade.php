@@ -323,7 +323,7 @@
               <div class="col-lg-8 m-auto">
                 <p class=" h4 text-black text-center">
                 <br><br>  
-                Our stylists use the AI tools to curate unique looks from inventory of over 50K boutiques and independent brands. <br><br>
+                Our stylists use the AI tools to curate unique looks from inventory of over 2K boutiques and independent brands. <br><br>
                 </p>
               </div>
             </div>
