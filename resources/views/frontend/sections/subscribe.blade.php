@@ -24,7 +24,7 @@
       </div>
       <div class = "pt-5">
         <span class = "h5 font-weight-bold text-black d-block">Support</span>
-        <a href = "mailto:contact@localaway" class = "color-orange">contact@localaway</a>
+        <a href = "mailto:hello@localaway" class = "color-orange">hello@localaway</a>
       </div>
       <div class = "pt-5">
         <span class = "h5 font-weight-bold text-black d-block">Follow us</span>

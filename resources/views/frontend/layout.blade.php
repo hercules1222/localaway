@@ -30,8 +30,10 @@
           src: url("/fonts/Poppins-Regular.ttf");
       }
       </style>
+
+      @yield('css')
     </head>
-    <body data-spy="scroll" data-target="#templateux-navbar" data-offset="200">
+    <body data-spy="scroll" data-target="#templateux-navbar" data-offset="200" class="Frontend">
       @include('frontend.sections.header')
       @include('frontend.sections.hero')
       @include('frontend.sections.search')
@@ -43,6 +45,7 @@
       @include('frontend.sections.subscribe')
       @include('frontend.sections.footer')
       @include('frontend.sections.footer_menu')
+      @yield('content')
       <script src="js/jquery-3.3.1.min.js"></script>
       <script src="js/jquery-migrate-3.0.1.min.js"></script>
       <script src="js/popper.min.js"></script>
@@ -56,5 +59,8 @@
       <script src="js/jquery.timepicker.min.js"></script> 
       <script src="js/main.js"></script>
       <script src="js/home.js"></script>
+      @if (config('app.env') == 'local')
+        <script src="http://localhost:35729/livereload.js"></script>
+      @endif
     </body>
   </html>

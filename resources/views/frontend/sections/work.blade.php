@@ -22,7 +22,7 @@
                   <div  class = "text-center">
                     <span class='font-avenir'>Enter details about your style need or event.<br>
                       <p class='font-weight-bold mt-2 text-black'>
-                        Where are you going and how son do yo need it?
+                        Where are you going and how soon do yo need it? Our content here needs work! ;)
                       </p>
                     </span>
                   </div>
@@ -34,7 +34,7 @@
                   </div>
                   <div  class = "text-center">
                     <span class='font-avenir'>Tell us about your preferences.<br>
-                      <p class='font-weight-bold mt-2 text-black'>Enter your size and fit preferences.</p>
+                      <p class='font-weight-bold mt-2 text-black'>Enter your size and fit preferences. Content needs work also! ;)</p>
                     </span>
                   </div>
               </div><div class="col-lg-4 col-md-12">

@@ -11,16 +11,6 @@
         <link rel="stylesheet" type="text/css" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
         <link rel="stylesheet" type="text/css" href = "/css/customer-sign.css">
 
-        <!-- Register style and js -->
-        <!-- <script src="{{ asset('js/app.js') }}" defer></script>
-        <!-- Fonts -->
-        <!-- <link rel="dns-prefetch" href="//fonts.gstatic.com"> -->
-        <!-- <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> -->
-        <!-- Styles -->
-        <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
-        <!-- <link href="{{ asset('css/login.css') }}" rel="stylesheet"> --> -->
-        <!-- End Register -->
-        
         <!-- Custom Font Style -->
         <style type="text/css">
             @font-face {

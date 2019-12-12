@@ -49499,15 +49499,27 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/main/frontend.scss":
+/*!*******************************************!*\
+  !*** ./resources/sass/main/frontend.scss ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
-  \*************************************************************/
+/*!*************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/main/frontend.scss ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! I:\Work\Localaway(new)\localaway\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! I:\Work\Localaway(new)\localaway\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! E:\Task\lukas\localaway\resources\js\app.js */"./resources/js/app.js");
+__webpack_require__(/*! E:\Task\lukas\localaway\resources\sass\app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! E:\Task\lukas\localaway\resources\sass\main\frontend.scss */"./resources/sass/main/frontend.scss");
 
 
 /***/ })

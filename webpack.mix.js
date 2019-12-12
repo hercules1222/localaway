@@ -1,5 +1,5 @@
 const mix = require('laravel-mix');
-
+let LiveReloadPlugin = require('webpack-livereload-plugin');
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -11,5 +11,14 @@ const mix = require('laravel-mix');
  |
  */
 
+mix.webpackConfig({
+  plugins: [
+      new LiveReloadPlugin()
+  ]
+});
+
+mix.browserSync('locallocalaway.com');
+
 mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+   .sass('resources/sass/app.scss', 'public/css')
+   .sass('resources/sass/main/frontend.scss', 'public/main');
