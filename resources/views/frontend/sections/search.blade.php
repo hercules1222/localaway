@@ -11,7 +11,7 @@
         </div>
         
         <div class="row">
-          <div class="col-lg-8 mb-3 mb-lg-0 ">
+          <div class="col-lg-10 mb-3 mb-lg-0 ">
             <div class="row">
               <div class="col-lg-4 mb-3 mb-md-0 pl-0">
                 <div class="field-icon-wrap">
@@ -52,7 +52,8 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 align-self-end">
+
+          <div class="col-lg-2">
             <a href="{{ route('customer.signup') }}" class="btn btn-block text-white btn-brown">Let's Go!</a>
           </div>
         </div>

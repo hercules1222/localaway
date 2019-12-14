@@ -6,3 +6,7 @@ body.Frontend a.btn:hover {
   background-color: #FD5C48;
 }
 
+body.Frontend .opacty-25 {
+  opacity: 0.25;
+}
+

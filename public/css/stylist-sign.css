@@ -66,8 +66,8 @@
 }
 
 .circle-btn:hover {
-    color: #c6a07a!important;
-    background-color: white;
+    color: white!important;
+    background-color: #FD5C48;
     border: 2px solid #c6a07a;
 }
 
