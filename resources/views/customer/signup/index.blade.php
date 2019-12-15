@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Become a stylist </title>
+  <title>Customer Sign Up </title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link href="/images/orange-logo.png" rel="icon" type="image/x-icon" />
@@ -28,23 +28,36 @@
 <body>
   <div class="container-fluid ">
     <div class="row">
-      <div class="col-5 back-image d-lg-block d-none p-0">
-        <a class="logo" href="/">
-          <img class="d-lg-block" src="/images/logo.png" alt="logo">  
-        </a>
-        <div class="side-progress-bar">
-          <div class="progress-value"></div>
-        </div>
-        <div class="image-title">
-          <p>Feel ready and prepared for any trip or event</p>
+      <div class="col-5 side-image d-lg-block d-none p-0">
+        <div class="back-image" step="step-1"></div>
+        <div class="back-image" step="step-2" style="display:none;"></div>
+        <div class="back-image" step="step-3" style="display:none;"></div>
+        <div class="back-image" step="step-4" style="display:none;"></div>
+        <div class="back-image" step="step-5" style="display:none;"></div>
+        <div class="back-image" step="step-6" style="display:none;"></div>
+
+        <div class="side-image-overlay">
+          <a class="logo" href="/">
+            <img class="d-lg-block" src="/images/logo.png" alt="logo">
+          </a>
+          <div class="side-progress-bar">
+            <div class="progress-value"></div>
+          </div>
+          <div class="image-title">
+            <p class="px-3">Feel ready and prepared for any trip or event</p>
+          </div>
         </div>
       </div>
       
-      <div class="col-lg-7 offset-5 p-5">
+      <div class="col-lg-7 offset-lg-5 p-5">
         <form id="customer-signup" action="/cutomer-signup" method="post" enctype="multipart/form-data">
           @csrf
-          <div id="step-1-account">
+          <div id="step-1" class="step" next="step-2" progress="1">
             @include ('customer.signup.step1')
+          </div>
+
+          <div id="step-2" class="step" next="" style="display: none;" progress="2">
+            @include ('customer.signup.step2')
           </div>
         </form>
       </div>

@@ -1,9 +1,9 @@
 <div class="row">
   <div class="col-12">
-    <h5 class="sub-page-title">Create your account</h5>
+    <h5 class="sub-page-title">First tell us more about you</h5>
   </div>
 
-  <div class="col-12 col-lg-6">
+  <!-- <div class="col-12 col-lg-6">
     <div class="form-row">
       <label for="step1-first-name">*First name</label>
       <input id="step1-first-name" class="form-control" />
@@ -64,7 +64,7 @@
         </span>
       </label>
     </div>
-  </div>
+  </div> -->
   
   <div class="col-12">
     <div class="form-row">

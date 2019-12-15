@@ -90,12 +90,10 @@
   box-shadow: none;
 }
 
-.back-image {
-  background-image: url("/images/customer-signup/1.png");
+.side-image {
   height: 100vh;
   top: 0;
   position: fixed;
-  background-position: center;
 }
 
 .signature {
@@ -230,6 +228,47 @@ p {
   font-family: Poppins-Regular!important;
 }
 
+/*****************************/
+
+
+.side-image-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.back-image {
+  height: 100%;
+  background-position: center;
+}
+
+.back-image[step='step-1'] {
+  background-image: url("/images/customer-signup/1.png");
+}
+
+.back-image[step='step-2'] {
+  background-image: url("/images/customer-signup/2.png");
+}
+
+.back-image[step='step-3'] {
+  background-image: url("/images/customer-signup/3.png");
+}
+
+.back-image[step='step-4'] {
+  background-image: url("/images/customer-signup/4.png");
+}
+
+.back-image[step='step-5'] {
+  background-image: url("/images/customer-signup/5.png");
+}
+
+.back-image[step='step-6'] {
+  background-image: url("/images/customer-signup/6.png");
+}
+
+
 .logo {
   display: block;
   margin: 1rem auto;
@@ -263,7 +302,7 @@ p {
 }
 
 .side-progress-bar .progress-value {
-  width: 30%;
+  width: 16.66%;
   height: 100%;
   transition: width .3s ease;
   background-color: #fa5d47;
