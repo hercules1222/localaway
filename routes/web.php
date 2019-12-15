@@ -80,6 +80,4 @@ Auth::routes();
 // Route::group(array('domain' => 'www.localaway.com'), $appRoutes);
 // Route::group(array('domain' => 'localaway.com'), $appRoutes);
 
-Route::group(['middleware' => 'auth'], function () {
-  Route::get('customer/signup', 'CustomerController@signup')->name('customer.signup');
-});
+    Route::get('customer/signup', 'CustomerController@signup')->name('customer.signup');
