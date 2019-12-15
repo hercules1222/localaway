@@ -358,3 +358,43 @@ p {
 .gender-image.selected img:last-child {
   filter: brightness(0);
 }
+
+.woman-body-type {
+  height: 170px;
+}
+
+.women-body-type-upload {
+  width: 80px;
+}
+
+.green {
+  color: #3bcdc2;
+}
+
+a.green:hover {
+  text-transform: none;
+}
+
+.image-upload-placeholder {
+  cursor: pointer;
+}
+
+.image-upload-placeholder:hover {
+  filter: contrast(1.3);
+}
+
+#woman-custom-body-type-file-name {
+  margin-bottom: 0;
+  font-size: smaller;
+  color: gray;
+}
+
+select.form-control {
+  border: 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.fit-select {
+  max-width: 300px;
+  width: 100%;
+}

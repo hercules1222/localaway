@@ -47,7 +47,7 @@
 
   <div class="col-12 my-3">
     <div class="my-form-row">
-      <select>
+      <select name="hear_us" class="form-control">
         <option>How did you hear about us?</option>
         <option></option>
       </select>

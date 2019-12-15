@@ -1,12 +1,25 @@
 $(function () {
   $(".next-button").click(function () {
-    const next_id = $(this).parents(".step").hide().attr("next");
-    const next = $("#" + next_id);
-    const progress = next.attr("progress");
+    const cur_step = parseInt($(this).parents(".step").hide().attr('step'))
+    let next_step = 'step-' + (cur_step + 1);
+    
+    if (cur_step === 2) {
+      const gender = $("input.gender:checked").val()
+      if (gender === "man") {
+        next_step = 'step-3-man'
+      } else if (gender === "woman") {
+        next_step = 'step-3-woman'
+      } else if (gender === "non-binary") {
+
+      }
+    }
+
+    const next = $("#" + next_step);
+    const progress = next.attr("step");
 
     $(next).show();
     $(".back-image").hide();
-    $(".back-image[step='" + next_id + "'").show();
+    $(".back-image[step='step-" + progress + "'").show();
 
     $(".progress-value").css({ width: (progress * 100 / 6) + '%'});
   });
@@ -17,4 +30,14 @@ $(function () {
       .find(".gender-image")
       .addClass("selected");
   });
+
+  $(".image-upload-placeholder").click(function () {
+    $(this).siblings(".image-upload[type=file]").click();
+  })
+
+  $(".image-upload").change(function () {
+    if (this.files && this.files[0]) {
+      $("#woman-custom-body-type-file-name").html($(this).val())
+    }
+  })
 })

@@ -52,12 +52,16 @@
       <div class="col-lg-7 offset-lg-5 p-5">
         <form id="customer-signup" action="/cutomer-signup" method="post" enctype="multipart/form-data">
           @csrf
-          <div id="step-1" class="step" next="step-2" progress="1">
+          <div id="step-1" class="step" step="1">
             @include ('customer.signup.step1')
           </div>
 
-          <div id="step-2" class="step" next="" style="display: none;" progress="2">
+          <div id="step-2" class="step" step="2" style="display: none;">
             @include ('customer.signup.step2')
+          </div>
+
+          <div id="step-3-woman" class="step" step="3" style="display: none;">
+            @include ('customer.signup.step3-woman')
           </div>
         </form>
       </div>
