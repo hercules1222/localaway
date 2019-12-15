@@ -40,4 +40,12 @@ $(function () {
       $(this).siblings(".body-type-file-name").html($(this).val())
     }
   })
+
+  $(".dislike-color").click(function () {
+    $(this).toggleClass("selected")
+  })
+
+  $(".pattern-tile").click(function () {
+    $(this).toggleClass("selected")
+  })
 })
