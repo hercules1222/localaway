@@ -37,7 +37,7 @@ $(function () {
 
   $(".image-upload").change(function () {
     if (this.files && this.files[0]) {
-      $("#woman-custom-body-type-file-name").html($(this).val())
+      $(this).siblings(".body-type-file-name").html($(this).val())
     }
   })
 })

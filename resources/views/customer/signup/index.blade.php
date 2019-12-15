@@ -63,6 +63,10 @@
           <div id="step-3-woman" class="step" step="3" style="display: none;">
             @include ('customer.signup.step3-woman')
           </div>
+
+          <div id="step-3-man" class="step" step="3" style="display: none;">
+            @include ('customer.signup.step3-man')
+          </div>
         </form>
       </div>
     </div>
