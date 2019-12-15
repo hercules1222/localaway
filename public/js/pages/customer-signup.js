@@ -9,8 +9,8 @@ $(function () {
         next_step = 'step-3-man'
       } else if (gender === "woman") {
         next_step = 'step-3-woman'
-      } else if (gender === "non-binary") {
-
+      } else {
+        next_step = 'step-3-neutral'
       }
     }
 
