@@ -1,7 +1,7 @@
 .radio-container {
   display: block;
   position: relative;
-  padding-left: 48px;
+  padding-left: 40px;
   margin-bottom: 12px;
   line-height: 32px;
   cursor: pointer;
@@ -313,23 +313,48 @@ p {
   margin-bottom: 2rem;
 }
 
-.form-row {
+.my-form-row {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-.form-row label {
+.my-form-row label {
   font-size: smaller;
   color: gray;
   margin-bottom: 0;
 }
 
-.form-row input {
+.my-form-row input {
   padding: 0;
 }
 
-.form-row select {
+.my-form-row select {
   color: #495057;
   padding: 0.5rem;
   width: 100%;
+}
+
+.gender-image {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  margin: 0 auto 1rem;
+}
+
+.gender-image img:first-child {
+  position: absolute;
+  filter: grayscale(1) brightness(1.2);
+}
+
+.gender-image img:last-child {
+  margin: auto;
+}
+
+.gender-image.selected img:first-child {
+  filter: none;
+}
+
+.gender-image.selected img:last-child {
+  filter: brightness(0);
 }

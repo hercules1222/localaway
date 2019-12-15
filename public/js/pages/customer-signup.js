@@ -10,4 +10,11 @@ $(function () {
 
     $(".progress-value").css({ width: (progress * 100 / 6) + '%'});
   });
+
+  $("input.gender").click(function () {
+    $(".gender-image").removeClass("selected");
+    $(this).parents(".gender-option")
+      .find(".gender-image")
+      .addClass("selected");
+  });
 })
