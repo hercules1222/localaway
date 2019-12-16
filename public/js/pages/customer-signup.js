@@ -48,4 +48,9 @@ $(function () {
   $(".pattern-tile").click(function () {
     $(this).toggleClass("selected")
   })
+
+  $(".plan").click(function () {
+    $(".plan").removeClass("selected");
+    $(this).addClass("selected")
+  })
 })
