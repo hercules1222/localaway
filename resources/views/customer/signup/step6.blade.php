@@ -50,6 +50,11 @@
   <div class="col-12 my-3">
     <p class="question">Select Payment Option</p>
 
+    <p>
+      Only $10 for shipping and hanlding due now.
+      Your credit card will not be charged unless you decide to keep some of the clothes,
+      and if you do the 10$ fee will be completely waived.
+    </p>
     <div class="my-form-row">
       <label class="radio-container">
         Credit Card

@@ -72,7 +72,7 @@
       </label>
 
       <label class="radio-container mb-2">
-        Capsules from 70 - 150$ (outfit -lower end)
+        Capsules from 70 - 150$ (outfit - lower end)
         <input type="checkbox" name="spend" value="outfit-lower">
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
@@ -80,7 +80,7 @@
       </label>
 
       <label class="radio-container mb-2">
-        Capsules from 150 - 250$
+        Capsules from 150 - 250$ (higher end)
         <input type="checkbox" name="spend" value="150-250">
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
@@ -88,7 +88,7 @@
       </label>
 
       <label class="radio-container mb-2">
-        Capsules from 300$+
+        Capsules from 300$+ (luxury)
         <input type="checkbox" name="spend" value="300+">
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
