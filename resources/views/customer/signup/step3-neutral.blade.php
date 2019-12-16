@@ -1,3 +1,4 @@
+<form id="step3-neutral" method="post" enctype="multipart/form-data">
 <div class="row">
   <div class="col-12">
     <h5 class="sub-page-title">First tell us how to get a perfect fit</h5>
@@ -36,7 +37,7 @@
 
       <label class="radio-container mb-2">
         L
-        <input type="radio" name="casual_shirts" value="L">
+        <input type="radio" name="casual_shirts" value="L" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -89,7 +90,7 @@
 
       <label class="radio-container mb-2">
         L
-        <input type="radio" name="button_up_shirts" value="L">
+        <input type="radio" name="button_up_shirts" value="L" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -142,7 +143,7 @@
 
       <label class="radio-container mb-2">
         42(8)
-        <input type="radio" name="waist" value="42">
+        <input type="radio" name="waist" value="42" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -191,7 +192,7 @@
 
       <label class="radio-container mb-2">
         26.5
-        <input type="radio" name="inseams" value="26.5">
+        <input type="radio" name="inseams" value="26.5" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -216,7 +217,7 @@
 
       <label class="radio-container mb-2">
         I'm a no on jeans.
-        <input type="radio" name="jeans" value="none">
+        <input type="radio" name="jeans" value="none" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -297,7 +298,7 @@
 
       <label class="radio-container mb-2">
         Lower thigh
-        <input type="radio" name="shorts" value="lower_thigh">
+        <input type="radio" name="shorts" value="lower_thigh" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -323,3 +324,4 @@
     </div>
   </div>
 </div>
+</form>

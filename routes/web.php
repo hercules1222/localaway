@@ -81,3 +81,13 @@ Auth::routes();
 // Route::group(array('domain' => 'localaway.com'), $appRoutes);
 
     Route::get('customer/signup', 'CustomerController@signup')->name('customer.signup');
+
+    Route::post('customer/signup', 'CustomerController@postSignup');
+
+    Route::post('customer/general', 'CustomerController@postGeneral');
+
+    Route::post('customer/women', 'CustomerController@postWomen');
+
+    Route::post('customer/men', 'CustomerController@postMen');
+    
+    Route::post('customer/neutral', 'CustomerController@postNeutral');

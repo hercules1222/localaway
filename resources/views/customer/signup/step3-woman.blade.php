@@ -1,3 +1,4 @@
+<form id="step3-woman" method="post" enctype="multipart/form-data">
 <div class="row">
   <div class="col-12">
     <h5 class="sub-page-title">First tell us how to get a perfect fit</h5>
@@ -19,7 +20,7 @@
 
       <label class="radio-container mb-2">
         No
-        <input type="radio" name="mother_or_pregnant" value="no">
+        <input type="radio" name="mother_or_pregnant" value="no" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -41,7 +42,7 @@
           <div class="text-center mb-2 position-relative">
             <p class="body-type-file-name"></p>
             <img class="women-body-type-upload image-upload-placeholder" src="/images/customer-signup/women-body-type-upload.svg" />
-            <input type="file" class="image-upload" name="custom-woman-body-type">
+            <input type="file" class="image-upload" id="custom_woman_body_type" name="custom_woman_body_type">
           </div>
           <a href="#" class="green">
             <p class="mb-0 text-center">Find out how</p>
@@ -91,7 +92,7 @@
 
       <label class="radio-container mb-2">
         Inverted Triangle
-        <input type="radio" name="women_body_type" value="inverted_triangle">
+        <input type="radio" name="women_body_type" value="inverted_triangle" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -140,7 +141,7 @@
 
       <label class="radio-container mb-2">
         L
-        <input type="radio" name="women_casual_shirts" value="L">
+        <input type="radio" name="women_casual_shirts" value="L" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -193,7 +194,7 @@
 
       <label class="radio-container mb-2">
         L
-        <input type="radio" name="women_button_up_shirts" value="L">
+        <input type="radio" name="women_button_up_shirts" value="L" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -344,7 +345,7 @@
         <div class="col-4">
           <label class="radio-container mb-2">
             40B
-            <input type="radio" name="bra_size" value="40B">
+            <input type="radio" name="bra_size" value="40B" checked>
             <span class="checkmark">
               <i class="fas fa-check check-sign"></i>
             </span>
@@ -409,7 +410,7 @@
 
       <label class="radio-container mb-2">
         42(8)
-        <input type="radio" name="women_waist" value="42">
+        <input type="radio" name="women_waist" value="42" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -458,7 +459,7 @@
 
       <label class="radio-container mb-2">
         26.5
-        <input type="radio" name="women_inseams" value="26.5">
+        <input type="radio" name="women_inseams" value="26.5" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -483,7 +484,7 @@
 
       <label class="radio-container mb-2">
         I'm a no on jeans.
-        <input type="radio" name="women_jeans" value="none">
+        <input type="radio" name="women_jeans" value="none" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -564,7 +565,7 @@
 
        <label class="radio-container mb-2">
         Maxi
-        <input type="radio" name="skirt" value="maxi">
+        <input type="radio" name="skirt" value="maxi" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -613,7 +614,7 @@
 
       <label class="radio-container mb-2">
         Maxi
-        <input type="radio" name="dress_style" value="maxi">
+        <input type="radio" name="dress_style" value="maxi" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -662,7 +663,7 @@
 
       <label class="radio-container mb-2">
         Lower thigh
-        <input type="radio" name="women_shorts" value="lower_thigh">
+        <input type="radio" name="women_shorts" value="lower_thigh" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -753,7 +754,7 @@
         <div class="col-6">
           <label class="radio-container mb-2">
             37(7)
-            <input type="radio" name="women_shoe" value="37">
+            <input type="radio" name="women_shoe" value="37" checked>
             <span class="checkmark">
               <i class="fas fa-check check-sign"></i>
             </span>
@@ -819,3 +820,4 @@
     </div>
   </div>
 </div>
+</form>

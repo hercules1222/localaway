@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Customer Sign Up </title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="csrf-token" content="{{ csrf_token() }}">
 
   <link href="/images/orange-logo.png" rel="icon" type="image/x-icon" />
   <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -50,8 +51,6 @@
       </div>
       
       <div class="col-lg-7 offset-lg-5 p-5">
-        <form id="customer-signup" action="/cutomer-signup" method="post" enctype="multipart/form-data">
-          @csrf
           <div id="step-1" class="step" step="1">
             @include ('customer.signup.step1')
           </div>
@@ -83,7 +82,6 @@
           <div id="step-6" class="step" step="6" style="display: none;">
             @include ('customer.signup.step6')
           </div>
-        </form>
       </div>
     </div>
   </div>

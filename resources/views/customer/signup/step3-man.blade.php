@@ -1,3 +1,4 @@
+<form id="step3-man" method="post" enctype="multipart/form-data">
 <div class="row">
   <div class="col-12">
     <h5 class="sub-page-title">First tell us how to get a perfect fit</h5>
@@ -16,7 +17,7 @@
           <div class="text-center mb-2 position-relative">
             <p class="body-type-file-name"></p>
             <img class="men-body-type-upload image-upload-placeholder" src="/images/customer-signup/men-body-type-upload.svg" />
-            <input type="file" class="image-upload" name="custom-man-body-type">
+            <input type="file" class="image-upload" id="custom_man_body_type" name="custom_man_body_type">
           </div>
           <a href="#" class="green">
             <p class="mb-0 text-center">Find out how</p>
@@ -50,7 +51,7 @@
 
       <label class="radio-container mb-2">
         Oval
-        <input type="radio" name="men_body_type" value="oval">
+        <input type="radio" name="men_body_type" value="oval" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -99,7 +100,7 @@
 
       <label class="radio-container mb-2">
         L
-        <input type="radio" name="men_casual_shirts" value="L">
+        <input type="radio" name="men_casual_shirts" value="L" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -152,7 +153,7 @@
 
       <label class="radio-container mb-2">
         L
-        <input type="radio" name="men_button_up_shirts" value="L">
+        <input type="radio" name="men_button_up_shirts" value="L" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -205,7 +206,7 @@
 
       <label class="radio-container mb-2">
         42(8)
-        <input type="radio" name="men_waist" value="42">
+        <input type="radio" name="men_waist" value="42" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -254,7 +255,7 @@
 
       <label class="radio-container mb-2">
         26.5
-        <input type="radio" name="men_inseams" value="26.5">
+        <input type="radio" name="men_inseams" value="26.5" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -279,7 +280,7 @@
 
       <label class="radio-container mb-2">
         I'm a no on jeans.
-        <input type="radio" name="men_jeans" value="none">
+        <input type="radio" name="men_jeans" value="none" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -361,7 +362,7 @@
 
       <label class="radio-container mb-2">
         Lower thigh
-        <input type="radio" name="men_shorts" value="lower_thigh">
+        <input type="radio" name="men_shorts" value="lower_thigh" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -452,7 +453,7 @@
         <div class="col-6">
           <label class="radio-container mb-2">
             37(7)
-            <input type="radio" name="men_shoe" value="37">
+            <input type="radio" name="men_shoe" value="37" checked>
             <span class="checkmark">
               <i class="fas fa-check check-sign"></i>
             </span>
@@ -518,3 +519,4 @@
     </div>
   </div>
 </div>
+</form>

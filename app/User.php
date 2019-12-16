@@ -6,6 +6,8 @@ use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
+use App\Customer;
+
 class User extends Authenticatable
 {
     use Notifiable;
@@ -45,5 +47,10 @@ class User extends Authenticatable
     public function uploads()
     {
     return $this->hasMany(Upload::class);
+    }
+
+    public function customer()
+    {
+        return $this->hasOne(Customer::class);
     }
 }

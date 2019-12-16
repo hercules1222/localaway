@@ -1,3 +1,4 @@
+<form id="step2">
 <div class="row">
   <div class="col-12">
     <h5 class="sub-page-title">First tell us more about you</h5>
@@ -27,7 +28,7 @@
 
       <label class="radio-container mb-2">
         Workwear
-        <input type="radio" name="dress" value="workwear">
+        <input type="radio" name="dress" value="workwear" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -71,14 +72,14 @@
         </div>
 
         <div class="mr-5 gender-option">
-          <div class="gender-image">
+          <div class="gender-image selected">
             <img src="/images/customer-signup/gender-circle.svg" />
             <img src="/images/customer-signup/gender-woman.svg" />
           </div>
 
           <label class="radio-container mb-2">
             Woman
-            <input type="radio" name="gender" class="gender" value="woman">
+            <input type="radio" name="gender" class="gender" value="woman" checked>
             <span class="checkmark">
               <i class="fas fa-check check-sign"></i>
             </span>
@@ -119,7 +120,7 @@
 
       <label class="radio-container mb-2">
         No, Imperial
-        <input type="radio" name="metric" value="no">
+        <input type="radio" name="metric" value="no" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -137,14 +138,14 @@
         <div class="col-4 col-lg-2">
           <div class="my-form-row">
             <label for="step2-feet">Feet</label>
-            <input id="step2-feet" class="form-control" />
+            <input id="step2-feet" name="height_feet" class="form-control" />
           </div>
         </div>
 
         <div class="col-4 col-lg-2">
           <div class="my-form-row">
             <label for="step2-inches">Inches</label>
-            <input id="step2-inches" class="form-control" />
+            <input id="step2-inches" name="height_inch" class="form-control" />
           </div>
         </div>
       </div>
@@ -157,3 +158,4 @@
     </div>
   </div>
 </div>
+</form>

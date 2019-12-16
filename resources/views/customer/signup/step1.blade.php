@@ -1,3 +1,4 @@
+<form id="step1">
 <div class="row">
   <div class="col-12">
     <h5 class="sub-page-title">Create your account</h5>
@@ -6,35 +7,35 @@
   <div class="col-6 col-lg-6">
     <div class="my-form-row">
       <label for="step1-first-name">*First name</label>
-      <input id="step1-first-name" class="form-control" />
+      <input id="step1-first-name" name="first_name" class="form-control" />
     </div>
   </div>
 
   <div class="col-6 col-lg-6">
     <div class="my-form-row">
       <label for="step1-last-name">*Last name</label>
-      <input id="step1-last-name" class="form-control" />
+      <input id="step1-last-name" name="last_name" class="form-control" />
     </div>
   </div>
 
   <div class="col-12">
     <div class="my-form-row">
       <label for="step1-email">*Email</label>
-      <input id="step1-email" class="form-control" />
+      <input id="step1-email" name="email" class="form-control" />
     </div>
   </div>
 
   <div class="col-12">
     <div class="my-form-row">
       <label for="step1-birthday">*Birthday</label>
-      <input id="step1-birthday" class="form-control" />
+      <input id="step1-birthday" name="birthday" class="form-control" />
     </div>
   </div>
 
   <div class="col-12">
     <div class="my-form-row">
       <label for="step1-password">*Create Password</label>
-      <input id="step1-password" type="password" class="form-control" />
+      <input id="step1-password" name="password" type="password" class="form-control" />
     </div>
   </div>
 
@@ -47,7 +48,7 @@
 
   <div class="col-12 my-3">
     <div class="my-form-row">
-      <select name="hear_us" class="form-control">
+      <select id="step1-hear-us" name="hear_us" class="form-control">
         <option>How did you hear about us?</option>
         <option></option>
       </select>
@@ -58,7 +59,7 @@
     <div class="my-form-row">
       <label class="radio-container">
         I want to receive text alerts
-        <input type="checkbox" name="receive_alerts">
+        <input type="checkbox" id="step1-receive-alert" name="receive_alert" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>
@@ -72,3 +73,4 @@
     </div>
   </div>
 </div>
+</form>
