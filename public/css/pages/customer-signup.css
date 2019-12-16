@@ -451,6 +451,7 @@ select.form-control {
   position: relative;
   cursor: pointer;
   box-shadow: inset 0 0 0px 4px white;
+  transition: filter ease .3s;
 
   width: 150px;
   height: 150px;
@@ -467,6 +468,10 @@ select.form-control {
   top: 10px;
 }
 
+.pattern-tile:hover {
+  filter: brightness(1.2);
+}
+
 .pattern-tile .strap {
   background-color: #3CCDC1;
   color: white;
@@ -477,4 +482,13 @@ select.form-control {
   position: absolute;
   transform: translateY(-50%);
   top: 50%;
+}
+
+.additional-note {
+  width: 100%;
+  height: 100px;
+}
+
+.additional-note:focus {
+  outline: none;
 }
