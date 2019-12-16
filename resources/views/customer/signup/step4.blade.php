@@ -1,3 +1,4 @@
+<form id="step4">
 <div class="row">
   <div class="col-12">
     <h5 class="sub-page-title">What are your dislikes?</h5>
@@ -258,3 +259,4 @@
     </div>
   </div>
 </div>
+</form>

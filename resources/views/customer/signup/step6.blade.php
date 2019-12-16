@@ -1,3 +1,4 @@
+<form class="step6">
 <div class="row">
   <div class="col-12">
     <h5 class="sub-page-title">Final Step</h5>
@@ -8,7 +9,7 @@
       <p class="question">Choose your plan</p>
       
       <div class="row">
-        <div class="col-4">
+        <div class="col-12 col-md-4 col-lg-12 col-xl-4 py-2">
           <div class="plan" value="gold">
             <p class="plan-title">Gold Member</p>
             <p>
@@ -18,7 +19,7 @@
           </div>
         </div>
 
-        <div class="col-4">
+        <div class="col-12 col-md-4 col-lg-12 col-xl-4 py-2">
           <div class="plan" value="silver">
             <p class="plan-title">Silve Flyer</p>
             <p>
@@ -31,7 +32,7 @@
           </div>
         </div>
 
-        <div class="col-4">
+        <div class="col-12 col-md-4 col-lg-12 col-xl-4 py-2">
           <div class="plan" value="platnium">
             <p class="plan-title">Platnium</p>
             <p>
@@ -130,3 +131,4 @@
     </div>
   </div>
 </div>
+</form>

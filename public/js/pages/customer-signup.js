@@ -141,6 +141,8 @@ $(function () {
       contentType: false,
       processData: false,
     })
+
+    return true;
   }
 
   function validateNeutral() {
@@ -156,15 +158,45 @@ $(function () {
   }
 
   function validateDislike() {
+    const param = { email: email, materials: [], patterns: [], colors: [] }
 
+    $("form#step4").serializeArray().forEach(function (item) {
+      param.materials.push(item.value);
+    })
+    
+    $(".dislike-color.selected>div").each(function (index, item) {
+      param.colors.push($(item).css('background-color'));
+    })
+
+    $(".pattern-tile.selected").each(function (index, item) {
+      param.patterns.push($(item).attr("value"))
+    })
+
+    $.post('/customer/dislike', param)
+
+    return true;
   }
 
   function validateAlmostDone() {
+    const param = { email: email }
 
+    $("form#step5").serializeArray().forEach(function (data) {
+      param[data.name] = data.value;
+    })
+
+    $.post('/customer/almost-done', param)
+
+    return true;
   }
 
   function validateFinal() {
+    const param = { email: email }
     
+    param.plan = $(".plan.selected").attr("value")
+
+    $.post("/customer/finalize", param)
+    
+    return true;
   }
 
   $(".next-button").click(function () {

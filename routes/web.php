@@ -91,3 +91,9 @@ Auth::routes();
     Route::post('customer/men', 'CustomerController@postMen');
     
     Route::post('customer/neutral', 'CustomerController@postNeutral');
+    
+    Route::post('customer/dislike', 'CustomerController@postDislike');
+
+    Route::post('customer/almost-done', 'CustomerController@postAlmostDone');
+    
+    Route::post('customer/finalize', 'CustomerController@postFinalize');

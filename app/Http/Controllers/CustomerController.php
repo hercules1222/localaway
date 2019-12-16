@@ -163,4 +163,66 @@ class CustomerController extends Controller
       }
     }
 
+    public function postDislike(Request $request)
+    {
+      $email = $request->input("email");
+      $materials = $request->input("materials");
+      $patterns = $request->input("patterns");
+      $colors = $request->input("colors");
+
+      $user = User::where('email', $email)->first();
+      if ($user && $user->customer) {
+        $customer = $user->customer;
+        if ($materials) {
+          $customer->dislike_material = implode(",", $materials);
+        }
+
+        if ($patterns) {
+          $customer->dislike_pattern = implode(",", $patterns);
+        }
+
+        if ($colors) {
+          $customer->dislike_color = implode(",", $colors);
+        }
+        $customer->save();
+      }
+    }
+
+    public function postAlmostDone(Request $request)
+    {
+      $email = $request->input("email");
+      $capsule = $request->input("capsule");
+      $spend = $request->input("spend");
+      $instagram = $request->input("instagram");
+      $twitter = $request->input("twitter");
+      $pinterest = $request->input("pinterest");
+      $linkedin = $request->input("linkedin");
+      $notes = $request->input("notes");
+
+      $user = User::where('email', $email)->first();
+      if ($user && $user->customer) {
+        $customer = $user->customer;
+        $customer->capsule = $capsule;
+        $customer->capsule_spend = $spend;
+        $customer->instagram = $instagram;
+        $customer->twitter = $twitter;
+        $customer->pinterest = $pinterest;
+        $customer->linkedin = $linkedin;
+        $customer->notes = $notes;
+        $customer->save();
+      }
+    }
+
+    public function postFinalize(Request $request)
+    {
+      $email = $request->input("email");
+      $plan = $request->input("plan");
+     
+      $user = User::where('email', $email)->first();
+      if ($user && $user->customer) {
+        $customer = $user->customer;
+        $customer->plan = $plan;
+        $customer->save();
+      }
+    }
 }
