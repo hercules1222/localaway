@@ -182,7 +182,7 @@ class CustomerController extends Controller
         }
 
         if ($colors) {
-          $customer->dislike_color = implode(",", $colors);
+          $customer->dislike_color = implode("|", $colors);
         }
         $customer->save();
       }

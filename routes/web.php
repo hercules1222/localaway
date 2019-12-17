@@ -26,6 +26,7 @@ Auth::routes();
     Route::get('/dashboard/hero-image', 'DashboardController@hero');
     Route::get('/dashboard/itinerary-image', 'DashboardController@itinerary');
     Route::get('/dashboard/stylist-image', 'DashboardController@stylist');
+    Route::get('/dashboard/customers', 'DashboardController@customers');
     
     Route::post('/admin/file/upload', 'FileController@store');
     Route::get('/admin/file/delete/{id}', 'FileController@delete');

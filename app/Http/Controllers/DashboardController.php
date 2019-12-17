@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Upload;
+use App\Customer;
 
 class DashboardController extends Controller
 {
@@ -16,6 +17,13 @@ class DashboardController extends Controller
     public function __construct()
     {
         $this->middleware('auth');
+
+        $this->middleware(function ($request, $next) {
+            if (auth()->user()->id > 2) {
+                return redirect('/');
+            }
+            return $next($request);
+        });
     }
 
     /**
@@ -61,4 +69,10 @@ class DashboardController extends Controller
         ]);
     }
 
+    public function customers()
+    {
+        return view('dashboard-customer', [
+            'customers' => Customer::all()
+        ]);
+    }
 }
