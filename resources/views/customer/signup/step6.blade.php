@@ -13,21 +13,21 @@
           <div class="plan" value="gold">
             <p class="plan-title">Gold Member</p>
             <p>
-              - $10 Styling Fee<br/><br/>
-              Personalized Travel Style Itinerary and direct links based on your preferences, size, and budget (ONLINE ONLY)
+              One time style fee 29 CHF<br/><br/>
+              Personalized occassion based capsule. Feel ready for anything, delivered conveniently to you.<br/><br/>
+              <small>Fee is waived if you purchase over 29 CHF for clothes.</small>
             </p>
           </div>
         </div>
 
         <div class="col-12 col-md-4 col-lg-12 col-xl-4 py-2">
-          <div class="plan" value="silver">
-            <p class="plan-title">Silve Flyer</p>
+          <div class="plan selected" value="silver">
+            <p class="plan-title">Silver Flyer</p>
             <p>
-              (Most popular option)<br/>
-              - $20 Styling Fee<br/><br/>
-              Your complete capsule delivered, outfits prepped for each day and activity, lightweight and reusable.
-              Delivery is free to home or destination. Keep what you like, return what you don't
-              - if you rip off a tag, its considered USED.
+              Monthly 19 CHF<br/>(Most popular option)<br/><br/>
+              Subscribe for seasonal capsule wardrobe updates, and cancel free anytime.<br/><br/>
+              Refresh your closet each month with a few fresh pieces that go with what you already own.<br/><br/>
+              <small>Fee is waived if you purchase over 19 CHF for clothes.</small>
             </p>
           </div>
         </div>
@@ -36,11 +36,10 @@
           <div class="plan" value="platnium">
             <p class="plan-title">Platnium</p>
             <p>
-              - $99 Styling Fee<br/><br/>
-              Personal Shopper Day at location.
-              A day in the life...
-              meet your stylist! Go shopping at local boutiques.
-              Personal shopping day just for you with lunch and transportation included.
+              199 CHF Package<br/><br/>
+              Personal Styling Experience Package. A day in the life...<br/><br/>
+              Meet your stylist!<br/><br/>
+              Go shopping at local boutiques. This includes personal tour-guide and style advice, plus lunch and site seeing, with photos taken in new clothes.
             </p>
           </div>
         </div>
@@ -117,7 +116,7 @@
     <div class="my-form-row">
       <label class="radio-container">
         Paypal
-        <input type="radio" name="payment" value="paypal">
+        <input type="radio" name="payment" value="paypal" checked>
         <span class="checkmark">
           <i class="fas fa-check check-sign"></i>
         </span>

@@ -16,10 +16,18 @@ Auth::routes();
 
 // Route::domain('staging.localaway.com')->group(function () {
     
-    
+    Route::group(["domain" => "localaway.com"], function () {
+        Route::get('/', function () {
+            return view('newlanding');
+        });
+    });
+
+    Route::group(["domain" => "localaway.ai"], function () {
+        Route::get('/', 'HomeController@index')->name('home');
+    });
+
     Route::get('/dashboard','DashboardController@index');
     
-    Route::get('/', 'HomeController@index')->name('home');
     Route::get('/home', 'HomeController@index')->name('home');
     
     Route::get('/dashboard/logo-image', 'DashboardController@index');
@@ -46,20 +54,7 @@ Auth::routes();
     
     Route::post('/answer', 'HomeController@showAnswer');
     Route::get('/answer', 'HomeController@index');
-// });
 
-    
-// $appRoutes = function() {
-    // Route::get('/newlanding', function () {
-    //     return view('newlanding');
-    // });
-    
-    // Route::get('/', function () {
-    //     return view('newlanding');
-    // });
-
-    
-    
     Route::get('/job', function () {
         return view('job');
     });
