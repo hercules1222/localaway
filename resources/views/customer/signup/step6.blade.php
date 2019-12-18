@@ -7,6 +7,8 @@
   <div class="col-12 mt-3">
     <div class="my-form-row">
       <p class="question">Choose your plan</p>
+      <p>Delivery is free to home or destination, keep what you love, return what you don't.
+      You will be charged refundable 100 CHF security deposit.</p>
       
       <div class="row">
         <div class="col-12 col-md-4 col-lg-12 col-xl-4 py-2">
