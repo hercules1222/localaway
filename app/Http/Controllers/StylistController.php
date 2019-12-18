@@ -31,11 +31,11 @@ class StylistController extends Controller
             $link3 = $request->get('boutique-link3');
             $resume = $request->file('boutique-resume');
         }else{
-            if($request->get('stylist_location')=="other"){
+            // if($request->get('stylist_location')=="other"){
                 $location = $request->get('other_location');
-            }else{
-                $location = $request->get('stylist_location');
-            }
+            // }else{
+            //     $location = $request->get('stylist_location');
+            // }
             $stylist_name = $request->get('stylist-name');
             $stylist_email = $request->get('stylist-email');
             $letter = $request->get('stylist-letter');
@@ -49,7 +49,7 @@ class StylistController extends Controller
             Storage::disk('public')->putFileAs('uploads/resume', $resume, $filename);
             $stylist->resume = $filename;
         }
-        $stylist = new stylist;
+        $stylist = new Stylist;
         $stylist->stylist_type = $stylist_type;
         $stylist->location = $location;
         $stylist->work_hour = $hours;
@@ -61,7 +61,8 @@ class StylistController extends Controller
         $stylist->relevant_link2 = $link2;
         $stylist->relevant_link3 = $link3;
         $stylist->save();
-            return redirect('/');
+        
+        return redirect('/');
     }
 
     public function delete(Request $request, $id)

@@ -29,6 +29,28 @@ $(document).ready(function() {
     });
 
     $(".step2").click(function() {
+        if ($(this).attr("mode") === "boutique") {
+            if (!$("#boutique-location").val()) {
+                $("#boutique-location").focus();
+                return;
+            }
+    
+            if (!$("#boutique-name").val()) {
+                $("#boutique-name").focus();
+                return;
+            }
+        } else {
+            if (!$("#otherlocation").val()) {
+                $("#otherlocation").focus();
+                return;
+            }
+    
+            if (!$("#stylist-name").val()) {
+                $("#stylist-name").focus();
+                return;
+            }
+        }
+
         if (!validate_email()) {
             return;
         }

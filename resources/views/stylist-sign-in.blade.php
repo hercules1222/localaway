@@ -101,7 +101,7 @@
                                           </div>
                                       </div>
                                       <div class="text-right" style="margin-top: 7em;">
-                                          <a class="btn circle-btn btn-primary text-white font-weight-bold py-3 step2">
+                                          <a class="btn circle-btn btn-primary text-white font-weight-bold py-3 step2" mode="boutique">
                                           Next Section
                                           </a>
                                       </div>
@@ -176,8 +176,8 @@
                                               <h5 class = 'text-dark mt-4'>Tell us about yourself:</h5>
                                           </span>
                                           <div class="form-group mt-4">
-                                              <label for="name" class="mt-4 text-secondary small">{{ __('Name') }}</label>
-                                              <input id="name" type="text" class="form-control border-none kt-portlet--border-bottom-danger" name="stylist-name" value="">
+                                              <label for="stylist-name" class="mt-4 text-secondary small">{{ __('Name') }}</label>
+                                              <input id="stylist-name" type="text" class="form-control border-none kt-portlet--border-bottom-danger" name="stylist-name" value="">
                                           </div>
                                           <div class="form-group mt-4">
                                               <label for="stylist-email" class="mt-4 text-secondary small">{{ __('Email') }}</label>
@@ -185,7 +185,7 @@
                                           </div>
                                       </div>
                                       <div class="text-right" style="margin-top: 7em;">
-                                          <a class="btn circle-btn btn-primary text-white font-weight-bold py-3 step2">
+                                          <a class="btn circle-btn btn-primary text-white font-weight-bold py-3 step2" mode="independent">
                                           Next Section
                                           </a>
                                       </div>
