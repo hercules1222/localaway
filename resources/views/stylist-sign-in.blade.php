@@ -42,7 +42,7 @@
                                       <h1 class="font-weight-bold mb-5 title">Are you representing a retail brand, boutique or are an independant stylist?</h1>
                                       <label class="radio-container mb-4">
                                           Boutique/Brand
-                                          <input type="radio" value="boutique" name="stylist-type" id="boutique">
+                                          <input type="radio" value="boutique" name="stylist-type" id="boutique" checked>
                                           <span class="checkmark">
                                               <i class="fas fa-check  check-sign"></i>
                                           </span>
@@ -65,7 +65,7 @@
                                   </div>
 
                                   <div id="step-2-boutique" class="mt-5 step-2" style="display: none;">
-                                      <h1 class="font-weight-bold mb-5 title">Start your new side job <br>-home office or freelance - <br>and earn money styling customers.</h1>
+                                      <h1 class="font-weight-bold mb-5 title">Start your new side job <br>- home office or freelance - <br>and earn money styling customers.</h1>
                                       <div class="">
                                           <span class ='font-weight-bold question'>Question 1
                                               <h5 class = 'text-dark mt-4'>What location or event are you an expert stylist in?</h5>
@@ -295,19 +295,6 @@
                                       </div>
                                       <div class="text-right" style="margin-top: 7em;">
                                           <input class="btn circle-btn btn-primary text-white font-weight-bold py-3 step3" type="submit" value="Submit" />
-                                      </div>
-                                  </div>
-                                  
-                                  <div id="step-4" class = "m-auto col-10" style="display: none;">
-                                      <h1 class="font-weight-bold mb-5 question text-center congrate title">Thank you!</h1>
-                                      <h4 class='text-center'>We have received your application <br>and will get in touch soon!</h3>
-                                      <div class="text-center mt-4">
-                                          <a class="btn circle-btn btn-primary text-white font-weight-bold py-3 ">
-                                          localaway.com
-                                          </a>
-                                      </div>
-                                      <div class='text-center mt-4'>
-                                          <a href= ""  class='text-center small question a-link' id = "step4">View First Time Stylist</a>
                                       </div>
                                   </div>
                               </form>

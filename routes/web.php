@@ -51,6 +51,10 @@ Auth::routes();
     });
     
     Route::post('/stylist-signup', 'StylistController@store');
+
+    Route::get('/customer/thank-you', function () {
+        return view('thankyou');
+    })->name('thankyou');
     
     Route::post('/answer', 'HomeController@showAnswer');
     Route::get('/answer', 'HomeController@index');

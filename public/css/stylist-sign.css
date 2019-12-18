@@ -155,6 +155,7 @@
 #myBar {
     width: 25%;
     height: 1em;
+    transition: width ease .3s;
     background-color: #fa5d47;
 }
 

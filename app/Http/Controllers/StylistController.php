@@ -62,7 +62,7 @@ class StylistController extends Controller
         $stylist->relevant_link3 = $link3;
         $stylist->save();
         
-        return redirect('/');
+        return redirect()->route('thankyou');
     }
 
     public function delete(Request $request, $id)

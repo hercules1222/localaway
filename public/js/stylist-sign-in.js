@@ -25,7 +25,7 @@ $(document).ready(function() {
         $('#title').text(function(i) {
             return 'Become part of the LocaAway Family';
         });
-        move(25, 50);
+        moveProcess(50);
     });
 
     $(".step2").click(function() {
@@ -66,7 +66,7 @@ $(document).ready(function() {
         $('#title').text(function(i) {
             return 'Enjoy some freedom as your own boss';
         });
-        move(50, 75);
+        moveProcess(75);
     });
 
     $(".step3").click(function() {
@@ -92,15 +92,6 @@ $(document).ready(function() {
         if (!isAgree()) {
             return false;
         }
-        $(".step-3").css("display", "none");
-        $("#step-4").css("display", "block");
-        $(".back-image").css("background-image", "url('/images/stylist-sign-4.jpg')");
-        $("#logo").get(0).scrollIntoView()
-        $('#title').text(function(i) {
-            return "We can't wait to meet you";
-        });
-        move(75, 100);
-
     });
 
     $("#stylist-signup").submit(function() {
@@ -125,25 +116,9 @@ function minusfunction() {
     $(".hours").html(parseInt(hours) - 1);
 }
 
-var i = 0;
 
-function move(cur, pro) {
-    if (i == 0) {
-        i = 1;
-        var elem = document.getElementById("myBar");
-        var width = cur;
-        var id = setInterval(frame, 10);
-
-        function frame() {
-            if (width >= pro) {
-                clearInterval(id);
-                i = 0;
-            } else {
-                width++;
-                elem.style.width = width + "%";
-            }
-        }
-    }
+function moveProcess(val) {
+    $("#myBar").css("width", val + "%");
 }
 
 function validate_email() {
