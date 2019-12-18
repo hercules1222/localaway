@@ -10,39 +10,51 @@
       
       <div class="row">
         <div class="col-12 col-md-4 col-lg-12 col-xl-4 py-2">
-          <div class="plan" value="gold">
-            <p class="plan-title">Gold Member</p>
-            <p>
-              One time style fee 29 CHF<br/><br/>
-              Personalized occassion based capsule. Feel ready for anything, delivered conveniently to you.<br/><br/>
-              <small>Fee is waived if you purchase over 29 CHF for clothes.</small>
-            </p>
+          <div class="plan" value="platinum">
+            <div>
+              <p class="plan-title">Platinum Capsule</p>
+              <p>
+                199 CHF Package<br/><br/>
+                Personal Styling Experience Package. A day in the life...<br/><br/>
+                Meet your stylist!<br/><br/>
+                Go shopping at local boutiques.
+                This includes personal tour-guide and style advice, plus lunch and site seeing, with photos taken in new clothes.
+              </p>
+            </div>
+            <a href="#" class="select-plan">Select Platinum</a>
           </div>
         </div>
 
         <div class="col-12 col-md-4 col-lg-12 col-xl-4 py-2">
-          <div class="plan selected" value="silver">
-            <p class="plan-title">Silver Flyer</p>
-            <p>
-              Monthly 19 CHF<br/>(Most popular option)<br/><br/>
-              Subscribe for seasonal capsule wardrobe updates, and cancel free anytime.<br/><br/>
-              Refresh your closet each month with a few fresh pieces that go with what you already own.<br/><br/>
+          <div class="plan selected" value="gold">
+            <div>
+              <p class="plan-title">Gold Member</p>
+              <p>Monthly 19 CHF</p>
+              <p class="gold-strap">(Most popular option)</p>
+              <p>
+                Subscribe for seasonal capsule wardrobe updates, and cancel free anytime.<br/><br/>
+                Refresh your closet each month with  a few fresh pieces that go with what you alread own!
+              </p>
               <small>Fee is waived if you purchase over 19 CHF for clothes.</small>
-            </p>
+            </div>
+            <a href="#" class="select-plan">Select Gold</a>
           </div>
         </div>
 
         <div class="col-12 col-md-4 col-lg-12 col-xl-4 py-2">
-          <div class="plan" value="platnium">
-            <p class="plan-title">Platnium</p>
-            <p>
-              199 CHF Package<br/><br/>
-              Personal Styling Experience Package. A day in the life...<br/><br/>
-              Meet your stylist!<br/><br/>
-              Go shopping at local boutiques. This includes personal tour-guide and style advice, plus lunch and site seeing, with photos taken in new clothes.
-            </p>
+          <div class="plan" value="silver">
+            <div>
+              <p class="plan-title">Silver Capsule</p>
+              <p>
+                One time style fee 29 CHF<br/><br/>
+                Personalized occasion based capsule. Feel ready for anything, delivered conveniently to you!
+              </p>
+              <small>Fee is waived if you purchase over 29 CHF for clothes.</small>
+            </div>
+            <a href="#" class="select-plan">Select Silver</a>
           </div>
         </div>
+        
       </div>
     </div>
   </div>

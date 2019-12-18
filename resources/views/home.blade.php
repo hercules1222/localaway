@@ -5,7 +5,6 @@
 @endsection
 
 @section('content')
-  <div>123</div>
 @endsection
 
 @section('page_vendor_scripts')

@@ -494,14 +494,44 @@ select.form-control {
 }
 
 .plan {
-  cursor: pointer;
   border: 1px solid lightgray;
   padding: 1rem;
   height: 100%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.select-plan {
+  display: block;
+  color: white;
+  background-color: #C6A07A;
+  padding: 0.5rem 1.5rem;
+  max-width: 250px;
+  width: 100%;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+
+.select-plan:hover {
+  background-color: #dbbfa3;
+  text-decoration: none;
+  color: white;
+}
+
+.plan .gold-strap {
+  margin-left: -1rem;
+  padding: 5px;
+  margin-right: -1rem;
+  background-color: #84e0d9;
 }
 
 .plan .plan-title {
+  margin-bottom: 0;
   font-size: 1.5rem;
 }
 

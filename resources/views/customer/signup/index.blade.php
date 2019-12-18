@@ -51,7 +51,7 @@
       </div>
       
       <div class="col-lg-7 offset-lg-5 p-5">
-          <div id="step-1" class="step" step="1">
+          <div id="step-1" class="step" step="1" style="display: none;">
             @include ('customer.signup.step1')
           </div>
 
@@ -79,7 +79,7 @@
             @include ('customer.signup.step5')
           </div>
 
-          <div id="step-6" class="step" step="6" style="display: none;">
+          <div id="step-6" class="step" step="6" style="_display: none;">
             @include ('customer.signup.step6')
           </div>
       </div>
