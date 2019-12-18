@@ -52,7 +52,9 @@ Auth::routes();
     
     Route::post('/stylist-signup', 'StylistController@store');
 
-    Route::get('/customer/thank-you', 'CustomerController@thankyou')->name('thankyou');
+    Route::get('/become-stylist/thank-you', 'StylistController@thankyou')->name('stylist.thankyou');
+
+    Route::get('/customer/thank-you', 'CustomerController@thankyou')->name('customer.thankyou');
     
     Route::post('/answer', 'HomeController@showAnswer');
     Route::get('/answer', 'HomeController@index');

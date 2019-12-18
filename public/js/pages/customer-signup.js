@@ -1,5 +1,11 @@
 $(function () {
 
+  switch (window.location.hash) {
+    case "#final":
+      showNextStep(5)
+      break;
+  }
+
   let email = null;
 
   $.ajaxSetup({
@@ -185,7 +191,9 @@ $(function () {
     })
 
     $.post('/customer/almost-done', param)
-
+    
+    window.location.hash = 'final'
+    
     return true;
   }
 
@@ -225,9 +233,11 @@ $(function () {
     if (!validate) {
       return;
     }
-
-    $(this).parents(".step").hide()
     
+    showNextStep(cur_step)
+  });
+
+  function showNextStep(cur_step) {
     let next_step = 'step-' + (cur_step + 1);
     
     if (cur_step === 2) {
@@ -244,12 +254,13 @@ $(function () {
     const next = $("#" + next_step);
     const progress = next.attr("step");
 
+    $(".step").hide()
     $(next).show();
     $(".back-image").hide();
     $(".back-image[step='step-" + progress + "'").show();
 
     $(".progress-value").css({ width: (progress * 100 / 6) + '%'});
-  });
+  }
 
   $("input.gender").click(function () {
     $(".gender-image").removeClass("selected");

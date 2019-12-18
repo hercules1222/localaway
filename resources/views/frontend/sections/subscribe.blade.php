@@ -32,7 +32,7 @@
           <a href = "https://www.facebook.com/localaway/" class = "color-orange">facebook, </a>
           <a href = "https://twitter.com/local_away" class = "color-orange">twitter</a>
           or
-          <a href = "https://www.instagram.com/accounts/login/" class = "color-orange">instagram</a>
+          <a href = "https://www.instagram.com/localaway/" class = "color-orange">instagram</a>
         </span>
       </div>
     </div>

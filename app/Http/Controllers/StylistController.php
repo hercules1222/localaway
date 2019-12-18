@@ -62,7 +62,7 @@ class StylistController extends Controller
         $stylist->relevant_link3 = $link3;
         $stylist->save();
         
-        return redirect()->route('thankyou');
+        return redirect()->route('stylist.thankyou');
     }
 
     public function delete(Request $request, $id)
@@ -129,5 +129,10 @@ class StylistController extends Controller
         // $upload->delete();
         // Storage::disk('public')->delete('/uploads/' . $upload->filename);
         return redirect('/dashboard/'.$collection.'-image');
+    }
+
+    public function thankyou(Request $request)
+    {
+        return view('stylist-thankyou');
     }
 }

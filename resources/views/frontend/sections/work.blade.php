@@ -20,9 +20,9 @@
                     <img src="images/work1.jpg" alt="Image placeholder" >
                   </div>
                   <div  class = "text-center">
-                    <span class='font-avenir'>Enter details about your style need or event.<br>
+                    <span class='font-avenir'>Enter details about your style need or event<br>
                       <p class='font-weight-bold mt-2 text-black'>
-                        Where are you going and how soon do yo need it? Our content here needs work! ;)
+                        Where are you going and how soon do yo need it?
                       </p>
                     </span>
                   </div>
@@ -33,8 +33,8 @@
                     <img src="images/work2.jpg" alt="Image placeholder" >
                   </div>
                   <div  class = "text-center">
-                    <span class='font-avenir'>Tell us about your preferences.<br>
-                      <p class='font-weight-bold mt-2 text-black'>Enter your size and fit preferences. Content needs work also! ;)</p>
+                    <span class='font-avenir'>Tell us about your preferences<br>
+                      <p class='font-weight-bold mt-2 text-black'>Enter your size and fit preferences.</p>
                     </span>
                   </div>
               </div><div class="col-lg-4 col-md-12">
@@ -42,10 +42,10 @@
                     <h1 class = "font-weight-bold color-orange my-auto mx-0">3</h1>
                     <img src="images/work3.jpg" alt="Image placeholder" >
                   </div>
-                  <div  class = "text-center">
-                    <span class='font-avenir'><br>
+                  <div class="text-center">
+                    <span class='font-avenir'>Try it on, wear it, or return it<br>
                       <p class='font-weight-bold mt-2 text-black'>
-                        Try it on, wear it, return it. If you love something there is an option to purchase at a discount. Need to exchange? Its all local so its all easy.
+                        If you love something there is an option to purchase at a discount. Need to exchange? Its all local so its all easy.
                         </p>
                       </span>
                   </div>

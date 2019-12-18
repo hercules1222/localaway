@@ -228,6 +228,6 @@ class CustomerController extends Controller
 
     public function thankyou(Request $request)
     {
-      return view('thankyou');
+      return view('customer-thankyou');
     }
 }

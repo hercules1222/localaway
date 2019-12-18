@@ -2,7 +2,7 @@
   <div class="container text-center">
     <img class = "mt-4" src="images/logo.png" alt="">
     <div class = "mt-4">
-      <a href="https://www.instagram.com/accounts/login/" class = "h3 "><i class="fab fa-instagram"></i></a>
+      <a href="https://www.instagram.com/localaway/" class = "h3 "><i class="fab fa-instagram"></i></a>
       <a href="https://twitter.com/local_away" class = "h3 pl-4"><i class="fab fa-twitter"></i></a>
       <a href="https://www.facebook.com/localaway/" class = "h3 pl-4"><i class="fab fa-facebook"></i></a>
     </div>

@@ -65,7 +65,7 @@
                                   </div>
 
                                   <div id="step-2-boutique" class="mt-5 step-2" style="display: none;">
-                                      <h1 class="font-weight-bold mb-5 title">Start your new side job <br>- home office or freelance - <br>and earn money styling customers.</h1>
+                                      <h1 class="font-weight-bold mb-5 title">We're excited to partner with you! Welcome to the future of a sustainable supply chain.</h1>
                                       <div class="">
                                           <span class ='font-weight-bold question'>Question 1
                                               <h5 class = 'text-dark mt-4'>What location or event are you an expert stylist in?</h5>
@@ -108,7 +108,7 @@
                                   </div>
 
                                   <div id="step-2-independent" class="mt-5 step-2" style="display: none;">
-                                      <h1 class="font-weight-bold mb-5 title">We're excited to partner with you! Welcome to the future of a sustainable supply chain.</h1>
+                                      <h1 class="font-weight-bold mb-5 title">Start your new side job <br>- home office or freelance - <br>and earn money styling customers.</h1>
                                       <div class="">
                                           <span class ='font-weight-bold question'>Question 1
                                               <h5 class = 'text-dark mt-4'>What location or event are you an expert stylist in?</h5>
@@ -192,7 +192,7 @@
                                   </div>
 
                                   <div id="step-3-boutique" class = "mt-5 step-3" style="display: none;">
-                                      <h1 class="font-weight-bold mb-5">Find out what you can earn as a local stylist.</h1>
+                                      <h1 class="font-weight-bold mb-5">We’re excited to partner with you! Welcome to the future of a sustainable supply chain.</h1>
                                       <div class="">
                                           <h5 class = 'text-dark mt-2 mb-4'>Martin, do you want to improve your chances? Send us  your resume and why you want ot be part of Local Away?</h5>
                                           <span class ='font-weight-bold question'>
@@ -243,7 +243,7 @@
                                   </div>
 
                                   <div id="step-3-independent" class = "mt-5 step-3" style="display: none;">
-                                      <h1 class="font-weight-bold mb-5">We’re excited to partner with you! Welcome to the future of a sustainable supply chain.</h1>
+                                      <h1 class="font-weight-bold mb-5">Find out what you can earn as a local stylist.</h1>
                                       <div class="">
                                           <span class ='font-weight-bold question'>
                                               <i class="fas fa-upload"></i>    

@@ -153,11 +153,11 @@
       </label>
     </div>
   </div>
---}}
 
   <div class="col-12">
     <div class="my-form-row text-right">
       <button class="round-btn next-button" type="button">Get my outfits!</button>
     </div>
   </div>
+--}}
 </div>
