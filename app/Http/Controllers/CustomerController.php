@@ -225,4 +225,9 @@ class CustomerController extends Controller
         $customer->save();
       }
     }
+
+    public function thankyou(Request $request)
+    {
+      return view('thankyou');
+    }
 }

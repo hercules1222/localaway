@@ -1,15 +1,16 @@
-<form class="step6">
 <div class="row">
   <div class="col-12">
     <h5 class="sub-page-title">Final Step</h5>
   </div>
 
-  <div class="col-12 mt-3">
+  <div class="col-12">
     <div class="my-form-row">
       <p class="question">Choose your plan</p>
       <p>Delivery is free to home or destination, keep what you love, return what you don't.
       You will be charged refundable 100 CHF security deposit.</p>
       
+      <!-- <div id="paypal-button-container"></div> -->
+
       <div class="row">
         <div class="col-12 col-md-4 col-lg-12 col-xl-4 py-2">
           <div class="plan" value="platinum">
@@ -23,7 +24,12 @@
                 This includes personal tour-guide and style advice, plus lunch and site seeing, with photos taken in new clothes.
               </p>
             </div>
-            <a href="#" class="select-plan">Select Platinum</a>
+      
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="Y5ZV93LDVV42G">
+              <button class="btn btn-warning select-plan">Select Platinum</button>
+            </form>
           </div>
         </div>
 
@@ -39,7 +45,12 @@
               </p>
               <small>Fee is waived if you purchase over 19 CHF for clothes.</small>
             </div>
-            <a href="#" class="select-plan">Select Gold</a>
+
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="WP8UGBQ5VANJS">
+              <button class="btn btn-warning select-plan">Select Gold</button>
+            </form>
           </div>
         </div>
 
@@ -53,14 +64,19 @@
               </p>
               <small>Fee is waived if you purchase over 29 CHF for clothes.</small>
             </div>
-            <a href="#" class="select-plan">Select Silver</a>
+
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="7NMG4VA75JYKU">
+              <button class="btn btn-warning select-plan">Select Silver</button>
+            </form>
           </div>
         </div>
         
       </div>
     </div>
   </div>
-
+{{--
   <div class="col-12 my-3">
     <p class="question">Select Payment Option</p>
 
@@ -137,6 +153,7 @@
       </label>
     </div>
   </div>
+--}}
 
   <div class="col-12">
     <div class="my-form-row text-right">
@@ -144,4 +161,3 @@
     </div>
   </div>
 </div>
-</form>

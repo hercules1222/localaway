@@ -51,7 +51,7 @@
       </div>
       
       <div class="col-lg-7 offset-lg-5 p-5">
-          <div id="step-1" class="step" step="1">
+          <div id="step-1" class="step" step="1" style="display: none;">
             @include ('customer.signup.step1')
           </div>
 
@@ -79,7 +79,7 @@
             @include ('customer.signup.step5')
           </div>
 
-          <div id="step-6" class="step" step="6" style="display: none;">
+          <div id="step-6" class="step" step="6" style="_display: none;">
             @include ('customer.signup.step6')
           </div>
       </div>
@@ -89,4 +89,31 @@
   <script type="text/javascript" src="/js/dropzone.js"></script>
   <script src="/js/jquery-3.3.1.min.js"></script>
   <script src="/js/pages/customer-signup.js"></script>
-
+<!-- 
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=CHF" data-sdk-integration-source="button-factory"></script>
+  <script>
+      paypal.Buttons({
+          style: {
+              shape: 'rect',
+              color: 'blue',
+              layout: 'vertical',
+              label: 'paypal',
+              
+          },
+          createOrder: function(data, actions) {
+              return actions.order.create({
+                  purchase_units: [{
+                      amount: {
+                          value: '1'
+                      }
+                  }]
+              });
+          },
+          onApprove: function(data, actions) {
+              return actions.order.capture().then(function(details) {
+                  alert('Transaction completed by ' + details.payer.name.given_name + '!');
+              });
+          }
+      }).render('#paypal-button-container');
+  </script>
+-->
