@@ -31,6 +31,7 @@ class CustomerController extends Controller
       $last_name = $request->input('last_name');
       $email = $request->input('email');
       $birthday = $request->input('birthday');
+      $phone_number = $request->input('phone_number');
       $password = $request->input('password');
       $receive_alert = $request->input('receive_alert', 'off');
       $hear_us = $request->input('hear_us');
@@ -40,6 +41,8 @@ class CustomerController extends Controller
       $user->last_name = $last_name;
       $user->email = $email;
       $user->birthday = $birthday;
+      $user->phone_number = $phone_number;
+      $user->user_type = 'customer';
       $user->password = Hash::make($password);
       $user->save();
 

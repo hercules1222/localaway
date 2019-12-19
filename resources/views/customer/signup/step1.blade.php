@@ -46,7 +46,14 @@
     </div>
   </div>
 
-  <div class="col-12 my-3">
+  <div class="col-12 col-lg-6">
+    <div class="my-form-row">
+      <label for="step1-phone-number">Phone Number</label>
+      <input id="step1-phone-number" class="form-control" name="phone_number">
+    </div>
+  </div>
+
+  <div class="col-12 col-lg-6 my-4">
     <div class="my-form-row">
       <select id="step1-hear-us" name="hear_us" class="form-control">
         <option>How did you hear about us?</option>

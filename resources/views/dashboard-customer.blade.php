@@ -35,6 +35,7 @@
                 <th>#</th>
                 <th>Name</th>
                 <th>Email</th>
+                <th>Phone Number</th>
                 <th>Receive Text Alert</th>
                 <!-- <th>Hear Us From</th> -->
                 <th>Dress</th>
@@ -71,6 +72,7 @@
                 <td>{{ $key }}</td>
                 <td>@if ($c->user){{ $c->user->first_name }} {{ $c->user->last_name }}@endif</td>
                 <td>@if ($c->user){{ $c->user->email }}@endif</td>
+                <td>@if ($c->user){{ $c->user->phone_number }}@endif</td>
                 <td>{{ $c->receive_alert ? 'Y' : 'N' }}</td>
                 <!-- <td>{{ $c->hear_us }}</td> -->
                 <td>{{ $c->dress }}</td>
