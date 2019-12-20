@@ -27,6 +27,7 @@ $(function () {
     $("#step1-birthday").siblings("label").removeClass("text-danger");
     $("#step1-password").siblings("label").removeClass("text-danger");
     $("#step1-confirm-password").siblings("label").removeClass("text-danger");
+    $("#step1-phone-number").siblings("label").removeClass("text-danger");
 
     if (!$("#step1-first-name").val()) {
       $("#step1-first-name").siblings("label").addClass("text-danger");
@@ -59,9 +60,14 @@ $(function () {
       result = false;
     }
 
-    if ($("#step-password").val() !== $("#step-confirm-password").val()) {
+    if ($("#step1-password").val() !== $("#step1-confirm-password").val()) {
       $("#step1-password").siblings("label").addClass("text-danger");
       $("#step1-confirm-password").siblings("label").addClass("text-danger");
+      result = false;
+    }
+
+    if (!$("#step1-phone-number").val()) {
+      $("#step1-phone-number").siblings("label").addClass("text-danger");
       result = false;
     }
 

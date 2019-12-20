@@ -45,15 +45,15 @@
                 <th>Mother</th>
                 <th>Body Type</th>
                 <th>Photo</th>
-                <th>Casual Shirts</th>
-                <th>Button Up Shirts</th>
+                <th>Casual Shirts, Fit</th>
+                <th>Button Up Shirts, Fit</th>
                 <th>Bra</th>
                 <th>Waist</th>
                 <th>Inseams</th>
                 <th>Jeans</th>
                 <th>Skirt</th>
                 <th>Dress Style</th>
-                <th>Shorts</th>
+                <th>Shorts, Fit</th>
                 <th>Shoe</th>
                 <th>Dislike Color</th>
                 <th>Dislike Material</th>
@@ -86,15 +86,15 @@
                     <a href="/storage/{{ $c->photo }}"><img src="/storage/{{ $c->photo }}" style="width: 50px" /></a>
             @endif
                 </td>
-                <td>{{ $c->casual_shirts }}</td>
-                <td>{{ $c->button_up_shirts }}</td>
+                <td>{{ $c->casual_shirts }}, {{ $c->casual_shirts_fit }}</td>
+                <td>{{ $c->button_up_shirts }}, {{ $c->button_up_shirts_fit }}</td>
                 <td>{{ $c->bra }}</td>
                 <td>{{ $c->waist }}</td>
                 <td>{{ $c->inseams }}</td>
                 <td>{{ $c->jeans }}</td>
                 <td>{{ $c->skirt }}</td>
                 <td>{{ $c->dress_style }}</td>
-                <td>{{ $c->shorts }}</td>
+                <td>{{ $c->shorts }}, {{ $c->shorts_fit }}</td>
                 <td>{{ $c->shoe }}</td>
                 <td>
             @if ($c->dislike_color)

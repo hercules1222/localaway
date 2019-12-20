@@ -170,7 +170,7 @@
         </span>
       </label>
 
-      <select name="men_button_up_shirt_fit" class="form-control fit-select">
+      <select name="men_button_up_shirts_fit" class="form-control fit-select">
         <option value="none" placeholder="How do you like to fit?" hidden>How do you like to fit?</option>
         <option value="smaller">Smaller</option>
         <option value="normal">Normal</option>

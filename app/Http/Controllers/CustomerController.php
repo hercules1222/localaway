@@ -85,6 +85,9 @@ class CustomerController extends Controller
       $jeans = $request->input("men_jeans");
       $shorts = $request->input("men_shorts");
       $shoe = $request->input("men_shoe");
+      $casual_shirts_fit = $request->input("men_casual_shirts_fit");
+      $button_up_shirts_fit = $request->input("men_button_up_shirts_fit");
+      $shorts_fit = $request->input("men_shorts_fit");
 
       $user = User::where('email', $email)->first();
       if ($user && $user->customer) {
@@ -97,6 +100,9 @@ class CustomerController extends Controller
         $customer->jeans = $jeans;
         $customer->shorts = $shorts;
         $customer->shoe = $shoe;
+        $customer->casual_shirts_fit = $casual_shirts_fit;
+        $customer->button_up_shirts_fit = $button_up_shirts_fit;
+        $customer->shorts_fit = $shorts_fit;
         
         if ($request->hasFile("custom_man_body_type")) {
           $customer->photo = $request->file("custom_man_body_type")->store("uploads/custom-photo", "public");
@@ -120,6 +126,9 @@ class CustomerController extends Controller
       $dress_style = $request->input("dress_style");
       $shorts = $request->input("women_shorts");
       $shoe = $request->input("women_shoe");
+      $casual_shirts_fit = $request->input("women_casual_shirts_fit");
+      $button_up_shirts_fit = $request->input("women_button_up_shirts_fit");
+      $shorts_fit = $request->input("women_shorts_fit");
 
       $user = User::where('email', $email)->first();
       if ($user && $user->customer) {
@@ -136,6 +145,10 @@ class CustomerController extends Controller
         $customer->dress_style = $dress_style;
         $customer->shorts = $shorts;
         $customer->shoe = $shoe;
+        $customer->casual_shirts_fit = $casual_shirts_fit;
+        $customer->button_up_shirts_fit = $button_up_shirts_fit;
+        $customer->shorts_fit = $shorts_fit;
+
         if ($request->hasFile("custom_woman_body_type")) {
           $customer->photo = $request->file("custom_woman_body_type")->store("uploads/custom-photo", "public");
         }
@@ -153,6 +166,10 @@ class CustomerController extends Controller
       $jeans = $request->input("jeans");
       $shorts = $request->input("shorts");
 
+      $casual_shirts_fit = $request->input("casual_shirts_fit");
+      $button_up_shirts_fit = $request->input("button_up_shirts_fit");
+      $shorts_fit = $request->input("shorts_fit");
+
       $user = User::where('email', $email)->first();
       if ($user && $user->customer) {
         $customer = $user->customer;
@@ -162,6 +179,9 @@ class CustomerController extends Controller
         $customer->inseams = $inseams;
         $customer->jeans = $jeans;
         $customer->shorts = $shorts;
+        $customer->casual_shirts_fit = $casual_shirts_fit;
+        $customer->button_up_shirts_fit = $button_up_shirts_fit;
+        $customer->shorts_fit = $shorts_fit;
         $customer->save();
       }
     }
