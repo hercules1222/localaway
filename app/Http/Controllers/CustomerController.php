@@ -114,7 +114,7 @@ class CustomerController extends Controller
     public function postWomen(Request $request)
     {
       $email = $request->input("email");
-      $mother = $request->input("mother_or_pregrant");
+      $mother = $request->input("mother_or_pregnant");
       $women_body_type = $request->input("women_body_type");
       $casual_shirts = $request->input("women_casual_shirts");
       $button_up_shirts = $request->input("women_button_up_shirts");
