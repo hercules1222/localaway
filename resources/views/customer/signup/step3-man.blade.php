@@ -115,7 +115,7 @@
       </label>
 
       <select name="men_casual_shirts_fit" class="form-control fit-select">
-        <option value="none">How do you like to fit?</option>
+        <option value="" placeholder="How do you like to fit?" hidden>How do you like to fit?</option>
         <option value="smaller">Smaller</option>
         <option value="normal">Normal</option>
         <option value="larger">Larger</option>
@@ -171,7 +171,7 @@
       </label>
 
       <select name="men_button_up_shirt_fit" class="form-control fit-select">
-        <option value="none">How do you like to fit?</option>
+        <option value="none" placeholder="How do you like to fit?" hidden>How do you like to fit?</option>
         <option value="smaller">Smaller</option>
         <option value="normal">Normal</option>
         <option value="larger">Larger</option>
@@ -383,7 +383,7 @@
       </label>
 
       <select name="men_shorts_fit" class="form-control fit-select">
-        <option value="none">How do you like to fit?</option>
+        <option value="none" placeholder="How do you like to fit?" hidden>How do you like to fit?</option>
         <option value="smaller">Smaller</option>
         <option value="normal">Normal</option>
         <option value="larger">Larger</option>

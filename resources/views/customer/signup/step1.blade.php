@@ -56,8 +56,7 @@
   <div class="col-12 col-lg-6 my-4">
     <div class="my-form-row">
       <select id="step1-hear-us" name="hear_us" class="form-control">
-        <option>How did you hear about us?</option>
-        <option></option>
+        <option placeholder="How did you hear about us?" value="" hidden>How did you hear about us?</option>
       </select>
     </div>
   </div>
