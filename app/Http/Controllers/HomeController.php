@@ -37,6 +37,15 @@ class HomeController extends Controller
         ]);
     }
 
+    public function about()
+    {
+        $logo = Upload::where('collection' ,'logo')->where('extra',1)->first();
+
+        return view('frontend.about', [
+            'logo' => $logo,
+        ]);
+    }
+
     public function showAnswer(Request $request)
     {
         $logo = Upload::where('collection' ,'logo')->where('extra',1)->first();

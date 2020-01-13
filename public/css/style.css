@@ -2371,3 +2371,85 @@ p {
 #thank {
     transition: all ease .2s;
 }
+
+.About section .content {
+    position: relative;
+    padding: 4em 2em;
+    margin: auto !important;
+    max-width: 1000px;
+}
+
+.About__about {
+    height: 400px;
+    background-color: lightgray;
+    color: white;
+}
+
+.About__about-text {
+    max-width: 70%;
+    margin: auto;
+}
+
+.About__how-it-works {
+    text-align: center;
+    position: relative;
+    background-color: #eee;
+}
+
+.About__how-it-works .title {
+    z-index: 9;
+    left: 0;
+    right: 0;
+    color: #fd5c48;
+    font-size: 30px;
+    line-height: 1em;
+    margin: auto;
+    width: 8em;
+    background-color: #eeeeee;
+}
+
+.About__how-it-works .title {
+    position: relative;
+    top: -30px;
+}
+
+.About__how-it-works .number {
+    color: #fd5c48;
+    font-size: 40px;
+    position: relative;
+    top: 20px;
+}
+
+.About__how-it-works img {
+    max-width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.About__what-clients-say {
+    background-color: #eee;
+}
+
+.About__what-clients-say .title {
+    font-size: 20px;
+    color: black;
+}
+
+.About__what-clients-say .quotes {
+    width: 50px;
+}
+
+.About__what-clients-say .desc {
+    max-width: 700px;
+    margin: auto;
+}
+
+.About__team .title {
+    font-size: 20px;
+    color: black;
+}
+
+.About__team .team-photo {
+    border-radius: 50%;
+    background-color: lightgray;
+}

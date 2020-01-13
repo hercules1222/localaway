@@ -9,7 +9,7 @@
                 <a href = "" class ="font-smaller p-2 text-secondary sm-col-12 pl-lg-3">Terms & Condition</a>
             </div>
             <div class = "col-6 col-md-3  mb-sm-2">
-                <a href = "" class ="font-smaller p-2 text-secondary sm-col-12 pl-lg-3">About Us</a>
+                <a href = "/about" class ="font-smaller p-2 text-secondary sm-col-12 pl-lg-3">About Us</a>
             </div>
             <div class = "col-6 col-md-3  mb-sm-2">
                 <a href = "" class ="font-smaller p-2 text-secondary sm-col-12 pl-lg-3">Contact Us</a>
@@ -24,7 +24,7 @@
             <a href = "" class ="p-2 text-secondary">Terms & Condition</a>
         </div>
         <div>
-            <a href = "" class ="p-2 text-secondary">About Us</a>
+            <a href = "/about" class ="p-2 text-secondary">About Us</a>
         </div>
         <div>
             <a href = "" class ="p-2 text-secondary">Contact Us</a>

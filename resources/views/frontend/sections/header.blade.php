@@ -26,11 +26,11 @@
             </a>
         </li>
         @endguest
-        <!-- <li class="nav-item ml-xl-2 ml-lg-2 ml-md-0 ml-sm-0 ml-0">
+        <li class="nav-item ml-xl-2 ml-lg-2 ml-md-0 ml-sm-0 ml-0">
             <a class="nav-link" href="/about" target="_blank">
                 <span>About</span>
             </a>
-        </li> -->
+        </li>
       </ul>
     </div>
   </div>
