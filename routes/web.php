@@ -82,6 +82,8 @@ Auth::routes();
 // Route::group(array('domain' => 'www.localaway.com'), $appRoutes);
 // Route::group(array('domain' => 'localaway.com'), $appRoutes);
 
+    Route::get('customer/first-time-flow', 'CustomerController@firstTimeFlow')->name('customer.first-time-flow');
+
     Route::get('customer/signup', 'CustomerController@signup')->name('customer.signup');
 
     Route::post('customer/signup', 'CustomerController@postSignup');

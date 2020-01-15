@@ -20,6 +20,14 @@ class CustomerController extends Controller
     {
     }
 
+    public function firstTimeFlow()
+    {
+      $logo = Upload::where('collection' ,'logo')->where('extra',1)->first();
+      return view('customer.first-time.index', [
+        'logo' => $logo
+      ]);
+    }
+
     public function signup()
     {
       return view('customer.signup.index');

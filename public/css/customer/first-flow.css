@@ -1,0 +1,59 @@
+.first-row {
+  padding-top: 8em;
+}
+
+.capsule-on-the-way {
+  max-width: 400px;
+  margin: auto;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.marker {
+  width: 10%;
+  position: absolute;
+  left: 53.6%;
+  top: 21.5%;
+  transform: translate(-50%, -100%);
+}
+
+.capsule-on-the-way .title {
+  color: #fd5c48;
+  font-size: 2em;
+  line-height: 1;
+}
+
+.zurich-map {
+  background-image: url('/images/customer/zurich-map.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 400px;
+}
+
+.section-search {
+  margin-top: 0;
+}
+
+.check-availabilty {
+  margin-top: 0;
+}
+
+.block-32 {
+  padding: 2em;
+  box-shadow: none;
+  border: 1px solid lightgray;
+}
+
+.section-search {
+  padding: 0 !important;
+}
+
+.section-search .container {
+  padding: 0 !important;
+}
+
+.contact-your-stylist {
+  color: black;
+  font-size: 1.5em;
+}

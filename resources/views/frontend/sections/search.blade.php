@@ -1,11 +1,11 @@
 <section class="section-search pb-0"  >
   <div class="container">
     <div class="row check-availabilty" id="next">
-      <div class="block-32" data-aos="fade-up" data-aos-offset="-200">
+      <div class="block-32" @if (!isset($animate) || $animate) data-aos="fade-up" data-aos-offset="-200" @endif>
         @csrf
         <div class = "row">
           <div class="col">
-            <h2 class='text-black'>Tell us about what  you need</h2>
+            <h2 class='text-black'>@if (isset($title)) {{ $title }} @else Tell us about what  you need @endif</h2>
             <p>Weekly wardrobe? Date night? We’ve got you covered.</p>
           </div>
         </div>
