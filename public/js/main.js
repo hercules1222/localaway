@@ -175,7 +175,7 @@
 
     var dateAndTime = function() {
         $('#event_date').datepicker({
-            'format': 'm/d/yyyy',
+            'format': 'mm/dd/yyyy',
             'autoclose': true
         });
     };

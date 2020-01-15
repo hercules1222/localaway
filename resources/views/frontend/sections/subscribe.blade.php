@@ -28,7 +28,7 @@
       </div>
       <div class = "pt-5">
         <span class = "h5 font-weight-bold text-black d-block">Follow us</span>
-        <span class = "h5 font-weight-bold text-black d-block">Connet on 
+        <span class = "h5 font-weight-bold text-black d-block">Connect on 
           <a href = "https://www.facebook.com/localaway/" class = "color-orange">facebook, </a>
           <a href = "https://twitter.com/local_away" class = "color-orange">twitter</a>
           or

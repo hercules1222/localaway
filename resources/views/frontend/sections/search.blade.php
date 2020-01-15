@@ -39,6 +39,7 @@
                     <select name="location" id="adults" class="form-control pl-5">
                       <option class='text-black font-weight-bold' placeholder="" value="" hidden>Location</option>
                       <option value="zurich-ch">Zurich, CH</option>
+                      <option value="austin-us">Austin, US</option>
                     </select>
                   </div>
                 </div>
@@ -47,7 +48,7 @@
               <div class="col-lg-4 mb-3 mb-lg-0 px-0">
                 <div class="field-icon-wrap">
                   <div class="icon"><span class="icon-calendar"></span></div>
-                  <input type="text" id="event_date" class="form-control" placeholder="Date">
+                  <input type="text" id="event_date" value="{{ date('m/d/Y') }}" class="form-control" placeholder="Date">
                 </div>
               </div>
             </div>

@@ -6,7 +6,7 @@
                 <a href = "" class ="font-smaller p-2 text-secondary sm-col-12 pl-lg-3">Privacy Policcy</a>
             </div>
             <div class = "col-6 col-md-3 mb-sm-2">
-                <a href = "" class ="font-smaller p-2 text-secondary sm-col-12 pl-lg-3">Terms & Condition</a>
+                <a href = "" class ="font-smaller p-2 text-secondary sm-col-12 pl-lg-3">Terms and Conditions</a>
             </div>
             <div class = "col-6 col-md-3  mb-sm-2">
                 <a href = "/about" class ="font-smaller p-2 text-secondary sm-col-12 pl-lg-3">About Us</a>
@@ -21,7 +21,7 @@
             <a href = "" class ="p-2 text-secondary">Privacy Policy</a>
         </div>
         <div>
-            <a href = "" class ="p-2 text-secondary">Terms & Condition</a>
+            <a href = "" class ="p-2 text-secondary">Terms and Conditions</a>
         </div>
         <div>
             <a href = "/about" class ="p-2 text-secondary">About Us</a>

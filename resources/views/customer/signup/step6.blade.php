@@ -7,7 +7,7 @@
     <div class="my-form-row">
       <p class="question">Choose your plan</p>
       <p>Delivery is free to home or destination, keep what you love, return what you don't.
-      You will be charged refundable 100 CHF security deposit.</p>
+      You will be charged refundable 100 USD security deposit.</p>
       
       <!-- <div id="paypal-button-container"></div> -->
 
@@ -17,7 +17,7 @@
             <div>
               <p class="plan-title">Platinum Capsule</p>
               <p>
-                199 CHF Package<br/><br/>
+                199 USD Package<br/><br/>
                 Personal Styling Experience Package. A day in the life...<br/><br/>
                 Meet your stylist!<br/><br/>
                 Go shopping at local boutiques.
@@ -37,13 +37,13 @@
           <div class="plan selected" value="gold">
             <div>
               <p class="plan-title">Gold Member</p>
-              <p>Monthly 19 CHF</p>
+              <p>Monthly 19 USD</p>
               <p class="gold-strap">(Most popular option)</p>
               <p>
                 Subscribe for seasonal capsule wardrobe updates, and cancel free anytime.<br/><br/>
                 Refresh your closet each month with  a few fresh pieces that go with what you alread own!
               </p>
-              <small>Fee is waived if you purchase over 19 CHF for clothes.</small>
+              <small>Fee is waived if you purchase over 19 USD for clothes.</small>
             </div>
 
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -59,10 +59,10 @@
             <div>
               <p class="plan-title">Silver Capsule</p>
               <p>
-                One time style fee 29 CHF<br/><br/>
+                One time style fee 29 USD<br/><br/>
                 Personalized occasion based capsule. Feel ready for anything, delivered conveniently to you!
               </p>
-              <small>Fee is waived if you purchase over 29 CHF for clothes.</small>
+              <small>Fee is waived if you purchase over 29 USD for clothes.</small>
             </div>
 
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
