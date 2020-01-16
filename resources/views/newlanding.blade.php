@@ -158,7 +158,7 @@
                 </h3>  -->
               </h1>
               <div class="separator color-orange"></div>
-              <p class="mb-5 col-lg-5 m-auto text-center ">Be part of this community of over 2K shops, unique brands, and amazing vintage boutiques.
+              <p class="mb-5 col-lg-5 m-auto text-center ">Be part of this community of over 3K shops, unique brands, and amazing vintage boutiques.
                 <br><br> We set out to  bring local brands online, and the online community back to the locals, so you can support your city not to get swept away by the big brands.
                 <br><br>Keep your city in style
               </p>
