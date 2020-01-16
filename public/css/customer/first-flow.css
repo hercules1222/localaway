@@ -32,21 +32,22 @@
 }
 
 .section-search {
-  margin-top: 0;
+  margin: auto;
+  padding: 0 !important;
 }
 
 .check-availabilty {
   margin-top: 0;
 }
 
+.check-availability .search-title {
+  font-size: 1.5em;
+}
+
 .block-32 {
   padding: 2em;
   box-shadow: none;
   border: 1px solid lightgray;
-}
-
-.section-search {
-  padding: 0 !important;
 }
 
 .section-search .container {
@@ -56,4 +57,34 @@
 .contact-your-stylist {
   color: black;
   font-size: 1.5em;
+}
+
+.round-btn {
+  border-radius: 30px!important;
+  background-color: #c6a07a;
+  border-color: #c6a07a;
+  border: 2px solid #c6a07a;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+.round-btn:focus {
+  outline: none;
+}
+
+.round-btn:hover {
+  color: #c6a07a!important;
+  background-color: white;
+  border: 2px solid #c6a07a;
+}
+
+.round-btn:active {
+  background-color: #fa5d47!important;
+  color: white!important;
+  border: 2px solid white!important;
+}
+
+.contact-your-stylist-section {
+  background-color: #f4f4f4;
 }

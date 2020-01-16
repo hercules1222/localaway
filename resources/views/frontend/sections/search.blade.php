@@ -5,7 +5,7 @@
         @csrf
         <div class = "row">
           <div class="col">
-            <h2 class='text-black'>@if (isset($title)) {{ $title }} @else Tell us about what  you need @endif</h2>
+            <p class='h3 text-black search-title'>@if (isset($title)) {{ $title }} @else Tell us about what  you need @endif</p>
             <p>Weekly wardrobe? Date night? We’ve got you covered.</p>
           </div>
         </div>

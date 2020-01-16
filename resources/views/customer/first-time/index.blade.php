@@ -52,14 +52,17 @@
         </div>
 
         <div class="row">
-          <div class="col-4">
+          <div class="col-12 col-md-4 contact-your-stylist-section px-4 py-5">
             <p class="contact-your-stylist">Contact your Stylist</p>
-            <textarea>
-
-            </textarea>
-            <button class="btn btn-block text-white btn-brown px-0">Next Section</a>
+            <div class="bg-white p-3">
+              <p class="text-gray mb-0">Notes</p>
+              <textarea style="width: 100%; height: 8em; border: 0"></textarea>
+            </div>
+            <div class="text-right">
+              <button class="btn text-white round-btn px-3 py-2 mt-3">Next Section</button>
+            </div>
           </div>
-          <div class="col-8">
+          <div class="col-12 col-md-8 d-flex py-5">
             @include('frontend.sections.search', ['animate' => false, 'title' => 'Tell us about what\'s next'])
           </div>
         </div>
