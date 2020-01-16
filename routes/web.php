@@ -52,6 +52,8 @@ Auth::routes();
         return view('stylist-sign-in');
     });
     
+    Route::get('/stylist', 'StylistController@index');
+    
     Route::post('/stylist-signup', 'StylistController@store');
 
     Route::get('/become-stylist/thank-you', 'StylistController@thankyou')->name('stylist.thankyou');

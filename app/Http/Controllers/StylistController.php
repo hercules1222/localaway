@@ -8,6 +8,14 @@ use App\Stylist;
 
 class StylistController extends Controller
 {
+    public function index(Request $request)
+    {
+        $logo = Upload::where('collection' ,'logo')->where('extra',1)->first();
+        return view('stylist.index', [
+          'logo' => $logo
+        ]);
+    }
+
     public function store(Request $request)
     {
         // $request->validate([
