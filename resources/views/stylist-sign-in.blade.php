@@ -99,6 +99,14 @@
                                               <label for="boutique-email" class="mt-4 text-secondary small">{{ __('Email') }}</label>
                                               <input id="boutique-email" type="text" class="email form-control border-none kt-portlet--border-bottom-danger" name="boutique-email" value="" >
                                           </div>
+                                          <div class="form-group mt-4">
+                                              <label for="boutique-password" class="mt-4 text-secondary small">{{ __('Password') }}</label>
+                                              <input id="boutique-password" type="password" class="email form-control border-none kt-portlet--border-bottom-danger" name="password" value="" >
+                                          </div>
+                                          <div class="form-group mt-4">
+                                              <label for="boutique-password-confirm" class="mt-4 text-secondary small">{{ __('Password Confirm') }}</label>
+                                              <input id="boutique-password-confirm" type="password" class="email form-control border-none kt-portlet--border-bottom-danger" value="" >
+                                          </div>
                                       </div>
                                       <div class="text-right" style="margin-top: 7em;">
                                           <a class="btn circle-btn btn-primary text-white font-weight-bold py-3 step2" mode="boutique">
@@ -163,7 +171,7 @@
                                       </div>
                                       <div class="mt-5">
                                           <span class ='font-weight-bold question'>Question 2
-                                              <h5 class = 'text-dark mt-4'>How many hours itmes would you like to include in the platform?</h5>
+                                              <h5 class = 'text-dark mt-4'>How many hours items would you like to include in the platform?</h5>
                                           </span>
                                           <div>
                                               <span onclick="javascript:minusfunction()" class = "signature">-</span>
@@ -182,6 +190,14 @@
                                           <div class="form-group mt-4">
                                               <label for="stylist-email" class="mt-4 text-secondary small">{{ __('Email') }}</label>
                                               <input id="stylist-email" type="text" class="email form-control border-none kt-portlet--border-bottom-danger" name="stylist-email" value="">
+                                          </div>
+                                          <div class="form-group mt-4">
+                                              <label for="stylist-password" class="mt-4 text-secondary small">{{ __('Password') }}</label>
+                                              <input id="stylist-password" type="password" class="email form-control border-none kt-portlet--border-bottom-danger" name="password" value="" >
+                                          </div>
+                                          <div class="form-group mt-4">
+                                              <label for="stylist-password-confirm" class="mt-4 text-secondary small">{{ __('Password Confirm') }}</label>
+                                              <input id="stylist-password-confirm" type="password" class="email form-control border-none kt-portlet--border-bottom-danger" value="" >
                                           </div>
                                       </div>
                                       <div class="text-right" style="margin-top: 7em;">

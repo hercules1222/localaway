@@ -43,6 +43,12 @@ class CustomerController extends Controller
       $password = $request->input('password');
       $receive_alert = $request->input('receive_alert', 'off');
       $hear_us = $request->input('hear_us');
+      $email = str_replace(' ', '', $email);
+
+      $duplicate = User::where('email', $email)->first();
+      if ($duplicate) {
+        return response('duplicated email', 400);
+      }
 
       $user = new User;
       $user->first_name = $first_name;

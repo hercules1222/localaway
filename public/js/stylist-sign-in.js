@@ -39,6 +39,21 @@ $(document).ready(function() {
                 $("#boutique-name").focus();
                 return;
             }
+
+            if (!$("#boutique-password").val()) {
+                $("#boutique-password").focus();
+                return;
+            }
+
+            if (!$("#boutique-password-confirm").val()) {
+                $("#boutique-password-confirm").focus();
+                return;
+            }
+
+            if ($("#boutique-password").val() != $("#boutique-password-confirm").val()) {
+                $("#boutique-password").focus();
+                return;
+            }
         } else {
             if (!$("#otherlocation").val()) {
                 $("#otherlocation").focus();
@@ -49,24 +64,57 @@ $(document).ready(function() {
                 $("#stylist-name").focus();
                 return;
             }
+
+            if (!$("#stylist-password").val()) {
+                $("#stylist-password").focus();
+                return;
+            }
+
+            if (!$("#stylist-password-confirm").val()) {
+                $("#stylist-password-confirm").focus();
+                return;
+            }
+
+            if ($("#stylist-password").val() != $("#stylist-password-confirm").val()) {
+                $("#stylist-password").focus();
+                return;
+            }
         }
 
         if (!validate_email()) {
             return;
         }
-        $(".step-2").css("display", "none");
-        if ($("#boutique").prop("checked")) {
 
-            $("#step-3-boutique").css("display", "block");
-        } else {
-            $("#step-3-independent").css("display", "block");
-        }
-        $(".back-image").css("background-image", "url('/images/stylist-sign-3.jpg')");
-        $("#logo").get(0).scrollIntoView()
-        $('#title').text(function(i) {
-            return 'Enjoy some freedom as your own boss';
-        });
-        moveProcess(75);
+        let email = $(this).attr("mode") === "boutique" ? $("#boutique-email").val() : $("#stylist-email").val();
+        let mode = $(this).attr("mode")
+
+        $.get("/stylist/check-email", { email })
+            .done(function (res) {
+                if (res == 'ok') {
+                    $(".step-2").css("display", "none");
+                    if ($("#boutique").prop("checked")) {
+            
+                        $("#step-3-boutique").css("display", "block");
+                    } else {
+                        $("#step-3-independent").css("display", "block");
+                    }
+                    $(".back-image").css("background-image", "url('/images/stylist-sign-3.jpg')");
+                    $("#logo").get(0).scrollIntoView()
+                    $('#title').text(function(i) {
+                        return 'Enjoy some freedom as your own boss';
+                    });
+                    moveProcess(75);
+                } else {
+                    if (mode === "boutique") {
+                        $("#boutique-email").focus()
+                    } else {
+                        $("#stylist-email").focus()
+                    }
+                }
+            })
+            .fail(function () {
+                
+            })
     });
 
     $(".step3").click(function() {

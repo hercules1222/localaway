@@ -24,13 +24,13 @@
         <li class="nav-item mb-link"><a class="nav-link" href="/become-stylist">Partner with Us</a></li>
         @guest
         <li class="nav-item ml-xl-2 ml-lg-2 ml-md-0 ml-sm-0 ml-0">
-            <a class="nav-link" href="/dashboard" target="_blank">
+            <a class="nav-link" href="/login">
                 <span>Sign In</span>
             </a>
         </li>
         @endguest
         <li class="nav-item ml-xl-2 ml-lg-2 ml-md-0 ml-sm-0 ml-0">
-            <a class="nav-link" href="/about" target="_blank">
+            <a class="nav-link" href="/about">
                 <span>About</span>
             </a>
         </li>

@@ -41,7 +41,7 @@
         <div class="row first-row">
           <div class="col-12 col-sm-6 text-center">
             <div class="capsule-on-the-way">
-              <p>Hi Elizabeth-Stewart</p>
+              <p>Hi {{ auth()->user()->first_name }}</p>
               <p class='title'>You have a capsule on the way!</p>
               <img class="w-100" src="/images/customer/capsule-on-the-way.png" alt="">
             </div>

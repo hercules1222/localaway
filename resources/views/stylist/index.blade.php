@@ -39,7 +39,7 @@
 
       <div class="dashboard">
         <div class='notify'>
-          <p class='mb-0 text-black welcome-back'>Welcome back, Liz.</p>
+          <p class='mb-0 text-black welcome-back'>Welcome back, {{ auth()->user()->first_name }}</p>
           <p class='mb-0 new-client-hint'>You might have a new client!</p>
         </div>
       </div>

@@ -25,6 +25,16 @@ class HomeController extends Controller
      */
     public function index()
     {
+        if (auth()->check()) {
+            $user_type = auth()->user()->user_type;
+            
+            if ($user_type == 'customer') {
+                return redirect('/customer/first-time-flow');
+            } else if ($user_type == 'stylist') {
+                return redirect('/stylist');
+            }
+        }
+
         $stylists = Upload::where('collection' ,'stylist')->orderBy('extra')->get();
         $itineraries = Upload::where('collection' ,'itinerary')->orderBy('extra')->get();
         $logo = Upload::where('collection' ,'logo')->where('extra',1)->first();

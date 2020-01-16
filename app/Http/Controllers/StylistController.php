@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Http\Request;
 use App\Upload;
 use App\Stylist;
+use App\User;
+use Hash;
 
 class StylistController extends Controller
 {
@@ -14,6 +16,16 @@ class StylistController extends Controller
         return view('stylist.index', [
           'logo' => $logo
         ]);
+    }
+
+    public function checkEmailDuplicate(Request $request)
+    {
+        $email = $request->input('email');
+        if (is_null(User::where('email', $email)->first())) {
+            return 'ok';
+        } else {
+            return 'duplicated';
+        }
     }
 
     public function store(Request $request)
@@ -26,9 +38,15 @@ class StylistController extends Controller
         //     'title' => $request->get('qqfilename'),
         // ]);
 
+        $duplicated = User::where('email', $request->get('stylist-email'))->first();
+        if ($duplicated) {
+            return response('duplicated email', 400);
+        }
+
         $stylist_type = $request->get('stylist-type');
         $hours = $request->get('hours');
         $linkedin = $request->get('linkedin');
+
         if  ($stylist_type=="boutique"){
             $location = $request->get('boutique_location');
             $stylist_name = $request->get('boutique-name');
@@ -57,6 +75,23 @@ class StylistController extends Controller
             Storage::disk('public')->putFileAs('uploads/resume', $resume, $filename);
             $stylist->resume = $filename;
         }
+        
+        $user = new User;
+        $user->user_type = 'stylist';
+        $names = explode(' ', $stylist_name);
+        if (count($names) > 0) {
+            $user->first_name = $names[0];
+            $user->last_name = '';
+        }
+        if (count($names) > 1) {
+            $user->last_name = $names[1];
+        }
+        $user->birthday = '';
+        $user->phone_number = '';
+        $user->email = $stylist_email;
+        $user->password = Hash::make($request->get('password'));
+        $user->save();
+
         $stylist = new Stylist;
         $stylist->stylist_type = $stylist_type;
         $stylist->location = $location;
@@ -68,6 +103,8 @@ class StylistController extends Controller
         $stylist->relevant_link1 = $link1;
         $stylist->relevant_link2 = $link2;
         $stylist->relevant_link3 = $link3;
+
+        $stylist->user_id = $user->id;
         $stylist->save();
         
         return redirect()->route('stylist.thankyou');

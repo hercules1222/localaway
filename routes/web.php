@@ -14,6 +14,8 @@
 
 Auth::routes();
 
+Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
+
 // Route::domain('staging.localaway.com')->group(function () {
     
     // Route::group(["domain" => "www.localaway.com"], function () {
@@ -52,7 +54,11 @@ Auth::routes();
         return view('stylist-sign-in');
     });
     
-    Route::get('/stylist', 'StylistController@index');
+    Route::group(['middleware' => ['auth-stylist']], function () {
+        Route::get('/stylist', 'StylistController@index');
+    });
+
+    Route::get('/stylist/check-email', 'StylistController@checkEmailDuplicate');
     
     Route::post('/stylist-signup', 'StylistController@store');
 
@@ -84,7 +90,9 @@ Auth::routes();
 // Route::group(array('domain' => 'www.localaway.com'), $appRoutes);
 // Route::group(array('domain' => 'localaway.com'), $appRoutes);
 
-    Route::get('customer/first-time-flow', 'CustomerController@firstTimeFlow')->name('customer.first-time-flow');
+    Route::group(['middleware' => ['auth-customer']], function () {
+        Route::get('customer/first-time-flow', 'CustomerController@firstTimeFlow')->name('customer.first-time-flow');
+    });
 
     Route::get('customer/signup', 'CustomerController@signup')->name('customer.signup');
 

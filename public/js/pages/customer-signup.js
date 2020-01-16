@@ -81,9 +81,16 @@ $(function () {
 
     if (result) {
       $.post('/customer/signup', param)
+        .then(function () {
+          showNextStep(1);
+        })
+        .fail(function () {
+          $("#step1-email").siblings("label").addClass("text-danger");
+          return false;
+        })
     }
 
-    return result
+    return false
   }
 
   function validateGeneral() {
