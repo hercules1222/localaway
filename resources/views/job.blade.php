@@ -238,7 +238,7 @@
                 </div>
             </div>
             <div class="row justify-content-center" data-aos="fade-up">
-                <div class="testimonial text-center slider-item col-md-4 col-lg-3">
+                <div class="testimonial text-center slider-item col-md-4">
                     <div class="author-image mb-3">
                     <img src="/images/newlanding/Jen.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
@@ -248,7 +248,7 @@
                     <p class='m-0  font-weight-bold'>Fashion expert and local stylist</p>
                 </div> 
 
-                <div class="testimonial text-center slider-item col-md-4 col-lg-3">
+                <div class="testimonial text-center slider-item col-md-4">
                     <div class="author-image mb-3">
                     <img src="/images/newlanding/Binwu.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
@@ -257,7 +257,7 @@
                     <p class='m-0  font-weight-bold'>Software Engineer</p>
                 </div>
 
-                <div class="testimonial text-center slider-item col-md-4 col-lg-3">
+                <div class="testimonial text-center slider-item col-md-4">
                     <div class="author-image mb-3">
                     <img src="/images/newlanding/Tina.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
                     </div>
@@ -266,17 +266,6 @@
                     <p class="font-weight-bold text-black  m-0"><em>&mdash; Tina Awerro</em></p>
                     <p class='m-0  font-weight-bold'>Marketing Expert</p>
                 </div>
-
-
-                <div class="testimonial text-center slider-item col-md-4 col-lg-3">
-                    <div class="author-image mb-3">
-                    <img src="/images/newlanding/Aditi.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
-                    </div>
-
-                    <p class='m-0  font-weight-bold'>Marketing</p>
-                    <p class="font-weight-bold text-black  m-0"><em>&mdash; Aditi Bandahari </em></p>
-                    <p class='m-0  font-weight-bold'>Social Outrech</p>
-                </div> 
             </div>
         </div>
     </section>
