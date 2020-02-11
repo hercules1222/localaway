@@ -29,10 +29,10 @@
 @section('content')
     <h1 class = "">{{$collection}} image edit page</h1>
     <form class = "col-6 text-center m-5 p-5" method="post" action="/admin/file/upload?collection={{$collection}}" enctype="multipart/form-data">
-        <input type="file" name="image" />
+        <input type="file" name="image" required/>
         <label>
             Title
-            <input type="text" name="title"/>
+            <input type="text" name="title" required/>
         </label>
         <input type="submit" value="Upload" />
     </form>

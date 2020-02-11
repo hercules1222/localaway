@@ -19,6 +19,7 @@
       <link rel="stylesheet" type="text/css" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
       <!-- Theme Style -->
       <link rel="stylesheet" href="/css/style.css">
+      <link rel="stylesheet" href="css/localawayai.css">
       <link rel="stylesheet" href="/css/stylist/index.css">
       <style type="text/css">
       @font-face {
@@ -54,7 +55,7 @@
           </p>
 
           <div class='text-center'>
-            <button class='btn round-btn'>Shop the Loook</button>
+            <button class='btn round-btn'>Shop the Look</button>
           </div>
         </div>
         <div class="col-12 col-md-8 p-4 d-flex">

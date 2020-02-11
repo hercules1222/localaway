@@ -19,6 +19,7 @@
       <link rel="stylesheet" type="text/css" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
       <!-- Theme Style -->
       <link rel="stylesheet" href="css/style.css">
+      
       <style type="text/css">
       @font-face {
           font-family: Avenir-Black;

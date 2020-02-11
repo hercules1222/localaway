@@ -93,7 +93,7 @@
                         </div>
                         <div class="my-1 mx-3 position-relative">
                             <hr class = "">
-                            <p class = "provider text-center position-absolute bg-white text-secondary small" >Or use Facebook or Google</p>
+                            <p class = "provider text-center position-absolute bg-white text-secondary small" >Or use Google</p>
                             <div class = "d-flex justify-content-around social-btns">
                                 <div class="btn btn-primary circle-btn bg-white text-dark text-center google-btn mr-4">
                                     <svg width="15" viewBox="0 0 256 262" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
@@ -104,10 +104,10 @@
                                 </svg>
                                 <a href="{{ url('/auth/redirect/google') }}" class = "align-middle text-dark" >Google</a> 
                             </div>
-                            <div class="btn btn-primary circle-btn  text-dark text-center facebook-btn">
+                            <!-- <div class="btn btn-primary circle-btn  text-dark text-center facebook-btn">
                                 <img src="images/facebook.png" alt="" style = "width:20px;">
                                 <a href="{{ url('/auth/redirect/facebook') }}" class = "align-middle text-white" >Facebook</a> 
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="mt-3 ">

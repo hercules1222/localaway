@@ -14,8 +14,7 @@
                 <h2 id="title" class="row justify-content-center font-weight-bold d-none" style="opacity:0;"></h2>
             <form action="{{ route('post.store') }}" method="post" class="wizard-container" id='survey-form'>
                 {{ csrf_field() }}
-                <input type="hidden" value="{{$name}}" name="name">
-                <input type="hidden" value="{{$email}}" name="email">
+
                 <div class="wizard-body" style="top: 0">
 
                     <div class="item item-show row start-part">
@@ -23,7 +22,7 @@
                             <img src="/images/newlanding/logo.png" alt="logo" width="100">       
                             <p class="h5 mt-3 text-secondary">Tell us more about your preferences and we’ll send you what you need.</p>
                             <button class="btn-circle my-3 item-button justify-content-center" data-key="13" id="start-button" type="button">Start</button>
-                            <div class="arrow-btn">Press <strong>Enter</strong>   
+                            <div class="arrow-btn">Press <strong>Enter</strong>
                                 <i class="fa fa-long-arrow-down arrow1" aria-hidden="true"></i>
                             </div>
                         </div>

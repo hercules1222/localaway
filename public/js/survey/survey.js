@@ -1,6 +1,7 @@
 $(function() {
-    var row_number = 0;
-    localStorage
+    var person_id = 0;
+    var question_count = 0;
+    // localStorage
     // $('#exampleModal').on('show.bs.modal', function(event) {
     //     var recipient = $('.emailtext').val();
     //     var modal = $(this)
@@ -8,10 +9,13 @@ $(function() {
     // });
 
     $("#request-form").submit(function() {
-        $(".spinner-border").css("display", "block");
+        $(".spinner-border").css("display", "inline-block");
         $("#request-btn").css("display", "none");
         var email = $('#email-text').val();
         var name = $('#name-text').val();
+        var phone = $('#phone-text').val();
+        var person_type = $("input[name='person_type']:checked").val();
+        var note = $('#note-text').val();
         const title = [
             "Thank you for requesting access",
             "Congratulations!",
@@ -23,15 +27,24 @@ $(function() {
             "Our waitlist might be 200k, but we’re interested in putting you first. Access is $30 per month. Start uploading your clothes today so that our users can find great fashion locally. First tell us more about you.",
         ]
         $.ajax({
-            url: "/checkemail",
-            method: 'get',
+            url: "/save-email",
+            method: 'post',
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
             data: {
                 email: email,
                 name: name,
-                row_number: row_number
+                phone: phone,
+                person_type: person_type,
+                note: note
             },
             success: function(result) {
-                if (result == "true") {
+                person_id = result['person_id'];
+                localStorage.setItem('person_id', person_id);
+                question_count = result['question_count'];
+                localStorage.setItem('question_count', question_count);
+                if (result['isCreatedOrUpdated'] == "true") {
                     $("#exampleModalLabel2").text(title[Math.floor(Math.random() * 2)]);
                     $("#modalcontent2").text(content[Math.floor(Math.random() * 2)]);
                 } else {
@@ -42,28 +55,18 @@ $(function() {
                 $("#request-btn").css("display", "block");
                 $("#hidden-name").val(name);
                 $("#hidden-email").val(email);
-                $("#close-btn").click();
-                $("#next-modal-btn").click();
+                $('#exampleModal').modal('toggle');
+                $("#exampleModa2").modal('toggle');
+
             }
         });
         return false;
     });
 
     $(".first-form").submit(function() {
-        $(this).find('.open-modal').click();
+        $('#exampleModal').modal('toggle');
         var first_mail = $(this).find('.mail-text').val();
         $('#exampleModal').find('.modal-body input#email-text').val(first_mail);
-        $.ajax({
-            url: "/save-email",
-            method: 'get',
-            data: {
-                email: first_mail
-            },
-            success: function(result) {
-                row_number = result;
-                localStorage.setItem("row_number", result);
-            }
-        });
         return false;
     });
 
@@ -71,7 +74,6 @@ $(function() {
     let current_item = 0;
 
     var progress = -1;
-    const question_count = 22
 
     function move() {
         if (progress < question_count) {
@@ -90,7 +92,7 @@ $(function() {
         $(".wizard-body").css("top", -current_item * 100 + "%");
         $(".item").removeClass("item-show");
         $(".item:nth-child(" + (current_item + 1) + ")").addClass("item-show");
-        $("#pagination").text(current_item + "/23");
+        $("#pagination").text(current_item + "/" + (question_count + 1));
     });
 
     $(".next-button").click(function() {
@@ -102,13 +104,13 @@ $(function() {
                 saveinfo(current_item);
                 do {
                     current_item++;
-                } while ($(".item:nth-child(" + (current_item + 1)).css("visibility") == "hidden");
+                } while ($(".item:nth-child(" + (current_item + 1) + ")").css("visibility") == "hidden");
 
                 changeTitle(current_item);
 
                 $(".wizard-body").css("top", -current_item * 100 + "%");
                 $(".item").removeClass("item-show");
-                $("#pagination").text(current_item + "/23");
+                $("#pagination").text(current_item + "/" + (question_count + 1));
                 $(".item:nth-child(" + (current_item + 1) + ")").addClass("item-show");
                 if (progress + 2 <= current_item) {
                     move();
@@ -122,10 +124,13 @@ $(function() {
         $(".item:nth-child(" + (current_item + 1) + ") input.text-answer").focus();
         if ($(".item:nth-child(" + (current_item + 1) + ")").hasClass("end-part")) {
             if (keycode == "13") {
-                // $("#survey-form").submit();
+                $("#survey-form").submit();
             }
         } else {
             if (keycode == "13") {
+                if ($(".item:nth-child(" + (current_item + 1) + ")").hasClass("start-part")) {
+                    question_count = Number(localStorage.getItem('question_count'));
+                }
                 $(".next-button").click();
                 event.preventDefault();
                 return false;
@@ -178,6 +183,9 @@ $(function() {
     // });
 
     $("#start-button").click(function(e) {
+        if (question_count == 0) {
+            question_count = Number(localStorage.getItem('question_count'));
+        }
         $(".next-button").click();
         // $(".title").css("opacity", "1");
     });
@@ -265,7 +273,7 @@ $(function() {
             "3. Logistics",
             "4. LocalAway Partnership"
         ];
-        if ($(".item:nth-child(" + (current + 1) + ")").hasClass("first-part")) {
+        if ($(".item:nth-child(" + current + ")").hasClass("start-part")) {
             $("#title").css("opacity", "1");
             $(".navigation-bar").css("opacity", "1");
             $("#title").text(title[0]);
@@ -293,40 +301,46 @@ $(function() {
         if (current_item > 0) {
             if (!($(".item:nth-child(" + (current_item + 1) + ")").hasClass("end-part"))) {
                 var info = "";
+                var input_info = "";
                 const item_div = ".item:nth-child(" + (current_item + 1) + ")";
 
                 $(item_div + " :input[type='checkbox']:checked").each(function() {
-                    if ($(this).val() != undefined) {
-                        info += $(this).val() + ", ";
+                    if ($(this).attr('id') != undefined) {
+                        info += $(this).attr('id') + ",";
+                        question_id = $(this).attr('name');
                     }
+                    answer_type = 'multiple';
+
                 });
-                info = info.slice(0, -2)
+                info = info.slice(0, -1)
 
                 $(item_div + " :input[type='radio']:checked").each(function() {
-                    info += $(this).val();
+                    info += $(this).attr('id');
+                    question_id = $(this).attr('name');
+                    answer_type = 'single';
                 });
 
-                // $(item_div + " :input[type='hidden']").each(function() {
-                //     info += $(this).text();
-                // });
-
                 $(item_div + " :input[type='text']").each(function() {
-                    if (info.indexOf("Other") >= 0) {
-                        info += ":" + $(this).val();
-                    } else {
-                        if ($(this).hasClass("text-answer")) {
-                            info = $(this).val();
-                        }
+                    if ($(this).hasClass("text-answer")) {
+                        info += $(this).attr('id');
+                        question_id = $(this).attr('name');
+                        answer_type = 'input';
                     }
+                    input_info = $(this).val();
                 });
 
                 $.ajax({
                     url: "/save-info",
-                    method: 'get',
+                    method: 'post',
+                    headers: {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    },
                     data: {
                         info: info,
-                        row_number: localStorage.getItem("row_number"),
-                        col_number: current_item + 2
+                        input_info: input_info,
+                        person_id: localStorage.getItem('person_id'),
+                        question_id: question_id,
+                        type: answer_type
                     },
                     success: function(result) {}
                 });

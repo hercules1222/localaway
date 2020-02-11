@@ -20,6 +20,7 @@
       <!-- Theme Style -->
       <link rel="stylesheet" href="css/answer.css">
       <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/localawayai.css">
       <style type="text/css">
       @font-face {
           font-family: Avenir-Black;

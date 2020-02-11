@@ -4,6 +4,7 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>Localaway</title>
+      <meta name="csrf-token" content="{{ csrf_token() }}">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <link href="/images/favicon-32x32.png" rel="icon" rel="icon" type="image/png" sizes="32x32" />
       <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=|Roboto+Sans:400,700|Playfair+Display:400,700"> -->
@@ -21,6 +22,7 @@
 
       <!-- Theme Style -->
       <link rel="stylesheet" href="/css/newlanding/style.css">
+      <link rel="stylesheet" href="/css/newlanding/localawaycom.css">
 
         <!-- Custom Font Style -->
         <style type="text/css">
@@ -62,34 +64,51 @@
     
 
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Welcome!</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
+            <div class="modal-body p-5 mx-5">
               <form id="request-form">
-                <div class="form-group">
-                  <label for="recipient-name" class="col-form-label">Full name:</label>
-                  <input type="text" class="form-control" name="name" id="name-text" required>
+              @csrf
+              <img class="d-lg-block mx-auto my-5 w-100" src="/images/newlanding/logo.png" style="max-width:80px;" alt="">
+                <div class="col">
+                  <div class="d-flex" style="flex-direction: column;height: 100%;justify-content: space-between;">
+                    <h2 class="font-weight-bold mb-4 question text-center congrate title font-orange">Welcome to Local Away</h2>
+                    <h5 class="text-center mb-4 font-weight-bold">We are excited to get to know you</h5>
+                  </div>
                 </div>
                 <div class="form-group">
-                  <label for="message-text" class="col-form-label">Email:</label>
-                  <input type="email" class="form-control" name="email" id="email-text" required>
+                  <input type="text" class="form-control" name="name" id="name-text" required placeholder="Full Name">
                 </div>
-                <div class="modal-footer">
-                  <div class="clearfix">
-                    <div class="spinner-border float-left" role="status" style="display:none;">
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email-text" required placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="phone" id="phone-text" placeholder="Phone(Optional)">
+                </div>
+                <div class="form-group px-4">
+                  <label for="message-text" class="col-form-label">I am a..(Please select one)</label><br>
+                  <div class="px-3">
+                    <input id="radio_stylist" type="radio" name="person_type" value="stylist" required> 
+                    <label for="radio_stylist">Brand or Boutique</label><br>
+                    <input id="radio_customer" type="radio" name="person_type" value="customer" required>
+                    <label for="radio_customer">Customer</label><br>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <textarea type="text" class="form-control" name="note" id="note-text" placeholder="Note(Optional)" style="height: 8em;"></textarea>
+                </div>
+                <!-- <div class="modal-footer"> -->
+                  <div class="clearfix text-center">
+                    <div class="spinner-border" role="status" style="display:none;">
                       <span class="sr-only">Loading...</span>
                     </div>
                   </div>
-                  <button id="request-btn"  class="btn btn-primary">Request Access</button>
-                  <button id ="next-modal-btn" type="button" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2 d-none" data-toggle="modal" data-target="#exampleModa2" data-whatever=""></button>
-                  <button id = "close-btn" type="button" class="d-none btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
+                  
+                  <div class="text-center mt-4">
+                    <input type="submit" id="request-btn"  class="btn btn-primary mx-auto" value="Request Access"/>
+                  </div>
+                <!-- </div> -->
               </form>
             </div>
           </div>
@@ -106,11 +125,11 @@
               </button>
             </div>
             <div class="modal-body">
-              <form action="/survey" method='post'> 
+              <form action="/survey" method='post'>
                 @csrf
                 <div class="form-group">
-                  <input type="hidden" class="form-control" name="name" id="hidden-name">
-                  <input type="hidden" class="form-control" name="email" id="hidden-email">
+                  <!-- <input type="hidden" class="form-control" name="name" id="hidden-name">
+                  <input type="hidden" class="form-control" name="email" id="hidden-email"> -->
                   <label for="recipient-name" class="col-form-label" id="modalcontent2">WELCOME TO L/A!</label>
                 </div>
                 <div class="modal-footer">
@@ -132,7 +151,6 @@
                   <h1 class="hero-title display-4 text-white mt-5" >Capsule wardrobes<br> with a conscience</h1>
                   <form class='mt-5 first-form d-lg-flex'>
                     <input type="email" placeholder='Enter Email' class='text-white mail-text mb-4 mb-lg-0'  autofocus >
-                    <button type="button" class="d-none btn btn-primary text-white py-2 text-uppercase ml-lg-2 open-modal" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" ></button>
                     <button type="submit" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2 request-btn"  id ="first-request-btn">Request Access</button>
                   </form>
                   <p class="h4 text-white mt-5">Personalized styles delivered, locally or away.</p>
@@ -342,7 +360,6 @@
                 </h1>
                 <form class='mt-5 first-form'>
                   <input type="email" placeholder='Enter Email' class='text-white mail-text mb-4'  autofocus >
-                  <button type="button" class="d-none btn btn-primary text-white py-2 text-uppercase ml-lg-2 open-modal" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" ></button>
                   <button type="submit" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2 request-btn"  id ="first-request-btn-2">Request Access</button>
                 </form>
               </div>
@@ -586,7 +603,6 @@
             <div class="col-lg-5 mb-5 mt-auto">
               <form class='mt-5 first-form d-lg-flex justify-content-center'>
                   <input type="email" placeholder='Enter Email' class='text-white mail-text mb-4 mb-lg-0'  autofocus >
-                  <button type="button" class="d-none btn btn-primary text-white py-2 text-uppercase ml-lg-2 open-modal" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" ></button>
                   <button type="submit" class="btn btn-primary text-white py-2 text-uppercase ml-lg-2 request-btn"  id ="first-request-btn-2">Request Access</button>
                 </form>
             </div>
@@ -605,7 +621,6 @@
       <script src="/js/bootstrap-datepicker.js"></script> 
       <script src="/js/jquery.timepicker.min.js"></script> 
       <script src="/js/main.js"></script>
-      <!-- <script src="/js/newlanding/newlanding.js"></script> -->
       <script src="/js/survey/survey.js"></script>
     </body>
   </html>
