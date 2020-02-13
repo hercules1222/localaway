@@ -26,6 +26,7 @@ class DashboardController extends Controller
             if (auth()->user()->id > 2) {
                 return redirect('/');
             }
+            
             return $next($request);
         });
     }
@@ -40,6 +41,7 @@ class DashboardController extends Controller
         $images = Upload::where('collection', 'logo')->get();
         $collection = 'logo';
         return view('dashboard', [
+            'title' => 'logo image edit page',
             'images' => $images,
             'collection' => $collection
         ]);
@@ -50,6 +52,7 @@ class DashboardController extends Controller
         $images = Upload::where('collection', 'hero')->get();
         $collection = 'hero';
         return view('dashboard', [
+            'title' => 'hero image edit page',
             'images' => $images,
             'collection' => $collection
         ]);
@@ -59,6 +62,7 @@ class DashboardController extends Controller
         $images = Upload::where('collection', 'itinerary')->orderby('extra')->get();
         $collection = 'itinerary';
         return view('dashboard', [
+            'title' => 'itinerary image edit page',
             'images' => $images,
             'collection' => $collection
         ]);
@@ -68,6 +72,7 @@ class DashboardController extends Controller
         $images = Upload::where('collection', 'stylist')->orderby('extra')->get();
         $collection = 'stylist';
         return view('dashboard', [
+            'title' => 'stylist image edit page',
             'images' => $images,
             'collection' => $collection
         ]);
@@ -76,20 +81,46 @@ class DashboardController extends Controller
     public function customers()
     {
         return view('dashboard-customer', [
-            'customers' => Customer::all()
+            'customers' => Customer::all(),
+            'title' => 'customer dashboard'
         ]);
     }
 
     public function survey()
     {
         $table = [];
-        // foreach (Survey_person::all() as $person)
-        // {
-        //     $row = [];
-        //     array_push($row, $person->id, $person->name, $person->email, $person->phone, $person->person_type, $person->location, $person->note, $person->created_at);
-        //     foreach (Survey::where('person_id', $person->id)->get())
-        // }
-        
-        return view('dashboard-survey', ['header' => Question::all(), 'person' => Survey_person::all() ]);
+        foreach (Survey_person::all() as $person)
+        {
+            $row = [];
+            $question_id = 0;
+            $item = "";
+            foreach (Survey::where('person_id', $person->id)->get() as $survey)
+            {
+                $item = "";
+                if($survey->answer->question->type == 'input'){
+                    $item = $survey->input_field;
+                }
+                else{
+                    if($survey->answer->answer == 'Other'){
+                        $item = 'Other:' . $survey->input_field;
+                    }
+                    else{
+                        $item = $survey->answer->answer;
+                    }
+                }
+                if (isset($row[$survey->answer->question->id])){
+                    $row[$survey->answer->question->id] = $row[$survey->answer->question->id] . ',' . $item;
+                }
+                else{
+                    $row[$survey->answer->question->id] = $item;
+                }
+            }
+            $table[$person->id] = $row;
+        }
+        return view('dashboard-survey', [
+            'header' => Question::all(),
+            'person' => Survey_person::all(),
+            'list' => $table,
+            'title' => 'Survey dashboard']);
     }
 }

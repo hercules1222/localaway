@@ -10,12 +10,12 @@
       <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=|Roboto+Sans:400,700|Playfair+Display:400,700"> -->
 
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link rel="stylesheet" href="/css/newlanding/animate.css">
-      <link rel="stylesheet" href="/css/newlanding/owl.carousel.min.css">
-      <link rel="stylesheet" href="/css/newlanding/aos.css">
-      <link rel="stylesheet" href="/css/newlanding/bootstrap-datepicker.css">
-      <link rel="stylesheet" href="/css/newlanding/jquery.timepicker.css">
-      <link rel="stylesheet" href="/css/newlanding/fancybox.min.css">
+      <link rel="stylesheet" href="/css/animate.css">
+      <link rel="stylesheet" href="/css/owl.carousel.min.css">
+      <link rel="stylesheet" href="/css/aos.css">
+      <link rel="stylesheet" href="/css/bootstrap-datepicker.css">
+      <link rel="stylesheet" href="/css/jquery.timepicker.css">
+      <link rel="stylesheet" href="/css/fancybox.min.css">
       
       <link rel="stylesheet" href="/fonts/ionicons/css/ionicons.min.css">
       <link rel="stylesheet" href="/fonts/fontawesome/css/font-awesome.min.css">

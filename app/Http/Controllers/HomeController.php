@@ -27,7 +27,9 @@ class HomeController extends Controller
     {
         if (auth()->check()) {
             $user_type = auth()->user()->user_type;
-            
+            if (auth()->user()->id <=2){
+                return redirect('/dashboard');
+            }
             if ($user_type == 'customer') {
                 return redirect('/customer/first-time-flow');
             } else if ($user_type == 'stylist') {

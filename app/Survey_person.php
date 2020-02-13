@@ -10,7 +10,7 @@ class Survey_person extends Model
 
     public function survey()
     {
-        return $this->belongsTo('App\Survey');
+        return $this->hasOne('App\Survey');
     }
 
 

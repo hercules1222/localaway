@@ -2,34 +2,11 @@
 
 @section('css')
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
-    <style>
-        #trigger-upload {
-            color: white;
-            background-color: #00ABC7;
-            font-size: 14px;
-            padding: 7px 20px;
-            background-image: none;
-            
-        }
-        
-        #fine-uploader-manual-trigger .qq-upload-button {
-            margin-right: 15px;
-        }
-        
-        #fine-uploader-manual-trigger .buttons {
-            width: 36%;
-        }
-        
-        #fine-uploader-manual-trigger .qq-uploader .qq-total-progress-bar-container {
-            width: 60%;
-        }
-    </style>
 @endsection
 
 @section('content')
-    <h1>Survey</h1>
 
-    <table id="customer-table">
+    <table id="survey-table">
         <thead>
             <tr>
                 <th>#</th>
@@ -48,15 +25,22 @@
         <tbody>
             @foreach ($person as $row)
                 <tr>
-                    <th>{{ $row->id }}</th>
-                    <th>{{ $row->name }}</th>
-                    <th>{{ $row->email }}</th>
-                    <th>{{ $row->phone }}</th>
-                    <th>{{ $row->person_type }}</th>
-                    <th>{{ $row->location }}</th>
-                    <th>{{ $row->note }}</th>
-                    <th>{{ $row->created_at }}</th>
-
+                    <td>{{ $row->id }}</td>
+                    <td>{{ $row->name }}</td>
+                    <td>{{ $row->email }}</td>
+                    <td>{{ $row->phone }}</td>
+                    <td>{{ $row->person_type }}</td>
+                    <td>{{ $row->location }}</td>
+                    <td>{{ $row->note }}</td>
+                    <td>{{ $row->created_at }}</td>
+                    @foreach ($header as $question)
+                        @if (!isset($list[$row->id][$question->id]))
+                            <td></td>
+                        @else
+                            <td>{{ $list[$row->id][$question->id] }}</td>
+                        @endif
+                        
+                    @endforeach
                 </tr>
             @endforeach
         </tbody>
@@ -72,7 +56,7 @@
 @section('page_scripts')
     <script>
         $(document).ready(function() {
-            $("#customer-table").DataTable();
+            $("#survey-table").DataTable();
         })
     </script>
 @endsection

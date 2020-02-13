@@ -11,11 +11,11 @@ class Survey extends Model
     
     public function survey_person()
     {
-        return $this->hasOne('App\Survey_person');
+        return $this->belongsTo('App\Survey_person');
     }
 
     public function answer()
     {
-        return $this->hasOne('App\Answer');
+        return $this->belongsTo('App\Answer');
     }
 }

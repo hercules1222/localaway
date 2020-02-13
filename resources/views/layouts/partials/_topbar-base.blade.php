@@ -1,5 +1,5 @@
 <!-- begin:: Header Topbar -->
-<div class="kt-header__topbar">
+<div class="kt-header__topbar w-100">
     {{-- @include('layouts.partials._topbar-search') --}}
     {{-- @include('layouts.partials._topbar-notifications') --}}
     {{-- @include('layouts.partials._topbar-quick-actions') --}}

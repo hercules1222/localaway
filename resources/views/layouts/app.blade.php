@@ -29,8 +29,10 @@
 		<link rel="stylesheet" href="/css/bootstrap.min.css">
 		<!--begin::Global Theme Styles(used by all pages) -->
 		<link href="{{ asset('css/theme.css') }}" rel="stylesheet" type="text/css" />
+		<link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" />
 		<!--end::Global Theme Styles -->
-		<link rel="shortcut icon" href="./assets/media/logos/favicon.ico" />
+		<!-- <link rel="shortcut icon" href="./assets/media/logos/favicon.ico" /> -->
+		<link href="/images/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
 	</head>
 
 	<!-- end::Head -->
