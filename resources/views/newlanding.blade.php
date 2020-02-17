@@ -130,11 +130,11 @@
                 <div class="form-group">
                   <!-- <input type="hidden" class="form-control" name="name" id="hidden-name">
                   <input type="hidden" class="form-control" name="email" id="hidden-email"> -->
-                  <label for="recipient-name" class="col-form-label" id="modalcontent2">Request Access email has sent successfully!</label>
+                  <label for="recipient-name" class="col-form-label" id="modalcontent2">Thanks, we'll be in touch!</label>
                 </div>
                 <div class="modal-footer">
                   {{-- <button type="button" class="btn btn-secondary close-btn" data-dismiss="modal">I'll do survey later</button> --}}
-                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa2" data-whatever="@mdo">OK</button>
+                  <button type="button" class="btn btn-primary mx-auto" data-toggle="modal" data-target="#exampleModa2" data-whatever="@mdo">OK</button>
                 </div>
               {{-- </form> --}}
             </div>

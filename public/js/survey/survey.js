@@ -49,7 +49,7 @@ $(function() {
                 $("#hidden-name").val(name);
                 $("#hidden-email").val(email);
                 $('#exampleModal').modal('toggle');
-                // $("#exampleModa2").modal('toggle');
+                $("#exampleModa2").modal('toggle');
                 // if (result['isCreatedOrUpdated'] == "true") {
                 //     $("#exampleModalLabel2").text(title[Math.floor(Math.random() * 2)]);
                 //     $("#modalcontent2").text(content[Math.floor(Math.random() * 2)]);
@@ -75,7 +75,7 @@ $(function() {
                 // });
             }
         });
-
+        return false;
     });
 
     $(".first-form").submit(function() {
