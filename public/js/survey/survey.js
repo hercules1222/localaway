@@ -44,23 +44,38 @@ $(function() {
                 localStorage.setItem('person_id', person_id);
                 question_count = result['question_count'];
                 localStorage.setItem('question_count', question_count);
-                if (result['isCreatedOrUpdated'] == "true") {
-                    $("#exampleModalLabel2").text(title[Math.floor(Math.random() * 2)]);
-                    $("#modalcontent2").text(content[Math.floor(Math.random() * 2)]);
-                } else {
-                    $("#exampleModalLabel2").text("Welcome Back!");
-                    $("#modalcontent2").text("Our waitlist might be 200k, but we’re interested in putting you first. Access is $30 per month. Start uploading your clothes today so that our users can find great fashion locally. First tell us more about you.");
-                }
                 $(".spinner-border").css("display", "none");
                 $("#request-btn").css("display", "block");
                 $("#hidden-name").val(name);
                 $("#hidden-email").val(email);
                 $('#exampleModal').modal('toggle');
-                $("#exampleModa2").modal('toggle');
+                // $("#exampleModa2").modal('toggle');
+                // if (result['isCreatedOrUpdated'] == "true") {
+                //     $("#exampleModalLabel2").text(title[Math.floor(Math.random() * 2)]);
+                //     $("#modalcontent2").text(content[Math.floor(Math.random() * 2)]);
+                // } else {
+                //     $("#exampleModalLabel2").text("Welcome Back!");
+                //     $("#modalcontent2").text("Our waitlist might be 200k, but we’re interested in putting you first. Access is $30 per month. Start uploading your clothes today so that our users can find great fashion locally. First tell us more about you.");
+                // }
+                // var info = {};
+                // info.name = name;
+                // info.expiry = new Date(new Date().getTime() + 24 * 60 * 60 * 1000);
+                // var token = jwt.encode(info, config.secret);
+                // $.ajax({
+                //     url: "/send-mail",
+                //     method: 'get',
+                //     data: {
+                //         name: name,
+                //         email: email,
+                //         link: link
+                //     },
+                //     success: function(reponse) {
 
+                //     }
+                // });
             }
         });
-        return false;
+
     });
 
     $(".first-form").submit(function() {

@@ -16,7 +16,7 @@
       <link rel="stylesheet" href="/css/bootstrap-datepicker.css">
       <link rel="stylesheet" href="/css/jquery.timepicker.css">
       <link rel="stylesheet" href="/css/fancybox.min.css">
-      
+
       <link rel="stylesheet" href="/fonts/ionicons/css/ionicons.min.css">
       <link rel="stylesheet" href="/fonts/fontawesome/css/font-awesome.min.css">
 
@@ -30,7 +30,7 @@
                 font-family: Avenir-Black;
                 src: url("/fonts/Avenir-Black.ttf");
             }
-            
+
             @font-face {
                 font-family: Poppins-Regular;
                 src: url("/fonts/Poppins-Regular.ttf");
@@ -61,13 +61,13 @@
     </nav>
     <!-- END nav -->
 
-    
+
 
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-body p-5 mx-5">
-              <form id="request-form">
+              <form id="request-form" action='/survey' method='post'>
               @csrf
               <img class="d-lg-block mx-auto my-5 w-100" src="/images/newlanding/logo.png" style="max-width:80px;" alt="">
                 <div class="col">
@@ -88,7 +88,7 @@
                 <div class="form-group px-4">
                   <label for="message-text" class="col-form-label">I am a..(Please select one)</label><br>
                   <div class="px-3">
-                    <input id="radio_stylist" type="radio" name="person_type" value="stylist" required> 
+                    <input id="radio_stylist" type="radio" name="person_type" value="stylist" required>
                     <label for="radio_stylist">Brand or Boutique</label><br>
                     <input id="radio_customer" type="radio" name="person_type" value="customer" required>
                     <label for="radio_customer">Customer</label><br>
@@ -104,7 +104,7 @@
                       <span class="sr-only">Loading...</span>
                     </div>
                   </div>
-                  
+
                   <div class="text-center mt-4">
                     <input type="submit" id="request-btn"  class="btn btn-primary mx-auto" value="Request Access"/>
                   </div>
@@ -125,18 +125,18 @@
               </button>
             </div>
             <div class="modal-body">
-              <form action="/survey" method='post'>
-                @csrf
+              {{-- <form action="/" method='get'>
+                @csrf --}}
                 <div class="form-group">
                   <!-- <input type="hidden" class="form-control" name="name" id="hidden-name">
                   <input type="hidden" class="form-control" name="email" id="hidden-email"> -->
-                  <label for="recipient-name" class="col-form-label" id="modalcontent2">WELCOME TO L/A!</label>
+                  <label for="recipient-name" class="col-form-label" id="modalcontent2">Request Access email has sent successfully!</label>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary close-btn" data-dismiss="modal">I'll do survey later</button>
-                  <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa2" data-whatever="@mdo">Start Survey</button>
+                  {{-- <button type="button" class="btn btn-secondary close-btn" data-dismiss="modal">I'll do survey later</button> --}}
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa2" data-whatever="@mdo">OK</button>
                 </div>
-              </form>
+              {{-- </form> --}}
             </div>
           </div>
         </div>
@@ -200,7 +200,7 @@
                 </p>
               </div>
             </div>
-            
+
           </div>
         </div>
       </section>
@@ -216,11 +216,11 @@
                 <h1 class="mb-4 order-1 color-brown">Styles with so much attention to detail deserve a little extra </h1>
                 <p class="mb-5 order-3 text-black">
                   Gain access to a global audience and valuable customer preferences through our AI data platform <br><br>
-                  Learn more about your customers and what they like so you can create an even better fashion experience for them 
+                  Learn more about your customers and what they like so you can create an even better fashion experience for them
                 </p>
               </div>
             </div>
-            
+
           </div>
         </div>
       </section>
@@ -241,11 +241,11 @@
                 </p>
               </div>
             </div>
-            
+
           </div>
         </div>
       </section>
-      
+
       <section class="section bg-white pb-lg-0">
         <div class="container">
           <div class="row justify-content-center">
@@ -282,7 +282,7 @@
                 </p>
               </div>
             </div>
-            
+
           </div>
         </div>
       </section>
@@ -305,7 +305,7 @@
                 </p>
               </div>
             </div>
-            
+
           </div>
         </div>
       </section>
@@ -340,16 +340,16 @@
             <div class="col-md-12 col-lg-6 section order-lg-2 order-2 py-5" data-aos="fade-up">
               <div class="col-lg-8 m-auto">
                 <p class=" h4 text-black text-center">
-                <br><br>  
+                <br><br>
                 Our stylists use the AI tools to curate unique looks from inventory of over 2K boutiques and independent brands. <br><br>
                 </p>
               </div>
             </div>
-            
+
           </div>
         </div>
       </section>
-      
+
       <section class="bg-green section" id="contact">
         <div class="container-fluid">
           <div class="row align-items-center">
@@ -441,7 +441,7 @@
                     <p class='m-0  font-weight-bold'>Founder, CEO</p>
                     <p class="font-weight-bold text-black  m-0"><em>&mdash;Julia Peter</em></p>
                     <p class='m-0  font-weight-bold'>Formerly Google Search, Google Travel, Facebook AI, and Sony Corporation</p>
-                </div> 
+                </div>
 
                 <div class="testimonial text-center slider-item col-md-6 col-lg-3 pr-lg-5 pl-lg-0 mb-5">
                     <div class='vertical-divider d-none d-lg-block'></div>
@@ -471,10 +471,10 @@
                     <p class='m-0  font-weight-bold'>Technical Advisor</p>
                     <p class="font-weight-bold text-black  m-0"><em>&mdash; Dr. Ahmad Byagowi </em></p>
                     <p class='m-0  font-weight-bold'> Founder of ArdulMU, Former CEO of UMSATS and CTO of YMT currently Facebook Network Architect</p>
-                </div> 
+                </div>
             </div>
             <div class='row justify-content-center text-center mt-4'>
-              <a href="/job" class="btn text-white">Join the team</a>                
+              <a href="/job" class="btn text-white">Join the team</a>
             </div>
         </div>
     </section>
@@ -494,11 +494,11 @@
                 <p class="h5 text-white">
                   Access to customers preferecnes through an AI Data platform.
                   Letting you know more about your customers helps to incrase sales and make them happy.
-                  Win Win. 
+                  Win Win.
                 </p>
               </div>
             </div>
-            
+
           </div>
         </div>
       </section>
@@ -515,11 +515,11 @@
                 <p class="h5 text-grey">
                   Access to customers preferecnes through an AI Data platform.
                   Letting you know more about your customers helps to incrase sales and make them happy.
-                  Win Win. 
+                  Win Win.
                 </p>
               </div>
             </div>
-            
+
           </div>
         </div>
       </section>
@@ -539,14 +539,14 @@
                   Boutiques rely on walk-ins and word of mouth
                   Why leave sales up to chance?
                   Localaway provides greater platform to reach a wider audience
-                  Localaway allows boutiques to introduce their products to customers who are open to shopping boutiques, care about indie brands, and want sustainable fashion 
+                  Localaway allows boutiques to introduce their products to customers who are open to shopping boutiques, care about indie brands, and want sustainable fashion
                 </p>
                 <p class="text-black">200 boutiques said: x</p>
-                
+
 
               </div>
             </div>
-            
+
           </div>
         </div>
       </section>
@@ -568,7 +568,7 @@
           </div>
         </div>
       </section> -->
-      
+
       <footer class="section footer-section">
         <div class="container-fluid">
           <div class="row ">
@@ -595,11 +595,11 @@
               </ul>
             </div>
             <div class="col-lg-3 mb-5 d-flex justify-content-space-evently  align-items-end">
-                <a class="h3 color-brown" href="https://www.instagram.com/localaway/"><span class="fa fa-instagram"></span></a>   
-                <a class="h3 color-brown" href="https://twitter.com/local_away"><span class="fa fa-twitter"></span></a> 
-                <a class="h3 color-brown" href="https://www.facebook.com/localaway/"><span class="fa fa-facebook"></span></a>    
+                <a class="h3 color-brown" href="https://www.instagram.com/localaway/"><span class="fa fa-instagram"></span></a>
+                <a class="h3 color-brown" href="https://twitter.com/local_away"><span class="fa fa-twitter"></span></a>
+                <a class="h3 color-brown" href="https://www.facebook.com/localaway/"><span class="fa fa-facebook"></span></a>
             </div>
-            
+
             <div class="col-lg-5 mb-5 mt-auto">
               <form class='mt-5 first-form d-lg-flex justify-content-center'>
                   <input type="email" placeholder='Enter Email' class='text-white mail-text mb-4 mb-lg-0'  autofocus >
@@ -608,7 +608,7 @@
             </div>
         </div>
       </footer>
-      
+
       <script src="/js/jquery-3.3.1.min.js"></script>
       <script src="/js/jquery-migrate-3.0.1.min.js"></script>
       <script src="/js/popper.min.js"></script>
@@ -618,8 +618,8 @@
       <script src="/js/jquery.fancybox.min.js"></script>
       <script src="/js/jquery.easing.1.3.js"></script>
       <script src="/js/aos.js"></script>
-      <script src="/js/bootstrap-datepicker.js"></script> 
-      <script src="/js/jquery.timepicker.min.js"></script> 
+      <script src="/js/bootstrap-datepicker.js"></script>
+      <script src="/js/jquery.timepicker.min.js"></script>
       <script src="/js/main.js"></script>
       <script src="/js/survey/survey.js"></script>
     </body>
