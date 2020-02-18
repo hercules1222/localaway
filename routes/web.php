@@ -20,15 +20,15 @@ Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 
 // Route::domain('staging.localaway.com')->group(function () {
 
-    Route::group(["domain" => "www.localaway.com"], function () {
+    // Route::group(["domain" => "www.localaway.com"], function () {
         Route::get('/', function () {
             return view('newlanding');
         });
-    });
+    // });
 
-    Route::group(["domain" => "www.localaway.ai"], function () {
-        Route::get('/', 'HomeController@index')->name('home');
-    });
+    // Route::group(["domain" => "www.localaway.ai"], function () {
+    //     Route::get('/', 'HomeController@index')->name('home');
+    // });
 
     Route::get('about', 'HomeController@about');
 
@@ -77,13 +77,12 @@ Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
     Route::post('/save-email', 'NewlandingController@saveEmail');
     Route::post('/save-info', 'NewlandingController@saveInfo');
 
-    Route::get('/send-mail', '\App\Mail\sendRequestAccessMail@index')->name('com.request-access');
+    Route::get('/send-mail', 'NewlandingController@sendRequestMail')->name('com.request-access');
 
-    Route::get('/survey', function () {
+    Route::post('/survey', function () {
         return redirect('/');
     });
-    // Route::get('/surveys', 'NewlandingController@survey');
-    Route::post('/survey', 'NewlandingController@index');
+    Route::get('/survey', 'NewlandingController@survey');
 
 
 // Route::group(array('domain' => 'www.localaway.com'), $appRoutes);
